@@ -63,6 +63,7 @@ SECTION 01: Main menu and title screen
 
 0004 | Return to Queue
 0005 | Solo
+独奏
 # Short button for private rooms (a room for a match with friends).
 0006 | Private
 
