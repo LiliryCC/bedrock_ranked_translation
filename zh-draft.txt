@@ -54,6 +54,7 @@ SECTION 01: Main menu and title screen
 
 # Main button. Also replaces a button on the Minecraft title screen.
 0001 | Play Ranked
+搞耍
 
 # Title screen button that opens normal, unmodified Minecraft.
 0002 | Play Vanilla
