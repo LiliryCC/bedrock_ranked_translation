@@ -1,0 +1,2462 @@
+=================
+PLEASE READ FIRST
+=================
+
+HOW TO TRANSLATE
+Make a copy of this file franslated,, eitehr replacing or putting translation 
+on new line or whatever.
+
+WHAT TO KEEP EXACTLY AS IT IS
+- Words in {curly brackets}: see the list below. Do not translate them.
+  You may move them to wherever your grammar needs them.
+- \n means "new line". Keep it, and keep it in the same place if you can.
+- Chat commands starting with /, for example /accept and /deny.
+- Web links and file or folder names.
+- Version numbers such as 1.16, 1.18+, 1.21+ and 26.50.
+- Names of people.
+- Names of products: Bedrock Ranked, Minecraft, Discord, Ko-fi, Xbox,
+  Google Play, Windows, Android.
+- Spaces at the start or end of a line do not matter, but keep double or
+  triple spaces inside a line where a note asks for them.
+
+TERMS PLAYERS USUALLY KEEP IN ENGLISH
+Elo (skill rating), RTA and IGT, FOV, DNF. Keep them
+unless your community has its own usual word. Terms from Minecraft (Nether,
+Bastion, Stronghold, Ender Dragon, and so on) should match the official
+Minecraft translation for your language.
+
+THE TAGS IN THE NOTES
+[WORD ORDER]  The game builds this line from parts. Write it as one natural
+              sentence, moving the {curly brackets} wherever they belong.
+[PLURAL]      This line has a number. English has two forms, one and many.
+              If your language has more forms, add a # note and we will
+              work out how to fit them.
+
+WHAT THE {CURLY BRACKET} WORDS MEAN
+{count} {number} {max} {yes} {needed} {votes} {players} {games} {wins} {losses}   a number
+{seconds} a number of seconds     {percent} a number, without the % sign
+{time} a time such as 12:34.5     {speed} a replay speed such as 2 or 0.5
+{elo} {peak} a rating number     {change} a rating change such as +22
+{fps} {low} {worst} performance numbers
+{size} a file size such as 1.20 GB
+{player} {name} {host} {world} {trophy} a player, world or trophy name
+{mode} a game mode name            {rank} a rank such as Melon II
+{season} a season number           {seed} {search} {token} {code} a value
+{version} a version number         {path} {file} {server} a location
+{error} {result} {status} {request} {field} {kind} text from the game
+{setting} {value} {preference} {rule} {topic} {link} {gold} {beds}
+   explained in the note on that line, or a word from the same section
+
+========================================================================
+SECTION 01: Main menu and title screen
+========================================================================
+# Buttons on the first screens of the game. "Ranked" is the competitive online mode.
+
+# Main button. Also replaces a button on the Minecraft title screen.
+0001 | Play Ranked
+
+# Title screen button that opens normal, unmodified Minecraft.
+0002 | Play Vanilla
+
+# Used as a button (go to practice) and as a section name. Also used in: Tutorial map (optional, do this section last).
+0003 | Practice
+
+0004 | Return to Queue
+0005 | Solo
+# Short button for private rooms (a room for a match with friends).
+0006 | Private
+
+0007 | Leaderboard
+0008 | Stats
+0009 | Trophies
+# Gray button on the main menu that opens the donation page.
+0010 | Support Us
+
+0011 | Account
+0012 | Settings
+# Button: opens information pages. Also a small button on each row of the run history. Also used in: Tutorial map (optional, do this section last).
+0013 | Info
+
+0014 | Credits
+# Also used in: Tutorial map (optional, do this section last).
+0015 | Back
+
+0016 | Back to Game
+0017 | Connecting...
+0018 | Save and Quit
+# Opens the normal Minecraft options during a game.
+0019 | Options
+
+
+========================================================================
+SECTION 02: Queue and version preference
+========================================================================
+# Screen where the player joins the ranked queue. "1.16" and "1.18+" / "1.21+" are Minecraft versions: leave the numbers as they are.
+
+0020 | ENTER QUEUE
+0021 | Version Preference
+0022 | Only 1.16
+0023 | Prefer 1.16
+0024 | No Preference
+0025 | Prefer 1.18+
+0026 | Only 1.18+
+0027 | Prefer 1.21+
+0028 | Only 1.21+
+0029 | You only play 1.16 matches.
+0030 | Against players with no preference you play 1.16. Against players who prefer 1.18+ the version is random.
+0031 | 1.16 and 1.18+ have the same odds of being played.
+0032 | Against players with no preference you play 1.18+. Against players who prefer 1.16 the version is random.
+0033 | You only play 1.18+ matches.
+0034 | Against players with no preference you play 1.16. Against players who prefer 1.21+ the version is random.
+0035 | 1.16 and 1.21+ have the same odds of being played.
+0036 | Against players with no preference you play 1.21+. Against players who prefer 1.16 the version is random.
+0037 | You only play 1.21+ matches.
+0038 | Warning: this leads to longer queue times, not only for you but for other players too. Not recommended.
+# [WORD ORDER] {preference} is one of the preference names above, for example "Only 1.16".
+0039 | Ranked - {preference}
+
+0040 | Waiting for another player...
+# [WORD ORDER]
+0041 | Time in queue: {time}
+
+0042 | Leave Queue
+0043 | While waiting...
+0044 | Play Solo
+0045 | In Queue
+# Windows spelling, small label above a running clock.
+0046 | Queued Since...
+
+# Android spelling of the same label.
+0047 | Queued since...
+
+
+========================================================================
+SECTION 03: Solo, Set Seed and Practice menus
+========================================================================
+# "Seed" is the number that decides how a Minecraft world is generated.
+
+0048 | Random Mode
+0049 | Set Seed
+0050 | Enter seed...
+0051 | Seed
+0052 | Find Seed
+0053 | Choose a mode for this seed
+# [WORD ORDER]
+0054 | This seed is available in {count} modes. Choose one:
+
+# Also used in: Tutorial map (optional, do this section last).
+0055 | Tutorials
+
+0056 | Nether Portal Practice
+0057 | One Cycle Practice
+0058 | Realistic Bastion Practice
+# Short Android button label for the mode "Packless Warped Forest".
+0059 | Packless Warped
+
+# Short Android button label for "Packless Buried Treasure". BT = Buried Treasure.
+0060 | Packless BT
+
+
+========================================================================
+SECTION 04: Match loading, countdown and pre-start chat
+========================================================================
+# Shown while the world is prepared, before the run begins.
+
+0061 | Loading world...
+0062 | Waiting for world startup...
+0063 | Leaving world...
+0064 | Get ready...
+0065 | Preparing world
+# [WORD ORDER] Windows. {seconds} counts down 5, 4, 3, 2, 1.
+0066 | Starting in {seconds}...
+
+# [WORD ORDER] Android version, no dots.
+0067 | Starting in {seconds}
+
+# [WORD ORDER] {mode} is a game mode name. "Packless" means played without the Bedrock Ranked resource packs.
+0068 | Packless {mode}
+
+0069 | Opponent chat
+0070 | Message your opponent while the world loads.
+0071 | Message your opponent
+0072 | Send
+0073 | Request cancel
+# Used on many screens: closes a dialog without doing anything, and also cancels a match before it starts.
+0074 | Cancel
+
+0075 | Your opponent must accept the request.
+0076 | Only cancel for problems. Repeated cancellations may lead to a ban.
+0077 | Match commands unlock at the start.
+0078 | Match commands are unavailable until the start.
+0079 | Cancel requested
+0080 | World could not be opened
+0081 | World could not be opened.
+0082 | Retry loading
+0083 | Cancel match
+0084 | Private Room
+
+========================================================================
+SECTION 05: In-game: pause, forfeit, requests and on-screen messages
+========================================================================
+
+0085 | Paused
+0086 | Resume
+0087 | Reset seed
+0088 | Change seed
+0089 | Vote to change seed
+0090 | Seed change
+# Used as a button (give up the run) and as a result word (the run was given up). If one word cannot fit both, tell us in a # note.
+0091 | Forfeit
+
+# Used as a button (ask for a draw) and as a result word (a tied match). If one word cannot fit both, tell us in a # note.
+0092 | Draw
+
+# Accept a request from the opponent.
+0093 | Accept
+
+0094 | Deny
+# [WORD ORDER] {request} is a raw word from the server: change, draw or cancel. It is not translated today. See section "Server messages: game modes and stages".
+0095 | {request} requested
+
+0096 | Forfeit this run?
+0097 | You will lose this match.
+0098 | This will end your current run.
+0099 | This cannot be undone.
+# RTA = real-time attack: the clock never stops, even when paused. Commonly left as RTA.
+0100 | CAREFUL: Ranked matches are timed with RTA! This means your timer is ticking right now!
+
+# [WORD ORDER] In-game chat, Windows. Keep /accept and /deny exactly: they are commands. {request} is change, draw or cancel.
+0101 | Opponent requests /{request}. Reply /accept or /deny within 30 seconds.
+
+0102 | Request sent. Waiting for opponent (30 seconds).
+# [WORD ORDER] In-game chat, Android.
+0103 | Request sent: /{request}
+
+# [WORD ORDER] In-game chat, Android. Keep /accept and /deny exactly.
+0104 | Opponent requested /{request}. /accept or /deny
+
+0105 | Request closed
+# [WORD ORDER] In-game chat and history rows.
+0106 | Seed: {seed}
+
+
+========================================================================
+SECTION 06: Match end and results
+========================================================================
+
+0107 | Run Ended
+0108 | Run Finished
+0109 | Run finished
+0110 | Finished
+0111 | You won
+0112 | You lost
+0113 | You Won
+0114 | You Lost
+0115 | Run Forfeited
+0116 | Waiting for Result
+0117 | Game Canceled
+# [WORD ORDER]
+0118 | Teleporting to lobby in {seconds}...
+
+# [WORD ORDER] The final "s" means seconds.
+0119 | Returning to menu in {seconds}s
+
+0120 | Waiting for your opponent's response
+0121 | Waiting for your opponent to report their time.
+0122 | Waiting for the server to confirm the result
+0123 | Waiting for the server to confirm the result.
+0124 | Your result has been submitted
+0125 | Your result has been submitted.
+0126 | You can return to the menu while the result is confirmed.
+0127 | Return to Menu
+0128 | Replay still uploading...
+0129 | Replay recording incomplete
+# [WORD ORDER] The final "s" means seconds.
+0130 | Automatic win in {seconds}s
+
+0131 | Play Another Game
+0132 | Back to Menu
+0133 | Match Info / Report
+0134 | Run Details
+0135 | No Replay (Solo)
+# Also used in: Server messages: errors.
+0136 | Replay unavailable
+
+0137 | Watch Replay
+# Controller hint. Keep the three-space gaps between the parts.
+0138 | D-pad / Stick: select   X / A: use   O / B: back
+
+# Controller hint.
+0139 | Triangle / Y: Options
+
+# Keyboard hint. Keep the three-space gaps between the parts.
+0140 | Number / Scroll: select   Right click: use
+
+# [WORD ORDER] Elo is the skill rating; usually not translated. {change} looks like +22 or -15.
+0141 | {elo} Elo ({change})
+
+# [WORD ORDER] The player finished their placement games and now has a visible rating.
+0142 | {elo} Elo (placed)
+
+# [WORD ORDER] Android version of the line above.
+0143 | {elo} (placed)
+
+# The rating stays hidden until the placement games are done.
+0144 | ??? Elo
+
+# [WORD ORDER] Shown on player cards at match start and end.
+0145 | {elo} Elo
+
+# Between two player cards: "versus".
+0146 | VS
+
+0147 | Ranked personal best
+0148 | Trophy unlocked
+0149 | New trophy
+0150 | Win streak
+# [WORD ORDER]
+0151 | {count} ranked wins in a row
+
+
+========================================================================
+SECTION 07: Replays
+========================================================================
+# A replay is a recording of a run that can be watched again.
+
+0152 | Replays
+0153 | Loading replays...
+0154 | No replays available.
+0155 | Watch
+0156 | Import Replay
+0157 | Switch Player
+0158 | Pause / Resume
+0159 | Pause
+0160 | Faster
+0161 | Slower
+0162 | Restart Replay
+0163 | Next Split
+# [WORD ORDER] Replay stored on this device.
+0164 | {mode} (Local)
+
+# [WORD ORDER] Replay stored online.
+0165 | {mode} (Server)
+
+# Android replay button: switch player. Also a leaderboard column.
+0166 | Player
+
+# Android replay button. Also used in: Tutorial map (optional, do this section last).
+0167 | Restart
+
+# Android replay button.
+0168 | Exit
+
+0169 | Hide Options
+0170 | Show Options
+# [WORD ORDER] Replay status line. {speed} is like 2 or 0.5.
+0171 | Paused | {speed}x
+
+# [WORD ORDER]
+0172 | Playing | {speed}x
+
+
+========================================================================
+SECTION 08: Leaderboard, Stats and run history
+========================================================================
+
+0173 | Search player name...
+0174 | My Position
+0175 | My Stats
+0176 | Elo
+0177 | Wins
+0178 | Games
+0179 | Last 5
+0180 | No players found.
+0181 | Loading players...
+0182 | Loading player...
+0183 | Search players
+0184 | Search
+# [WORD ORDER]
+0185 | Results for: {search}
+
+0186 | Searching...
+0187 | No completed runs yet.
+0188 | Win
+0189 | Loss
+0190 | Replay
+0191 | Previous
+# Also used in: Tutorial map (optional, do this section last).
+0192 | Next
+
+# Highest rating ever reached.
+0193 | Peak Elo
+
+0194 | Peak
+0195 | Ranked Games
+0196 | Win rate
+0197 | Win Rate
+0198 | Best streak
+0199 | Best Win Streak
+0200 | Win Streak
+# [WORD ORDER]
+0201 | Match number: 0 - {count}
+
+# [WORD ORDER] Label on the rating graph, Android.
+0202 | Match {count}
+
+0203 | Start
+0204 | No Elo history yet.
+0205 | Ranked Results
+0206 | No games
+# [WORD ORDER]
+0207 | {count} Wins
+
+# [WORD ORDER]
+0208 | {count} Losses
+
+0209 | Run History
+0210 | Stats per Mode
+0211 | Report Player
+0212 | Ranked
+0213 | Both
+0214 | Losses
+0215 | Completed
+0216 | Forfeits
+0217 | Best Time
+0218 | Average Time
+# Label before a dropdown: show ranked, solo or both.
+0219 | Show
+
+
+========================================================================
+SECTION 09: Match info and player reports
+========================================================================
+
+0220 | Loading match details...
+0221 | Retry
+0222 | Available when the run ends
+# [WORD ORDER] {status} is a raw word from the server. See section "Server messages: game modes and stages".
+0223 | Status: {status}
+
+# [WORD ORDER] {result} is a raw word from the server, for example finished or forfeit.
+0224 | Result: {result}
+
+# [WORD ORDER]
+0225 | Final Time: {time}
+
+# [WORD ORDER]
+0226 | Elo: {value}
+
+0227 | Match Chat
+0228 | No chat messages available.
+0229 | Chat becomes public when the match ends.
+0230 | Open Match Thread
+0231 | Open Match on Website
+0232 | Reason: Cheating
+0233 | Reason: Bad Conduct
+0234 | Reason
+0235 | Cheating
+0236 | Bad Conduct
+0237 | Explanation
+0238 | Submit Report
+0239 | Submitting...
+0240 | Report submitted.
+
+========================================================================
+SECTION 10: Account and sign-in
+========================================================================
+
+0241 | Sign In
+0242 | Register
+0243 | Recover
+0244 | Name
+0245 | Password
+0246 | Recovery token
+0247 | New password (10+ characters)
+0248 | New password
+0249 | Create Account
+0250 | Recover Account
+0251 | Sign In with Discord
+0252 | Discord login is not configured on this server.
+0253 | Please wait...
+0254 | Save your account recovery token. It can recover your account if you lose your password or Discord account.
+0255 | Copy Token
+0256 | I Saved It
+0257 | Choose your Bedrock Ranked name.
+0258 | Choose your Ranked name
+# Also used in: Tutorial map (optional, do this section last).
+0259 | Continue
+
+# The text \n means "new line". Keep it in place.
+0260 | Save your recovery token privately:\n{token}
+
+# The text \n means "new line". Keep it in place.
+0261 | Save your new recovery token privately:\n{token}
+
+0262 | Save your recovery token privately. It restores your account if you lose access.
+0263 | Finish signing in, then return here.
+0264 | Finish Discord login in your browser.
+0265 | Discord linked successfully.
+0266 | Sign in from Account first.
+0267 | Session expired. Sign in again.
+0268 | Loading account...
+# Also used in: Country flag names.
+0269 | Unknown
+
+0270 | Today
+# [WORD ORDER] [PLURAL]
+0271 | {count} day
+
+# [WORD ORDER] [PLURAL]
+0272 | {count} days
+
+# [WORD ORDER] [PLURAL]
+0273 | {count} month
+
+# [WORD ORDER] [PLURAL]
+0274 | {count} months
+
+# [WORD ORDER] [PLURAL]
+0275 | {count} year
+
+# [WORD ORDER] [PLURAL]
+0276 | {count} years
+
+0277 | Account age
+0278 | Rank
+0279 | Discord: linked
+0280 | Discord: not linked
+0281 | Link Discord
+0282 | Ranked name
+0283 | Save Name
+0284 | Name saved.
+0285 | Your Stats
+0286 | Sign Out
+0287 | Lost Discord access? Sign out, choose Recover, and use your recovery token to set a password and detach the lost Discord account.
+0288 | Save
+
+========================================================================
+SECTION 11: Profile: pronouns and flags
+========================================================================
+
+0289 | Add pronouns
+0290 | Pronouns
+0291 | Country flag
+0292 | Pride flag
+0293 | Leave both empty to hide pronouns
+0294 | Leave both fields empty to hide pronouns.
+0295 | None
+0296 | Search flags
+# [WORD ORDER] Tooltip. {field} is a raw word: name, pronouns, country or pride.
+0297 | Edit {field}
+
+# First pronoun field, for example "they".
+0298 | First
+
+# Second pronoun field, for example "them".
+0299 | Second
+
+# Example text inside the empty first pronoun field. Use an example pronoun in your language.
+0300 | they
+
+# Example text inside the empty second pronoun field. Use an example pronoun in your language.
+0301 | them
+
+
+========================================================================
+SECTION 12: Settings
+========================================================================
+
+0302 | Loading settings...
+0303 | Waiting for Minecraft's settings
+0304 | Returning to menu...
+0305 | Closing settings...
+0306 | Saving and closing your world...
+0307 | Storage Settings
+# Opens the normal Minecraft settings.
+0308 | Vanilla settings
+
+0309 | Match presentation
+0310 | Solo Timer: IGT
+0311 | Solo Timer: RTA
+# Android, when the player is not signed in.
+0312 | Solo Timer: Sign In First
+
+# [WORD ORDER] Used with every on/off setting listed under this entry.
+0313 | {setting}: On
+
+# [WORD ORDER] Used with every on/off setting listed under this entry.
+0314 | {setting}: Off
+
+# [WORD ORDER] Android. The change applies after the game restarts.
+0315 | {setting}: On (after restart)
+
+# [WORD ORDER]
+0316 | {setting}: Off (after restart)
+
+0317 | Skip end poem
+0318 | Save Local Replays
+0319 | Record Solo
+0320 | Performance log
+0321 | Lighter graphics
+0322 | Fast loading
+0323 | Match animations
+0324 | Match sounds
+0325 | Trophy notifications
+0326 | Sound when minimized
+0327 | Keep Latest 5 Ranked/Solo Worlds
+# [WORD ORDER] Used for Render Distance, FOV and Ranked Music Volume. {value} is a number, or "Loading...".
+0328 | {setting}: {value}
+
+0329 | Render Distance
+# Field of view. Commonly left as FOV.
+0330 | FOV
+
+0331 | Ranked Music Volume
+0332 | Loading...
+# [WORD ORDER]
+0333 | Match sound volume: {percent}%
+
+# [WORD ORDER]
+0334 | Render resolution: {percent}% (after restart)
+
+0335 | Performance
+0336 | Export performance logs
+0337 | Sign in to back up Minecraft settings
+0338 | Checking account settings backup…
+0339 | Minecraft settings backed up to your account
+0340 | Saved settings will apply next time you open Ranked
+0341 | Saved settings will restore when you return to the menu
+0342 | Settings backup unavailable. Retrying…
+0343 | Could not finish first account settings backup
+# [WORD ORDER] Performance summary. FPS = frames per second. "1% low" is a technical measure.
+0344 | Last world: {fps} FPS avg, {low} 1% low, {worst} worst second ({seconds} s)
+
+0345 | No performance logs yet
+# [WORD ORDER] Keep the folder path exactly.
+0346 | Exported {count} log(s) to Documents/BedrockRanked/Performance
+
+# Android: the address of the Ranked server.
+0347 | Server
+
+
+========================================================================
+SECTION 13: Storage settings
+========================================================================
+# Deleting files saved on the device.
+
+0348 | Reading storage...
+0349 | Preparing storage scan...
+0350 | Scanning storage...
+0351 | ETA: estimating...
+# [WORD ORDER]
+0352 | ETA: about {seconds}s
+
+# [WORD ORDER] {size} looks like 1.20 GB.
+0353 | Worlds: {size} ({count})
+
+# [WORD ORDER]
+0354 | Local Replays: {size} ({count})
+
+# [WORD ORDER]
+0355 | {size} - {count} worlds
+
+# [WORD ORDER]
+0356 | {size} - {count} replays
+
+0357 | Worlds
+0358 | Local Replays
+0359 | Delete All Worlds
+0360 | Delete All Solo Worlds
+0361 | Delete All Ranked Worlds
+0362 | Delete All Practice Worlds
+0363 | Open World Folder
+0364 | Delete All Local Replays
+0365 | Delete Solo Replays
+0366 | Delete Ranked Replays
+0367 | Keep Latest 5 Replays
+0368 | Open Local Replay Folder
+0369 | Turn off automatic world cleanup?
+0370 | Delete the selected local files? This cannot be undone.
+0371 | Turn Off
+0372 | Confirm storage cleanup
+
+========================================================================
+SECTION 14: Private rooms
+========================================================================
+# A room lets friends race with their own rules. The host is the player who created the room.
+
+0373 | Create a room
+0374 | Join a room
+0375 | Create Room
+0376 | Room code or link
+0377 | 8-character code
+0378 | Join Room
+0379 | Join
+# [WORD ORDER]
+0380 | Join {host}'s room
+
+# [WORD ORDER]
+0381 | {host} invited you
+
+0382 | Race cancelled
+0383 | Race finished
+0384 | Waiting for players
+0385 | Getting ready
+0386 | Race in progress
+# [WORD ORDER]
+0387 | {count}/{max} players
+
+0388 | Save Rules
+0389 | New code
+0390 | Close Room
+0391 | Leave Room
+0392 | Start Race
+0393 | Play Again
+0394 | Cancel Race
+0395 | Results
+0396 | Lobby
+0397 | Rules
+0398 | Chat
+0399 | Invite
+0400 | Room chat
+0401 | No messages yet.
+0402 | Message everyone
+0403 | Message everyone in the room
+0404 | World & players
+0405 | Seed & players
+0406 | Scoring & votes
+0407 | Seed type
+0408 | Random 1.16
+0409 | Random 1.21+
+0410 | Both Versions
+0411 | Players compete
+0412 | Individually
+0413 | In teams
+0414 | Maximum players
+0415 | Number of teams
+0416 | Time limit (minutes)
+0417 | 0 = no time limit
+0418 | Starting seed
+# Shown in the empty seed field: the seed will be chosen at random.
+0419 | Random
+
+0420 | Optional. Ranked seed list only.
+0421 | Optional. Must be in the ranked seed list.
+0422 | End the race after
+0423 | Finishers needed per team
+0424 | Everyone finishes
+0425 | All teammates finish
+0426 | First X players finish
+0427 | Fastest X teammates finish
+0428 | Finishers per team (X)
+0429 | Number of finishers (X)
+0430 | Team time
+0431 | Average finish time
+0432 | Last required finisher
+0433 | Votes to change seed (%)
+0434 | Team time: add counted times, then divide by finishers.
+0435 | Team time: the slowest counted finisher.
+0436 | Add the counted times, then divide by finishers.
+0437 | Use the slowest time among counted finishers.
+0438 | Race ends when everyone finishes.
+0439 | Everyone on each team must finish.
+# [WORD ORDER]
+0440 | Race ends after {count} players finish.
+
+# [WORD ORDER]
+0441 | The fastest {count} on each team must finish.
+
+# [WORD ORDER]
+0442 | Seed votes last 30 seconds. {players} players need {votes} votes.
+
+# [WORD ORDER]
+0443 | Rounded up. {players} players need {votes} votes.
+
+# DNF = did not finish. Commonly left as DNF.
+0444 | Teams missing a required finisher get DNF.
+
+0445 | Seed votes last 30 seconds.
+0446 | Changes apply to the next race.
+0447 | Room code
+0448 | Copy link
+0449 | Link copied
+0450 | Copy room link
+0451 | Invitation sent
+0452 | Invite by username
+0453 | Player name
+0454 | Share the code or search for a player.
+0455 | No other players found.
+0456 | Players
+0457 | Team time: average.
+0458 | Team time: last counted finisher.
+# [WORD ORDER]
+0459 | Team {number}
+
+# [WORD ORDER]
+0460 | {name} (Host)
+
+# Small label next to the room creator's name.
+0461 | Host
+
+0462 | Forfeited
+# Did not finish.
+0463 | DNF
+
+# [WORD ORDER]
+0464 | {name}: DNF
+
+# Also used in: Windows launcher and installer.
+0465 | Ready
+
+0466 | Not ready
+0467 | Remove
+0468 | Confirm remove
+0469 | Remove player?
+0470 | Remove this player?
+0471 | Race rules
+0472 | Format
+0473 | Individual race
+0474 | Time limit
+0475 | Seed vote
+0476 | Confirm
+# [WORD ORDER]
+0477 | {count} teams
+
+# [WORD ORDER] [PLURAL]
+0478 | {count} minutes
+
+# [WORD ORDER]
+0479 | {percent}% of players
+
+# [WORD ORDER] {rule} is "average" or "last counted finisher".
+0480 | Team time: {rule}
+
+0481 | average
+0482 | last counted finisher
+# [WORD ORDER]
+0483 | Change seed: {yes}/{needed} votes
+
+# [WORD ORDER]
+0484 | Change seed {yes}/{needed} votes
+
+# [WORD ORDER]
+0485 | Change seed {yes}/{needed} votes (30-second vote)
+
+0486 | Withdraw vote
+0487 | Close this room?
+0488 | Leave this room?
+0489 | Cancel this race?
+
+========================================================================
+SECTION 15: Trophies screen
+========================================================================
+# Trophies are small icons players earn and can show next to their name. "Flair" means the same thing here.
+
+0490 | Loading trophies...
+0491 | Show winstreak flair
+0492 | Show winstreak flair if applicable
+0493 | Win 3 or more ranked matches in a row to show your current streak beside your equipped trophies. It uses no equipment slot.
+0494 | After more than 2 ranked wins in a row, your current streak flair appears alongside your selected flairs.
+0495 | All trophies
+0496 | Ranked times
+0497 | Win streaks
+0498 | Games played
+0499 | Ranked wins
+0500 | Highest rank
+0501 | Supporter
+0502 | All unlocked
+0503 | All locked
+0504 | Equipped
+0505 | Unlocked
+0506 | Locked
+0507 | No trophies found.
+0508 | Equip
+0509 | Equip in supporter slot
+0510 | Unequip
+0511 | Support Bedrock Ranked
+# [WORD ORDER]
+0512 | Equip in slot {number}
+
+# [WORD ORDER] {number} is a slot number or S (supporter).
+0513 | Equip slot {number}
+
+# [WORD ORDER] {link} is the entry just below, shown as a clickable link. On Windows the sentence has no final dot.
+0514 | To get the flairs, you need to connect your Discord account to Ko-Fi and be in the {link}.
+
+0515 | Bedrock Ranked Discord server
+
+========================================================================
+SECTION 16: Support Us page
+========================================================================
+
+0516 | Bedrock Ranked is fully sustained by donations from the community. Without them, server hosting, tournaments, features, and events would not be possible. If you can, we'd greatly appreciate any donation.
+0517 | Donate on Ko-fi
+0518 | Don't have money but still want to contribute? You can still help us by contributing with your skills!
+0519 | Forms open in your browser.
+0520 | I want to contribute to art and design
+0521 | I want to contribute to speedrun resources creation
+0522 | I want to contribute to content creation
+0523 | I want to contribute to marketing
+0524 | I want to contribute to translation and accessibility
+0525 | I want to help with something else
+# [WORD ORDER] Android builds the sentences above from pieces, so these topic words are listed once more.
+0526 | I want to contribute to {topic}
+
+0527 | art and design
+0528 | speedrun resources creation
+0529 | content creation
+0530 | marketing
+0531 | translation and accessibility
+
+========================================================================
+SECTION 17: How to Play page
+========================================================================
+# Each paragraph is one entry. The chat commands (/forfeit, /change, /draw, /cancel, /accept, /deny) are shown on separate lines in the game and stay in English.
+
+0532 | In Ranked, the goal is to beat the game as fast as possible. You can do it against real opponents by entering the queue, or play solo against the clock. To start playing ranked, enter the queue: you'll be paired as soon as possible with an other player in the queue; your opponent might be using the client too, and in that case your match will be synchronised, but they could also have queued from Discord or the website (because no client exists for console and iOS devices). If you queue a non-client player, you'll still be able to play the game fully from client. To communicate with any opponent, you can just send a message in the game chat.
+0533 | Because non-client synchronization is hard, in case you finish before your opponent submits their time, they will have an extra 20% of your final client time to report the result. Then, the faster time will win.
+0534 | IMPORTANT: timing is RTA! This is to ensure match synch. This means that if you pause, reset, or leave, your timer will keep running. If your game crash, you have a 1 minute time window before you'll auto forfeit.
+0535 | Match commands (run in chat):
+0536 | answer to the latter three:
+0537 | How to Play
+
+========================================================================
+SECTION 18: Cheating and Rules page
+========================================================================
+# Each paragraph is one entry.
+
+0538 | If you are playing in the client, you do not need to record your runs. You cannot use creative mode, any cheats or any external tool that isn't approved. Calculators and screen readers are allowed, but they must not interfere with the inputs of the run (for example, a macro that automatically does one cycling is not allowed). You are not to modify or change the client in any way. For website and discord users, it's expected that they should always record their runs. If they win the match, they could be automatically required to give their recording, and their opponent can also ask for the recording even if it wasn't automatically requested.
+0539 | You should not be rude or annoying. If you believe your opponent has cheated, report them, don't start arguing with them. Any form of verbal aggression, racism, homophobia, transphobia and NSFW content or language (there are children playing this!) are prohibited.
+0540 | Breaking the rules will lead to suspension of the account, and repeated offences will lead to a ban.
+0541 | Cheating & Rules
+
+========================================================================
+SECTION 19: Legal and Privacy page
+========================================================================
+# Each paragraph is one entry. This is a legal notice: please be exact. Keep the web link exactly.
+
+0542 | Bedrock Ranked is an independent community project, not affiliated with Mojang or Microsoft. Minecraft is not included; game code, visuals and fonts are read from your own installation. This notice describes the current testing service. Updated 11 October 2026.
+Bedrock Ranked 是一个独立的社区项目，与 Mojang 或 Microsoft 均无关联。本项目不包含 Minecraft；游戏代码、画面和字体均从你自己的安装中读取。本声明描述的是当前的测试服务。更新于 2026 年 10 月 11 日。
+0543 | Data we use: ranked name, account creation date, password and recovery-token hashes, optional Discord identity and sessions support accounts and sign-in. Results, ratings and statistics support competition; player names, leaderboard positions and results are public. Chat, player reports, client integrity checks and gameplay recordings support matches, replays and moderation. Private moderation evidence is restricted to authorized reviewers. The server also receives IP addresses and operational logs. Website sign-in uses an essential session cookie.
+我们使用的数据：Ranked 用户名、账户创建日期、密码和恢复令牌的哈希值、可选的 Discord 身份以及会话，用于支持账户和登录。成绩、评级和统计数据用于支持竞技；玩家名称、排行榜名次和成绩是公开的。聊天、玩家举报、客户端完整性检查和对局录像用于支持对局、回放和审核。非公开的审核证据仅限授权审核人员查阅。服务器还会接收 IP 地址和运行日志。网站登录使用一项必要的会话 Cookie。
+0544 | Storage: ranked recordings are normally deleted seven days after a match ends; match chat is normally deleted after seven days. Recordings linked to open reports may be kept longer. Account details, compact result history and moderation records are kept while needed to operate the service and resolve reports. Optional solo recordings stay on your device. The Android client reads installed Minecraft locally and does not upload your Minecraft APK.
+存储：Ranked 录像通常在对局结束七天后删除；对局聊天通常在七天后删除。与尚未处理完的举报相关联的录像可能会保留更久。账户资料、精简的成绩历史和审核记录，会在运营本服务和处理举报所需的期间内保留。您可以选择是否保存您的 Solo 录像，并且它们只会留在您的设备上。Android 客户端在本地读取已安装的 Minecraft，不会上传你的 Minecraft APK。
+0545 | Other services: optional Discord sign-in and support, hosting providers and VirusTotal operate under their own policies and may process data in other countries. Only public Ranked release files are submitted by us to VirusTotal, not your private files.
+其他服务：可选的 Discord 登录与支持、托管服务商以及 VirusTotal 均按其自身政策运营，并可能在其他国家处理数据。我们仅向 VirusTotal 提交公开的 Ranked 发行文件，不会提交你的私人文件。
+0546 | Your choices: Discord linking and local replay saving are optional. Contact the Bedrock Ranked maintainers for privacy questions or requests to access, correct or delete your data. Some records may need to be retained to resolve reports or protect match integrity. Never share passwords, recovery tokens or signing keys publicly.
+你的选择：关联 Discord 和保存本地回放均为可选。如有隐私问题，或要求访问、更正或删除你的数据，请联系 Bedrock Ranked 的维护者。为处理举报或保护对局完整性，部分记录可能需要继续保留。切勿公开分享密码、恢复令牌或签名密钥。
+0547 | Contact: https://discord.gg/Hngq5zYw3k
+联系：https://discord.gg/Hngq5zYw3k
+0548 | Legal
+法律
+0549 | Legal & Privacy
+法律与隐私
+0550 | Contact on Discord
+在 Discord 上联系
+0551 | Contact us on Discord
+在 Discord 上联系我们
+# Also used in: Android app: status lines and errors.
+0552 | Save Logs
+保存日志
+
+
+========================================================================
+SECTION 20: Credits page
+========================================================================
+# Names of people are not listed here: they stay as they are.
+
+0553 | Coordination
+0554 | Client, website and bot development
+0555 | Art and GUI
+0556 | Packs development
+0557 | Soundtrack
+0558 | Seedfinding
+0559 | Beta testers
+
+========================================================================
+SECTION 21: Title images (text inside pictures)
+========================================================================
+# These words are drawn inside pictures in blocky Minecraft-style capitals. They are not normal text, so an artist must redraw them. Keep them short: long words get smaller. Translate them so we know what to draw.
+
+0560 | ACCOUNT
+0561 | SETTINGS
+0562 | REPORT
+0563 | REPLAYS
+0564 | LEADERBOARD
+0565 | STATISTICS
+0566 | PLAY SOLO
+0567 | QUEUE
+0568 | PRACTICE
+0569 | INFORMATION
+0570 | SUPPORT
+0571 | PRIVATE ROOM
+0572 | TROPHIES
+0573 | CREDITS
+
+========================================================================
+SECTION 22: Windows launcher and installer
+========================================================================
+# The small window that opens before Minecraft starts.
+
+0574 | Requires Minecraft for Windows 26.50 / 26.51 / 26.52 / 26.60
+0575 | Server address
+0576 | Launch
+0577 | Play
+0578 | Not now
+0579 | Looking for Minecraft...
+0580 | Minecraft found
+0581 | Choose Minecraft
+0582 | Use original Minecraft
+0583 | Choose Minecraft.Windows.exe
+0584 | Executable files
+0585 | Update and play
+0586 | Your account and settings will be kept.
+0587 | Close Preview
+0588 | Preview only
+0589 | Downloading and verifying update...
+0590 | Could not install the update. Please retry.
+0591 | Please wait for the current operation to finish.
+0592 | Launch failed. See launcher.log.
+0593 | Client files are missing. Reinstall Bedrock Ranked.
+# The text \n means "new line". Keep it in place.
+0594 | A new update is available!\nVersion {version}
+
+# [WORD ORDER] Android version.
+0595 | A new update is available! Version {version}
+
+0596 | Levi-modified executable found. Use original Minecraft restores its verified backup and disables Levi's injected loader for Ranked. Your modified EXE is kept as .ranked-levi.bak.
+# [WORD ORDER]
+0597 | Restored verified original: {path}
+
+# [WORD ORDER] Keep the folder path exactly.
+0598 | Cannot read Minecraft: {path}. Check launcher-detection.log in %LOCALAPPDATA%\BedrockRanked.
+
+# [WORD ORDER]
+0599 | Windows could not read Minecraft: {path}. Verify and Repair Minecraft in the Xbox app, then retry.
+
+# Keep the folder path exactly.
+0600 | Minecraft found, but its executable differs from supported originals (26.50 / 26.51 / 26.52 / 26.60). Levi mods may change it. See %LOCALAPPDATA%\BedrockRanked\launcher-detection.log.
+
+0601 | Minecraft was not found. Choose your Minecraft.Windows.exe below.
+0602 | Minecraft was not found. Use Browse to select it.
+0603 | Minecraft 26.50, 26.51, 26.52 or 26.60 was not found. Use Choose Minecraft to select its executable.
+0604 | An older Bedrock Ranked client is still running. Close that Minecraft window, then try again.
+0605 | Minecraft has not finished closing. Close its remaining process and try again.
+# [WORD ORDER]
+0606 | Windows could not start Ranked in Minecraft's package context. See {file}
+
+# Yellow splash text on the Minecraft title screen.
+0607 | Ranked!
+
+0608 | Cannot write launcher log
+0609 | Cannot start bundled runtime
+0610 | Checking client files...
+0611 | Preparing Minecraft menus...
+0612 | Starting Minecraft...
+0613 | Client launched. Open Play Ranked in Minecraft.
+# [WORD ORDER]
+0614 | Selected Minecraft worlds: {path}
+
+# [WORD ORDER]
+0615 | Server connection failed: {error}
+
+# [WORD ORDER]
+0616 | Cannot reach {server}. {error}
+
+0617 | Minecraft could not start
+0618 | Minecraft started but did not report a ready client
+0619 | Minecraft was closed during startup.
+0620 | Enter the server origin only, without credentials, a path or query
+0621 | Use HTTPS, or HTTP for a local testing server
+0622 | Server has no approved client release
+0623 | Invalid bundled client release ID. Reinstall the client.
+0624 | This client build is not approved by the server. Install its matching server patch, or update the client.
+0625 | Open Minecraft normally once and sign in, then try again. No worlds profile was found.
+0626 | Selected Minecraft worlds folder does not exist
+# [WORD ORDER]
+0627 | Client release differs from the server: {file}
+
+0628 | Update download verification failed. Please retry.
+0629 | Windows denied direct Minecraft launch and its registered Xbox/Store application could not be activated. Verify and Repair Minecraft in the Xbox app.
+0630 | Minecraft did not open a game window within 60 seconds. See the ranked.PID.log beside the loader.
+0631 | Cannot open Minecraft process. Match launcher/game privilege levels.
+0632 | Unsupported Minecraft executable
+0633 | Unsupported Minecraft executable; requires Windows 26.50, 26.51, 26.52 or 26.60
+0634 | Unsupported Minecraft executable. Requires Windows 26.50, 26.51, 26.52 or 26.60.
+0635 | Cannot lock Minecraft for startup verification
+0636 | Minecraft exited before loading the client
+0637 | Minecraft exited while loading the client
+0638 | Minecraft exited while loading the ranked client; inspect ranked.PID.log
+0639 | Minecraft exited before rendering initialized; inspect ranked.PID.log
+0640 | Minecraft exited during startup; inspect ranked.PID.log
+0641 | More than one Minecraft process is running from the selected installation. Close them and retry.
+0642 | Minecraft's Xbox launcher did not produce a running game process from the selected installation within 60 seconds. Open Minecraft normally once, then retry.
+
+========================================================================
+SECTION 23: Windows client: status lines and errors
+========================================================================
+# Short messages shown while the client works, and error messages. {error} is another message.
+
+# File type name in the Windows file picker.
+0643 | Bedrock Ranked Replay
+
+0644 | Cannot unlock session for this Windows account
+0645 | Invalid saved session
+# Fallback when the server gives no clear reason.
+0646 | API error
+
+0647 | Downloading your world...
+0648 | Installing template and packs...
+0649 | Opening your world...
+0650 | Installing practice world...
+0651 | Opening practice world...
+0652 | Leaving previous world...
+0653 | Generating your template...
+0654 | Contacting ranked server...
+0655 | Starting your run...
+0656 | Waiting for opponent...
+0657 | Minecraft confirmed world startup
+0658 | Refreshing Minecraft world list...
+0659 | Minecraft reported a world startup failure
+0660 | Waiting for Minecraft world-start commands
+0661 | Retrying Minecraft world discovery...
+0662 | Reopening Minecraft's world list...
+0663 | World loaded; waiting for ranked handshake...
+# [WORD ORDER]
+0664 | World preparation failed: {error}
+
+0665 | Minecraft did not return to its main menu. Restart the client before trying again.
+0666 | Minecraft could not open the world. Return to the menu before trying again.
+0667 | Minecraft did not list the match world. Restart the client to rejoin the match.
+0668 | Server unavailable
+0669 | Server unavailable. Start Start-Server.cmd.
+0670 | Invalid server URL
+0671 | Download failed
+0672 | Set worldsDir in the client configuration.
+0673 | Cannot recover: the saved match world is missing. The disconnect deadline still applies.
+0674 | Cannot save match world
+0675 | Cannot start world importer
+0676 | World import failed. Check worldsDir and template checksum.
+0677 | Unknown practice world
+0678 | Cannot start practice importer
+0679 | Practice world import failed
+0680 | Cannot start replay helper
+0681 | Local replay operation failed
+0682 | Invalid local replay template
+0683 | Seed was not found in the known seed lists
+0684 | Leave your world before changing storage
+0685 | Cannot start storage manager
+0686 | Storage operation failed
+0687 | Scanning worlds...
+0688 | Scanning local replays...
+0689 | Cleaning storage...
+0690 | Storage ready
+0691 | Saved match world is missing; refusing to generate a fresh race
+0692 | Saved world identity does not match the active race
+0693 | Downloaded template checksum mismatch
+# [WORD ORDER]
+0694 | Local replay save failed: {error}
+
+
+========================================================================
+SECTION 24: Android app: first screens and setup
+========================================================================
+# Screens before Minecraft opens on Android.
+
+# App name of the installer.
+0695 | Bedrock Ranked Setup
+
+# Long-press shortcut on the app icon.
+0696 | Save logs
+
+0697 | Prepare Minecraft
+0698 | Select Minecraft APK
+0699 | Open Bedrock Ranked
+0700 | Update Bedrock Ranked
+0701 | Uses Minecraft 26.50, 26.51, 26.52 or 26.60 for Android. Your original installation stays separate.
+0702 | Allow this installer once, then return here.
+0703 | Confirm the Android installation prompt.
+0704 | APK too large
+0705 | Checking Minecraft
+0706 | Select a complete 64-bit Minecraft 26.50, 26.51, 26.52 or 26.60 APK
+0707 | This Android build is not supported. Use Minecraft 26.50, 26.51, 26.52 or 26.60, ARM64.
+0708 | Preparing Bedrock Ranked
+0709 | Signing your local installation
+0710 | Open Minecraft on Google Play
+0711 | Leaderboard & player stats
+0712 | Account & trophies on website
+0713 | Could not open the community website. Try again.
+0714 | Save Logs to Downloads
+0715 | Export Minecraft startup files
+0716 | Minecraft detected. Tap Play Ranked to start.
+0717 | Minecraft stopped responding twice. Tap Play Ranked to try again.
+0718 | Minecraft is not installed or could not be detected. Install it from Google Play, then try again.
+0719 | Minecraft is still closing. Please retry shortly.
+0720 | Save logs for startup diagnostics.
+0721 | Preparing Minecraft…
+# [WORD ORDER]
+0722 | Saved: {file}
+
+# [WORD ORDER]
+0723 | Could not save logs: {error}
+
+# [WORD ORDER] The text \n means "new line". Keep it in place.
+0724 | Saved: {file}\nShare this ZIP for startup diagnostics.
+
+# [WORD ORDER]
+0725 | Could not export startup files: {error}
+
+# The text \n means "new line". Keep it in place.
+0726 | Startup diagnostics\nTap Export Minecraft startup files. No game code will run.
+
+# [WORD ORDER] The text \n means "new line". Keep it in place.
+0727 | Minecraft could not start.\n{error}
+
+# The text \n means "new line". Keep it in place.
+0728 | Minecraft is required to play matches.\nInstall Minecraft from Google Play, then return here. It is sold separately.\n\nYou can browse the leaderboard, player stats and your website account without Minecraft.
+
+# [WORD ORDER]
+0729 | Version {version}
+
+# [WORD ORDER]
+0730 | Version {version} (checking latest…)
+
+# [WORD ORDER]
+0731 | Version {version} (latest check unavailable)
+
+0732 | Bedrock Ranked community
+0733 | Live leaderboard and player stats. Minecraft is only required to play matches.
+0734 | Account & trophies
+0735 | Search player stats
+0736 | Refresh
+0737 | Privacy
+0738 | Community server configuration is unavailable.
+0739 | Loading…
+0740 | Could not load community data. Check your connection and tap Refresh.
+0741 | Player stats
+0742 | Full stats on website
+0743 | Search results
+0744 | Season 2 leaderboard. Tap a player for stats.
+0745 | No eligible players yet.
+0746 | No browser available. Open bedrockranked.com in a browser.
+# [WORD ORDER]
+0747 | Server returned {code}
+
+# [WORD ORDER] The text \n means "new line". Keep it in place.
+0748 | Elo: {elo}\nPeak Elo: {peak}\nRanked games: {games}\nWins: {wins}\nLosses: {losses}
+
+# [WORD ORDER] One leaderboard row in the community screen. Keep the three spaces.
+0749 | {name}\nElo {elo}   Games {games}
+
+0750 | Import Minecraft pack?
+0751 | Import this pack into Bedrock Ranked? A pack with the same ID will be replaced. One previous copy is kept, within the backup storage limit.
+0752 | Import
+0753 | Importing Minecraft pack…
+0754 | Cannot read selected pack
+# [WORD ORDER] The text \n means "new line". Keep it in place.
+0755 | Imported: {name}\n\nRestart Ranked, then enable resource packs in Settings → Global Resources. Behavior packs are available for compatible worlds.
+
+# [WORD ORDER]
+0756 | Pack import failed: {error}
+
+0757 | Done
+0758 | This Minecraft build has Google Play protected game code. Bedrock Ranked cannot start it inside the client. Save Logs to Downloads for diagnostics.
+0759 | This client requires Android ARM64. This device is running a 32-bit Android system.
+0760 | Minecraft ARM64 game library was not found. Install the complete game first.
+0761 | Minecraft installation changed. Open Ranked again.
+0762 | This ARM64 game library has a different native layout. Save Logs to Downloads for diagnostics.
+# [WORD ORDER]
+0763 | This installed Minecraft build is not compatible with Ranked's hosted startup yet ({version}). Use Export Minecraft startup files for diagnostics. Reinstalling Ranked will not fix this build.
+
+0764 | Import one .mcpack at a time
+0765 | No valid Minecraft pack manifest
+0766 | Pack is too large
+0767 | Pack must contain resources or behavior modules
+0768 | Imported pack storage is full; remove unused packs first
+0769 | Pack backup storage is full
+
+========================================================================
+SECTION 25: Android app: status lines and errors
+========================================================================
+# Short messages shown while the Android client works, and error messages. {error} is another message.
+
+0770 | Connection lost. Reconnecting...
+0771 | Server temporarily unavailable. Retrying automatically...
+0772 | Preparing your world...
+0773 | World ready. Starting your run...
+0774 | World ready. Waiting for opponent...
+0775 | World ready; starting your run
+0776 | World ready; waiting for race start
+0777 | Connecting world to match...
+0778 | Loading world in Minecraft...
+0779 | Discovering prepared world...
+0780 | Waiting for Minecraft world list...
+0781 | Minecraft could not discover this world after restarting. Save Logs to Downloads.
+0782 | Waiting for Minecraft world-start commands...
+0783 | Minecraft could not open the prepared world
+0784 | Verifying world download...
+0785 | Finalizing world files...
+0786 | Preparing practice world...
+0787 | Preparing replay...
+0788 | Opening replay...
+0789 | Starting Minecraft…
+0790 | Restarting Minecraft to open the next world...
+0791 | Returning to the Ranked menu...
+0792 | Minecraft did not close the world. Restarting the menu safely.
+0793 | Minecraft is still unable to open this world. Cancel and save logs from the app screen.
+0794 | Could not prepare Minecraft restart
+0795 | Could not open Minecraft pause menu
+# [WORD ORDER]
+0796 | Launching {world}
+
+# [WORD ORDER]
+0797 | Prepared world not in Minecraft world list yet: {world}
+
+# [WORD ORDER]
+0798 | Minecraft world-start result: {result}. Use Play > Worlds if needed.
+
+# [WORD ORDER]
+0799 | Could not refresh Minecraft: {error}
+
+# [WORD ORDER]
+0800 | Could not save replay: {error}
+
+# [WORD ORDER]
+0801 | Server error {code}
+
+# [WORD ORDER]
+0802 | Logs are in app storage: {path}
+
+0803 | Enter a server address such as https://bedrockranked.com
+0804 | Response too large
+0805 | Local API connection failed
+0806 | Game command unavailable
+0807 | Please wait for the current request.
+0808 | Server did not respond. Please try again.
+0809 | Request failed. Please try again.
+0810 | Ranked bridge could not start
+0811 | Close
+0812 | Could not save logs
+0813 | Gameplay bridge is unavailable
+0814 | Gameplay bridge is unavailable; cannot start a race
+0815 | World is already loading
+0816 | Leave your world first
+0817 | Leave your current world first
+0818 | Leave your run first
+0819 | Finish your run first
+0820 | Finish your run before changing server
+0821 | Local replay saving is off
+0822 | Setting is not available yet
+0823 | No file manager is installed
+0824 | A replay is already open or opening. Close it before opening another.
+0825 | Replay archive is too large
+0826 | Incomplete replay file
+0827 | Replay world checksum mismatch
+0828 | Replay contains too much data to open safely. Your recording is preserved.
+0829 | Local replay is unavailable
+0830 | Saving local replay
+0831 | Replay saved on this device
+0832 | Replay saved - Documents/BedrockRanked/Replays
+0833 | Replay kept in app storage; public export unavailable
+0834 | World download too large
+0835 | World checksum mismatch
+0836 | Saved run is missing; cannot recover this world
+0837 | Could not save account session
+0838 | Cannot read skin image
+0839 | Cannot open skin picker
+
+========================================================================
+SECTION 26: Android app: screen-reader labels
+========================================================================
+# Not shown on screen. These are read aloud to blind and low-vision players, so translate them too.
+
+0840 | Queue waiting time
+0841 | Version preference
+0842 | World preparation progress
+0843 | Search leaderboard
+0844 | Elo by match number
+0845 | Rule settings
+0846 | Room chat message
+0847 | Room
+0848 | Your finish time
+0849 | Trophy category
+0850 | Win streak information
+0851 | Supporter slot
+# [WORD ORDER]
+0852 | {wins} wins, {losses} losses
+
+# [WORD ORDER]
+0853 | Flair slot {number}
+
+# [WORD ORDER]
+0854 | Team for {player}
+
+# [WORD ORDER] {kind} is a raw word: country or pride.
+0855 | Edit {kind} flag
+
+# [WORD ORDER]
+0856 | {mode} stats
+
+# [WORD ORDER]
+0857 | {trophy}, locked
+
+
+========================================================================
+SECTION 27: Server messages: game modes and stages
+========================================================================
+# Names and words sent by the Ranked server and shown as they are.
+
+0858 | Stronghold
+0859 | Ruined Portal
+0860 | Village
+0861 | Desert Temple
+0862 | Shipwreck
+# Also used in: Tutorial map (optional, do this section last).
+0863 | Bastion
+
+0864 | Warped Forest
+0865 | Packless Warped Forest
+0866 | Packless Buried Treasure
+# Stage of a run, shown beside the opponent's name. The run has begun.
+0867 | Started
+
+0868 | Entered Nether
+0869 | Entered Bastion
+0870 | Entered Warped
+0871 | Entered Fortress
+0872 | Left Nether
+0873 | Entered End
+# Raw request word shown before "requested", and after a / in chat. /change is also a command, so it must stay in English after the /. Tell us if you need a separate word for the "requested" line.
+0874 | change
+
+# Raw request word. Same rule as the entry above.
+0875 | draw
+
+# Raw request word. Same rule as the entry above.
+0876 | cancel
+
+# Raw status word after "Status:" or "Result:". Match is being prepared.
+0877 | preparing
+
+# Raw status word after "Status:" or "Result:". Match is in progress.
+0878 | running
+
+# Raw status word after "Status:" or "Result:". Match has ended, or the player finished.
+0879 | finished
+
+# Raw status word after "Status:" or "Result:". Match was cancelled.
+0880 | cancelled
+
+# Raw status word after "Status:" or "Result:". Waiting for the opponent's result. Written with an underscore in the game today.
+0881 | awaiting_result
+
+# Raw status word after "Status:" or "Result:". Player gave up.
+0882 | forfeit
+
+
+========================================================================
+SECTION 28: Server messages: match notices
+========================================================================
+
+0883 | Match ended because a client did not reconnect within 60 seconds.
+0884 | Match automatically canceled because not all players were ready within 3 minutes. No Elo was changed.
+0885 | A player forfeited the match.
+0886 | A player completed the run.
+0887 | The match ended in a draw.
+0888 | Match has already ended; open Run Details to see the result
+
+========================================================================
+SECTION 29: Server messages: errors
+========================================================================
+# Errors from the server, shown on screen or in chat when an action fails.
+
+0889 | Name must be 3-24 letters, numbers or underscores
+0890 | That name is not allowed
+0891 | Password must contain 10-128 characters
+0892 | Name is already taken
+0893 | Too many account attempts; wait five minutes
+0894 | Sign in first
+0895 | Login request expired
+0896 | Sign in to the account being linked
+0897 | Finish your match or leave the queue first
+0898 | Invalid name or password
+0899 | Invalid recovery token
+0900 | Sign in before linking Discord
+0901 | Discord is already linked. Recover the account first to replace a lost Discord account.
+0902 | Discord login is not configured yet
+0903 | Discord authorization required
+0904 | Complete account linking through the original signed-in client
+0905 | Invalid or expired Discord authorization
+0906 | Discord authorization failed; retry from the client
+0907 | Invalid Discord identity
+0908 | Discord authorization already used
+0909 | That Discord account already belongs to another ranked account. Accounts cannot be merged.
+0910 | Session required
+0911 | Create an account or sign in to Season 2
+0912 | Too many requests; wait before trying again
+0913 | Client process was replaced; reopen the client
+0914 | Client process is closed
+0915 | Only Minecraft display and control preferences can be backed up
+0916 | Minecraft settings backup is too large
+0917 | Settings backup changed; refresh it before saving
+0918 | Invalid flair selection
+0919 | Choose up to three different flairs
+0920 | Flair is locked
+0921 | Choose a different supporter flair
+0922 | Race has not started
+0923 | Manage this match from the private room
+0924 | This command belongs to an older seed; use the current match controls
+0925 | Match commands are unavailable until the match starts; use the Cancel button if there is a problem
+0926 | Match commands are unavailable until the match starts
+0927 | The run has not started
+0928 | Negotiations are only available in ranked matches
+0929 | A request is already pending
+0930 | Wait 60 seconds between requests
+0931 | No pending request
+0932 | Only the opponent can respond
+0933 | Storage budget is full
+0934 | Only a started race can reset
+0935 | Storage budget is full; reset is temporarily unavailable
+0936 | Replay exceeds safe playback limits
+0937 | Replay is damaged or exceeds safe playback limits
+0938 | Replay service is busy; retry shortly
+0939 | No recording was captured for this match
+0940 | The match has started; use the normal match controls
+0941 | Private room not found
+0942 | Invalid room settings
+0943 | Unknown mode
+0944 | Invalid scoring rules
+0945 | Rules exceed room capacity
+0946 | Invalid seed
+0947 | Room not found
+0948 | Only the room host can do this
+0949 | Room settings are locked during a match
+0950 | Room changed; refresh and try again
+0951 | Leave your current room or match first
+0952 | Leave the queue first
+0953 | Please try creating the room again
+0954 | Private chat is available on the website and clients only
+0955 | Invalid room code
+0956 | Room code is invalid, expired or locked
+0957 | Room is full
+0958 | Only the host can invite players
+0959 | Enter at least two characters
+0960 | Player not found
+0961 | Capacity is smaller than the current room
+0962 | Room member not found
+0963 | Use Leave Room instead
+0964 | At least two players are required
+0965 | A room member is already in a match
+0966 | Every team needs at least one player
+0967 | Not enough players for the required finishers
+0968 | Specified seeds require the seed catalog
+0969 | Seed is not available for the selected mode
+0970 | Finish or cancel the current match first
+0971 | No active room match
+0972 | The race must be running to vote
+0973 | Seed changed; refresh and try again
+0974 | You are not eligible to vote
+0975 | Wait 60 seconds before starting another vote
+0976 | Join the private room to chat
+0977 | Message must contain 1-500 characters
+0978 | Wait a second between messages
+0979 | Message is empty
+# [WORD ORDER] {field} is a raw English word from the server.
+0980 | Invalid {field}
+
+0981 | Sign in to edit your profile
+0982 | Invalid identity fields
+0983 | Choose a flag from the matching slot
+0984 | Invalid pronouns
+0985 | Pronouns use up to 16 letters per field
+0986 | Fill both pronoun fields, or clear both
+0987 | Time must be greater than zero and within five hours
+0988 | Finish already submitted
+0989 | Better time must be shorter than the reported time
+0990 | Match chat is closed
+0991 | Message must contain 1-500 characters; commands are unavailable before the start
+0992 | Choose a reason and explain it in 10-2000 characters
+0993 | Choose another ranked player to report
+0994 | That player did not participate in the selected match
+0995 | You already have an open report for this player and context
+0996 | Race has not started or has ended
+0997 | Invalid finish time
+0998 | No opponent result to confirm
+0999 | Open the match on the platform you queued from
+1000 | Name must contain 1-32 characters
+1001 | Season 2 storage budget is full; new matches are temporarily unavailable
+1002 | Season 2 storage budget is full
+1003 | Seed lists are unavailable
+1004 | Choose one of the modes available for this seed
+1005 | Match not found
+1006 | Seed is available after the run
+1007 | Match ended before world preparation completed; return to the menu and queue again
+1008 | Stale world preparation revision; load the current match world
+1009 | Prepared world does not match the assigned player and revision
+1010 | Load your assigned world before pressing ready
+1011 | The room host can close the private room
+1012 | Packless players use the match seed instead of a world download
+1013 | Internal server error
+1014 | Invalid request or template data
+1015 | Invalid session
+1016 | Replay file is incomplete
+
+========================================================================
+SECTION 30: Trophy names and descriptions
+========================================================================
+# From the trophy list. One entry stands for many trophies: {number} is filled in for each one. {rank} is a rank name from the short list at the end of this section, plus I, II or III.
+
+# [WORD ORDER]
+1017 | Under {number} minutes
+
+# [WORD ORDER]
+1018 | Finish a ranked match in under {number} minutes.
+
+# [WORD ORDER]
+1019 | {number} wins in a row
+
+# [WORD ORDER]
+1020 | Win {number} ranked matches in a row.
+
+# [WORD ORDER]
+1021 | Current ranked win streak: {number}.
+
+# [WORD ORDER]
+1022 | {number} ranked games
+
+# [WORD ORDER]
+1023 | Play {number} ranked matches.
+
+# [WORD ORDER]
+1024 | {number} ranked wins
+
+# [WORD ORDER]
+1025 | Win {number} ranked matches.
+
+# [WORD ORDER]
+1026 | {rank} rank
+
+# [WORD ORDER]
+1027 | Keep {number} Elo or higher in the current season. Temporary: lost below this rank and reset when a new season starts. Lower rank trophies remain available.
+
+# [WORD ORDER]
+1028 | {rank} peak Elo
+
+# [WORD ORDER]
+1029 | Reach {number} peak Elo. Permanent: kept across rank drops and future seasons.
+
+# [WORD ORDER]
+1030 | Supporter {number}
+
+1031 | Support Bedrock Ranked by donating on Ko-Fi or contributing to the development
+# [WORD ORDER]
+1032 | Winner of season {season}
+
+# [WORD ORDER]
+1033 | Achieve the highest Elo at the end of season {season}. Awarded to {player}.
+
+# [WORD ORDER]
+1034 | Runner up season {season}
+
+# [WORD ORDER]
+1035 | Finish 2nd in Elo at the end of season {season}. Awarded to {player}.
+
+# [WORD ORDER]
+1036 | 3rd place season {season}
+
+# [WORD ORDER]
+1037 | Finish 3rd in Elo at the end of season {season}. Awarded to {player}.
+
+# [WORD ORDER]
+1038 | Top {number} season {season}
+
+# [WORD ORDER]
+1039 | Finish in the top {number} in Elo at the end of season {season}.
+
+# Rank name.
+1040 | Potato
+
+# Rank name.
+1041 | Melon
+
+# Rank name.
+1042 | Carrot
+
+# Rank name.
+1043 | Apple
+
+# Rank name.
+1044 | Bread
+
+# Rank name. Golden apple (Minecraft player slang).
+1045 | Gapple
+
+# Rank name. Enchanted golden apple (Minecraft player slang).
+1046 | EGapple
+
+
+========================================================================
+SECTION 31: Country flag names
+========================================================================
+# Names shown when a player picks a country flag. Use the usual name in your language.
+
+1047 | Andorra
+1048 | United Arab Emirates
+1049 | Afghanistan
+1050 | Antigua and Barbuda
+1051 | Anguilla
+1052 | Albania
+1053 | Armenia
+1054 | Angola
+1055 | Antarctica
+1056 | Argentina
+1057 | League of Arab States
+1058 | American Samoa
+1059 | Association of Southeast Asian Nations
+1060 | Austria
+1061 | Australia
+1062 | Aruba
+1063 | Aland Islands
+1064 | Azerbaijan
+1065 | Bosnia and Herzegovina
+1066 | Barbados
+1067 | Bangladesh
+1068 | Belgium
+1069 | Burkina Faso
+1070 | Bulgaria
+1071 | Bahrain
+1072 | Burundi
+1073 | Benin
+1074 | Bermuda
+1075 | Brunei Darussalam
+1076 | Bolivia
+1077 | Bonaire, Sint Eustatius and Saba
+1078 | Brazil
+1079 | Bahamas
+1080 | Bhutan
+1081 | Bouvet Island
+1082 | Botswana
+1083 | Belarus
+1084 | Belize
+1085 | Canada
+1086 | Cocos (Keeling) Islands
+1087 | Democratic Republic of the Congo
+1088 | Central European Free Trade Agreement
+1089 | Central African Republic
+1090 | Republic of the Congo
+1091 | Switzerland
+1092 | Côte d'Ivoire
+1093 | Cook Islands
+1094 | Chile
+1095 | Cameroon
+1096 | China
+1097 | Colombia
+1098 | Costa Rica
+1099 | Cuba
+1100 | Cabo Verde
+1101 | Curaçao
+1102 | Christmas Island
+1103 | Cyprus
+1104 | Czech Republic
+1105 | Germany
+1106 | Diego Garcia
+1107 | Djibouti
+1108 | Denmark
+1109 | Dominica
+1110 | Dominican Republic
+1111 | Algeria
+1112 | East African Community
+1113 | Ecuador
+1114 | Estonia
+1115 | Egypt
+1116 | Western Sahara
+1117 | Eritrea
+1118 | Catalonia
+1119 | Galicia
+1120 | Basque Country
+1121 | Spain
+1122 | Ethiopia
+1123 | Europe
+1124 | Finland
+1125 | Fiji
+1126 | Falkland Islands
+1127 | Federated States of Micronesia
+1128 | Faroe Islands
+1129 | France
+1130 | Gabon
+1131 | England
+1132 | Northern Ireland
+1133 | Scotland
+1134 | Wales
+1135 | United Kingdom
+1136 | Grenada
+1137 | Georgia
+1138 | Guernsey
+1139 | Ghana
+1140 | Gibraltar
+1141 | Greenland
+1142 | Gambia
+1143 | Guinea
+1144 | Equatorial Guinea
+1145 | Greece
+1146 | South Georgia and the South Sandwich Islands
+1147 | Guatemala
+1148 | Guam
+1149 | Guinea-Bissau
+1150 | Guyana
+1151 | Hong Kong
+1152 | Heard Island and McDonald Islands
+1153 | Honduras
+1154 | Croatia
+1155 | Haiti
+1156 | Hungary
+1157 | Canary Islands
+1158 | Indonesia
+1159 | Ireland
+1160 | Israel
+1161 | Isle of Man
+1162 | India
+1163 | British Indian Ocean Territory
+1164 | Iraq
+1165 | Iran
+1166 | Iceland
+1167 | Italy
+1168 | Jersey
+1169 | Jamaica
+1170 | Jordan
+1171 | Japan
+1172 | Kenya
+1173 | Kyrgyzstan
+1174 | Cambodia
+1175 | Kiribati
+1176 | Comoros
+1177 | Saint Kitts and Nevis
+1178 | North Korea
+1179 | South Korea
+1180 | Kuwait
+1181 | Cayman Islands
+1182 | Kazakhstan
+1183 | Laos
+1184 | Lebanon
+1185 | Saint Lucia
+1186 | Liechtenstein
+1187 | Sri Lanka
+1188 | Liberia
+1189 | Lesotho
+1190 | Lithuania
+1191 | Luxembourg
+1192 | Latvia
+1193 | Libya
+1194 | Morocco
+1195 | Monaco
+1196 | Moldova
+1197 | Montenegro
+1198 | Madagascar
+1199 | Marshall Islands
+1200 | North Macedonia
+1201 | Mali
+1202 | Myanmar
+1203 | Mongolia
+1204 | Macau
+1205 | Northern Mariana Islands
+1206 | Martinique
+1207 | Mauritania
+1208 | Montserrat
+1209 | Malta
+1210 | Mauritius
+1211 | Maldives
+1212 | Malawi
+1213 | Mexico
+1214 | Malaysia
+1215 | Mozambique
+1216 | Namibia
+1217 | New Caledonia
+1218 | Niger
+1219 | Norfolk Island
+1220 | Nigeria
+1221 | Nicaragua
+1222 | Netherlands
+1223 | Norway
+1224 | Nepal
+1225 | Nauru
+1226 | Niue
+1227 | New Zealand
+1228 | Oman
+1229 | Panama
+1230 | Pacific Community
+1231 | Peru
+1232 | French Polynesia
+1233 | Papua New Guinea
+1234 | Philippines
+1235 | Pakistan
+1236 | Poland
+1237 | Pitcairn
+1238 | Puerto Rico
+1239 | State of Palestine
+1240 | Portugal
+1241 | Palau
+1242 | Paraguay
+1243 | Qatar
+1244 | Romania
+1245 | Serbia
+1246 | Russia
+1247 | Rwanda
+1248 | Saudi Arabia
+1249 | Solomon Islands
+1250 | Seychelles
+1251 | Sudan
+1252 | Sweden
+1253 | Singapore
+1254 | Ascension Island
+1255 | Saint Helena
+1256 | Tristan da Cunha
+1257 | Saint Helena, Ascension and Tristan da Cunha
+1258 | Slovenia
+1259 | Svalbard and Jan Mayen
+1260 | Slovakia
+1261 | Sierra Leone
+1262 | San Marino
+1263 | Senegal
+1264 | Somalia
+1265 | Suriname
+1266 | South Sudan
+1267 | Sao Tome and Principe
+1268 | El Salvador
+1269 | Sint Maarten
+1270 | Syria
+1271 | Eswatini
+1272 | Turks and Caicos Islands
+1273 | Chad
+1274 | French Southern Territories
+1275 | Togo
+1276 | Thailand
+1277 | Tajikistan
+1278 | Tokelau
+1279 | Timor-Leste
+1280 | Turkmenistan
+1281 | Tunisia
+1282 | Tonga
+1283 | Türkiye
+1284 | Trinidad and Tobago
+1285 | Tuvalu
+1286 | Taiwan
+1287 | Tanzania
+1288 | Ukraine
+1289 | Uganda
+1290 | United States Minor Outlying Islands
+1291 | United Nations
+1292 | United States of America
+1293 | Uruguay
+1294 | Uzbekistan
+1295 | Holy See
+1296 | Saint Vincent and the Grenadines
+1297 | Venezuela
+1298 | Virgin Islands (British)
+1299 | Virgin Islands (U.S.)
+1300 | Vietnam
+1301 | Vanuatu
+1302 | Samoa
+1303 | Kosovo
+1304 | Yemen
+1305 | South Africa
+1306 | Zambia
+1307 | Zimbabwe
+
+========================================================================
+SECTION 32: Pride flag names
+========================================================================
+# Names shown when a player picks a pride flag. Use the words your community uses.
+
+1308 | Abrosexual
+1309 | Aegosexual
+1310 | Agender
+1311 | Altersex
+1312 | Aroace
+1313 | Aromantic
+1314 | Asexual
+1315 | Bear
+1316 | Bigender
+1317 | Bisexual
+1318 | Demiboy
+1319 | Demigender
+1320 | Demigirl
+1321 | Demisexual
+1322 | Disability
+1323 | Femboy
+1324 | Genderfluid
+1325 | Genderqueer
+1326 | Gilbert Baker
+1327 | Graysexual
+1328 | Intersex Inclusive Progress
+1329 | Intersex
+1330 | Lesbian
+1331 | Nonbinary
+1332 | Pansexual
+1333 | Philadelphia
+1334 | Polyamory
+1335 | Polysexual
+1336 | Progress
+1337 | Queer
+1338 | Queer People of Color
+1339 | Relationship Anarchy
+1340 | Sapphic
+1341 | Straight Ally
+1342 | Tomboy
+1343 | Traditional
+1344 | Trans Inclusive Gay Men's
+1345 | Transfeminine
+1346 | Transgender
+1347 | Transmasculine
+1348 | Two Spirit
+
+========================================================================
+SECTION 33: Tutorial map (optional, do this section last)
+========================================================================
+# Text inside the bundled "Speedrun Tutorial Map" world, opened from Practice > Tutorials. It needs a separate update of that map to go live. Codes like §e set the text color: keep them exactly where they are. Words in {curly brackets} are numbers or names filled in by the game.
+
+1349 | Introduction
+1350 | Get started
+1351 | Village Loot
+1352 | Village looting
+1353 | Lava Pool
+1354 | Portal from a lava pool
+1355 | Sprinkz Strat
+1356 | Dig into stronghold
+1357 | Portal in the SH portal room
+1358 | Stronghold Nav
+1359 | Navigating the stronghold
+1360 | Quadrants
+1361 | Nether quadrants
+1362 | Looting bastion remnants
+1363 | Warped
+1364 | Warped tower
+1365 | Fortress
+1366 | One Cycle
+1367 | One cycling the dragon
+1368 | How this map works
+1369 | Plains 1
+1370 | Plains 2
+1371 | Plains 3
+1372 | Plains 4
+1373 | Desert 1
+1374 | Desert 2
+1375 | Desert 3
+1376 | Savanna 1
+1377 | Savanna 2
+1378 | Savanna 3
+1379 | Savanna 4
+1380 | Snowy 1
+1381 | Snowy 2
+1382 | Snowy 3
+1383 | Taiga 1
+1384 | Taiga 2
+1385 | Village spawning
+1386 | How villages generate
+1387 | Plains
+1388 | Plains village looting
+1389 | Snowy
+1390 | Snowy village looting
+1391 | Taiga
+1392 | Taiga village looting
+1393 | Savanna
+1394 | Savanna village looting
+1395 | Desert
+1396 | Desert village looting
+1397 | Bridge
+1398 | Bridge bastion
+1399 | Treasure
+1400 | Treasure bastion
+1401 | Housing
+1402 | Housing bastion
+1403 | Stables
+1404 | Stables bastion
+# [WORD ORDER]
+1405 | §aTeleported to §f{name}
+
+1406 | §fBack
+1407 | Back to the menu
+1408 | Run the guided tutorial
+1409 | Practice without tutorial guidance
+1410 | Back to the main menu
+1411 | Open Sprinkz tutorials
+1412 | Showcase
+1413 | Visually see where the correct dig area is
+1414 | Randomized Sprinkz practice
+1415 | Sprinkz Strat explanation
+1416 | Sprinkz strat is a strategy that allows you to always dig down into the starter staircase of the stronghold, based on the village bells. The reason why it works is that when stronghold generate under villages in bedrock, they generate from the world chunk of the village on the 4-4 relative coordinates of the chunk. Therefore, if we are able to map the starting coordinates of the village, we can just add 4-4 to those and we'll be able to know where to dig. It's therefore obvious that for each village center type there will be a different dig down spot. You will be guided for every single center type, there are 16 total. Since the starter staircase is decently wide, you don't need to dig at the exact spot, but it's enough to dig in the 5x5 area around it.
+1417 | Go to the marked point on the right side of the bell.
+1418 | §eThis is the starting point. Move 3 blocks right.
+1419 | §eNow move 2 blocks forward.
+1420 | §eAdd 4 4 to both coordinates.
+1421 | §eDig the marked block below you.
+1422 | §eMove 3 blocks right.
+1423 | Go to the marked starting point.
+1424 | Go to the marked block.
+1425 | §eThis block is always stone; the blocks on the other corresponding sides do not have cobblestone.
+1426 | §eNow move 10 blocks forward.
+1427 | §eMove 3 blocks left.
+1428 | Go to the marked point.
+1429 | §eThis grass pattern is common here. Go to the bell that is facing its side.
+1430 | §eGo directly to the marked starting point.
+1431 | §eDig down 2 blocks.
+1432 | §eDig the two marked side blocks.
+1433 | §eLook at the two logs. The one with the vertical texture is the correct one. Get out of the hole and go to the marked point on that side.
+1434 | §eThis block is odd. If you look at all the other sides, the others are smooth. Go to the right side of the side with the odd block.
+1435 | §eThose are smooth. All the other sides don't have logs going all in the same direction.
+1436 | §eMove 3 blocks right, facing away from the smooth side.
+1437 | §eFind the side with the small L.
+1438 | Go to the next marked point.
+1439 | §eLooking at the long path, move 3 blocks right.
+1440 | Back to lobby
+1441 | Return to the lobby
+1442 | Generate another visualized center
+1443 | Generate another random center
+1444 | §aSprinkz showcase complete!
+1445 | §aSprinkz practice complete!
+1446 | Restart showcase
+1447 | Restart practice
+1448 | Restart tutorial
+1449 | Generate a new visualized center
+1450 | Generate a new randomized practice
+1451 | Restart this Sprinkz tutorial
+1452 | Open the Sprinkz tutorial grid
+1453 | §fThis map is a speedrun tutorial hub. It was built with the intention of making Bedrock Speedrunning more accessible to the evergrowing number of beginners that approach speedrunning this game.\n\n§fDisclaimer:§7 the tutorials put the player in a situation that can be considered much easier than actual runs, to make learning easier. This map is thought for beginners, not experienced runners.\n§7\n\n§7Credits:\n§7This is a Bedrock Ranked creation, made by §7Ma Ehy and Crazdenuy.§7.
+1454 | Waterbed
+1455 | Water + bed one cycle
+1456 | Lava
+1457 | Lava one cycle
+1458 | Guided tutorial
+1459 | Kill the dragon
+1460 | Back to One Cycle
+1461 | Choose method
+1462 | Waterbed or Lava
+1463 | Return to lobby
+1464 | Dragon killed!
+1465 | §eTry the three-bed explosion sequence again.
+1466 | You missed the bed timing. The first dragon is still alive. Try the three-bed explosion again.
+1467 | Congratulations! You killed the first dragon with the bed sequence.
+1468 | §eBuild the marked setup.
+1469 | §cWatch for dragon breath around the portal area. Move out of it before continuing the setup.
+1470 | §ePlace the two obsidian blocks. In a real run, you only need the upper one.
+1471 | §ePractice: kill the dragon.
+1472 | §bPlace water at the marked block.
+1473 | §eUse the spear on the dragon's neck, then land 5 critical hits with the stone sword.
+1474 | §bThe hit counter is only a practice guide. In a real run, judge your damage from the dragon boss health bar.
+# [WORD ORDER]
+1475 | §eSword hits: §f{number}§7/5
+
+1476 | §eGood. Stand at the marked point.
+1477 | Now you have to blow up the bed. This is the most important part. You have to blow up the three beds consecutively about 500 milliseconds from each other. If you blow them too fast, the dragon won't take damage. If you blow them too slow, the dragon will fly away and you won't be able to kill it. In this tutorial, the dragon won't fly away at all, so you can be a bit slower.
+1478 | §cMine the marked block.
+1479 | §eUse the spear on the dragon's neck, then land 5 critical hits with the iron pickaxe.
+# [WORD ORDER]
+1480 | §ePickaxe hits: §f{number}§7/5
+
+1481 | §eGood. Pillar 15 blocks up on the marked column.
+1482 | §6Place lava at the marked top block.
+1483 | §cDo not let the lava flow too far down before continuing. Keep it high enough to control the setup.
+1484 | §eGo back down to the marked point.
+# [WORD ORDER]
+1485 | §eBeds: §f{beds}§7/3
+
+1486 | Guided Bridge Bastion tutorial
+1487 | Trade 72 gold ingots
+1488 | Back to Bastions
+1489 | Replay the guided tutorial
+1490 | Choose bastion
+1491 | Choose another Bastion
+1492 | §aBridge Bastion complete!
+1493 | Guided Treasure Bastion tutorial
+1494 | 72 gold ingots
+1495 | §fWelcome in the Treasure Bastion tutorial. For the Treasure Bastion, you want to avoid the big cube section, as it is too dangerous. Instead, go in the ramparts to loot the Bastion fast.
+1496 | §eGo to the marked point in the ramparts.
+1497 | Replay Treasure tutorial
+1498 | Normal Treasure Bastion practice
+1499 | §aTreasure Bastion tutorial complete!
+1500 | §eClimb the stairs.
+1501 | §eKeep climbing the stairs.
+1502 | §eContinue up the stairs.
+1503 | §eKeep going up.
+1504 | §cBreak the four marked blocks.
+1505 | §eGo back up the stairs.
+1506 | §ePlace the four marked blocks.
+1507 | §ePlace a button on the marked block to help piglin pathfinding.
+1508 | §eGo to the marked point.
+1509 | §ePlace the marked block.
+1510 | §cBreak the three marked blocks.
+1511 | §cBreak the next marked block.
+1512 | §cBreak the next two marked blocks.
+1513 | §cBreak the block next to it
+1514 | §cBreak the final two marked blocks.
+1515 | §cBreak the two marked blocks.
+1516 | Congratulation, you completed the tutorial. In a real run, you should get all the gold blocks (the other rampart is symmetrical to this so you'll find more gold blocks there) and throw it at the piglins that will go in the hole.
+1517 | Guided Housing Bastion tutorial
+1518 | 72 gold ingots from a random path
+1519 | §fWelcome to the Housing Bastion Practice Tutorial. The Housing Bastion has the gold blocks accessible in many different ways, based on how you access the Bastion. We'll see all the ways to get those right now. Let's start with the first one.
+1520 | §eGo down to the marked point.
+1521 | Congratulations! You completed the Housing Bastion tutorial.
+1522 | §eLoading Bastion...
+# [WORD ORDER]
+1523 | §6Trade {gold} gold ingots with piglins.
+
+# [WORD ORDER]
+1524 | §6Gold traded: §f{gold}§7/{gold}
+
+1525 | Guided Stables Bastion tutorial
+1526 | Trade 36 gold ingots from a random start
+1527 | §fWelcome to the Stables Bastion tutorial. Stables Bastion is the most complex one because it can generate in multiple ways. Essentially, however, there are only two variations that have gold blocks of each part. We will look at both of them. Let's start with the top one, which is called triple as it has one single and a double chest. Note that there is a 33 percent chance for each of the 3 ramparts to be a triple. In this case, all 3 are triples.
+1528 | §cDig the marked blocks.
+1529 | Congratulations! You completed the Stables Bastion tutorial.
+1530 | §cMine the marked blocks.
+1531 | You completed the first path. This is a highroll path because you get 4 gold blocks from one triple. After the piglins funnel into the hole, you can go back up and loot the chests safely.
+1532 | §eTo identify a good gap, look at the small gap marked with green particles. If it was 2 blocks tall, it would be a bad gap. Since it's one block tall, it's a good gap, meaning there are gold blocks here. Same on the other side. There is a 50% chance for each of the 2 gaps to be good. A bad gap has no gold blocks and one single chest.
+1533 | §cMine the next marked blocks.
+1534 | §cBreak the marked block.
+1535 | §eIf there is air visible (like now) it means there is a good gap that way. If not then it means it's a bad gap. Turn around and keep going up the stairs.
+1536 | §eIf there is air it's good; if there is no air it's bad. Now let's try to loot this good gap. The process on the other side is similar.
+1537 | §eContinue to the marked point.
+1538 | §cDig the next marked blocks.
+1539 | §cMine the next marked block.
+1540 | §eKeep going down.
+1541 | §ePlace a block above the hole.
+1542 | §cMine the next blocks.
+1543 | Congratulation. Those are all the gold blocks. Now let's look at where the double chest is.
+1544 | §cDig toward the double chest.
+1545 | §cKeep digging toward the double chest.
+1546 | Congratulations! You completed the first path, so you know how to loot the bastion if you reach it from the top. Now let's look at how else you can reach the gold blocks.
+1547 | §eFollow the marked route.
+1548 | §cMine the next two blocks.
+1549 | §ePlace a block to stop piglins pathfinding to your hole.
+1550 | §cDig those blocks.
+1551 | §cKeep digging.
+1552 | Congratulations! You completed the second path. Now let's look at the third way to reach the gold blocks.
+1553 | §eBuild up on the marked blocks.
+1554 | §cBreak the marked blocks.
+1555 | §cBreak the blocks next to them.
+1556 | Congratulations! You completed all three paths. Now I'll show you some more hidden gold blocks to take if you get too few pearls.
+1557 | §eGo right to the marked point.
+1558 | §ePlace blocks to stop piglins pathfinding.
+1559 | §ePlace the next two blocks.
+1560 | §eBridge tutorial loaded.
+1561 | Welcome to the Bridge Bastion practice. The Bridge Bastion is the easiest one to loot. Remove your boots to aggro the piglins, run to the chalice, pillar up, and mine the marked gold blocks.
+1562 | §eRemove your golden boots.
+1563 | §ePillar up on the marked blocks.
+1564 | §cMine the two marked gold blocks.
+1565 | Good. In a real run, turn the gold blocks into ingots and throw the ingots to the piglins. Keep mining only two or three gold blocks at a time, then give those ingots to the piglins before mining more. This keeps the bartering cycle consistent while you continue looting the chalice.
+1566 | §cMine the final two marked gold blocks.
+1567 | Bridge, Treasure, Housing or Stables
+1568 | Random Housing path start
+1569 | Generate this bastion again
+1570 | §eAnother way to identify good gaps. Go up the stairs.
+# [WORD ORDER]
+1571 | §dEndermen killed: §f{number}§7/24
+
+1572 | §eTo start, you need a flat surface. Place a block where indicated!
+1573 | §bNow place water where indicated!
+1574 | §cNow break the block where indicated!
+1575 | §aPlace a block on every marked spot!
+1576 | §cBreak the block where indicated!
+1577 | §bPlace water where indicated!
+1578 | §6Place lava on every marked spot!
+1579 | §cBreak the blocks where indicated!
+1580 | §6Now place lava there!
+1581 | §bPick up the water where indicated!
+1582 | §6Place oak planks on both marked spots!
+1583 | §6Place lava where indicated!
+1584 | §dLight the nether portal and step into it!
+1585 | Portal
+1586 | §6Pick up the lava where indicated!
+1587 | §aStand where indicated!
+1588 | §6Now place the final lava!
+1589 | §6Place oak planks on every marked spot!
+1590 | §dStand in the portal to complete!
+1591 | Go to the correct way
+1592 | Find the hidden room
+1593 | The 1st step in a speedrun is to enter the Nether. For a lava portal, you need three iron for a bucket, or ten obsidian from a chest. A village is usually the easiest way to get the iron and food, plus three beds for the dragon. You should also collect about 7-8 logs. You will be taught how to loot every village type step by step. Ruined portals and caves can also work, but they are less consistent for getting the same resources quickly.
+1594 | Once you have the iron, you will want a source of lava to make a portal. You will be taught how to make a portal step by step. The easiest way to enter the Nether with lava is using a lava pool. Lava pools can spawn deep underground in caves, or, more easily accessible, sometimes on the surface.
+1595 | In case your village, from which you gathered the first resources, is more than about 600 blocks from 0 0, there is a chance that there will be a stronghold under the village. The chance becomes maximum at about 900 blocks from 0 0, and starts decreasing from then on progressively. The chance of hitting a stronghold at 900 0 will be approximately 15 percent. There is a strategy to always land on the stronghold, if there is one under the village, every time, and that is called Sprinkz strat.
+1596 | You will be taught this step by step. This is very useful not only if you don't have ender eyes to locate the stronghold, to dig down to it even without eyes, but can also be useful to avoid having to triangulate the stronghold once you get close to it if there is a village where the eye is pointing to. Once you get to the stronghold, if you find the portal room, you can use the lava in it to enter the Nether. You will be taught the optimal way to do that too, step by step.
+1597 | Once in the Nether, you will need to either go to the first structure you see, or if you don't see any, navigate the Nether properly. You will be taught how to navigate the Nether, and how the quadrant system works. Once you do find a structure, you will need to know how to loot it. Specifically, you will need to know how to navigate a Nether Fortress and how to trade with Piglins in a Bastion or get pearls from a warped forest.
+1598 | This is because to complete Minecraft, you will need blaze rod from a Nether Fortress and pearls, either from a Bastion through Piglin barter, or from a warped forest, where many Endermen spawn. To maximize the amount of pearls you will get from a warped forest in the minimum amount of time possible, there are special setups that you will also be taught.
+1599 | Once you get your ender eyes, you will need to go back to the overworld and find the stronghold. This shouldn't be too hard, considering that the closest stronghold to 0 0 usually are villages, and you already will know Sprinkz strat by now. So expect to be able to find a stronghold with one or two eye throws. Alternatively, you might even be already in the portal room or near the stronghold once you leave the Nether, if you entered from a village with a stronghold underneath.
+1600 | Once you find the stronghold, you will be able to enter the end and kill the dragon. To kill the dragon optimally, you will need three beds and some other resources, such as a spear or a projectile, and preferably obsidian or a water bucket. You will be taught how to kill the dragon step by step, and will be given two separate methods to do it based on the resources you have.
+1601 | Thank you for having downloaded this map. Welcome to the world of speedrunning. In this short introduction, you will see how a speedrun works and what you will learn in this map. This map is specifically thought for RSG (random seed glitchless), but the techniques you will learn will also be useful for any other speedrun category you will choose to pursue. Go to the marked point to continue.
+1602 | You completed the tutorial
+1603 | Redo the introduction
+1604 | Restart the introduction
+1605 | Go back to the lobby
+1606 | If you spawn at zero zero, positive positive is the only quadrant without any red zone. This means that it is the most likely quadrant where you will find a structure first. That said, whether it's convenient to go there very much depends on the terrain and whether there is a basalt delta or not.
+1607 | In basalt deltas, bastion cannot generate. In Java, if a bastion tries to generate in a basalt delta, a fortress will generate instead. In Bedrock, however, if the same happens, nothing will generate at all in that quadrant. Therefore, there is only a 33% chance that a structure will generate in a totally basalt quadrant.
+1608 | As you can see, in this quadrant no structure generated. This means that a bastion tried to generate somewhere but got cancelled due to basalt. This is why you should generally avoid basalt unless necessary.
+1609 | However, it should be pointed out that often, near the outskirts of basalt deltas, warped forest can spawn.
+1610 | If you are trying to find a warped forest, you should also keep in mind to avoid soul sand valleys: warped forests cannot generate next to that biome. If you are just trying to find a structure, any biome except basalt is fine, so you should go where the best terrain is, trying to avoid the red zones that separate the quadrants.
+1611 | Much like villages, the nether structures also generate in quadrants. The quadrants of the nether in Bedrock Edition are much larger than Java, which means that structures are rarer in Bedrock. Quadrants are 26 by 26 chunks large, and there is a four-chunk separation between each quadrant where no structure can generate. In the small reproduction of a nether you are standing on, the red concrete represents the area dividing the quadrants, while the various blocks represent the structures and biomes in the quadrants. In every quadrant, only one structure can generate, either a bastion (66% chance) or a fortress (33% chance).
+1612 | Restart the Quadrants tutorial
+1613 | Villages in Bedrock spawn in grids, as represented in the floor of this room. The green blocks are where a village would be able to spawn; red is where a village can't spawn. The length of the red line is always 8 chunks long in 1.18+, and 10 chunks in 1.16, while the green quadrant is 26×26 chunks in 1.18+ and 17×17 chunks in 1.16. You are currently facing pos z, as you would when spawning in a new world, and are standing where 0 0 would be. Therefore, the most likely direction to have a village from 0 0 is positive positive (pos pos).
+1614 | Understood
+1615 | Close this explanation
+1616 | Restart Village spawning
+1617 | Return to the Village Loot menu
+1618 | §aBack to the lobby
+1619 | bucket plus a pickaxe, axe and sword (each stone, iron or diamond).
+# [WORD ORDER]
+1620 | §7Loading practice area and generating a new {name} village...
+
+# [WORD ORDER]
+1621 | §7Practice goal: §f{number}
+
+1622 | Plains villages are the most linear and frequent. If there is a blacksmith in the village, go there first. How to play villages with blacksmiths is explained in more depth in the taiga tutorial. Since there is no blacksmith here, let's start by gathering some wood.
+1623 | You finished the tutorial and completed the loot of the village. You would now be almost ready to enter the Nether. In a real run, you'd still need to get a third bed and 5-7 extra logs.
+1624 | §eBreak the 3 marked logs.
+1625 | §eGreat, now you need to craft all your 3 logs into planks, then make one crafting table and 8 sticks
+1626 | §eNow place the crafting table and craft a wooden pickaxe
+1627 | §eBreak the marked blocks.
+1628 | §eNow craft a stone pickaxe.
+1629 | §eNow craft a stone sword and a stone axe.
+1630 | §eGet the marked bed inside the house.
+1631 | §eExit the house and go to the marked point.
+1632 | §eDig the marked block.
+1633 | §eNow dig the block below it.
+1634 | §eKill the iron golem. It won't be able to hit you from there.
+1635 | §eExit the hole and go to the marked point.
+1636 | §eGo to the next marked point.
+1637 | §eGather 7 hay bales.
+1638 | §eCraft a bucket and 21 bread.
+1639 | §eGo to the marked house.
+1640 | §eGet the marked bed inside.
+1641 | §aNice! You completed the §fPlains§a practice!
+1642 | §7Practice goal: §fbucket + pickaxe + axe + sword; tools may be stone, iron or diamond.
+1643 | Guided Plains village tutorial
+1644 | Get the required village loot
+1645 | Back to Village Loot
+1646 | Restart the guided tutorial
+1647 | Snowy villages are particular and quite common in recent versions. Food is scarce, but iron is a bit more common in these villages because there is a second house, aside from the blacksmith, that can contain iron. You are looking at said house right now. Enter that house to look at it.
+1648 | This house is pretty hard to recognize, as it is very similar to many others from the outside. However, you can see at the top there is a diorite wall sticking out, while in the other houses it is made of cobblestone. Now let's see how to play this village without iron.
+1649 | Since in these types of villages food is scarce, look for either carrots or houses with chests that may contain food. The two houses next to you contain both a bed and a chest with potentially food. Look at them now.
+1650 | You finished the Snowy village tutorial. In a real run, make sure to get food if possible, 3 beds, 5-7 logs, and craft the bucket.
+1651 | §eEnter the marked house.
+1652 | §eMine the marked block.
+1653 | §eKeep digging down.
+1654 | §eMine the last marked block.
+1655 | §ePlace your crafting table on the marked block.
+1656 | §eCraft a wooden pickaxe.
+1657 | §eGet 3 cobblestone.
+1658 | §eCraft a stone pickaxe.
+1659 | §eGet 5 cobblestone.
+1660 | §eCraft a stone axe and stone sword.
+1661 | §eMine your crafting table and get out of the hole.
+1662 | §eTake the marked bed inside the house.
+1663 | §eGo to the iron golem and dig the marked block.
+1664 | §eDig the block below it.
+1665 | §eKill the iron golem.
+1666 | §aNice! You completed the §fSnowy§a practice!
+1667 | Guided Snowy village tutorial
+1668 | Desert villages can be tricky if there is no wood nearby. In this case, we are assuming you will have a way to get wood. If you don't, you might be unable to enter the Nether from the village alone. This is because to get materials you'll need to kill the iron golem by hand and find a crafting table from a house and use the sticks from the dead bushes to make an iron pickaxe to start progressing. Therefore, you might not have iron for a bucket. If you have a tree, however, the looting process is similar to the one we already showed in the plains village.
+1669 | You completed the tutorial of the Desert village.
+1670 | §eBreak the marked block.
+1671 | §eBreak the next marked block.
+1672 | §eBreak the 3 marked blocks.
+1673 | §eDig down.
+1674 | §eBreak the block beside you.
+1675 | §ePlace the crafting table on the marked block.
+1676 | §eMake a wooden pickaxe.
+1677 | §eMake a stone pickaxe.
+1678 | §eMake a stone axe and stone sword.
+1679 | §eMine and pick up your crafting table, then get out of the hole.
+1680 | §eGo to the iron golem.
+1681 | §eDig down on the marked block.
+1682 | §eDig one block lower.
+1683 | §eGet the bed inside the house.
+1684 | §aNice! You completed the §fDesert§a practice!
+1685 | Guided Desert village tutorial
+1686 | In savanna villages, sometimes houses with chests can have buckets in them. This is the only major difference between savanna and other villages, aside from the fact that blacksmiths are much rarer in savanna. If you do get a bucket from a chest, then it is recommended to still kill the golem anyways to then craft an iron pickaxe to save time when mining later in the run. Besides that, the looting of savanna villages is analogous to the ones we already saw.
+1687 | That house has no chest.
+1688 | That house has a bed and a chest.
+1689 | Look at the roof of the two houses in front of you. The one farther away, with a pointed roof, is analogous to the one you just saw, with a chest and a bed. The one with the flatter roof, closer to you, is a house with no chest and no bed, and therefore you should avoid it. In savanna villages, you may also find terracotta houses. The one made of red terracotta has a bed and a chest, while the one made with orange terracotta has a bed and a crafting table.
+1690 | You completed the tutorial of the Savanna village.
+1691 | §eGo to the next marked house.
+1692 | §eGo to the marked viewpoint.
+1693 | §eGather the 3 marked logs.
+1694 | §eContinue to the marked house.
+1695 | §aNice! You completed the §fSavanna§a practice!
+1696 | §eUse the §fContinue§e echo shard to proceed.
+1697 | Guided Savanna village tutorial
+1698 | Taiga villages are interesting because, as the snowy ones, they do not have hay bales, and therefore you will need to find food in chests or from carrots. However, taiga villages can be the fastest, as they are much more likely to contain blacksmiths and iron houses. You can see a taiga blacksmith in front of you now. This tutorial will also serve as a tutorial on how to loot any village with free iron or more in a blacksmith chest.
+1699 | In a normal village, you will now get two logs and make a crafting table, 8 sticks, and an iron pickaxe directly. And then you will kill the golem and make a bucket. However, since we are in a taiga village, houses with chests can have wood logs already in them. Let's try to find one such house.
+1700 | This house has two beds, a chest, and a crafting table. Go inside and get the logs.
+1701 | In an actual one, remember to also get three beds and craft a bucket from the iron of the iron golem. If you get five iron from the iron golem, use the two extra to make an iron sword. If you get six or more iron from the original blacksmith, you can skip the golem kill entirely and just make an iron pickaxe and a bucket from those. Now let's see two other meaningful houses.
+1702 | The two houses on your left and on your right both have two beds and a chest. The one on your left has the chest on the lower floor, while the one on the right has the chest on the upper floor. You can explore them and then use the continue item to complete the tutorial.
+1703 | §eGo to the blacksmith.
+1704 | §eOpen the door and get the 3 iron from the chest.
+1705 | §eGet 3 spruce logs.
+1706 | §eNow craft an iron pickaxe.
+1707 | §aYou completed the §fTaiga§a tutorial!
+1708 | §aNice! You completed the §fTaiga§a practice!
+1709 | §eUse the §fContinue§e echo shard when you are ready to finish.
+1710 | Guided Taiga village tutorial
+1711 | This is always the second room of the stronghold.\n\nFrom here, the stronghold branches out in several paths: to know where the portal room (and libraries) is, consider that they need SPACE to generate.\n\nTherefore, you should always go to the most isolated way.
+1712 | In this scenario, both ways are fine, because they are both isolated and far apart.
+1713 | §aGo to the correct way
+1714 | In this scenario, the left and middle ways are clustered, so you should go to them last, and start from the top-right way.\n\nIf the portal room isn't there, you should try middle since it goes down a few blocks.
+1715 | In this scenario, all the ways are clustered, so you should start from the middle way since it at least goes down a few blocks.\n\nThen, try going in the direction that wouldn't risk intersecting with the other ways.
+1716 | Now, let's learn about hidden rooms: a hidden room can generate on an apparently closed wall if the other way in the same direction has a 3x3, 1 deep hole in it.\n\nIn this case, the top left way has the hole, so there can be a hidden room on bottom left.
+1717 | §cFind the hidden room
+1718 | This is the STARTER STAIRCASE. It's the beginning of the stronghold.\n\nGo to the next room.
+1719 | Go
+1720 | §aGo to the next room
+# [WORD ORDER]
+1721 | §{number}{number}
+
+# [WORD ORDER]
+1722 | §7Practice mode: §f{name}
+
+1723 | Skip TP Wait
+1724 | §fNow SHIFT and, looking at your crosshair exactly as in the image (top side of the button), place down 4 boats. If the boats do not place, stand a little farther away from the button and try again.
+1725 | §dEndermen killed: §f0§7/24
+1726 | §bLook at the Endermen from the tower to anger them while staying in the tower's safe spot.
+1727 | §bTip: while the Endermen are suffocating in the tower, use critical sword hits to finish them faster.
+# [WORD ORDER]
+1728 | §aNice! You completed the §fWarped Tower§a {number}!
+
+1729 | §ePlace cobblestone on all the marked blocks.
+1730 | §eNow place an oak button on the marked block. Place it on one of the sides of the block, NOT on the bottom.
+1731 | §ePlace all 4 boats around the button as shown.
+1732 | §ePillar up with cobblestone on the marked blocks.
+1733 | §ePlace cobblestone on the two marked blocks.
+1734 | §eFinish the roof by placing cobblestone on all the marked blocks.
+1735 | §aTower complete. Now let 24 Endermen die.
+# [WORD ORDER]
+1736 | §eTPing in {number} s...
+
+1737 | §cAn area with lots of trees and lava is a poor setup because your view is blocked, making Endermen much harder to spot.
+1738 | §6Also avoid building the tower close to another biome. Nearby biomes can take up mob spawns and reduce the number of Endermen spawning in the warped forest.
+1739 | §ePractice: build the Warped Tower and let 24 Endermen die.
+1740 | §bTo get enough pearls, set up in an open area with plenty of visibility. This area is a good example because you can see many Endermen from one spot.
+1741 | Guided Warped Tower tutorial
+1742 | Build the tower and kill 24 Endermen
+1743 | Back to tutorials
+1744 | §ePractice: navigate the generated bad section and reach the lava room.
+1745 | §fIn the bad section of a fortress, specific rooms can be used as landmarks to navigate toward the good section—the side containing the blaze spawner. You can distinguish the two sections by corridor height: the good section is 3 blocks tall, while the bad section is 4 blocks tall.
+# [WORD ORDER]
+1746 | §aNice! You completed the §fFortress Navigation§a {number}!
+
+1747 | The stairs you just climbed lead toward the good section by going up, just as you did. In the balcony room in front of you, the good section will be on the side opposite the balcony.
+1748 | Good, this is the way. The room in front of you is the Nether Wart room. In this case, the good section is always down the stairs—the exact opposite of the staircase pattern you just saw.
+1749 | Sometimes the good section of the fortress can be directly connected to one side of the balcony room, as you can see in front of you. This is rare, but worth keeping in mind.
+1750 | This is what the good section of the fortress looks like. Now turn back and take the correct direction from the balcony.
+1751 | Congratulations! You reached the lava room, which separates the bad section from the good section of the fortress.
+1752 | §7Loading practice area and generating a new fortress bad section...
+1753 | Fortress practice
+1754 | Guided fortress navigation tutorial
+1755 | Reach the lava room
+1756 | §sOpen Menu
+1757 | No hints, no particles
+# [WORD ORDER]
+1758 | §aNice! You completed the §f{name}§a {number}!
+
+# [WORD ORDER]
+1759 | §fCongratulations!\n§7You completed the {name} tutorial.\n§7What do you want to do next?
+
+1760 | Replay tutorial
+1761 | Run the guided tutorial again
+
