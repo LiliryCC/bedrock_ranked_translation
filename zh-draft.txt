@@ -47,47 +47,79 @@ WHAT THE {CURLY BRACKET} WORDS MEAN
 {setting} {value} {preference} {rule} {topic} {link} {gold} {beds}
    explained in the note on that line, or a word from the same section
 
+# ======================================================================
+# 中文翻译约定（译者注）
+# ----------------------------------------------------------------------
+# - 每条译文写在英文条目的下一行；以“# 译注：”开头的行是给维护者 / 校对者的说明。
+# - 称呼统一用“您”；“账号”统一不用“账户”（Windows 账户除外）。
+# - “Ranked”指竞技模式时译作“排位”，指平台本身时保留英文 Ranked。
+# - 中文与英文 / 数字 / 占位符之间加一个半角空格；占位符会被替换成中文时（如 {mode}、{topic}、{name} 生物群系名）不加空格。
+# - 中文句子用全角标点；{占位符}、\n、§ 颜色代码、/指令、网址、文件路径、版本号保持原样。
+# - Elo、RTA、IGT、FOV、DNF 保留英文；Minecraft 名词使用官方简体中文译名。
+# - 单复数两条写成一样的中文。
+# ======================================================================
+
 ========================================================================
 SECTION 01: Main menu and title screen
 ========================================================================
 # Buttons on the first screens of the game. "Ranked" is the competitive online mode.
 
 # Main button. Also replaces a button on the Minecraft title screen.
+# 译注：“Ranked”指竞技模式时统一译作“排位”；指平台本身（如“Ranked 名称”“下次打开 Ranked 时”）时保留英文 Ranked。
 0001 | Play Ranked
-搞耍
+开始排位
 
 # Title screen button that opens normal, unmodified Minecraft.
 0002 | Play Vanilla
+原版游戏
 
 # Used as a button (go to practice) and as a section name. Also used in: Tutorial map (optional, do this section last).
 0003 | Practice
+练习
 
 0004 | Return to Queue
+返回匹配队列
 0005 | Solo
-独奏
+单人
 # Short button for private rooms (a room for a match with friends).
+# 译注：短按钮，用了“私人房”三个字；位置够的话可改成“私人房间”（0084 用的是“私人房间”）。
 0006 | Private
+私人房
 
 0007 | Leaderboard
+排行榜
 0008 | Stats
+数据
+# 译注：Trophy 统一译作“奖杯”。也可考虑“成就”，但“成就”容易和 Minecraft 自带的成就系统混淆。
 0009 | Trophies
+奖杯
 # Gray button on the main menu that opens the donation page.
 0010 | Support Us
+支持我们
 
 0011 | Account
+账号
 0012 | Settings
+设置
 # Button: opens information pages. Also a small button on each row of the run history. Also used in: Tutorial map (optional, do this section last).
 0013 | Info
+信息
 
 0014 | Credits
+制作人员
 # Also used in: Tutorial map (optional, do this section last).
 0015 | Back
+返回
 
 0016 | Back to Game
+回到游戏
 0017 | Connecting...
+正在连接……
 0018 | Save and Quit
+保存并退出
 # Opens the normal Minecraft options during a game.
 0019 | Options
+选项
 
 
 ========================================================================
@@ -96,40 +128,69 @@ SECTION 02: Queue and version preference
 # Screen where the player joins the ranked queue. "1.16" and "1.18+" / "1.21+" are Minecraft versions: leave the numbers as they are.
 
 0020 | ENTER QUEUE
+开始匹配
 0021 | Version Preference
+版本偏好
 0022 | Only 1.16
+仅 1.16
 0023 | Prefer 1.16
+偏好 1.16
 0024 | No Preference
+无偏好
 0025 | Prefer 1.18+
+偏好 1.18+
 0026 | Only 1.18+
+仅 1.18+
 0027 | Prefer 1.21+
+偏好 1.21+
 0028 | Only 1.21+
+仅 1.21+
 0029 | You only play 1.16 matches.
+您只会进行 1.16 版本的对局。
 0030 | Against players with no preference you play 1.16. Against players who prefer 1.18+ the version is random.
+遇到无偏好的玩家时进行 1.16 对局；遇到偏好 1.18+ 的玩家时随机选择版本。
 0031 | 1.16 and 1.18+ have the same odds of being played.
+1.16 和 1.18+ 被选中的概率相同。
 0032 | Against players with no preference you play 1.18+. Against players who prefer 1.16 the version is random.
+遇到无偏好的玩家时进行 1.18+ 对局；遇到偏好 1.16 的玩家时随机选择版本。
 0033 | You only play 1.18+ matches.
+您只会进行 1.18+ 版本的对局。
 0034 | Against players with no preference you play 1.16. Against players who prefer 1.21+ the version is random.
+遇到无偏好的玩家时进行 1.16 对局；遇到偏好 1.21+ 的玩家时随机选择版本。
 0035 | 1.16 and 1.21+ have the same odds of being played.
+1.16 和 1.21+ 被选中的概率相同。
 0036 | Against players with no preference you play 1.21+. Against players who prefer 1.16 the version is random.
+遇到无偏好的玩家时进行 1.21+ 对局；遇到偏好 1.16 的玩家时随机选择版本。
 0037 | You only play 1.21+ matches.
+您只会进行 1.21+ 版本的对局。
 0038 | Warning: this leads to longer queue times, not only for you but for other players too. Not recommended.
+注意：这会延长排队时间，不仅是您，其他玩家也会受到影响。不建议选择。
 # [WORD ORDER] {preference} is one of the preference names above, for example "Only 1.16".
 0039 | Ranked - {preference}
+排位赛 - {preference}
 
 0040 | Waiting for another player...
+正在等待其他玩家……
 # [WORD ORDER]
 0041 | Time in queue: {time}
+已排队：{time}
 
 0042 | Leave Queue
+退出匹配
 0043 | While waiting...
+等待的时候……
 0044 | Play Solo
+来一局单人
 0045 | In Queue
+匹配中
 # Windows spelling, small label above a running clock.
+# 译注：0046/0047 的英文只有大小写不同（Windows / Android 两种写法），中文写成一样即可。
 0046 | Queued Since...
+已排队……
 
 # Android spelling of the same label.
 0047 | Queued since...
+已排队……
 
 
 ========================================================================
@@ -138,25 +199,42 @@ SECTION 03: Solo, Set Seed and Practice menus
 # "Seed" is the number that decides how a Minecraft world is generated.
 
 0048 | Random Mode
+随机模式
 0049 | Set Seed
+指定种子
 0050 | Enter seed...
+输入种子……
 0051 | Seed
+种子
 0052 | Find Seed
+查找种子
 0053 | Choose a mode for this seed
+为这个种子选择模式
 # [WORD ORDER]
 0054 | This seed is available in {count} modes. Choose one:
+这个种子可用于 {count} 种模式，请选一种：
 
 # Also used in: Tutorial map (optional, do this section last).
 0055 | Tutorials
+教程
 
 0056 | Nether Portal Practice
+下界传送门练习
+# 译注：One Cycle 是速通术语（一轮床爆就击杀末影龙），暂时保留英文。国内速通圈如果有常用说法（比如“一轮爆床”），可以替换。
 0057 | One Cycle Practice
+One Cycle 练习
+# 译注：“Realistic Bastion”译作“实战堡垒遗迹”；速通圈常把 Bastion 叫“猪堡”，如果想更口语可以改。
 0058 | Realistic Bastion Practice
+实战堡垒遗迹练习
 # Short Android button label for the mode "Packless Warped Forest".
+# 译注：Packless = 不加载 Bedrock Ranked 资源包。这里是 Android 短按钮，所以简写成“无包”；位置够的话可以写“无资源包”。
 0059 | Packless Warped
+无包诡异森林
 
 # Short Android button label for "Packless Buried Treasure". BT = Buried Treasure.
+# 译注：BT = Buried Treasure（官方译名“埋藏的宝藏”）。按钮短的话可以缩成“无包宝藏”。
 0060 | Packless BT
+无包埋藏的宝藏
 
 
 ========================================================================
@@ -165,81 +243,131 @@ SECTION 04: Match loading, countdown and pre-start chat
 # Shown while the world is prepared, before the run begins.
 
 0061 | Loading world...
+正在加载世界……
 0062 | Waiting for world startup...
+正在等待世界启动……
 0063 | Leaving world...
+正在离开世界……
 0064 | Get ready...
+准备……
 0065 | Preparing world
+正在准备世界
 # [WORD ORDER] Windows. {seconds} counts down 5, 4, 3, 2, 1.
 0066 | Starting in {seconds}...
+{seconds} 秒后开始……
 
 # [WORD ORDER] Android version, no dots.
 0067 | Starting in {seconds}
+{seconds} 秒后开始
 
 # [WORD ORDER] {mode} is a game mode name. "Packless" means played without the Bedrock Ranked resource packs.
+# 译注：{mode} 会被替换成第 27 节的中文模式名（如“诡异森林”），所以前面不加空格。
 0068 | Packless {mode}
+无资源包{mode}
 
 0069 | Opponent chat
+对手聊天
 0070 | Message your opponent while the world loads.
+世界加载期间，您可以给对手发消息。
 0071 | Message your opponent
+给对手发消息
 0072 | Send
+发送
 0073 | Request cancel
+请求取消
 # Used on many screens: closes a dialog without doing anything, and also cancels a match before it starts.
 0074 | Cancel
+取消
 
 0075 | Your opponent must accept the request.
+需要对手同意这个请求。
 0076 | Only cancel for problems. Repeated cancellations may lead to a ban.
+请仅在遇到问题时取消。频繁取消可能会导致封禁。
 0077 | Match commands unlock at the start.
+对局开始后即可使用对局指令。
 0078 | Match commands are unavailable until the start.
+对局开始前无法使用对局指令。
 0079 | Cancel requested
+已请求取消
 0080 | World could not be opened
+无法打开世界
 0081 | World could not be opened.
+无法打开世界。
 0082 | Retry loading
+重新加载
 0083 | Cancel match
+取消对局
 0084 | Private Room
+私人房间
 
 ========================================================================
 SECTION 05: In-game: pause, forfeit, requests and on-screen messages
 ========================================================================
 
 0085 | Paused
+已暂停
 0086 | Resume
+继续游戏
 0087 | Reset seed
+重置种子
 0088 | Change seed
+更换种子
 0089 | Vote to change seed
+投票更换种子
 0090 | Seed change
+更换种子
 # Used as a button (give up the run) and as a result word (the run was given up). If one word cannot fit both, tell us in a # note.
+# 译注：“认输”既能当按钮（主动认输），也能当结果（已认输），一个词就够用。
 0091 | Forfeit
+认输
 
 # Used as a button (ask for a draw) and as a result word (a tied match). If one word cannot fit both, tell us in a # note.
+# 译注：当结果时“平局”很自然；当按钮时意思是“提议平局”，单写“平局”略显生硬。如果按钮和结果可以分开，建议按钮用“求和”或“提议平局”。
 0092 | Draw
+平局
 
 # Accept a request from the opponent.
 0093 | Accept
+接受
 
 0094 | Deny
+拒绝
 # [WORD ORDER] {request} is a raw word from the server: change, draw or cancel. It is not translated today. See section "Server messages: game modes and stages".
+# 译注：{request} 目前是服务器发来的英文原词（change / draw / cancel），所以玩家实际会看到“已请求 draw”这样中英混排的文字。
 0095 | {request} requested
+已请求 {request}
 
 0096 | Forfeit this run?
+确定要认输吗？
 0097 | You will lose this match.
+您将输掉这场对局。
 0098 | This will end your current run.
+这会结束您当前这一局。
 0099 | This cannot be undone.
+此操作无法撤销。
 # RTA = real-time attack: the clock never stops, even when paused. Commonly left as RTA.
 0100 | CAREFUL: Ranked matches are timed with RTA! This means your timer is ticking right now!
+注意：排位赛使用 RTA 计时！也就是说，您的计时器现在就在走！
 
 # [WORD ORDER] In-game chat, Windows. Keep /accept and /deny exactly: they are commands. {request} is change, draw or cancel.
 0101 | Opponent requests /{request}. Reply /accept or /deny within 30 seconds.
+对手请求 /{request}。请在 30 秒内回复 /accept 或 /deny。
 
 0102 | Request sent. Waiting for opponent (30 seconds).
+请求已发送，正在等待对手回应（30 秒）。
 # [WORD ORDER] In-game chat, Android.
 0103 | Request sent: /{request}
+请求已发送：/{request}
 
 # [WORD ORDER] In-game chat, Android. Keep /accept and /deny exactly.
 0104 | Opponent requested /{request}. /accept or /deny
+对手请求 /{request}。/accept 或 /deny
 
 0105 | Request closed
+请求已关闭
 # [WORD ORDER] In-game chat and history rows.
 0106 | Seed: {seed}
+种子：{seed}
 
 
 ========================================================================
@@ -247,77 +375,122 @@ SECTION 06: Match end and results
 ========================================================================
 
 0107 | Run Ended
+本局结束
 0108 | Run Finished
+已通关
 0109 | Run finished
+已通关
 0110 | Finished
+已完成
 0111 | You won
+您赢了
 0112 | You lost
+您输了
 0113 | You Won
+您赢了！
 0114 | You Lost
+您输了
 0115 | Run Forfeited
+已认输
 0116 | Waiting for Result
+等待结果
 0117 | Game Canceled
+对局已取消
 # [WORD ORDER]
 0118 | Teleporting to lobby in {seconds}...
+{seconds} 秒后传送回大厅……
 
 # [WORD ORDER] The final "s" means seconds.
 0119 | Returning to menu in {seconds}s
+{seconds} 秒后返回菜单
 
 0120 | Waiting for your opponent's response
+正在等待对手回应
 0121 | Waiting for your opponent to report their time.
+正在等待对手上报成绩。
 0122 | Waiting for the server to confirm the result
+正在等待服务器确认结果
 0123 | Waiting for the server to confirm the result.
+正在等待服务器确认结果。
 0124 | Your result has been submitted
+您的成绩已提交
 0125 | Your result has been submitted.
+您的成绩已提交。
 0126 | You can return to the menu while the result is confirmed.
+结果确认期间，您可以先返回菜单。
 0127 | Return to Menu
+返回菜单
 0128 | Replay still uploading...
+回放仍在上传……
 0129 | Replay recording incomplete
+回放录制不完整
 # [WORD ORDER] The final "s" means seconds.
 0130 | Automatic win in {seconds}s
+{seconds} 秒后自动判胜
 
 0131 | Play Another Game
+再来一局
 0132 | Back to Menu
+返回菜单
 0133 | Match Info / Report
+对局信息 / 举报
 0134 | Run Details
+本局详情
 0135 | No Replay (Solo)
+无回放（单人）
 # Also used in: Server messages: errors.
 0136 | Replay unavailable
+回放不可用
 
 0137 | Watch Replay
+观看回放
 # Controller hint. Keep the three-space gaps between the parts.
 0138 | D-pad / Stick: select   X / A: use   O / B: back
+方向键 / 摇杆：选择   X / A：确认   O / B：返回
 
 # Controller hint.
 0139 | Triangle / Y: Options
+三角 / Y：选项
 
 # Keyboard hint. Keep the three-space gaps between the parts.
 0140 | Number / Scroll: select   Right click: use
+数字键 / 滚轮：选择   右键：确认
 
 # [WORD ORDER] Elo is the skill rating; usually not translated. {change} looks like +22 or -15.
 0141 | {elo} Elo ({change})
+{elo} Elo ({change})
 
 # [WORD ORDER] The player finished their placement games and now has a visible rating.
 0142 | {elo} Elo (placed)
+{elo} Elo（已定级）
 
 # [WORD ORDER] Android version of the line above.
 0143 | {elo} (placed)
+{elo}（已定级）
 
 # The rating stays hidden until the placement games are done.
 0144 | ??? Elo
+??? Elo
 
 # [WORD ORDER] Shown on player cards at match start and end.
 0145 | {elo} Elo
+{elo} Elo
 
 # Between two player cards: "versus".
 0146 | VS
+VS
 
 0147 | Ranked personal best
+排位个人最佳
 0148 | Trophy unlocked
+奖杯已解锁
 0149 | New trophy
+新奖杯
 0150 | Win streak
+连胜
 # [WORD ORDER]
 0151 | {count} ranked wins in a row
+排位 {count} 连胜
 
 
 ========================================================================
@@ -326,39 +499,61 @@ SECTION 07: Replays
 # A replay is a recording of a run that can be watched again.
 
 0152 | Replays
+回放
 0153 | Loading replays...
+正在加载回放……
 0154 | No replays available.
+暂无回放。
 0155 | Watch
+观看
 0156 | Import Replay
+导入回放
 0157 | Switch Player
+切换玩家
 0158 | Pause / Resume
+暂停 / 继续
 0159 | Pause
+暂停
 0160 | Faster
+加速
 0161 | Slower
+减速
 0162 | Restart Replay
+从头播放
+# 译注：Split 是速通术语，指分段计时点（例如进入下界、找到要塞），这里译作“分段”。
 0163 | Next Split
+下一分段
 # [WORD ORDER] Replay stored on this device.
 0164 | {mode} (Local)
+{mode}（本地）
 
 # [WORD ORDER] Replay stored online.
 0165 | {mode} (Server)
+{mode}（服务器）
 
 # Android replay button: switch player. Also a leaderboard column.
 0166 | Player
+玩家
 
 # Android replay button. Also used in: Tutorial map (optional, do this section last).
 0167 | Restart
+重新开始
 
 # Android replay button.
 0168 | Exit
+退出
 
 0169 | Hide Options
+隐藏选项
 0170 | Show Options
+显示选项
 # [WORD ORDER] Replay status line. {speed} is like 2 or 0.5.
 0171 | Paused | {speed}x
+已暂停 | {speed}x
 
 # [WORD ORDER]
 0172 | Playing | {speed}x
+播放中 | {speed}x
 
 
 ========================================================================
@@ -366,67 +561,116 @@ SECTION 08: Leaderboard, Stats and run history
 ========================================================================
 
 0173 | Search player name...
+搜索玩家名称……
 0174 | My Position
+我的排名
 0175 | My Stats
+我的数据
 0176 | Elo
+Elo
 0177 | Wins
+胜场
 0178 | Games
+场次
 0179 | Last 5
+近 5 场
 0180 | No players found.
+未找到玩家。
 0181 | Loading players...
+正在加载玩家……
 0182 | Loading player...
+正在加载玩家信息……
 0183 | Search players
+搜索玩家
 0184 | Search
+搜索
 # [WORD ORDER]
 0185 | Results for: {search}
+搜索结果：{search}
 
 0186 | Searching...
+正在搜索……
 0187 | No completed runs yet.
+还没有已完成的对局。
 0188 | Win
+胜
 0189 | Loss
+负
 0190 | Replay
+回放
 0191 | Previous
+上一页
 # Also used in: Tutorial map (optional, do this section last).
+# 译注：这里按翻页理解，译作“上一页 / 下一页”。但 0192 也会在教程地图里用到，那里更适合“下一步”。如果教程里显得别扭，可以统一改成“下一个”。
 0192 | Next
+下一页
 
 # Highest rating ever reached.
 0193 | Peak Elo
+最高 Elo
 
 0194 | Peak
+最高
 0195 | Ranked Games
+排位场次
 0196 | Win rate
+胜率
 0197 | Win Rate
+胜率
 0198 | Best streak
+最佳连胜
 0199 | Best Win Streak
+最高连胜
 0200 | Win Streak
+连胜
 # [WORD ORDER]
 0201 | Match number: 0 - {count}
+场次：0 - {count}
 
 # [WORD ORDER] Label on the rating graph, Android.
 0202 | Match {count}
+第 {count} 场
 
+# 译注：推测这是 Elo 曲线图的起点标签，所以译作“起点”。如果它其实是“开始”按钮，请改成“开始”。
 0203 | Start
+起点
 0204 | No Elo history yet.
+暂无 Elo 记录。
 0205 | Ranked Results
+排位战绩
 0206 | No games
+暂无对局
 # [WORD ORDER]
 0207 | {count} Wins
+{count} 胜
 
 # [WORD ORDER]
 0208 | {count} Losses
+{count} 负
 
 0209 | Run History
+对局记录
 0210 | Stats per Mode
+各模式数据
 0211 | Report Player
+举报玩家
 0212 | Ranked
+排位
 0213 | Both
+全部
 0214 | Losses
+负场
 0215 | Completed
+完成
 0216 | Forfeits
+认输
 0217 | Best Time
+最佳用时
 0218 | Average Time
+平均用时
 # Label before a dropdown: show ranked, solo or both.
 0219 | Show
+显示
 
 
 ========================================================================
@@ -434,134 +678,223 @@ SECTION 09: Match info and player reports
 ========================================================================
 
 0220 | Loading match details...
+正在加载对局详情……
 0221 | Retry
+重试
 0222 | Available when the run ends
+本局结束后可查看
 # [WORD ORDER] {status} is a raw word from the server. See section "Server messages: game modes and stages".
 0223 | Status: {status}
+状态：{status}
 
 # [WORD ORDER] {result} is a raw word from the server, for example finished or forfeit.
 0224 | Result: {result}
+结果：{result}
 
 # [WORD ORDER]
 0225 | Final Time: {time}
+最终用时：{time}
 
 # [WORD ORDER]
 0226 | Elo: {value}
+Elo：{value}
 
 0227 | Match Chat
+对局聊天
 0228 | No chat messages available.
+暂无聊天消息。
 0229 | Chat becomes public when the match ends.
+对局结束后，聊天记录会公开。
+# 译注：推测 Match Thread 是 Discord 上为这场对局开的讨论串（thread），所以译作“讨论帖”。
 0230 | Open Match Thread
+打开对局讨论帖
 0231 | Open Match on Website
+在网站上查看对局
 0232 | Reason: Cheating
+原因：作弊
 0233 | Reason: Bad Conduct
+原因：不当行为
 0234 | Reason
+原因
 0235 | Cheating
+作弊
 0236 | Bad Conduct
+不当行为
 0237 | Explanation
+详细说明
 0238 | Submit Report
+提交举报
 0239 | Submitting...
+正在提交……
 0240 | Report submitted.
+举报已提交。
 
 ========================================================================
 SECTION 10: Account and sign-in
 ========================================================================
 
 0241 | Sign In
+登录
 0242 | Register
+注册
 0243 | Recover
+找回
 0244 | Name
+名称
 0245 | Password
+密码
 0246 | Recovery token
+恢复令牌
 0247 | New password (10+ characters)
+新密码（至少 10 个字符）
 0248 | New password
+新密码
 0249 | Create Account
+创建账号
 0250 | Recover Account
+找回账号
 0251 | Sign In with Discord
+使用 Discord 登录
 0252 | Discord login is not configured on this server.
+此服务器未配置 Discord 登录。
 0253 | Please wait...
+请稍候……
 0254 | Save your account recovery token. It can recover your account if you lose your password or Discord account.
+请保存好您的账号恢复令牌。如果您忘记了密码或丢失了 Discord 账号，可以用它找回账号。
 0255 | Copy Token
+复制令牌
 0256 | I Saved It
+我已保存
 0257 | Choose your Bedrock Ranked name.
+为您的 Bedrock Ranked 账号取个名字吧。
 0258 | Choose your Ranked name
+取个 Ranked 名称
 # Also used in: Tutorial map (optional, do this section last).
 0259 | Continue
+继续
 
 # The text \n means "new line". Keep it in place.
 0260 | Save your recovery token privately:\n{token}
+请私下妥善保存您的恢复令牌：\n{token}
 
 # The text \n means "new line". Keep it in place.
 0261 | Save your new recovery token privately:\n{token}
+请私下妥善保存您的新恢复令牌：\n{token}
 
 0262 | Save your recovery token privately. It restores your account if you lose access.
+请私下妥善保存您的恢复令牌。万一无法登录，可以用它恢复账号。
 0263 | Finish signing in, then return here.
+请完成登录，然后回到这里。
 0264 | Finish Discord login in your browser.
+请在浏览器中完成 Discord 登录。
 0265 | Discord linked successfully.
+Discord 关联成功。
 0266 | Sign in from Account first.
+请先在“账号”页面登录。
 0267 | Session expired. Sign in again.
+登录已过期，请重新登录。
 0268 | Loading account...
+正在加载账号……
 # Also used in: Country flag names.
 0269 | Unknown
+未知
 
 0270 | Today
+今天
 # [WORD ORDER] [PLURAL]
+# 译注：中文没有单复数之分，单数和复数两条写成一样即可。
 0271 | {count} day
+{count} 天
 
 # [WORD ORDER] [PLURAL]
 0272 | {count} days
+{count} 天
 
 # [WORD ORDER] [PLURAL]
 0273 | {count} month
+{count} 个月
 
 # [WORD ORDER] [PLURAL]
 0274 | {count} months
+{count} 个月
 
 # [WORD ORDER] [PLURAL]
 0275 | {count} year
+{count} 年
 
 # [WORD ORDER] [PLURAL]
 0276 | {count} years
+{count} 年
 
 0277 | Account age
+注册时长
 0278 | Rank
+段位
 0279 | Discord: linked
+Discord：已关联
 0280 | Discord: not linked
+Discord：未关联
 0281 | Link Discord
+关联 Discord
 0282 | Ranked name
+Ranked 名称
 0283 | Save Name
+保存名称
 0284 | Name saved.
+名称已保存。
 0285 | Your Stats
+您的数据
 0286 | Sign Out
+退出登录
 0287 | Lost Discord access? Sign out, choose Recover, and use your recovery token to set a password and detach the lost Discord account.
+无法使用 Discord 账号了？请先退出登录，选择“找回”，然后用恢复令牌设置密码，并解除与原 Discord 账号的关联。
 0288 | Save
+保存
 
 ========================================================================
 SECTION 11: Profile: pronouns and flags
 ========================================================================
 
+# 译注：【人称】英文的 pronouns 指个人资料里自选的人称代词（如 she/her、they/them）。中文口语里“他 / 她 / 它”读音相同，书面上也没有主格、宾格之分，这个功能在中文里不太常见。这里直译为“代词”；也可以考虑“人称”或“称呼代词”。
 0289 | Add pronouns
+添加代词
 0290 | Pronouns
+代词
 0291 | Country flag
+国家/地区旗帜
+# 译注：Pride flag 一般译作“骄傲旗帜”或“彩虹旗”。由于第 32 节里还有各种非彩虹的旗帜，这里用“骄傲旗帜”。
 0292 | Pride flag
+骄傲旗帜
 0293 | Leave both empty to hide pronouns
+两栏都留空即可隐藏代词
 0294 | Leave both fields empty to hide pronouns.
+两栏都留空即可隐藏代词。
 0295 | None
+无
 0296 | Search flags
+搜索旗帜
 # [WORD ORDER] Tooltip. {field} is a raw word: name, pronouns, country or pride.
+# 译注：{field} 是服务器发来的英文原词（name / pronouns / country / pride），所以界面上会显示成“编辑 pronouns”这样中英混排。
 0297 | Edit {field}
+编辑 {field}
 
 # First pronoun field, for example "they".
+# 译注：【人称】英文的第一栏和第二栏分别是主格和宾格（they / them），中文里这两种形式是一样的。建议在中文里改成“代词 / 所有格”的用法（例如“TA / TA的”“她 / 她的”），所以栏位名用中性的“第一栏 / 第二栏”。
 0298 | First
+第一栏
 
 # Second pronoun field, for example "them".
 0299 | Second
+第二栏
 
 # Example text inside the empty first pronoun field. Use an example pronoun in your language.
+# 译注：【人称】示例文字用中性的“TA”，第二栏示例用“TA的”，这样两栏显示出来就是“TA/TA的”。也可以改成“她 / 她的”“他 / 他的”。如果维护者希望第二栏照样填宾格，那第二栏示例也写“TA”就行。
 0300 | they
+TA
 
 # Example text inside the empty second pronoun field. Use an example pronoun in your language.
 0301 | them
+TA的
 
 
 ========================================================================
@@ -569,76 +902,123 @@ SECTION 12: Settings
 ========================================================================
 
 0302 | Loading settings...
+正在加载设置……
 0303 | Waiting for Minecraft's settings
+正在等待 Minecraft 设置
 0304 | Returning to menu...
+正在返回菜单……
 0305 | Closing settings...
+正在关闭设置……
 0306 | Saving and closing your world...
+正在保存并关闭您的世界……
 0307 | Storage Settings
+存储设置
 # Opens the normal Minecraft settings.
 0308 | Vanilla settings
+原版设置
 
 0309 | Match presentation
+对局界面
 0310 | Solo Timer: IGT
+单人计时：IGT
 0311 | Solo Timer: RTA
+单人计时：RTA
 # Android, when the player is not signed in.
 0312 | Solo Timer: Sign In First
+单人计时：请先登录
 
 # [WORD ORDER] Used with every on/off setting listed under this entry.
 0313 | {setting}: On
+{setting}：开
 
 # [WORD ORDER] Used with every on/off setting listed under this entry.
 0314 | {setting}: Off
+{setting}：关
 
 # [WORD ORDER] Android. The change applies after the game restarts.
 0315 | {setting}: On (after restart)
+{setting}：开（重启后生效）
 
 # [WORD ORDER]
 0316 | {setting}: Off (after restart)
+{setting}：关（重启后生效）
 
 0317 | Skip end poem
+跳过终末之诗
 0318 | Save Local Replays
+保存本地回放
 0319 | Record Solo
+录制单人游戏
 0320 | Performance log
+性能日志
 0321 | Lighter graphics
+简化画面
 0322 | Fast loading
+快速加载
 0323 | Match animations
+对局动画
 0324 | Match sounds
+对局音效
 0325 | Trophy notifications
+奖杯通知
 0326 | Sound when minimized
+最小化时播放声音
 0327 | Keep Latest 5 Ranked/Solo Worlds
+保留最近 5 个排位/单人世界
 # [WORD ORDER] Used for Render Distance, FOV and Ranked Music Volume. {value} is a number, or "Loading...".
 0328 | {setting}: {value}
+{setting}：{value}
 
 0329 | Render Distance
+渲染距离
 # Field of view. Commonly left as FOV.
 0330 | FOV
+FOV
 
 0331 | Ranked Music Volume
+排位音乐音量
 0332 | Loading...
+加载中……
 # [WORD ORDER]
 0333 | Match sound volume: {percent}%
+对局音效音量：{percent}%
 
 # [WORD ORDER]
 0334 | Render resolution: {percent}% (after restart)
+渲染分辨率：{percent}%（重启后生效）
 
 0335 | Performance
+性能
 0336 | Export performance logs
+导出性能日志
 0337 | Sign in to back up Minecraft settings
+登录后即可将 Minecraft 设置备份到账号
 0338 | Checking account settings backup…
+正在检查账号中的设置备份……
 0339 | Minecraft settings backed up to your account
+Minecraft 设置已备份到您的账号
 0340 | Saved settings will apply next time you open Ranked
+已保存的设置将在下次打开 Ranked 时生效
 0341 | Saved settings will restore when you return to the menu
+返回菜单时将恢复已保存的设置
 0342 | Settings backup unavailable. Retrying…
+设置备份暂时不可用，正在重试……
 0343 | Could not finish first account settings backup
+首次账号设置备份未能完成
 # [WORD ORDER] Performance summary. FPS = frames per second. "1% low" is a technical measure.
+# 译注：“1% low”是性能测试术语（帧率最低的 1% 帧的平均值），玩家一般直接说“1% low”，所以保留英文。
 0344 | Last world: {fps} FPS avg, {low} 1% low, {worst} worst second ({seconds} s)
+上个世界：平均 {fps} FPS，1% low {low}，最差一秒 {worst}（{seconds} 秒）
 
 0345 | No performance logs yet
+暂无性能日志
 # [WORD ORDER] Keep the folder path exactly.
 0346 | Exported {count} log(s) to Documents/BedrockRanked/Performance
+已导出 {count} 个日志到 Documents/BedrockRanked/Performance
 
 # Android: the address of the Ranked server.
 0347 | Server
+服务器
 
 
 ========================================================================
@@ -647,40 +1027,65 @@ SECTION 13: Storage settings
 # Deleting files saved on the device.
 
 0348 | Reading storage...
+正在读取存储空间……
 0349 | Preparing storage scan...
+正在准备扫描存储空间……
 0350 | Scanning storage...
+正在扫描存储空间……
 0351 | ETA: estimating...
+剩余时间：估算中……
 # [WORD ORDER]
 0352 | ETA: about {seconds}s
+剩余时间：约 {seconds} 秒
 
 # [WORD ORDER] {size} looks like 1.20 GB.
 0353 | Worlds: {size} ({count})
+世界：{size}（{count} 个）
 
 # [WORD ORDER]
 0354 | Local Replays: {size} ({count})
+本地回放：{size}（{count} 个）
 
 # [WORD ORDER]
 0355 | {size} - {count} worlds
+{size} - {count} 个世界
 
 # [WORD ORDER]
 0356 | {size} - {count} replays
+{size} - {count} 个回放
 
 0357 | Worlds
+世界
 0358 | Local Replays
+本地回放
 0359 | Delete All Worlds
+删除所有世界
 0360 | Delete All Solo Worlds
+删除所有单人世界
 0361 | Delete All Ranked Worlds
+删除所有排位世界
 0362 | Delete All Practice Worlds
+删除所有练习世界
 0363 | Open World Folder
+打开世界文件夹
 0364 | Delete All Local Replays
+删除所有本地回放
 0365 | Delete Solo Replays
+删除单人回放
 0366 | Delete Ranked Replays
+删除排位回放
 0367 | Keep Latest 5 Replays
+保留最近 5 个回放
 0368 | Open Local Replay Folder
+打开本地回放文件夹
 0369 | Turn off automatic world cleanup?
+要关闭自动清理世界吗？
 0370 | Delete the selected local files? This cannot be undone.
+要删除所选的本地文件吗？此操作无法撤销。
 0371 | Turn Off
+关闭
 0372 | Confirm storage cleanup
+确认清理存储空间
 
 ========================================================================
 SECTION 14: Private rooms
@@ -688,166 +1093,287 @@ SECTION 14: Private rooms
 # A room lets friends race with their own rules. The host is the player who created the room.
 
 0373 | Create a room
+创建房间
 0374 | Join a room
+加入房间
 0375 | Create Room
+创建房间
 0376 | Room code or link
+房间码或链接
 0377 | 8-character code
+8 位房间码
 0378 | Join Room
+加入房间
 0379 | Join
+加入
 # [WORD ORDER]
 0380 | Join {host}'s room
+加入 {host} 的房间
 
 # [WORD ORDER]
 0381 | {host} invited you
+{host} 邀请了您
 
+# 译注：私人房间里的 Race 统一译作“比赛”，和排位的“对局”区分开。
 0382 | Race cancelled
+比赛已取消
 0383 | Race finished
+比赛已结束
 0384 | Waiting for players
+等待玩家加入
 0385 | Getting ready
+准备中
 0386 | Race in progress
+比赛进行中
 # [WORD ORDER]
 0387 | {count}/{max} players
+{count}/{max} 名玩家
 
 0388 | Save Rules
+保存规则
 0389 | New code
+更换房间码
 0390 | Close Room
+关闭房间
 0391 | Leave Room
+离开房间
 0392 | Start Race
+开始比赛
 0393 | Play Again
+再来一局
 0394 | Cancel Race
+取消比赛
 0395 | Results
+结果
 0396 | Lobby
+大厅
 0397 | Rules
+规则
 0398 | Chat
+聊天
 0399 | Invite
+邀请
 0400 | Room chat
+房间聊天
 0401 | No messages yet.
+还没有消息。
 0402 | Message everyone
+发消息给所有人
 0403 | Message everyone in the room
+给房间里的所有人发消息
 0404 | World & players
+世界与玩家
 0405 | Seed & players
+种子与玩家
 0406 | Scoring & votes
+计分与投票
 0407 | Seed type
+种子类型
 0408 | Random 1.16
+随机 1.16
 0409 | Random 1.21+
+随机 1.21+
 0410 | Both Versions
+两种版本
+# 译注：0411–0413 推测是“标签 + 选项”的组合（Players compete: Individually / In teams），所以译作“参赛方式：个人 / 组队”。如果它们会被拼成一整句，请告诉我们。
 0411 | Players compete
+参赛方式
 0412 | Individually
+个人
 0413 | In teams
+组队
 0414 | Maximum players
+最大玩家数
 0415 | Number of teams
+队伍数量
 0416 | Time limit (minutes)
+时间限制（分钟）
 0417 | 0 = no time limit
+0 = 不限时
 0418 | Starting seed
+起始种子
 # Shown in the empty seed field: the seed will be chosen at random.
 0419 | Random
+随机
 
 0420 | Optional. Ranked seed list only.
+可选。仅限排位种子列表中的种子。
 0421 | Optional. Must be in the ranked seed list.
+可选。必须是排位种子列表中的种子。
+# 译注：英文是“End the race after ___”，后面接 0424/0426 等选项。中文没法拼成一句，所以改写成标签“比赛结束条件”，后面跟“所有人完成”“前 X 名玩家完成”。
 0422 | End the race after
+比赛结束条件
 0423 | Finishers needed per team
+每队所需完成人数
 0424 | Everyone finishes
+所有人完成
 0425 | All teammates finish
+全体队员完成
 0426 | First X players finish
+前 X 名玩家完成
 0427 | Fastest X teammates finish
+每队最快的 X 名队员完成
 0428 | Finishers per team (X)
+每队完成人数（X）
 0429 | Number of finishers (X)
+完成人数（X）
 0430 | Team time
+团队用时
 0431 | Average finish time
+平均完成用时
 0432 | Last required finisher
+最后一名计入者的用时
 0433 | Votes to change seed (%)
+更换种子所需票数（%）
 0434 | Team time: add counted times, then divide by finishers.
+团队用时：将计入的用时相加，再除以完成人数。
 0435 | Team time: the slowest counted finisher.
+团队用时：取计入者中最慢的用时。
 0436 | Add the counted times, then divide by finishers.
+将计入的用时相加，再除以完成人数。
 0437 | Use the slowest time among counted finishers.
+取计入者中最慢的用时。
 0438 | Race ends when everyone finishes.
+所有人完成后比赛结束。
 0439 | Everyone on each team must finish.
+每队所有队员都必须完成。
 # [WORD ORDER]
 0440 | Race ends after {count} players finish.
+{count} 名玩家完成后比赛结束。
 
 # [WORD ORDER]
 0441 | The fastest {count} on each team must finish.
+每队需有 {count} 名队员完成，按最快的成绩计入。
 
 # [WORD ORDER]
 0442 | Seed votes last 30 seconds. {players} players need {votes} votes.
+种子投票持续 30 秒。{players} 名玩家需要 {votes} 票。
 
 # [WORD ORDER]
 0443 | Rounded up. {players} players need {votes} votes.
+向上取整。{players} 名玩家需要 {votes} 票。
 
 # DNF = did not finish. Commonly left as DNF.
 0444 | Teams missing a required finisher get DNF.
+未达到所需完成人数的队伍记为 DNF。
 
 0445 | Seed votes last 30 seconds.
+种子投票持续 30 秒。
 0446 | Changes apply to the next race.
+更改将在下一场比赛生效。
 0447 | Room code
+房间码
 0448 | Copy link
+复制链接
 0449 | Link copied
+链接已复制
 0450 | Copy room link
+复制房间链接
 0451 | Invitation sent
+邀请已发送
 0452 | Invite by username
+通过用户名邀请
 0453 | Player name
+玩家名称
 0454 | Share the code or search for a player.
+分享房间码，或搜索玩家来邀请。
 0455 | No other players found.
+没有找到其他玩家。
 0456 | Players
+玩家
 0457 | Team time: average.
+团队用时：平均值。
 0458 | Team time: last counted finisher.
+团队用时：最后一名计入者。
 # [WORD ORDER]
 0459 | Team {number}
+队伍 {number}
 
 # [WORD ORDER]
 0460 | {name} (Host)
+{name}（房主）
 
 # Small label next to the room creator's name.
 0461 | Host
+房主
 
 0462 | Forfeited
+已认输
 # Did not finish.
 0463 | DNF
+DNF
 
 # [WORD ORDER]
 0464 | {name}: DNF
+{name}：DNF
 
 # Also used in: Windows launcher and installer.
+# 译注：这一条在私人房间（玩家已准备好）和 Windows 启动器（程序准备就绪）里都会用到，所以选了两边都说得通的“就绪”。
 0465 | Ready
+就绪
 
 0466 | Not ready
+未就绪
 0467 | Remove
+移除
 0468 | Confirm remove
+确认移除
 0469 | Remove player?
+要移除玩家吗？
 0470 | Remove this player?
+要移除这名玩家吗？
 0471 | Race rules
+比赛规则
 0472 | Format
+赛制
 0473 | Individual race
+个人赛
 0474 | Time limit
+时间限制
 0475 | Seed vote
+种子投票
 0476 | Confirm
+确认
 # [WORD ORDER]
 0477 | {count} teams
+{count} 支队伍
 
 # [WORD ORDER] [PLURAL]
 0478 | {count} minutes
+{count} 分钟
 
 # [WORD ORDER]
 0479 | {percent}% of players
+{percent}% 的玩家
 
 # [WORD ORDER] {rule} is "average" or "last counted finisher".
 0480 | Team time: {rule}
+团队用时：{rule}
 
 0481 | average
+平均值
 0482 | last counted finisher
+最后一名计入者
 # [WORD ORDER]
 0483 | Change seed: {yes}/{needed} votes
+更换种子：{yes}/{needed} 票
 
 # [WORD ORDER]
 0484 | Change seed {yes}/{needed} votes
+更换种子 {yes}/{needed} 票
 
 # [WORD ORDER]
 0485 | Change seed {yes}/{needed} votes (30-second vote)
+更换种子 {yes}/{needed} 票（30 秒投票）
 
 0486 | Withdraw vote
+撤回投票
 0487 | Close this room?
+要关闭这个房间吗？
 0488 | Leave this room?
+要离开这个房间吗？
 0489 | Cancel this race?
+要取消这场比赛吗？
 
 ========================================================================
 SECTION 15: Trophies screen
@@ -855,60 +1381,105 @@ SECTION 15: Trophies screen
 # Trophies are small icons players earn and can show next to their name. "Flair" means the same thing here.
 
 0490 | Loading trophies...
+正在加载奖杯……
+# 译注：Flair 和 Trophy 是同一个东西（显示在名字旁边的小图标）。一般的 flair 都译作“奖杯”，只有 winstreak flair 单独译作“连胜标识”，因为它不是解锁获得的奖杯，而是自动显示的连胜数。
 0491 | Show winstreak flair
+显示连胜标识
 0492 | Show winstreak flair if applicable
+符合条件时显示连胜标识
 0493 | Win 3 or more ranked matches in a row to show your current streak beside your equipped trophies. It uses no equipment slot.
+排位赛连胜 3 场及以上时，您装备的奖杯旁会显示当前连胜数。它不占用装备栏位。
 0494 | After more than 2 ranked wins in a row, your current streak flair appears alongside your selected flairs.
+排位赛连胜超过 2 场后，您的当前连胜标识会显示在所选奖杯旁边。
 0495 | All trophies
+全部奖杯
 0496 | Ranked times
+排位用时
 0497 | Win streaks
+连胜
 0498 | Games played
+已玩场次
 0499 | Ranked wins
+排位胜场
 0500 | Highest rank
+最高段位
 0501 | Supporter
+支持者
 0502 | All unlocked
+全部已解锁
 0503 | All locked
+全部未解锁
 0504 | Equipped
+已装备
 0505 | Unlocked
+已解锁
 0506 | Locked
+未解锁
 0507 | No trophies found.
+未找到奖杯。
 0508 | Equip
+装备
 0509 | Equip in supporter slot
+装备到支持者栏位
 0510 | Unequip
+卸下
 0511 | Support Bedrock Ranked
+支持 Bedrock Ranked
 # [WORD ORDER]
 0512 | Equip in slot {number}
+装备到第 {number} 栏
 
 # [WORD ORDER] {number} is a slot number or S (supporter).
 0513 | Equip slot {number}
+装备栏 {number}
 
 # [WORD ORDER] {link} is the entry just below, shown as a clickable link. On Windows the sentence has no final dot.
+# 译注：原注释说 Windows 版这句话结尾没有句号，所以中文结尾也不加“。”。
 0514 | To get the flairs, you need to connect your Discord account to Ko-Fi and be in the {link}.
+要获得这些奖杯，您需要将 Discord 账号关联到 Ko-Fi，并加入 {link}
 
 0515 | Bedrock Ranked Discord server
+Bedrock Ranked Discord 服务器
 
 ========================================================================
 SECTION 16: Support Us page
 ========================================================================
 
 0516 | Bedrock Ranked is fully sustained by donations from the community. Without them, server hosting, tournaments, features, and events would not be possible. If you can, we'd greatly appreciate any donation.
+Bedrock Ranked 完全依靠社区的捐助来维持。没有大家的支持，服务器托管、比赛、新功能和各种活动都无从谈起。如果您有余力，任何捐助我们都会万分感激。
 0517 | Donate on Ko-fi
+在 Ko-fi 上捐助
 0518 | Don't have money but still want to contribute? You can still help us by contributing with your skills!
+手头不宽裕，但还是想出一份力？您也可以用自己的技能来帮助我们！
 0519 | Forms open in your browser.
+表单将在浏览器中打开。
 0520 | I want to contribute to art and design
+我想参与美术和设计
 0521 | I want to contribute to speedrun resources creation
+我想参与速通资源制作
 0522 | I want to contribute to content creation
+我想参与内容创作
 0523 | I want to contribute to marketing
+我想参与宣传推广
 0524 | I want to contribute to translation and accessibility
+我想参与翻译和无障碍
 0525 | I want to help with something else
+我想在其他方面帮忙
 # [WORD ORDER] Android builds the sentences above from pieces, so these topic words are listed once more.
+# 译注：{topic} 会替换成下面 0527–0531 的中文，所以前面不加空格。
 0526 | I want to contribute to {topic}
+我想参与{topic}
 
 0527 | art and design
+美术和设计
 0528 | speedrun resources creation
+速通资源制作
 0529 | content creation
+内容创作
 0530 | marketing
+宣传推广
 0531 | translation and accessibility
+翻译和无障碍
 
 ========================================================================
 SECTION 17: How to Play page
@@ -916,39 +1487,52 @@ SECTION 17: How to Play page
 # Each paragraph is one entry. The chat commands (/forfeit, /change, /draw, /cancel, /accept, /deny) are shown on separate lines in the game and stay in English.
 
 0532 | In Ranked, the goal is to beat the game as fast as possible. You can do it against real opponents by entering the queue, or play solo against the clock. To start playing ranked, enter the queue: you'll be paired as soon as possible with an other player in the queue; your opponent might be using the client too, and in that case your match will be synchronised, but they could also have queued from Discord or the website (because no client exists for console and iOS devices). If you queue a non-client player, you'll still be able to play the game fully from client. To communicate with any opponent, you can just send a message in the game chat.
+在 Ranked 中，您的目标是尽可能快地通关游戏。您可以进入匹配队列，和真实的对手一较高下；也可以玩单人模式，和时间赛跑。想开始排位赛的话，进入匹配队列就行：系统会尽快为您匹配队列中的另一名玩家。您的对手可能也在用客户端，这样双方的对局会自动同步；但对手也可能是通过 Discord 或网站排队的（因为主机和 iOS 设备没有客户端）。即使匹配到不用客户端的玩家，您依然可以在客户端里完整地进行游戏。想和对手聊天，直接在游戏聊天栏里发消息就好。
 0533 | Because non-client synchronization is hard, in case you finish before your opponent submits their time, they will have an extra 20% of your final client time to report the result. Then, the faster time will win.
+由于和非客户端玩家同步比较困难，如果您在对手提交成绩之前就完成了，对手还有相当于您客户端最终用时 20% 的额外时间来上报成绩。之后，用时更短的一方获胜。
 0534 | IMPORTANT: timing is RTA! This is to ensure match synch. This means that if you pause, reset, or leave, your timer will keep running. If your game crash, you have a 1 minute time window before you'll auto forfeit.
+重要：计时方式是 RTA！这是为了保证对局同步。也就是说，即使您暂停、重置或离开，计时器也会继续走。如果游戏崩溃了，您有 1 分钟的时间回来，超时将自动认输。
 0535 | Match commands (run in chat):
+对局指令（在聊天中输入）：
+# 译注：推测这一行后面接的是 /accept 和 /deny，用来回应对方发起的 /change、/draw、/cancel。
 0536 | answer to the latter three:
+用来回应后三条指令：
 0537 | How to Play
+玩法说明
 
 ========================================================================
 SECTION 18: Cheating and Rules page
 ========================================================================
 # Each paragraph is one entry.
 
+# 译注：“one cycling”译作“一轮床爆”，和 0057 的 One Cycle 是同一个意思。
 0538 | If you are playing in the client, you do not need to record your runs. You cannot use creative mode, any cheats or any external tool that isn't approved. Calculators and screen readers are allowed, but they must not interfere with the inputs of the run (for example, a macro that automatically does one cycling is not allowed). You are not to modify or change the client in any way. For website and discord users, it's expected that they should always record their runs. If they win the match, they could be automatically required to give their recording, and their opponent can also ask for the recording even if it wasn't automatically requested.
+如果您在客户端中游戏，就不需要录制自己的对局。禁止使用创造模式、任何作弊手段，以及任何未经批准的外部工具。计算器和读屏软件是允许的，但不能干扰对局中的操作输入（例如，自动完成一轮床爆的宏是不允许的）。不得以任何方式修改或改动客户端。通过网站和 Discord 参与的玩家应当始终录制自己的对局。如果他们赢得了对局，可能会被自动要求提交录像；即使没有被自动要求，对手也可以申请查看录像。
 0539 | You should not be rude or annoying. If you believe your opponent has cheated, report them, don't start arguing with them. Any form of verbal aggression, racism, homophobia, transphobia and NSFW content or language (there are children playing this!) are prohibited.
+请不要粗鲁无礼，也不要骚扰别人。如果您认为对手作弊了，请直接举报，不要和对方争吵。禁止任何形式的言语攻击、种族歧视、恐同、恐跨，以及 NSFW 内容或言论（还有很多小朋友在玩呢！）。
 0540 | Breaking the rules will lead to suspension of the account, and repeated offences will lead to a ban.
+违反规则会导致账号被暂停使用，屡次违规将被封禁。
 0541 | Cheating & Rules
+作弊与规则
 
 ========================================================================
 SECTION 19: Legal and Privacy page
 ========================================================================
 # Each paragraph is one entry. This is a legal notice: please be exact. Keep the web link exactly.
 
+# 译注：第 19 节沿用了原有译文，只做了三处调整：“你”统一改成“您”，“账户”统一改成“账号”，“Solo”改成“单人”。法律文本最好再请人对照原文核对一遍。
 0542 | Bedrock Ranked is an independent community project, not affiliated with Mojang or Microsoft. Minecraft is not included; game code, visuals and fonts are read from your own installation. This notice describes the current testing service. Updated 11 October 2026.
-Bedrock Ranked 是一个独立的社区项目，与 Mojang 或 Microsoft 均无关联。本项目不包含 Minecraft；游戏代码、画面和字体均从你自己的安装中读取。本声明描述的是当前的测试服务。更新于 2026 年 10 月 11 日。
+Bedrock Ranked 是一个独立的社区项目，与 Mojang 或 Microsoft 均无关联。本项目不包含 Minecraft；游戏代码、画面和字体均读取自您自己安装的游戏。本声明描述的是当前的测试服务。更新于 2026 年 10 月 11 日。
 0543 | Data we use: ranked name, account creation date, password and recovery-token hashes, optional Discord identity and sessions support accounts and sign-in. Results, ratings and statistics support competition; player names, leaderboard positions and results are public. Chat, player reports, client integrity checks and gameplay recordings support matches, replays and moderation. Private moderation evidence is restricted to authorized reviewers. The server also receives IP addresses and operational logs. Website sign-in uses an essential session cookie.
-我们使用的数据：Ranked 用户名、账户创建日期、密码和恢复令牌的哈希值、可选的 Discord 身份以及会话，用于支持账户和登录。成绩、评级和统计数据用于支持竞技；玩家名称、排行榜名次和成绩是公开的。聊天、玩家举报、客户端完整性检查和对局录像用于支持对局、回放和审核。非公开的审核证据仅限授权审核人员查阅。服务器还会接收 IP 地址和运行日志。网站登录使用一项必要的会话 Cookie。
+我们使用的数据：Ranked 名称、账号创建日期、密码和恢复令牌的哈希值、可选的 Discord 身份以及会话，用于支持账号和登录。成绩、评分和统计数据用于支持竞技；玩家名称、排行榜名次和成绩是公开的。聊天、玩家举报、客户端完整性检查和游戏录像用于支持对局、回放和审核。非公开的审核证据仅限经授权的审核人员查阅。服务器还会接收 IP 地址和运行日志。网站登录使用一个必要的会话 Cookie。
 0544 | Storage: ranked recordings are normally deleted seven days after a match ends; match chat is normally deleted after seven days. Recordings linked to open reports may be kept longer. Account details, compact result history and moderation records are kept while needed to operate the service and resolve reports. Optional solo recordings stay on your device. The Android client reads installed Minecraft locally and does not upload your Minecraft APK.
-存储：Ranked 录像通常在对局结束七天后删除；对局聊天通常在七天后删除。与尚未处理完的举报相关联的录像可能会保留更久。账户资料、精简的成绩历史和审核记录，会在运营本服务和处理举报所需的期间内保留。您可以选择是否保存您的 Solo 录像，并且它们只会留在您的设备上。Android 客户端在本地读取已安装的 Minecraft，不会上传你的 Minecraft APK。
+存储：排位录像通常在对局结束七天后删除；对局聊天通常在七天后删除。与尚未处理完的举报相关联的录像可能会保留更久。账号资料、精简的成绩历史和审核记录，会在运营本服务和处理举报所需的期间内保留。可选的单人录像只保存在您的设备上。Android 客户端在本地读取已安装的 Minecraft，不会上传您的 Minecraft APK。
 0545 | Other services: optional Discord sign-in and support, hosting providers and VirusTotal operate under their own policies and may process data in other countries. Only public Ranked release files are submitted by us to VirusTotal, not your private files.
-其他服务：可选的 Discord 登录与支持、托管服务商以及 VirusTotal 均按其自身政策运营，并可能在其他国家处理数据。我们仅向 VirusTotal 提交公开的 Ranked 发行文件，不会提交你的私人文件。
+其他服务：可选的 Discord 登录与支持、托管服务商以及 VirusTotal 均按其各自的政策运营，并可能在其他国家/地区处理数据。我们只会将公开的 Ranked 发行文件提交给 VirusTotal，不会提交您的私人文件。
 0546 | Your choices: Discord linking and local replay saving are optional. Contact the Bedrock Ranked maintainers for privacy questions or requests to access, correct or delete your data. Some records may need to be retained to resolve reports or protect match integrity. Never share passwords, recovery tokens or signing keys publicly.
-你的选择：关联 Discord 和保存本地回放均为可选。如有隐私问题，或要求访问、更正或删除你的数据，请联系 Bedrock Ranked 的维护者。为处理举报或保护对局完整性，部分记录可能需要继续保留。切勿公开分享密码、恢复令牌或签名密钥。
+您的选择：关联 Discord 和保存本地回放均为可选项。如有隐私方面的疑问，或希望访问、更正或删除您的数据，请联系 Bedrock Ranked 的维护者。为处理举报或保护对局的公正性，部分记录可能需要继续保留。请勿公开分享密码、恢复令牌或签名密钥。
 0547 | Contact: https://discord.gg/Hngq5zYw3k
-联系：https://discord.gg/Hngq5zYw3k
+联系方式：https://discord.gg/Hngq5zYw3k
 0548 | Legal
 法律
 0549 | Legal & Privacy
@@ -968,32 +1552,54 @@ SECTION 20: Credits page
 # Names of people are not listed here: they stay as they are.
 
 0553 | Coordination
+统筹协调
 0554 | Client, website and bot development
+客户端、网站与机器人开发
 0555 | Art and GUI
+美术与界面
 0556 | Packs development
+资源包开发
 0557 | Soundtrack
+配乐
 0558 | Seedfinding
+种子搜寻
 0559 | Beta testers
+测试人员
 
 ========================================================================
 SECTION 21: Title images (text inside pictures)
 ========================================================================
 # These words are drawn inside pictures in blocky Minecraft-style capitals. They are not normal text, so an artist must redraw them. Keep them short: long words get smaller. Translate them so we know what to draw.
 
+# 译注：第 21 节的字是画在图片里的方块字，需要美工重画，所以都尽量控制在 2–4 个字。
 0560 | ACCOUNT
+账号
 0561 | SETTINGS
+设置
 0562 | REPORT
+举报
 0563 | REPLAYS
+回放
 0564 | LEADERBOARD
+排行榜
 0565 | STATISTICS
+数据统计
 0566 | PLAY SOLO
+单人游戏
 0567 | QUEUE
+匹配
 0568 | PRACTICE
+练习
 0569 | INFORMATION
+信息
 0570 | SUPPORT
+支持我们
 0571 | PRIVATE ROOM
+私人房间
 0572 | TROPHIES
+奖杯
 0573 | CREDITS
+制作人员
 
 ========================================================================
 SECTION 22: Windows launcher and installer
@@ -1001,98 +1607,172 @@ SECTION 22: Windows launcher and installer
 # The small window that opens before Minecraft starts.
 
 0574 | Requires Minecraft for Windows 26.50 / 26.51 / 26.52 / 26.60
+需要 Minecraft for Windows 26.50 / 26.51 / 26.52 / 26.60
 0575 | Server address
+服务器地址
 0576 | Launch
+启动
 0577 | Play
+开始游戏
 0578 | Not now
+以后再说
 0579 | Looking for Minecraft...
+正在查找 Minecraft……
 0580 | Minecraft found
+已找到 Minecraft
 0581 | Choose Minecraft
+选择 Minecraft
+# 译注：这个按钮名会出现在 0596 的说明文字里，两处要保持一致（都是“使用原版 Minecraft”）。
 0582 | Use original Minecraft
+使用原版 Minecraft
 0583 | Choose Minecraft.Windows.exe
+选择 Minecraft.Windows.exe
 0584 | Executable files
+可执行文件
 0585 | Update and play
+更新并开始游戏
 0586 | Your account and settings will be kept.
+您的账号和设置都会保留。
 0587 | Close Preview
+关闭预览
 0588 | Preview only
+仅预览
 0589 | Downloading and verifying update...
+正在下载并校验更新……
 0590 | Could not install the update. Please retry.
+无法安装更新，请重试。
 0591 | Please wait for the current operation to finish.
+请等待当前操作完成。
 0592 | Launch failed. See launcher.log.
+启动失败，请查看 launcher.log。
 0593 | Client files are missing. Reinstall Bedrock Ranked.
+客户端文件缺失，请重新安装 Bedrock Ranked。
 # The text \n means "new line". Keep it in place.
 0594 | A new update is available!\nVersion {version}
+有新版本可以更新啦！\n版本 {version}
 
 # [WORD ORDER] Android version.
 0595 | A new update is available! Version {version}
+有新版本可以更新啦！版本 {version}
 
+# 译注：Levi 应该是指 LeviLamina（基岩版的模组加载器），按专有名词保留英文。
 0596 | Levi-modified executable found. Use original Minecraft restores its verified backup and disables Levi's injected loader for Ranked. Your modified EXE is kept as .ranked-levi.bak.
+检测到经过 Levi 修改的可执行文件。点击“使用原版 Minecraft”将恢复经过验证的备份，并为 Ranked 禁用 Levi 注入的加载器。您修改过的 EXE 会保留为 .ranked-levi.bak。
 # [WORD ORDER]
 0597 | Restored verified original: {path}
+已恢复经过验证的原版文件：{path}
 
 # [WORD ORDER] Keep the folder path exactly.
 0598 | Cannot read Minecraft: {path}. Check launcher-detection.log in %LOCALAPPDATA%\BedrockRanked.
+无法读取 Minecraft：{path}。请查看 %LOCALAPPDATA%\BedrockRanked 中的 launcher-detection.log。
 
 # [WORD ORDER]
+# 译注：“Verify and Repair”是 Xbox 应用里的按钮名称，请对照 Xbox 应用中文界面的实际用词核对（这里先写作“验证并修复”）。0629 同理。
 0599 | Windows could not read Minecraft: {path}. Verify and Repair Minecraft in the Xbox app, then retry.
+Windows 无法读取 Minecraft：{path}。请在 Xbox 应用中对 Minecraft 执行“验证并修复”，然后重试。
 
 # Keep the folder path exactly.
 0600 | Minecraft found, but its executable differs from supported originals (26.50 / 26.51 / 26.52 / 26.60). Levi mods may change it. See %LOCALAPPDATA%\BedrockRanked\launcher-detection.log.
+已找到 Minecraft，但它的可执行文件与支持的原版（26.50 / 26.51 / 26.52 / 26.60）不一致。Levi 模组可能会修改它。请查看 %LOCALAPPDATA%\BedrockRanked\launcher-detection.log。
 
 0601 | Minecraft was not found. Choose your Minecraft.Windows.exe below.
+未找到 Minecraft。请在下方选择您的 Minecraft.Windows.exe。
+# 译注：“Browse”按钮在这份文件里没有单独的条目，可能是系统对话框里的按钮，所以这里按 Windows 中文界面的习惯写成“浏览”。
 0602 | Minecraft was not found. Use Browse to select it.
+未找到 Minecraft。请点击“浏览”手动选择。
 0603 | Minecraft 26.50, 26.51, 26.52 or 26.60 was not found. Use Choose Minecraft to select its executable.
+未找到 Minecraft 26.50、26.51、26.52 或 26.60。请点击“选择 Minecraft”来选择它的可执行文件。
 0604 | An older Bedrock Ranked client is still running. Close that Minecraft window, then try again.
+旧版 Bedrock Ranked 客户端仍在运行。请关闭那个 Minecraft 窗口，然后重试。
 0605 | Minecraft has not finished closing. Close its remaining process and try again.
+Minecraft 尚未完全关闭。请结束残留的进程后重试。
 # [WORD ORDER]
 0606 | Windows could not start Ranked in Minecraft's package context. See {file}
+Windows 无法在 Minecraft 的应用包环境中启动 Ranked。请查看 {file}
 
 # Yellow splash text on the Minecraft title screen.
+# 译注：这是标题画面上的黄色闪烁标语（splash），译作“排位！”。也可以保留“Ranked!”，或者换个更有趣的说法，比如“来排位吧！”。
 0607 | Ranked!
+排位！
 
 0608 | Cannot write launcher log
+无法写入启动器日志
 0609 | Cannot start bundled runtime
+无法启动内置运行时
 0610 | Checking client files...
+正在检查客户端文件……
 0611 | Preparing Minecraft menus...
+正在准备 Minecraft 菜单……
 0612 | Starting Minecraft...
+正在启动 Minecraft……
 0613 | Client launched. Open Play Ranked in Minecraft.
+客户端已启动。请在 Minecraft 中点击“开始排位”。
 # [WORD ORDER]
 0614 | Selected Minecraft worlds: {path}
+已选择的 Minecraft 世界：{path}
 
 # [WORD ORDER]
 0615 | Server connection failed: {error}
+服务器连接失败：{error}
 
 # [WORD ORDER]
 0616 | Cannot reach {server}. {error}
+无法连接到 {server}。{error}
 
 0617 | Minecraft could not start
+Minecraft 无法启动
 0618 | Minecraft started but did not report a ready client
+Minecraft 已启动，但客户端没有报告就绪
 0619 | Minecraft was closed during startup.
+Minecraft 在启动过程中被关闭了。
 0620 | Enter the server origin only, without credentials, a path or query
+请只输入服务器的源地址（协议 + 域名 + 端口），不要包含登录凭据、路径或查询参数
 0621 | Use HTTPS, or HTTP for a local testing server
+请使用 HTTPS；本地测试服务器可以使用 HTTP
 0622 | Server has no approved client release
+服务器上没有已批准的客户端版本
 0623 | Invalid bundled client release ID. Reinstall the client.
+内置的客户端版本 ID 无效，请重新安装客户端。
 0624 | This client build is not approved by the server. Install its matching server patch, or update the client.
+此客户端版本未获得服务器批准。请安装对应的服务器补丁，或更新客户端。
 0625 | Open Minecraft normally once and sign in, then try again. No worlds profile was found.
+请先正常打开一次 Minecraft 并登录，然后重试。未找到世界存档配置。
 0626 | Selected Minecraft worlds folder does not exist
+所选的 Minecraft 世界文件夹不存在
 # [WORD ORDER]
 0627 | Client release differs from the server: {file}
+客户端版本与服务器不一致：{file}
 
 0628 | Update download verification failed. Please retry.
+更新下载校验失败，请重试。
 0629 | Windows denied direct Minecraft launch and its registered Xbox/Store application could not be activated. Verify and Repair Minecraft in the Xbox app.
+Windows 拒绝直接启动 Minecraft，且无法激活它已注册的 Xbox/应用商店应用。请在 Xbox 应用中对 Minecraft 执行“验证并修复”。
 0630 | Minecraft did not open a game window within 60 seconds. See the ranked.PID.log beside the loader.
+Minecraft 在 60 秒内没有打开游戏窗口。请查看加载器旁边的 ranked.PID.log。
 0631 | Cannot open Minecraft process. Match launcher/game privilege levels.
+无法打开 Minecraft 进程。请让启动器和游戏使用相同的权限级别。
 0632 | Unsupported Minecraft executable
+不支持的 Minecraft 可执行文件
 0633 | Unsupported Minecraft executable; requires Windows 26.50, 26.51, 26.52 or 26.60
+不支持的 Minecraft 可执行文件；需要 Windows 版 26.50、26.51、26.52 或 26.60
 0634 | Unsupported Minecraft executable. Requires Windows 26.50, 26.51, 26.52 or 26.60.
+不支持的 Minecraft 可执行文件。需要 Windows 版 26.50、26.51、26.52 或 26.60。
 0635 | Cannot lock Minecraft for startup verification
+无法锁定 Minecraft 以进行启动验证
 0636 | Minecraft exited before loading the client
+Minecraft 在加载客户端之前退出了
 0637 | Minecraft exited while loading the client
+Minecraft 在加载客户端时退出了
 0638 | Minecraft exited while loading the ranked client; inspect ranked.PID.log
+Minecraft 在加载 Ranked 客户端时退出了；请检查 ranked.PID.log
 0639 | Minecraft exited before rendering initialized; inspect ranked.PID.log
+Minecraft 在渲染初始化之前退出了；请检查 ranked.PID.log
 0640 | Minecraft exited during startup; inspect ranked.PID.log
+Minecraft 在启动过程中退出了；请检查 ranked.PID.log
 0641 | More than one Minecraft process is running from the selected installation. Close them and retry.
+所选安装位置正在运行多个 Minecraft 进程。请将它们全部关闭后重试。
 0642 | Minecraft's Xbox launcher did not produce a running game process from the selected installation within 60 seconds. Open Minecraft normally once, then retry.
+Minecraft 的 Xbox 启动器在 60 秒内没能从所选安装位置启动游戏进程。请先正常打开一次 Minecraft，然后重试。
 
 ========================================================================
 SECTION 23: Windows client: status lines and errors
@@ -1101,63 +1781,115 @@ SECTION 23: Windows client: status lines and errors
 
 # File type name in the Windows file picker.
 0643 | Bedrock Ranked Replay
+Bedrock Ranked 回放文件
 
 0644 | Cannot unlock session for this Windows account
+无法为当前 Windows 账户解锁会话
 0645 | Invalid saved session
+已保存的会话无效
 # Fallback when the server gives no clear reason.
 0646 | API error
+API 错误
 
 0647 | Downloading your world...
+正在下载您的世界……
 0648 | Installing template and packs...
+正在安装模板和资源包……
 0649 | Opening your world...
+正在打开您的世界……
 0650 | Installing practice world...
+正在安装练习世界……
 0651 | Opening practice world...
+正在打开练习世界……
 0652 | Leaving previous world...
+正在离开上一个世界……
 0653 | Generating your template...
+正在生成您的模板……
 0654 | Contacting ranked server...
+正在连接排位服务器……
 0655 | Starting your run...
+正在开始您的这一局……
 0656 | Waiting for opponent...
+正在等待对手……
 0657 | Minecraft confirmed world startup
+Minecraft 已确认世界启动
 0658 | Refreshing Minecraft world list...
+正在刷新 Minecraft 世界列表……
 0659 | Minecraft reported a world startup failure
+Minecraft 报告世界启动失败
 0660 | Waiting for Minecraft world-start commands
+正在等待 Minecraft 世界启动指令
 0661 | Retrying Minecraft world discovery...
+正在重新查找 Minecraft 世界……
 0662 | Reopening Minecraft's world list...
+正在重新打开 Minecraft 世界列表……
 0663 | World loaded; waiting for ranked handshake...
+世界已加载，正在等待与排位服务器握手……
 # [WORD ORDER]
 0664 | World preparation failed: {error}
+世界准备失败：{error}
 
 0665 | Minecraft did not return to its main menu. Restart the client before trying again.
+Minecraft 没有回到主菜单。请重启客户端后再试。
 0666 | Minecraft could not open the world. Return to the menu before trying again.
+Minecraft 无法打开世界。请先返回菜单再试。
 0667 | Minecraft did not list the match world. Restart the client to rejoin the match.
+Minecraft 的世界列表里没有这场对局的世界。请重启客户端以重新加入对局。
 0668 | Server unavailable
+服务器不可用
 0669 | Server unavailable. Start Start-Server.cmd.
+服务器不可用。请运行 Start-Server.cmd。
 0670 | Invalid server URL
+服务器 URL 无效
 0671 | Download failed
+下载失败
 0672 | Set worldsDir in the client configuration.
+请在客户端配置中设置 worldsDir。
 0673 | Cannot recover: the saved match world is missing. The disconnect deadline still applies.
+无法恢复：已保存的对局世界丢失了。断线重连时限仍然有效。
 0674 | Cannot save match world
+无法保存对局世界
 0675 | Cannot start world importer
+无法启动世界导入程序
 0676 | World import failed. Check worldsDir and template checksum.
+世界导入失败。请检查 worldsDir 和模板校验值。
 0677 | Unknown practice world
+未知的练习世界
 0678 | Cannot start practice importer
+无法启动练习世界导入程序
 0679 | Practice world import failed
+练习世界导入失败
 0680 | Cannot start replay helper
+无法启动回放辅助程序
 0681 | Local replay operation failed
+本地回放操作失败
 0682 | Invalid local replay template
+本地回放模板无效
 0683 | Seed was not found in the known seed lists
+在已知种子列表中找不到这个种子
 0684 | Leave your world before changing storage
+请先离开世界，再更改存储设置
 0685 | Cannot start storage manager
+无法启动存储管理器
 0686 | Storage operation failed
+存储操作失败
 0687 | Scanning worlds...
+正在扫描世界……
 0688 | Scanning local replays...
+正在扫描本地回放……
 0689 | Cleaning storage...
+正在清理存储空间……
 0690 | Storage ready
+存储空间已就绪
 0691 | Saved match world is missing; refusing to generate a fresh race
+已保存的对局世界丢失；已拒绝重新生成新的对局
 0692 | Saved world identity does not match the active race
+已保存世界的标识与当前对局不符
 0693 | Downloaded template checksum mismatch
+下载的模板校验值不匹配
 # [WORD ORDER]
 0694 | Local replay save failed: {error}
+本地回放保存失败：{error}
 
 
 ========================================================================
@@ -1167,115 +1899,192 @@ SECTION 24: Android app: first screens and setup
 
 # App name of the installer.
 0695 | Bedrock Ranked Setup
+Bedrock Ranked 安装程序
 
 # Long-press shortcut on the app icon.
 0696 | Save logs
+保存日志
 
 0697 | Prepare Minecraft
+准备 Minecraft
 0698 | Select Minecraft APK
+选择 Minecraft APK
 0699 | Open Bedrock Ranked
+打开 Bedrock Ranked
 0700 | Update Bedrock Ranked
+更新 Bedrock Ranked
 0701 | Uses Minecraft 26.50, 26.51, 26.52 or 26.60 for Android. Your original installation stays separate.
+使用 Android 版 Minecraft 26.50、26.51、26.52 或 26.60。您原来安装的游戏不受影响，两者互相独立。
 0702 | Allow this installer once, then return here.
+请允许此安装程序一次，然后回到这里。
 0703 | Confirm the Android installation prompt.
+请在 Android 安装提示中点击确认。
 0704 | APK too large
+APK 过大
 0705 | Checking Minecraft
+正在检查 Minecraft
 0706 | Select a complete 64-bit Minecraft 26.50, 26.51, 26.52 or 26.60 APK
+请选择完整的 64 位 Minecraft 26.50、26.51、26.52 或 26.60 APK
 0707 | This Android build is not supported. Use Minecraft 26.50, 26.51, 26.52 or 26.60, ARM64.
+不支持此 Android 版本。请使用 Minecraft 26.50、26.51、26.52 或 26.60（ARM64）。
 0708 | Preparing Bedrock Ranked
+正在准备 Bedrock Ranked
 0709 | Signing your local installation
+正在为您的本地安装签名
 0710 | Open Minecraft on Google Play
+在 Google Play 上打开 Minecraft
 0711 | Leaderboard & player stats
+排行榜与玩家数据
 0712 | Account & trophies on website
+在网站上查看账号与奖杯
 0713 | Could not open the community website. Try again.
+无法打开社区网站，请重试。
+# 译注：这个按钮名会在 0758、0762、0781 中被引用，几处要保持一致。
 0714 | Save Logs to Downloads
+保存日志到下载目录
 0715 | Export Minecraft startup files
+导出 Minecraft 启动文件
 0716 | Minecraft detected. Tap Play Ranked to start.
+已检测到 Minecraft。点击“开始排位”即可开始。
 0717 | Minecraft stopped responding twice. Tap Play Ranked to try again.
+Minecraft 连续两次无响应。点击“开始排位”重试。
 0718 | Minecraft is not installed or could not be detected. Install it from Google Play, then try again.
+未安装 Minecraft，或无法检测到。请从 Google Play 安装后重试。
 0719 | Minecraft is still closing. Please retry shortly.
+Minecraft 仍在关闭中，请稍后重试。
 0720 | Save logs for startup diagnostics.
+保存日志，以便诊断启动问题。
 0721 | Preparing Minecraft…
+正在准备 Minecraft……
 # [WORD ORDER]
 0722 | Saved: {file}
+已保存：{file}
 
 # [WORD ORDER]
 0723 | Could not save logs: {error}
+无法保存日志：{error}
 
 # [WORD ORDER] The text \n means "new line". Keep it in place.
 0724 | Saved: {file}\nShare this ZIP for startup diagnostics.
+已保存：{file}\n请分享这个 ZIP 文件，以便诊断启动问题。
 
 # [WORD ORDER]
 0725 | Could not export startup files: {error}
+无法导出启动文件：{error}
 
 # The text \n means "new line". Keep it in place.
 0726 | Startup diagnostics\nTap Export Minecraft startup files. No game code will run.
+启动诊断\n点击“导出 Minecraft 启动文件”。不会运行任何游戏代码。
 
 # [WORD ORDER] The text \n means "new line". Keep it in place.
 0727 | Minecraft could not start.\n{error}
+Minecraft 无法启动。\n{error}
 
 # The text \n means "new line". Keep it in place.
 0728 | Minecraft is required to play matches.\nInstall Minecraft from Google Play, then return here. It is sold separately.\n\nYou can browse the leaderboard, player stats and your website account without Minecraft.
+进行对局需要 Minecraft。\n请从 Google Play 安装 Minecraft，然后回到这里。Minecraft 需要另外购买。\n\n即使没有 Minecraft，您也可以浏览排行榜、玩家数据和您的网站账号。
 
 # [WORD ORDER]
 0729 | Version {version}
+版本 {version}
 
 # [WORD ORDER]
 0730 | Version {version} (checking latest…)
+版本 {version}（正在检查最新版本……）
 
 # [WORD ORDER]
 0731 | Version {version} (latest check unavailable)
+版本 {version}（无法检查最新版本）
 
 0732 | Bedrock Ranked community
+Bedrock Ranked 社区
 0733 | Live leaderboard and player stats. Minecraft is only required to play matches.
+实时排行榜和玩家数据。只有进行对局时才需要 Minecraft。
 0734 | Account & trophies
+账号与奖杯
 0735 | Search player stats
+搜索玩家数据
 0736 | Refresh
+刷新
 0737 | Privacy
+隐私
 0738 | Community server configuration is unavailable.
+社区服务器配置不可用。
 0739 | Loading…
+加载中……
 0740 | Could not load community data. Check your connection and tap Refresh.
+无法加载社区数据。请检查网络连接，然后点击“刷新”。
 0741 | Player stats
+玩家数据
 0742 | Full stats on website
+在网站上查看完整数据
 0743 | Search results
+搜索结果
 0744 | Season 2 leaderboard. Tap a player for stats.
+第 2 赛季排行榜。点击玩家即可查看数据。
 0745 | No eligible players yet.
+暂无符合条件的玩家。
 0746 | No browser available. Open bedrockranked.com in a browser.
+没有可用的浏览器。请在浏览器中打开 bedrockranked.com。
 # [WORD ORDER]
 0747 | Server returned {code}
+服务器返回 {code}
 
 # [WORD ORDER] The text \n means "new line". Keep it in place.
 0748 | Elo: {elo}\nPeak Elo: {peak}\nRanked games: {games}\nWins: {wins}\nLosses: {losses}
+Elo：{elo}\n最高 Elo：{peak}\n排位场次：{games}\n胜场：{wins}\n负场：{losses}
 
 # [WORD ORDER] One leaderboard row in the community screen. Keep the three spaces.
 0749 | {name}\nElo {elo}   Games {games}
+{name}\nElo {elo}   场次 {games}
 
+# 译注：英文的 pack 是泛指，可能是资源包，也可能是行为包。这里统一译作“资源包”，只有 0755 明确提到 behavior packs 的地方译作“行为包”。如果想更准确，可以改成“资源包/行为包”或“附加包”。
 0750 | Import Minecraft pack?
+要导入 Minecraft 资源包吗？
 0751 | Import this pack into Bedrock Ranked? A pack with the same ID will be replaced. One previous copy is kept, within the backup storage limit.
+要将这个资源包导入 Bedrock Ranked 吗？ID 相同的资源包会被替换。在备份空间允许的范围内，会保留一份旧版本。
 0752 | Import
+导入
 0753 | Importing Minecraft pack…
+正在导入 Minecraft 资源包……
 0754 | Cannot read selected pack
+无法读取所选的资源包
 # [WORD ORDER] The text \n means "new line". Keep it in place.
 0755 | Imported: {name}\n\nRestart Ranked, then enable resource packs in Settings → Global Resources. Behavior packs are available for compatible worlds.
+已导入：{name}\n\n请重启 Ranked，然后在“设置 → 全局资源”中启用资源包。行为包可以在兼容的世界中使用。
 
 # [WORD ORDER]
 0756 | Pack import failed: {error}
+资源包导入失败：{error}
 
 0757 | Done
+完成
 0758 | This Minecraft build has Google Play protected game code. Bedrock Ranked cannot start it inside the client. Save Logs to Downloads for diagnostics.
+此 Minecraft 版本带有 Google Play 保护的游戏代码，Bedrock Ranked 无法在客户端中启动它。请点击“保存日志到下载目录”以便诊断。
 0759 | This client requires Android ARM64. This device is running a 32-bit Android system.
+此客户端需要 Android ARM64，但这台设备运行的是 32 位 Android 系统。
 0760 | Minecraft ARM64 game library was not found. Install the complete game first.
+未找到 Minecraft ARM64 游戏库。请先安装完整的游戏。
 0761 | Minecraft installation changed. Open Ranked again.
+Minecraft 的安装发生了变化，请重新打开 Ranked。
 0762 | This ARM64 game library has a different native layout. Save Logs to Downloads for diagnostics.
+此 ARM64 游戏库的原生布局不同。请点击“保存日志到下载目录”以便诊断。
 # [WORD ORDER]
 0763 | This installed Minecraft build is not compatible with Ranked's hosted startup yet ({version}). Use Export Minecraft startup files for diagnostics. Reinstalling Ranked will not fix this build.
+已安装的这个 Minecraft 版本暂时还不兼容 Ranked 的托管启动（{version}）。请使用“导出 Minecraft 启动文件”进行诊断。重新安装 Ranked 无法解决这个版本的问题。
 
 0764 | Import one .mcpack at a time
+一次只能导入一个 .mcpack
 0765 | No valid Minecraft pack manifest
+没有有效的 Minecraft 资源包清单
 0766 | Pack is too large
+资源包过大
 0767 | Pack must contain resources or behavior modules
+包中必须含有资源模块或行为模块
 0768 | Imported pack storage is full; remove unused packs first
+已导入资源包的存储空间已满；请先移除不用的资源包
 0769 | Pack backup storage is full
+资源包备份空间已满
 
 ========================================================================
 SECTION 25: Android app: status lines and errors
@@ -1283,89 +2092,160 @@ SECTION 25: Android app: status lines and errors
 # Short messages shown while the Android client works, and error messages. {error} is another message.
 
 0770 | Connection lost. Reconnecting...
+连接已断开，正在重新连接……
 0771 | Server temporarily unavailable. Retrying automatically...
+服务器暂时不可用，正在自动重试……
 0772 | Preparing your world...
+正在准备您的世界……
 0773 | World ready. Starting your run...
+世界已就绪，正在开始您的这一局……
 0774 | World ready. Waiting for opponent...
+世界已就绪，正在等待对手……
 0775 | World ready; starting your run
+世界已就绪，正在开始这一局
 0776 | World ready; waiting for race start
+世界已就绪，等待比赛开始
 0777 | Connecting world to match...
+正在将世界连接到对局……
 0778 | Loading world in Minecraft...
+正在 Minecraft 中加载世界……
 0779 | Discovering prepared world...
+正在查找已准备好的世界……
 0780 | Waiting for Minecraft world list...
+正在等待 Minecraft 世界列表……
 0781 | Minecraft could not discover this world after restarting. Save Logs to Downloads.
+重启后 Minecraft 仍然找不到这个世界。请点击“保存日志到下载目录”。
 0782 | Waiting for Minecraft world-start commands...
+正在等待 Minecraft 世界启动指令……
 0783 | Minecraft could not open the prepared world
+Minecraft 无法打开已准备好的世界
 0784 | Verifying world download...
+正在校验下载的世界……
 0785 | Finalizing world files...
+正在整理世界文件……
 0786 | Preparing practice world...
+正在准备练习世界……
 0787 | Preparing replay...
+正在准备回放……
 0788 | Opening replay...
+正在打开回放……
 0789 | Starting Minecraft…
+正在启动 Minecraft……
 0790 | Restarting Minecraft to open the next world...
+正在重启 Minecraft 以打开下一个世界……
 0791 | Returning to the Ranked menu...
+正在返回 Ranked 菜单……
 0792 | Minecraft did not close the world. Restarting the menu safely.
+Minecraft 没有关闭世界。正在安全地重启菜单。
 0793 | Minecraft is still unable to open this world. Cancel and save logs from the app screen.
+Minecraft 仍然无法打开这个世界。请取消，然后在应用界面中保存日志。
 0794 | Could not prepare Minecraft restart
+无法准备重启 Minecraft
 0795 | Could not open Minecraft pause menu
+无法打开 Minecraft 暂停菜单
 # [WORD ORDER]
 0796 | Launching {world}
+正在启动 {world}
 
 # [WORD ORDER]
 0797 | Prepared world not in Minecraft world list yet: {world}
+已准备的世界尚未出现在 Minecraft 世界列表中：{world}
 
 # [WORD ORDER]
+# 译注：“Play > Worlds”指的是 Minecraft 自己界面里的按钮路径，请对照基岩版简体中文界面核对用词（这里先写作“开始游戏 > 世界”）。
 0798 | Minecraft world-start result: {result}. Use Play > Worlds if needed.
+Minecraft 世界启动结果：{result}。如有需要，请使用“开始游戏 > 世界”。
 
 # [WORD ORDER]
 0799 | Could not refresh Minecraft: {error}
+无法刷新 Minecraft：{error}
 
 # [WORD ORDER]
 0800 | Could not save replay: {error}
+无法保存回放：{error}
 
 # [WORD ORDER]
 0801 | Server error {code}
+服务器错误 {code}
 
 # [WORD ORDER]
 0802 | Logs are in app storage: {path}
+日志保存在应用存储中：{path}
 
 0803 | Enter a server address such as https://bedrockranked.com
+请输入服务器地址，例如 https://bedrockranked.com
 0804 | Response too large
+响应数据过大
 0805 | Local API connection failed
+本地 API 连接失败
 0806 | Game command unavailable
+游戏指令不可用
 0807 | Please wait for the current request.
+请等待当前请求完成。
 0808 | Server did not respond. Please try again.
+服务器没有响应，请重试。
 0809 | Request failed. Please try again.
+请求失败，请重试。
 0810 | Ranked bridge could not start
+Ranked 桥接程序无法启动
 0811 | Close
+关闭
 0812 | Could not save logs
+无法保存日志
 0813 | Gameplay bridge is unavailable
+游戏桥接程序不可用
 0814 | Gameplay bridge is unavailable; cannot start a race
+游戏桥接程序不可用，无法开始比赛
 0815 | World is already loading
+世界已在加载中
 0816 | Leave your world first
+请先离开世界
 0817 | Leave your current world first
+请先离开当前世界
 0818 | Leave your run first
+请先退出这一局
 0819 | Finish your run first
+请先完成这一局
 0820 | Finish your run before changing server
+请先完成这一局，再更换服务器
 0821 | Local replay saving is off
+本地回放保存已关闭
 0822 | Setting is not available yet
+此设置暂不可用
 0823 | No file manager is installed
+未安装文件管理器
 0824 | A replay is already open or opening. Close it before opening another.
+已有回放正在打开或已经打开。请先关闭它，再打开另一个。
 0825 | Replay archive is too large
+回放压缩包过大
 0826 | Incomplete replay file
+回放文件不完整
 0827 | Replay world checksum mismatch
+回放世界校验值不匹配
 0828 | Replay contains too much data to open safely. Your recording is preserved.
+回放包含的数据过多，无法安全打开。您的录像仍然保留着。
 0829 | Local replay is unavailable
+本地回放不可用
 0830 | Saving local replay
+正在保存本地回放
 0831 | Replay saved on this device
+回放已保存到本设备
 0832 | Replay saved - Documents/BedrockRanked/Replays
+回放已保存 - Documents/BedrockRanked/Replays
 0833 | Replay kept in app storage; public export unavailable
+回放已保留在应用存储中；无法导出到公共目录
 0834 | World download too large
+下载的世界文件过大
 0835 | World checksum mismatch
+世界校验值不匹配
 0836 | Saved run is missing; cannot recover this world
+保存的这一局记录丢失了，无法恢复这个世界
 0837 | Could not save account session
+无法保存账号会话
 0838 | Cannot read skin image
+无法读取皮肤图片
 0839 | Cannot open skin picker
+无法打开皮肤选择器
 
 ========================================================================
 SECTION 26: Android app: screen-reader labels
@@ -1373,34 +2253,53 @@ SECTION 26: Android app: screen-reader labels
 # Not shown on screen. These are read aloud to blind and low-vision players, so translate them too.
 
 0840 | Queue waiting time
+排队等待时间
 0841 | Version preference
+版本偏好
 0842 | World preparation progress
+世界准备进度
 0843 | Search leaderboard
+搜索排行榜
 0844 | Elo by match number
+各场次的 Elo
 0845 | Rule settings
+规则设置
 0846 | Room chat message
+房间聊天消息
 0847 | Room
+房间
 0848 | Your finish time
+您的完成用时
 0849 | Trophy category
+奖杯类别
 0850 | Win streak information
+连胜信息
 0851 | Supporter slot
+支持者栏位
 # [WORD ORDER]
 0852 | {wins} wins, {losses} losses
+{wins} 胜，{losses} 负
 
 # [WORD ORDER]
 0853 | Flair slot {number}
+奖杯栏位 {number}
 
 # [WORD ORDER]
 0854 | Team for {player}
+{player} 的队伍
 
 # [WORD ORDER] {kind} is a raw word: country or pride.
+# 译注：{kind} 是服务器发来的英文原词（country / pride），读屏软件会念成“编辑 country 旗帜”这样中英混排。
 0855 | Edit {kind} flag
+编辑 {kind} 旗帜
 
 # [WORD ORDER]
 0856 | {mode} stats
+{mode}数据
 
 # [WORD ORDER]
 0857 | {trophy}, locked
+{trophy}，未解锁
 
 
 ========================================================================
@@ -1409,51 +2308,77 @@ SECTION 27: Server messages: game modes and stages
 # Names and words sent by the Ranked server and shown as they are.
 
 0858 | Stronghold
+要塞
 0859 | Ruined Portal
+废弃传送门
 0860 | Village
+村庄
 0861 | Desert Temple
+沙漠神殿
 0862 | Shipwreck
+沉船
 # Also used in: Tutorial map (optional, do this section last).
 0863 | Bastion
+堡垒遗迹
 
 0864 | Warped Forest
+诡异森林
 0865 | Packless Warped Forest
+无资源包诡异森林
 0866 | Packless Buried Treasure
+无资源包埋藏的宝藏
 # Stage of a run, shown beside the opponent's name. The run has begun.
 0867 | Started
+已开始
 
 0868 | Entered Nether
+进入下界
 0869 | Entered Bastion
+进入堡垒遗迹
 0870 | Entered Warped
+进入诡异森林
 0871 | Entered Fortress
+进入下界要塞
 0872 | Left Nether
+离开下界
 0873 | Entered End
+进入末地
 # Raw request word shown before "requested", and after a / in chat. /change is also a command, so it must stay in English after the /. Tell us if you need a separate word for the "requested" line.
+# 译注：这三个词在聊天里会接在“/”后面当指令用（/change、/draw、/cancel），所以必须保留英文。如果“已请求 {request}”那一行（0095）能单独用一个词，建议改成中文：change = 更换种子，draw = 平局，cancel = 取消对局。
 0874 | change
+change
 
 # Raw request word. Same rule as the entry above.
 0875 | draw
+draw
 
 # Raw request word. Same rule as the entry above.
 0876 | cancel
+cancel
 
 # Raw status word after "Status:" or "Result:". Match is being prepared.
 0877 | preparing
+准备中
 
 # Raw status word after "Status:" or "Result:". Match is in progress.
 0878 | running
+进行中
 
 # Raw status word after "Status:" or "Result:". Match has ended, or the player finished.
 0879 | finished
+已完成
 
 # Raw status word after "Status:" or "Result:". Match was cancelled.
 0880 | cancelled
+已取消
 
 # Raw status word after "Status:" or "Result:". Waiting for the opponent's result. Written with an underscore in the game today.
 0881 | awaiting_result
+等待结果
 
 # Raw status word after "Status:" or "Result:". Player gave up.
 0882 | forfeit
+认输
 
 
 ========================================================================
@@ -1461,11 +2386,17 @@ SECTION 28: Server messages: match notices
 ========================================================================
 
 0883 | Match ended because a client did not reconnect within 60 seconds.
+有客户端没有在 60 秒内重新连接，对局已结束。
 0884 | Match automatically canceled because not all players were ready within 3 minutes. No Elo was changed.
+并非所有玩家都在 3 分钟内准备就绪，对局已自动取消。Elo 没有变化。
 0885 | A player forfeited the match.
+有玩家认输了。
 0886 | A player completed the run.
+有玩家已通关。
 0887 | The match ended in a draw.
+对局以平局结束。
 0888 | Match has already ended; open Run Details to see the result
+对局已经结束；请打开“本局详情”查看结果
 
 ========================================================================
 SECTION 29: Server messages: errors
@@ -1473,135 +2404,265 @@ SECTION 29: Server messages: errors
 # Errors from the server, shown on screen or in chat when an action fails.
 
 0889 | Name must be 3-24 letters, numbers or underscores
+名称只能由 3-24 个字母、数字或下划线组成
 0890 | That name is not allowed
+不允许使用这个名称
 0891 | Password must contain 10-128 characters
+密码长度必须为 10-128 个字符
 0892 | Name is already taken
+这个名称已被占用
 0893 | Too many account attempts; wait five minutes
+账号操作尝试次数过多，请等待五分钟
 0894 | Sign in first
+请先登录
 0895 | Login request expired
+登录请求已过期
 0896 | Sign in to the account being linked
+请登录要关联的账号
 0897 | Finish your match or leave the queue first
+请先完成对局或退出匹配队列
 0898 | Invalid name or password
+名称或密码错误
 0899 | Invalid recovery token
+恢复令牌无效
 0900 | Sign in before linking Discord
+请先登录，再关联 Discord
 0901 | Discord is already linked. Recover the account first to replace a lost Discord account.
+Discord 已关联。如需替换丢失的 Discord 账号，请先找回账号。
 0902 | Discord login is not configured yet
+尚未配置 Discord 登录
 0903 | Discord authorization required
+需要 Discord 授权
 0904 | Complete account linking through the original signed-in client
+请通过最初登录的客户端完成账号关联
 0905 | Invalid or expired Discord authorization
+Discord 授权无效或已过期
 0906 | Discord authorization failed; retry from the client
+Discord 授权失败，请从客户端重试
 0907 | Invalid Discord identity
+Discord 身份无效
 0908 | Discord authorization already used
+该 Discord 授权已被使用
 0909 | That Discord account already belongs to another ranked account. Accounts cannot be merged.
+该 Discord 账号已属于另一个 Ranked 账号。账号无法合并。
 0910 | Session required
+需要登录会话
 0911 | Create an account or sign in to Season 2
+请创建账号或登录，以参加第 2 赛季
 0912 | Too many requests; wait before trying again
+请求过于频繁，请稍后再试
 0913 | Client process was replaced; reopen the client
+客户端进程已被替换，请重新打开客户端
 0914 | Client process is closed
+客户端进程已关闭
 0915 | Only Minecraft display and control preferences can be backed up
+只能备份 Minecraft 的显示和操作偏好设置
 0916 | Minecraft settings backup is too large
+Minecraft 设置备份过大
 0917 | Settings backup changed; refresh it before saving
+设置备份已发生变化，请先刷新再保存
 0918 | Invalid flair selection
+奖杯选择无效
 0919 | Choose up to three different flairs
+最多可以选择三个不同的奖杯
 0920 | Flair is locked
+这个奖杯尚未解锁
 0921 | Choose a different supporter flair
+请选择另一个支持者奖杯
 0922 | Race has not started
+比赛尚未开始
 0923 | Manage this match from the private room
+请在私人房间中管理这场对局
 0924 | This command belongs to an older seed; use the current match controls
+这条指令属于之前的种子；请使用当前对局的控制选项
 0925 | Match commands are unavailable until the match starts; use the Cancel button if there is a problem
+对局开始前无法使用对局指令；如果遇到问题，请使用“取消”按钮
 0926 | Match commands are unavailable until the match starts
+对局开始前无法使用对局指令
 0927 | The run has not started
+这一局尚未开始
+# 译注：Negotiations 指 /change、/draw、/cancel 这类需要对手同意的请求，所以译作“协商请求”。
 0928 | Negotiations are only available in ranked matches
+只有排位赛中才能发起协商请求
 0929 | A request is already pending
+已有一个请求正在等待回应
 0930 | Wait 60 seconds between requests
+每次请求之间需要间隔 60 秒
 0931 | No pending request
+没有待回应的请求
 0932 | Only the opponent can respond
+只有对手可以回应
 0933 | Storage budget is full
+存储配额已满
 0934 | Only a started race can reset
+只有已开始的比赛才能重置
 0935 | Storage budget is full; reset is temporarily unavailable
+存储配额已满；暂时无法重置
 0936 | Replay exceeds safe playback limits
+回放超出了安全播放限制
 0937 | Replay is damaged or exceeds safe playback limits
+回放已损坏，或超出了安全播放限制
 0938 | Replay service is busy; retry shortly
+回放服务繁忙，请稍后重试
 0939 | No recording was captured for this match
+这场对局没有录到录像
 0940 | The match has started; use the normal match controls
+对局已开始，请使用常规的对局控制选项
 0941 | Private room not found
+找不到私人房间
 0942 | Invalid room settings
+房间设置无效
 0943 | Unknown mode
+未知模式
 0944 | Invalid scoring rules
+计分规则无效
 0945 | Rules exceed room capacity
+规则超出了房间容量
 0946 | Invalid seed
+种子无效
 0947 | Room not found
+找不到房间
 0948 | Only the room host can do this
+只有房主可以执行此操作
 0949 | Room settings are locked during a match
+对局进行中，房间设置已锁定
 0950 | Room changed; refresh and try again
+房间已发生变化，请刷新后重试
 0951 | Leave your current room or match first
+请先离开当前的房间或对局
 0952 | Leave the queue first
+请先退出匹配队列
 0953 | Please try creating the room again
+请重新尝试创建房间
 0954 | Private chat is available on the website and clients only
+私人房间聊天只能在网站和客户端上使用
 0955 | Invalid room code
+房间码无效
 0956 | Room code is invalid, expired or locked
+房间码无效、已过期或已锁定
 0957 | Room is full
+房间已满
 0958 | Only the host can invite players
+只有房主可以邀请玩家
 0959 | Enter at least two characters
+请至少输入两个字符
 0960 | Player not found
+找不到玩家
 0961 | Capacity is smaller than the current room
+容量小于当前房间人数
 0962 | Room member not found
+找不到该房间成员
 0963 | Use Leave Room instead
+请改用“离开房间”
 0964 | At least two players are required
+至少需要两名玩家
 0965 | A room member is already in a match
+有房间成员已经在对局中了
 0966 | Every team needs at least one player
+每支队伍至少需要一名玩家
 0967 | Not enough players for the required finishers
+玩家人数不足，无法满足所需完成人数
 0968 | Specified seeds require the seed catalog
+使用指定种子需要种子目录
 0969 | Seed is not available for the selected mode
+这个种子不适用于所选模式
 0970 | Finish or cancel the current match first
+请先完成或取消当前对局
 0971 | No active room match
+房间内没有进行中的对局
 0972 | The race must be running to vote
+比赛进行中才能投票
 0973 | Seed changed; refresh and try again
+种子已更换，请刷新后重试
 0974 | You are not eligible to vote
+您没有投票资格
 0975 | Wait 60 seconds before starting another vote
+请等待 60 秒后再发起新的投票
 0976 | Join the private room to chat
+加入私人房间后才能聊天
 0977 | Message must contain 1-500 characters
+消息长度必须为 1-500 个字符
 0978 | Wait a second between messages
+每条消息之间请间隔一秒
 0979 | Message is empty
+消息为空
 # [WORD ORDER] {field} is a raw English word from the server.
 0980 | Invalid {field}
+{field} 无效
 
 0981 | Sign in to edit your profile
+请登录后再编辑个人资料
 0982 | Invalid identity fields
+个人资料字段无效
 0983 | Choose a flag from the matching slot
+请从对应的栏位中选择旗帜
 0984 | Invalid pronouns
+代词无效
+# 译注：原文是 16 letters，中文按 16 个字符理解。如果程序按字节计算，中文字可能会被提前截断，建议告诉维护者确认一下。
 0985 | Pronouns use up to 16 letters per field
+每栏代词最多 16 个字符
 0986 | Fill both pronoun fields, or clear both
+请把两栏代词都填上，或者都清空
 0987 | Time must be greater than zero and within five hours
+时间必须大于零，且不超过五小时
 0988 | Finish already submitted
+完成成绩已经提交过了
 0989 | Better time must be shorter than the reported time
+更好的成绩必须比已上报的用时更短
 0990 | Match chat is closed
+对局聊天已关闭
 0991 | Message must contain 1-500 characters; commands are unavailable before the start
+消息长度必须为 1-500 个字符；对局开始前无法使用指令
 0992 | Choose a reason and explain it in 10-2000 characters
+请选择原因，并用 10-2000 个字符说明情况
 0993 | Choose another ranked player to report
+请选择要举报的其他排位玩家
 0994 | That player did not participate in the selected match
+该玩家没有参与所选的对局
 0995 | You already have an open report for this player and context
+您已经就这名玩家在同一情况下提交过举报，且尚未处理完毕
 0996 | Race has not started or has ended
+比赛尚未开始或已经结束
 0997 | Invalid finish time
+完成用时无效
 0998 | No opponent result to confirm
+没有需要确认的对手成绩
 0999 | Open the match on the platform you queued from
+请在您排队时使用的平台上打开这场对局
 1000 | Name must contain 1-32 characters
+名称长度必须为 1-32 个字符
 1001 | Season 2 storage budget is full; new matches are temporarily unavailable
+第 2 赛季存储配额已满；暂时无法开始新的对局
 1002 | Season 2 storage budget is full
+第 2 赛季存储配额已满
 1003 | Seed lists are unavailable
+种子列表不可用
 1004 | Choose one of the modes available for this seed
+请从这个种子可用的模式中选择一种
 1005 | Match not found
+找不到对局
 1006 | Seed is available after the run
+这一局结束后即可查看种子
 1007 | Match ended before world preparation completed; return to the menu and queue again
+对局在世界准备完成之前就结束了；请返回菜单重新排队
 1008 | Stale world preparation revision; load the current match world
+世界准备版本已过期；请加载当前对局的世界
 1009 | Prepared world does not match the assigned player and revision
+已准备的世界与分配的玩家和版本不匹配
 1010 | Load your assigned world before pressing ready
+请先加载分配给您的世界，再点击准备
 1011 | The room host can close the private room
+房主可以关闭私人房间
 1012 | Packless players use the match seed instead of a world download
+无资源包的玩家将使用对局种子，而不是下载世界
 1013 | Internal server error
+服务器内部错误
 1014 | Invalid request or template data
+请求或模板数据无效
 1015 | Invalid session
+会话无效
 1016 | Replay file is incomplete
+回放文件不完整
 
 ========================================================================
 SECTION 30: Trophy names and descriptions
@@ -1610,91 +2671,124 @@ SECTION 30: Trophy names and descriptions
 
 # [WORD ORDER]
 1017 | Under {number} minutes
+{number} 分钟以内
 
 # [WORD ORDER]
 1018 | Finish a ranked match in under {number} minutes.
+在 {number} 分钟内完成一场排位赛。
 
 # [WORD ORDER]
 1019 | {number} wins in a row
+{number} 连胜
 
 # [WORD ORDER]
 1020 | Win {number} ranked matches in a row.
+在排位赛中取得 {number} 连胜。
 
 # [WORD ORDER]
 1021 | Current ranked win streak: {number}.
+当前排位连胜：{number}。
 
 # [WORD ORDER]
 1022 | {number} ranked games
+{number} 场排位赛
 
 # [WORD ORDER]
 1023 | Play {number} ranked matches.
+进行 {number} 场排位赛。
 
 # [WORD ORDER]
 1024 | {number} ranked wins
+排位 {number} 胜
 
 # [WORD ORDER]
 1025 | Win {number} ranked matches.
+在排位赛中赢下 {number} 场。
 
 # [WORD ORDER]
+# 译注：{rank} 是段位名加罗马数字（如“西瓜 II”），所以会显示成“西瓜 II 段位”。
 1026 | {rank} rank
+{rank} 段位
 
 # [WORD ORDER]
 1027 | Keep {number} Elo or higher in the current season. Temporary: lost below this rank and reset when a new season starts. Lower rank trophies remain available.
+在当前赛季保持 {number} Elo 或以上。限时奖杯：掉出该段位后会失去，新赛季开始时重置。较低段位的奖杯仍然保留。
 
 # [WORD ORDER]
 1028 | {rank} peak Elo
+最高 Elo 达到 {rank}
 
 # [WORD ORDER]
 1029 | Reach {number} peak Elo. Permanent: kept across rank drops and future seasons.
+最高 Elo 达到 {number}。永久奖杯：即使段位下降或进入新赛季也会保留。
 
 # [WORD ORDER]
 1030 | Supporter {number}
+支持者 {number}
 
 1031 | Support Bedrock Ranked by donating on Ko-Fi or contributing to the development
+通过在 Ko-Fi 上捐助或参与开发来支持 Bedrock Ranked
 # [WORD ORDER]
 1032 | Winner of season {season}
+第 {season} 赛季冠军
 
 # [WORD ORDER]
 1033 | Achieve the highest Elo at the end of season {season}. Awarded to {player}.
+在第 {season} 赛季结束时 Elo 排名第一。授予 {player}。
 
 # [WORD ORDER]
 1034 | Runner up season {season}
+第 {season} 赛季亚军
 
 # [WORD ORDER]
 1035 | Finish 2nd in Elo at the end of season {season}. Awarded to {player}.
+在第 {season} 赛季结束时 Elo 排名第二。授予 {player}。
 
 # [WORD ORDER]
 1036 | 3rd place season {season}
+第 {season} 赛季季军
 
 # [WORD ORDER]
 1037 | Finish 3rd in Elo at the end of season {season}. Awarded to {player}.
+在第 {season} 赛季结束时 Elo 排名第三。授予 {player}。
 
 # [WORD ORDER]
 1038 | Top {number} season {season}
+第 {season} 赛季前 {number} 名
 
 # [WORD ORDER]
 1039 | Finish in the top {number} in Elo at the end of season {season}.
+在第 {season} 赛季结束时 Elo 排名前 {number}。
 
 # Rank name.
+# 译注：段位名都用了 Minecraft 官方简中物品名。Potato 的官方译名是“马铃薯”，但玩家平时多说“土豆”，想更亲切的话可以改成“土豆”。
 1040 | Potato
+马铃薯
 
 # Rank name.
 1041 | Melon
+西瓜
 
 # Rank name.
 1042 | Carrot
+胡萝卜
 
 # Rank name.
 1043 | Apple
+苹果
 
 # Rank name.
 1044 | Bread
+面包
 
 # Rank name. Golden apple (Minecraft player slang).
+# 译注：Gapple / EGapple 是玩家俚语，这里用了官方全称“金苹果 / 附魔金苹果”。国内玩家也有“金苹果 / 附魔金苹果”以外的叫法（如“神苹果”），可以按社区习惯调整。
 1045 | Gapple
+金苹果
 
 # Rank name. Enchanted golden apple (Minecraft player slang).
 1046 | EGapple
+附魔金苹果
 
 
 ========================================================================
@@ -1702,763 +2796,1496 @@ SECTION 31: Country flag names
 ========================================================================
 # Names shown when a player picks a country flag. Use the usual name in your language.
 
+# 译注：第 31 节的国家/地区名按简体中文常用译名翻译。部分地区（例如 1151 香港、1204 澳门、1286 台湾、1303 科索沃、1239 巴勒斯坦国、1116 西撒哈拉、1126 福克兰群岛）的叫法在不同社区里有差异，可以按你们的目标玩家群体和平台要求调整。
 1047 | Andorra
+安道尔
 1048 | United Arab Emirates
+阿拉伯联合酋长国
 1049 | Afghanistan
+阿富汗
 1050 | Antigua and Barbuda
+安提瓜和巴布达
 1051 | Anguilla
+安圭拉
 1052 | Albania
+阿尔巴尼亚
 1053 | Armenia
+亚美尼亚
 1054 | Angola
+安哥拉
 1055 | Antarctica
+南极洲
 1056 | Argentina
+阿根廷
 1057 | League of Arab States
+阿拉伯国家联盟
 1058 | American Samoa
+美属萨摩亚
 1059 | Association of Southeast Asian Nations
+东南亚国家联盟
 1060 | Austria
+奥地利
 1061 | Australia
+澳大利亚
 1062 | Aruba
+阿鲁巴
 1063 | Aland Islands
+奥兰群岛
 1064 | Azerbaijan
+阿塞拜疆
 1065 | Bosnia and Herzegovina
+波斯尼亚和黑塞哥维那
 1066 | Barbados
+巴巴多斯
 1067 | Bangladesh
+孟加拉国
 1068 | Belgium
+比利时
 1069 | Burkina Faso
+布基纳法索
 1070 | Bulgaria
+保加利亚
 1071 | Bahrain
+巴林
 1072 | Burundi
+布隆迪
 1073 | Benin
+贝宁
 1074 | Bermuda
+百慕大
 1075 | Brunei Darussalam
+文莱
 1076 | Bolivia
+玻利维亚
 1077 | Bonaire, Sint Eustatius and Saba
+博奈尔、圣尤斯特歇斯和萨巴
 1078 | Brazil
+巴西
 1079 | Bahamas
+巴哈马
 1080 | Bhutan
+不丹
 1081 | Bouvet Island
+布韦岛
 1082 | Botswana
+博茨瓦纳
 1083 | Belarus
+白俄罗斯
 1084 | Belize
+伯利兹
 1085 | Canada
+加拿大
 1086 | Cocos (Keeling) Islands
+科科斯（基林）群岛
 1087 | Democratic Republic of the Congo
+刚果民主共和国
 1088 | Central European Free Trade Agreement
+中欧自由贸易协定
 1089 | Central African Republic
+中非共和国
 1090 | Republic of the Congo
+刚果共和国
 1091 | Switzerland
+瑞士
 1092 | Côte d'Ivoire
+科特迪瓦
 1093 | Cook Islands
+库克群岛
 1094 | Chile
+智利
 1095 | Cameroon
+喀麦隆
 1096 | China
+中国
 1097 | Colombia
+哥伦比亚
 1098 | Costa Rica
+哥斯达黎加
 1099 | Cuba
+古巴
 1100 | Cabo Verde
+佛得角
 1101 | Curaçao
+库拉索
 1102 | Christmas Island
+圣诞岛
 1103 | Cyprus
+塞浦路斯
 1104 | Czech Republic
+捷克
 1105 | Germany
+德国
 1106 | Diego Garcia
+迪戈加西亚岛
 1107 | Djibouti
+吉布提
 1108 | Denmark
+丹麦
 1109 | Dominica
+多米尼克
 1110 | Dominican Republic
+多米尼加
 1111 | Algeria
+阿尔及利亚
 1112 | East African Community
+东非共同体
 1113 | Ecuador
+厄瓜多尔
 1114 | Estonia
+爱沙尼亚
 1115 | Egypt
+埃及
 1116 | Western Sahara
+西撒哈拉
 1117 | Eritrea
+厄立特里亚
 1118 | Catalonia
+加泰罗尼亚
 1119 | Galicia
+加利西亚
 1120 | Basque Country
+巴斯克地区
 1121 | Spain
+西班牙
 1122 | Ethiopia
+埃塞俄比亚
 1123 | Europe
+欧洲
 1124 | Finland
+芬兰
 1125 | Fiji
+斐济
 1126 | Falkland Islands
+福克兰群岛
 1127 | Federated States of Micronesia
+密克罗尼西亚联邦
 1128 | Faroe Islands
+法罗群岛
 1129 | France
+法国
 1130 | Gabon
+加蓬
 1131 | England
+英格兰
 1132 | Northern Ireland
+北爱尔兰
 1133 | Scotland
+苏格兰
 1134 | Wales
+威尔士
 1135 | United Kingdom
+英国
 1136 | Grenada
+格林纳达
 1137 | Georgia
+格鲁吉亚
 1138 | Guernsey
+根西岛
 1139 | Ghana
+加纳
 1140 | Gibraltar
+直布罗陀
 1141 | Greenland
+格陵兰
 1142 | Gambia
+冈比亚
 1143 | Guinea
+几内亚
 1144 | Equatorial Guinea
+赤道几内亚
 1145 | Greece
+希腊
 1146 | South Georgia and the South Sandwich Islands
+南乔治亚和南桑威奇群岛
 1147 | Guatemala
+危地马拉
 1148 | Guam
+关岛
 1149 | Guinea-Bissau
+几内亚比绍
 1150 | Guyana
+圭亚那
 1151 | Hong Kong
+香港
 1152 | Heard Island and McDonald Islands
+赫德岛和麦克唐纳群岛
 1153 | Honduras
+洪都拉斯
 1154 | Croatia
+克罗地亚
 1155 | Haiti
+海地
 1156 | Hungary
+匈牙利
 1157 | Canary Islands
+加那利群岛
 1158 | Indonesia
+印度尼西亚
 1159 | Ireland
+爱尔兰
 1160 | Israel
+以色列
 1161 | Isle of Man
+马恩岛
 1162 | India
+印度
 1163 | British Indian Ocean Territory
+英属印度洋领地
 1164 | Iraq
+伊拉克
 1165 | Iran
+伊朗
 1166 | Iceland
+冰岛
 1167 | Italy
+意大利
 1168 | Jersey
+泽西岛
 1169 | Jamaica
+牙买加
 1170 | Jordan
+约旦
 1171 | Japan
+日本
 1172 | Kenya
+肯尼亚
 1173 | Kyrgyzstan
+吉尔吉斯斯坦
 1174 | Cambodia
+柬埔寨
 1175 | Kiribati
+基里巴斯
 1176 | Comoros
+科摩罗
 1177 | Saint Kitts and Nevis
+圣基茨和尼维斯
 1178 | North Korea
+朝鲜
 1179 | South Korea
+韩国
 1180 | Kuwait
+科威特
 1181 | Cayman Islands
+开曼群岛
 1182 | Kazakhstan
+哈萨克斯坦
 1183 | Laos
+老挝
 1184 | Lebanon
+黎巴嫩
 1185 | Saint Lucia
+圣卢西亚
 1186 | Liechtenstein
+列支敦士登
 1187 | Sri Lanka
+斯里兰卡
 1188 | Liberia
+利比里亚
 1189 | Lesotho
+莱索托
 1190 | Lithuania
+立陶宛
 1191 | Luxembourg
+卢森堡
 1192 | Latvia
+拉脱维亚
 1193 | Libya
+利比亚
 1194 | Morocco
+摩洛哥
 1195 | Monaco
+摩纳哥
 1196 | Moldova
+摩尔多瓦
 1197 | Montenegro
+黑山
 1198 | Madagascar
+马达加斯加
 1199 | Marshall Islands
+马绍尔群岛
 1200 | North Macedonia
+北马其顿
 1201 | Mali
+马里
 1202 | Myanmar
+缅甸
 1203 | Mongolia
+蒙古
 1204 | Macau
+澳门
 1205 | Northern Mariana Islands
+北马里亚纳群岛
 1206 | Martinique
+马提尼克
 1207 | Mauritania
+毛里塔尼亚
 1208 | Montserrat
+蒙特塞拉特
 1209 | Malta
+马耳他
 1210 | Mauritius
+毛里求斯
 1211 | Maldives
+马尔代夫
 1212 | Malawi
+马拉维
 1213 | Mexico
+墨西哥
 1214 | Malaysia
+马来西亚
 1215 | Mozambique
+莫桑比克
 1216 | Namibia
+纳米比亚
 1217 | New Caledonia
+新喀里多尼亚
 1218 | Niger
+尼日尔
 1219 | Norfolk Island
+诺福克岛
 1220 | Nigeria
+尼日利亚
 1221 | Nicaragua
+尼加拉瓜
 1222 | Netherlands
+荷兰
 1223 | Norway
+挪威
 1224 | Nepal
+尼泊尔
 1225 | Nauru
+瑙鲁
 1226 | Niue
+纽埃
 1227 | New Zealand
+新西兰
 1228 | Oman
+阿曼
 1229 | Panama
+巴拿马
 1230 | Pacific Community
+太平洋共同体
 1231 | Peru
+秘鲁
 1232 | French Polynesia
+法属波利尼西亚
 1233 | Papua New Guinea
+巴布亚新几内亚
 1234 | Philippines
+菲律宾
 1235 | Pakistan
+巴基斯坦
 1236 | Poland
+波兰
 1237 | Pitcairn
+皮特凯恩群岛
 1238 | Puerto Rico
+波多黎各
 1239 | State of Palestine
+巴勒斯坦国
 1240 | Portugal
+葡萄牙
 1241 | Palau
+帕劳
 1242 | Paraguay
+巴拉圭
 1243 | Qatar
+卡塔尔
 1244 | Romania
+罗马尼亚
 1245 | Serbia
+塞尔维亚
 1246 | Russia
+俄罗斯
 1247 | Rwanda
+卢旺达
 1248 | Saudi Arabia
+沙特阿拉伯
 1249 | Solomon Islands
+所罗门群岛
 1250 | Seychelles
+塞舌尔
 1251 | Sudan
+苏丹
 1252 | Sweden
+瑞典
 1253 | Singapore
+新加坡
 1254 | Ascension Island
+阿森松岛
 1255 | Saint Helena
+圣赫勒拿
 1256 | Tristan da Cunha
+特里斯坦-达库尼亚
 1257 | Saint Helena, Ascension and Tristan da Cunha
+圣赫勒拿、阿森松和特里斯坦-达库尼亚
 1258 | Slovenia
+斯洛文尼亚
 1259 | Svalbard and Jan Mayen
+斯瓦尔巴和扬马延
 1260 | Slovakia
+斯洛伐克
 1261 | Sierra Leone
+塞拉利昂
 1262 | San Marino
+圣马力诺
 1263 | Senegal
+塞内加尔
 1264 | Somalia
+索马里
 1265 | Suriname
+苏里南
 1266 | South Sudan
+南苏丹
 1267 | Sao Tome and Principe
+圣多美和普林西比
 1268 | El Salvador
+萨尔瓦多
 1269 | Sint Maarten
+荷属圣马丁
 1270 | Syria
+叙利亚
 1271 | Eswatini
+埃斯瓦蒂尼
 1272 | Turks and Caicos Islands
+特克斯和凯科斯群岛
 1273 | Chad
+乍得
 1274 | French Southern Territories
+法属南部领地
 1275 | Togo
+多哥
 1276 | Thailand
+泰国
 1277 | Tajikistan
+塔吉克斯坦
 1278 | Tokelau
+托克劳
 1279 | Timor-Leste
+东帝汶
 1280 | Turkmenistan
+土库曼斯坦
 1281 | Tunisia
+突尼斯
 1282 | Tonga
+汤加
 1283 | Türkiye
+土耳其
 1284 | Trinidad and Tobago
+特立尼达和多巴哥
 1285 | Tuvalu
+图瓦卢
 1286 | Taiwan
+台湾
 1287 | Tanzania
+坦桑尼亚
 1288 | Ukraine
+乌克兰
 1289 | Uganda
+乌干达
 1290 | United States Minor Outlying Islands
+美国本土外小岛屿
 1291 | United Nations
+联合国
 1292 | United States of America
+美国
 1293 | Uruguay
+乌拉圭
 1294 | Uzbekistan
+乌兹别克斯坦
 1295 | Holy See
+梵蒂冈
 1296 | Saint Vincent and the Grenadines
+圣文森特和格林纳丁斯
 1297 | Venezuela
+委内瑞拉
 1298 | Virgin Islands (British)
+英属维尔京群岛
 1299 | Virgin Islands (U.S.)
+美属维尔京群岛
 1300 | Vietnam
+越南
 1301 | Vanuatu
+瓦努阿图
 1302 | Samoa
+萨摩亚
 1303 | Kosovo
+科索沃
 1304 | Yemen
+也门
 1305 | South Africa
+南非
 1306 | Zambia
+赞比亚
 1307 | Zimbabwe
+津巴布韦
 
 ========================================================================
 SECTION 32: Pride flag names
 ========================================================================
 # Names shown when a player picks a pride flag. Use the words your community uses.
 
+# 译注：第 32 节的骄傲旗帜名称按中文 LGBTQ+ 社群的常见说法翻译。其中一些词在中文里还没有统一译法，标了“不确定”的请找熟悉社群用语的朋友再看看。
 1308 | Abrosexual
+流性恋
+# 译注：不确定：Aegosexual 的中文说法不统一，也有人译作“无我性恋”。
 1309 | Aegosexual
+自我分离性恋
 1310 | Agender
+无性别
+# 译注：不确定：Altersex 在中文里几乎没有通行译法，暂时保留英文。
 1311 | Altersex
+Altersex
 1312 | Aroace
+无浪漫无性恋
 1313 | Aromantic
+无浪漫倾向
 1314 | Asexual
+无性恋
 1315 | Bear
+熊族
 1316 | Bigender
+双性别
 1317 | Bisexual
+双性恋
 1318 | Demiboy
+半男性
 1319 | Demigender
+半性别
 1320 | Demigirl
+半女性
 1321 | Demisexual
+半性恋
 1322 | Disability
+残障
+# 译注：Femboy 在中文网络上通常叫“男娘”；“伪娘”有时带贬义，所以没有用。
 1323 | Femboy
+男娘
 1324 | Genderfluid
+性别流动
 1325 | Genderqueer
+性别酷儿
+# 译注：这是以设计者吉尔伯特·贝克（Gilbert Baker）命名的最初版八色彩虹旗。按“人名不翻译”的规则保留英文；也可以写成“吉尔伯特·贝克彩虹旗”。
 1326 | Gilbert Baker
+Gilbert Baker
 1327 | Graysexual
+灰性恋
 1328 | Intersex Inclusive Progress
+间性人包容进步旗
 1329 | Intersex
+间性人
 1330 | Lesbian
+女同性恋
 1331 | Nonbinary
+非二元性别
 1332 | Pansexual
+泛性恋
 1333 | Philadelphia
+费城彩虹旗
 1334 | Polyamory
+多边恋
 1335 | Polysexual
+多性恋
 1336 | Progress
+进步彩虹旗
 1337 | Queer
+酷儿
 1338 | Queer People of Color
+有色人种酷儿
 1339 | Relationship Anarchy
+关系无政府主义
+# 译注：不确定：Sapphic 泛指女性之间的爱恋关系（源自古希腊诗人萨福），中文没有统一说法，可以考虑“萨福恋”或“女女恋”。
 1340 | Sapphic
+萨福
 1341 | Straight Ally
+异性恋盟友
 1342 | Tomboy
+假小子
 1343 | Traditional
+传统彩虹旗
 1344 | Trans Inclusive Gay Men's
+跨性别包容男同性恋
+# 译注：不确定：Transfeminine / Transmasculine 的中文说法不统一，也有“跨女性谱系 / 跨男性谱系”等译法。
 1345 | Transfeminine
+跨性别女性化
 1346 | Transgender
+跨性别
 1347 | Transmasculine
+跨性别男性化
 1348 | Two Spirit
+双灵
 
 ========================================================================
 SECTION 33: Tutorial map (optional, do this section last)
 ========================================================================
 # Text inside the bundled "Speedrun Tutorial Map" world, opened from Practice > Tutorials. It needs a separate update of that map to go live. Codes like §e set the text color: keep them exactly where they are. Words in {curly brackets} are numbers or names filled in by the game.
 
+# 译注：第 33 节的 Minecraft 名词都按官方简中译名翻译（熔岩、猪灵、末影珍珠、铁傀儡、干草块、玄武岩三角洲等）。§ 加字母的颜色代码都保留在原来的位置。
 1349 | Introduction
+简介
 1350 | Get started
+开始
 1351 | Village Loot
+村庄搜刮
 1352 | Village looting
+搜刮村庄
 1353 | Lava Pool
+熔岩池
 1354 | Portal from a lava pool
+用熔岩池搭传送门
+# 译注：Sprinkz 是人名（这个打法的发明者），所以保留英文；Strat 译作“打法”。
 1355 | Sprinkz Strat
+Sprinkz 打法
 1356 | Dig into stronghold
+挖进要塞
 1357 | Portal in the SH portal room
+在要塞传送门房间搭下界传送门
 1358 | Stronghold Nav
+要塞导航
 1359 | Navigating the stronghold
+在要塞中找路
+# 译注：Quadrant 在这里指村庄和下界结构生成所用的网格区域（类似 Java 版的“区域”）。教程里用了“正正方向（pos pos）”这种说法，所以译作“象限”。
 1360 | Quadrants
+象限
 1361 | Nether quadrants
+下界象限
 1362 | Looting bastion remnants
+搜刮堡垒遗迹
 1363 | Warped
+诡异森林
 1364 | Warped tower
+诡异森林塔
 1365 | Fortress
+下界要塞
 1366 | One Cycle
+One Cycle
 1367 | One cycling the dragon
+一轮床爆击杀末影龙
 1368 | How this map works
+地图使用说明
 1369 | Plains 1
+平原 1
 1370 | Plains 2
+平原 2
 1371 | Plains 3
+平原 3
 1372 | Plains 4
+平原 4
 1373 | Desert 1
+沙漠 1
 1374 | Desert 2
+沙漠 2
 1375 | Desert 3
+沙漠 3
 1376 | Savanna 1
+热带草原 1
 1377 | Savanna 2
+热带草原 2
 1378 | Savanna 3
+热带草原 3
 1379 | Savanna 4
+热带草原 4
 1380 | Snowy 1
+雪原 1
 1381 | Snowy 2
+雪原 2
 1382 | Snowy 3
+雪原 3
 1383 | Taiga 1
+针叶林 1
 1384 | Taiga 2
+针叶林 2
 1385 | Village spawning
+村庄生成
 1386 | How villages generate
+村庄是如何生成的
 1387 | Plains
+平原
 1388 | Plains village looting
+搜刮平原村庄
 1389 | Snowy
+雪原
 1390 | Snowy village looting
+搜刮雪原村庄
 1391 | Taiga
+针叶林
 1392 | Taiga village looting
+搜刮针叶林村庄
 1393 | Savanna
+热带草原
 1394 | Savanna village looting
+搜刮热带草原村庄
 1395 | Desert
+沙漠
 1396 | Desert village looting
+搜刮沙漠村庄
+# 译注：堡垒遗迹的四种类型按 Minecraft Wiki 中文的叫法：桥梁、宝藏室、居住区、疣猪兽厩。国内速通圈常简称为“桥堡、宝藏堡、住宅堡、猪圈堡”，想更口语可以替换。
 1397 | Bridge
+桥梁
 1398 | Bridge bastion
+桥梁堡垒
 1399 | Treasure
+宝藏室
 1400 | Treasure bastion
+宝藏室堡垒
 1401 | Housing
+居住区
 1402 | Housing bastion
+居住区堡垒
 1403 | Stables
+疣猪兽厩
 1404 | Stables bastion
+疣猪兽厩堡垒
 # [WORD ORDER]
 1405 | §aTeleported to §f{name}
+§a已传送到 §f{name}
 
 1406 | §fBack
+§f返回
 1407 | Back to the menu
+返回菜单
 1408 | Run the guided tutorial
+开始引导教程
 1409 | Practice without tutorial guidance
+不带引导自由练习
 1410 | Back to the main menu
+返回主菜单
 1411 | Open Sprinkz tutorials
+打开 Sprinkz 教程
 1412 | Showcase
+演示
 1413 | Visually see where the correct dig area is
+直观地看到正确的挖掘区域在哪里
 1414 | Randomized Sprinkz practice
+随机 Sprinkz 练习
 1415 | Sprinkz Strat explanation
+Sprinkz 打法讲解
 1416 | Sprinkz strat is a strategy that allows you to always dig down into the starter staircase of the stronghold, based on the village bells. The reason why it works is that when stronghold generate under villages in bedrock, they generate from the world chunk of the village on the 4-4 relative coordinates of the chunk. Therefore, if we are able to map the starting coordinates of the village, we can just add 4-4 to those and we'll be able to know where to dig. It's therefore obvious that for each village center type there will be a different dig down spot. You will be guided for every single center type, there are 16 total. Since the starter staircase is decently wide, you don't need to dig at the exact spot, but it's enough to dig in the 5x5 area around it.
+Sprinkz 打法是一种根据村庄的钟来定位、每次都能直接挖到要塞起始阶梯的策略。它之所以有效，是因为在基岩版中，当要塞生成在村庄下方时，它会从村庄所在区块内相对坐标 4-4 的位置开始生成。因此，只要能确定村庄的起始坐标，再加上 4-4，就能知道该往哪里挖。显然，每种村庄中心类型都对应着不同的下挖位置。教程会带您逐一学习每种中心类型，总共有 16 种。由于起始阶梯相当宽，您不需要挖在精确的位置上，只要挖在它周围 5x5 的范围内就够了。
 1417 | Go to the marked point on the right side of the bell.
+前往钟右侧的标记点。
 1418 | §eThis is the starting point. Move 3 blocks right.
+§e这里是起点。向右移动 3 格。
 1419 | §eNow move 2 blocks forward.
+§e现在向前移动 2 格。
 1420 | §eAdd 4 4 to both coordinates.
+§e把 X 和 Z 坐标各加 4。
 1421 | §eDig the marked block below you.
+§e挖掉您脚下标记的方块。
 1422 | §eMove 3 blocks right.
+§e向右移动 3 格。
 1423 | Go to the marked starting point.
+前往标记的起点。
 1424 | Go to the marked block.
+前往标记的方块。
 1425 | §eThis block is always stone; the blocks on the other corresponding sides do not have cobblestone.
+§e这个方块一定是石头；其他几侧对应的位置都没有圆石。
 1426 | §eNow move 10 blocks forward.
+§e现在向前移动 10 格。
 1427 | §eMove 3 blocks left.
+§e向左移动 3 格。
 1428 | Go to the marked point.
+前往标记点。
 1429 | §eThis grass pattern is common here. Go to the bell that is facing its side.
+§e这里经常能看到这种草地图案。前往正对着它侧面的那口钟。
 1430 | §eGo directly to the marked starting point.
+§e直接前往标记的起点。
 1431 | §eDig down 2 blocks.
+§e向下挖 2 格。
 1432 | §eDig the two marked side blocks.
+§e挖掉侧面两个标记的方块。
 1433 | §eLook at the two logs. The one with the vertical texture is the correct one. Get out of the hole and go to the marked point on that side.
+§e看看这两根原木，纹理是竖向的那根才是对的。从坑里出来，前往那一侧的标记点。
 1434 | §eThis block is odd. If you look at all the other sides, the others are smooth. Go to the right side of the side with the odd block.
+§e这个方块与众不同。看看其他几侧，都是平整的。前往有这个特殊方块那一侧的右边。
 1435 | §eThose are smooth. All the other sides don't have logs going all in the same direction.
+§e这些是平整的。其他几侧的原木都没有朝同一个方向排列。
 1436 | §eMove 3 blocks right, facing away from the smooth side.
+§e背对平整的那一侧，向右移动 3 格。
 1437 | §eFind the side with the small L.
+§e找到有小 L 形的那一侧。
 1438 | Go to the next marked point.
+前往下一个标记点。
 1439 | §eLooking at the long path, move 3 blocks right.
+§e面朝那条长路，向右移动 3 格。
 1440 | Back to lobby
+返回大厅
 1441 | Return to the lobby
+回到大厅
 1442 | Generate another visualized center
+再生成一个可视化的中心
 1443 | Generate another random center
+再生成一个随机中心
 1444 | §aSprinkz showcase complete!
+§aSprinkz 演示完成！
 1445 | §aSprinkz practice complete!
+§aSprinkz 练习完成！
 1446 | Restart showcase
+重新开始演示
 1447 | Restart practice
+重新开始练习
 1448 | Restart tutorial
+重新开始教程
 1449 | Generate a new visualized center
+生成新的可视化中心
 1450 | Generate a new randomized practice
+生成新的随机练习
 1451 | Restart this Sprinkz tutorial
+重新开始这个 Sprinkz 教程
 1452 | Open the Sprinkz tutorial grid
+打开 Sprinkz 教程选择界面
+# 译注：原文结尾是“Crazdenuy.§7.”，多了一个句点，看起来是笔误。中文只保留一个句号，§7 代码都保留了。
 1453 | §fThis map is a speedrun tutorial hub. It was built with the intention of making Bedrock Speedrunning more accessible to the evergrowing number of beginners that approach speedrunning this game.\n\n§fDisclaimer:§7 the tutorials put the player in a situation that can be considered much easier than actual runs, to make learning easier. This map is thought for beginners, not experienced runners.\n§7\n\n§7Credits:\n§7This is a Bedrock Ranked creation, made by §7Ma Ehy and Crazdenuy.§7.
+§f这张地图是一个速通教程中心。制作它的初衷，是让越来越多刚接触基岩版速通的新手更容易上手。\n\n§f免责声明：§7为了方便学习，教程中的情况会比实际速通简单得多。这张地图是为新手准备的，并不面向有经验的速通玩家。\n§7\n\n§7制作人员：\n§7本地图由 Bedrock Ranked 出品，作者为 §7Ma Ehy 和 Crazdenuy§7。
 1454 | Waterbed
+水床
 1455 | Water + bed one cycle
+水 + 床一轮床爆
 1456 | Lava
+熔岩
 1457 | Lava one cycle
+熔岩一轮床爆
 1458 | Guided tutorial
+引导教程
 1459 | Kill the dragon
+击杀末影龙
 1460 | Back to One Cycle
+返回 One Cycle
 1461 | Choose method
+选择方法
 1462 | Waterbed or Lava
+水床或熔岩
 1463 | Return to lobby
+返回大厅
 1464 | Dragon killed!
+末影龙已被击杀！
 1465 | §eTry the three-bed explosion sequence again.
+§e再试一次三床爆炸流程。
 1466 | You missed the bed timing. The first dragon is still alive. Try the three-bed explosion again.
+床的时机没掌握好，第一条末影龙还活着。再试一次三床爆炸吧。
 1467 | Congratulations! You killed the first dragon with the bed sequence.
+恭喜！您用床爆流程击杀了第一条末影龙。
 1468 | §eBuild the marked setup.
+§e搭建标记的结构。
 1469 | §cWatch for dragon breath around the portal area. Move out of it before continuing the setup.
+§c注意传送门周围的龙息。先离开龙息范围，再继续搭建。
 1470 | §ePlace the two obsidian blocks. In a real run, you only need the upper one.
+§e放下两块黑曜石。在实际速通中，您只需要上面那块。
 1471 | §ePractice: kill the dragon.
+§e练习：击杀末影龙。
 1472 | §bPlace water at the marked block.
+§b在标记的方块处放水。
+# 译注：Spear 是新版本加入的武器，官方简中译名为“矛”，请对照游戏内实际译名确认。
 1473 | §eUse the spear on the dragon's neck, then land 5 critical hits with the stone sword.
+§e用矛攻击末影龙的脖子，然后用石剑打出 5 次暴击。
 1474 | §bThe hit counter is only a practice guide. In a real run, judge your damage from the dragon boss health bar.
+§b击打计数只是练习时的参考。在实际速通中，请根据末影龙的 Boss 血条来判断伤害。
 # [WORD ORDER]
 1475 | §eSword hits: §f{number}§7/5
+§e剑击次数：§f{number}§7/5
 
 1476 | §eGood. Stand at the marked point.
+§e很好。站到标记点上。
 1477 | Now you have to blow up the bed. This is the most important part. You have to blow up the three beds consecutively about 500 milliseconds from each other. If you blow them too fast, the dragon won't take damage. If you blow them too slow, the dragon will fly away and you won't be able to kill it. In this tutorial, the dragon won't fly away at all, so you can be a bit slower.
+现在您要引爆床了，这是最重要的部分。您需要连续引爆三张床，每张之间间隔大约 500 毫秒。如果引爆得太快，末影龙不会受到伤害；如果太慢，末影龙会飞走，您就没法击杀它了。在这个教程里，末影龙完全不会飞走，所以您可以稍微慢一点。
 1478 | §cMine the marked block.
+§c挖掉标记的方块。
 1479 | §eUse the spear on the dragon's neck, then land 5 critical hits with the iron pickaxe.
+§e用矛攻击末影龙的脖子，然后用铁镐打出 5 次暴击。
 # [WORD ORDER]
 1480 | §ePickaxe hits: §f{number}§7/5
+§e镐击次数：§f{number}§7/5
 
 1481 | §eGood. Pillar 15 blocks up on the marked column.
+§e很好。在标记的位置往上垫高 15 格。
 1482 | §6Place lava at the marked top block.
+§6在最上方标记的方块处放熔岩。
 1483 | §cDo not let the lava flow too far down before continuing. Keep it high enough to control the setup.
+§c继续之前，不要让熔岩往下流得太远。保持足够的高度，才能控制好整个结构。
 1484 | §eGo back down to the marked point.
+§e回到下面的标记点。
 # [WORD ORDER]
 1485 | §eBeds: §f{beds}§7/3
+§e床：§f{beds}§7/3
 
 1486 | Guided Bridge Bastion tutorial
+桥梁堡垒引导教程
 1487 | Trade 72 gold ingots
+交易 72 个金锭
 1488 | Back to Bastions
+返回堡垒遗迹
 1489 | Replay the guided tutorial
+重玩引导教程
 1490 | Choose bastion
+选择堡垒类型
 1491 | Choose another Bastion
+选择其他堡垒
 1492 | §aBridge Bastion complete!
+§a桥梁堡垒完成！
 1493 | Guided Treasure Bastion tutorial
+宝藏室堡垒引导教程
 1494 | 72 gold ingots
+72 个金锭
 1495 | §fWelcome in the Treasure Bastion tutorial. For the Treasure Bastion, you want to avoid the big cube section, as it is too dangerous. Instead, go in the ramparts to loot the Bastion fast.
+§f欢迎来到宝藏室堡垒教程。在宝藏室堡垒中，您要避开中间的大方块区域，因为那里太危险了。改为从城墙进去，快速搜刮堡垒。
 1496 | §eGo to the marked point in the ramparts.
+§e前往城墙中的标记点。
 1497 | Replay Treasure tutorial
+重玩宝藏室教程
 1498 | Normal Treasure Bastion practice
+普通宝藏室堡垒练习
 1499 | §aTreasure Bastion tutorial complete!
+§a宝藏室堡垒教程完成！
 1500 | §eClimb the stairs.
+§e爬上楼梯。
 1501 | §eKeep climbing the stairs.
+§e继续爬楼梯。
 1502 | §eContinue up the stairs.
+§e继续往楼梯上走。
 1503 | §eKeep going up.
+§e继续往上。
 1504 | §cBreak the four marked blocks.
+§c破坏 4 个标记的方块。
 1505 | §eGo back up the stairs.
+§e回到楼梯上面。
 1506 | §ePlace the four marked blocks.
+§e放置 4 个标记的方块。
 1507 | §ePlace a button on the marked block to help piglin pathfinding.
+§e在标记的方块上放一个按钮，帮助猪灵寻路。
 1508 | §eGo to the marked point.
+§e前往标记点。
 1509 | §ePlace the marked block.
+§e放置标记的方块。
 1510 | §cBreak the three marked blocks.
+§c破坏 3 个标记的方块。
 1511 | §cBreak the next marked block.
+§c破坏下一个标记的方块。
 1512 | §cBreak the next two marked blocks.
+§c破坏接下来 2 个标记的方块。
 1513 | §cBreak the block next to it
+§c破坏它旁边的方块
 1514 | §cBreak the final two marked blocks.
+§c破坏最后 2 个标记的方块。
 1515 | §cBreak the two marked blocks.
+§c破坏 2 个标记的方块。
 1516 | Congratulation, you completed the tutorial. In a real run, you should get all the gold blocks (the other rampart is symmetrical to this so you'll find more gold blocks there) and throw it at the piglins that will go in the hole.
+恭喜，您完成了教程！在实际速通中，您应该拿到所有金块（另一侧城墙和这里是对称的，那里还能找到更多金块），然后把金子扔给会掉进坑里的猪灵。
 1517 | Guided Housing Bastion tutorial
+居住区堡垒引导教程
 1518 | 72 gold ingots from a random path
+从随机路线获取 72 个金锭
 1519 | §fWelcome to the Housing Bastion Practice Tutorial. The Housing Bastion has the gold blocks accessible in many different ways, based on how you access the Bastion. We'll see all the ways to get those right now. Let's start with the first one.
+§f欢迎来到居住区堡垒练习教程。在居住区堡垒中，根据您进入堡垒的方式不同，拿到金块的途径也有很多种。我们现在就来逐一看看，先从第一种开始。
 1520 | §eGo down to the marked point.
+§e下到标记点。
 1521 | Congratulations! You completed the Housing Bastion tutorial.
+恭喜！您完成了居住区堡垒教程。
 1522 | §eLoading Bastion...
+§e正在加载堡垒……
 # [WORD ORDER]
 1523 | §6Trade {gold} gold ingots with piglins.
+§6与猪灵交易 {gold} 个金锭。
 
 # [WORD ORDER]
 1524 | §6Gold traded: §f{gold}§7/{gold}
+§6已交易金锭：§f{gold}§7/{gold}
 
 1525 | Guided Stables Bastion tutorial
+疣猪兽厩堡垒引导教程
 1526 | Trade 36 gold ingots from a random start
+从随机起点交易 36 个金锭
+# 译注：“triple”（一个单箱子加一个大箱子）译作“三箱”，后文的 good gap / bad gap 译作“好缝隙 / 坏缝隙”。如果国内速通圈有习惯叫法，可以替换。
 1527 | §fWelcome to the Stables Bastion tutorial. Stables Bastion is the most complex one because it can generate in multiple ways. Essentially, however, there are only two variations that have gold blocks of each part. We will look at both of them. Let's start with the top one, which is called triple as it has one single and a double chest. Note that there is a 33 percent chance for each of the 3 ramparts to be a triple. In this case, all 3 are triples.
+§f欢迎来到疣猪兽厩堡垒教程。疣猪兽厩堡垒是最复杂的一种，因为它有多种生成方式。不过本质上，每个部分只有两种带金块的变体，我们两种都会看一下。先从上面那种开始，它被称为“三箱”，因为它有一个单箱子和一个大箱子。注意，3 段城墙中的每一段都有 33% 的概率是三箱。在这个例子里，3 段全都是三箱。
 1528 | §cDig the marked blocks.
+§c挖掉标记的方块。
 1529 | Congratulations! You completed the Stables Bastion tutorial.
+恭喜！您完成了疣猪兽厩堡垒教程。
 1530 | §cMine the marked blocks.
+§c挖掉标记的方块。
 1531 | You completed the first path. This is a highroll path because you get 4 gold blocks from one triple. After the piglins funnel into the hole, you can go back up and loot the chests safely.
+您完成了第一条路线。这是一条高收益路线，因为一个三箱就能拿到 4 个金块。等猪灵都掉进坑里之后，您就可以回到上面，安全地搜刮箱子了。
 1532 | §eTo identify a good gap, look at the small gap marked with green particles. If it was 2 blocks tall, it would be a bad gap. Since it's one block tall, it's a good gap, meaning there are gold blocks here. Same on the other side. There is a 50% chance for each of the 2 gaps to be good. A bad gap has no gold blocks and one single chest.
+§e想判断是不是好缝隙，就看看用绿色粒子标记的小缝隙。如果它有 2 格高，就是坏缝隙；如果只有 1 格高，就是好缝隙，说明这里有金块。另一侧也一样。2 个缝隙各有 50% 的概率是好缝隙。坏缝隙里没有金块，只有一个单箱子。
 1533 | §cMine the next marked blocks.
+§c挖掉接下来标记的方块。
 1534 | §cBreak the marked block.
+§c破坏标记的方块。
 1535 | §eIf there is air visible (like now) it means there is a good gap that way. If not then it means it's a bad gap. Turn around and keep going up the stairs.
+§e如果能看到空气（就像现在这样），说明那个方向有好缝隙；如果看不到，就是坏缝隙。转身继续爬楼梯。
 1536 | §eIf there is air it's good; if there is no air it's bad. Now let's try to loot this good gap. The process on the other side is similar.
+§e有空气就是好缝隙，没有空气就是坏缝隙。现在我们来搜刮这个好缝隙，另一侧的流程也差不多。
 1537 | §eContinue to the marked point.
+§e继续前往标记点。
 1538 | §cDig the next marked blocks.
+§c挖掉接下来标记的方块。
 1539 | §cMine the next marked block.
+§c挖掉下一个标记的方块。
 1540 | §eKeep going down.
+§e继续往下。
 1541 | §ePlace a block above the hole.
+§e在坑的上方放一个方块。
 1542 | §cMine the next blocks.
+§c挖掉接下来的方块。
 1543 | Congratulation. Those are all the gold blocks. Now let's look at where the double chest is.
+恭喜，这些就是全部的金块了。现在来看看大箱子在哪里。
 1544 | §cDig toward the double chest.
+§c朝大箱子的方向挖。
 1545 | §cKeep digging toward the double chest.
+§c继续朝大箱子的方向挖。
 1546 | Congratulations! You completed the first path, so you know how to loot the bastion if you reach it from the top. Now let's look at how else you can reach the gold blocks.
+恭喜！您完成了第一条路线，现在知道从上方进入堡垒时该怎么搜刮了。接下来看看还有哪些方式可以拿到金块。
 1547 | §eFollow the marked route.
+§e沿着标记的路线走。
 1548 | §cMine the next two blocks.
+§c挖掉接下来 2 个方块。
 1549 | §ePlace a block to stop piglins pathfinding to your hole.
+§e放一个方块，阻止猪灵寻路到您的坑里。
 1550 | §cDig those blocks.
+§c挖掉那些方块。
 1551 | §cKeep digging.
+§c继续挖。
 1552 | Congratulations! You completed the second path. Now let's look at the third way to reach the gold blocks.
+恭喜！您完成了第二条路线。接下来看看拿到金块的第三种方式。
 1553 | §eBuild up on the marked blocks.
+§e在标记的方块上往上搭。
 1554 | §cBreak the marked blocks.
+§c破坏标记的方块。
 1555 | §cBreak the blocks next to them.
+§c破坏它们旁边的方块。
 1556 | Congratulations! You completed all three paths. Now I'll show you some more hidden gold blocks to take if you get too few pearls.
+恭喜！您完成了全部三条路线。接下来我会给您展示一些更隐蔽的金块，万一珍珠拿得太少，可以去拿这些。
 1557 | §eGo right to the marked point.
+§e向右走到标记点。
 1558 | §ePlace blocks to stop piglins pathfinding.
+§e放置方块，阻止猪灵寻路。
 1559 | §ePlace the next two blocks.
+§e放置接下来的 2 个方块。
 1560 | §eBridge tutorial loaded.
+§e桥梁教程已加载。
+# 译注：chalice 是速通玩家对桥梁堡垒中间那个杯状结构的俗称，这里直译为“圣杯”。
 1561 | Welcome to the Bridge Bastion practice. The Bridge Bastion is the easiest one to loot. Remove your boots to aggro the piglins, run to the chalice, pillar up, and mine the marked gold blocks.
+欢迎来到桥梁堡垒练习。桥梁堡垒是最容易搜刮的一种。脱下靴子来激怒猪灵，跑到圣杯处，垫高上去，挖掉标记的金块。
 1562 | §eRemove your golden boots.
+§e脱下您的金靴子。
 1563 | §ePillar up on the marked blocks.
+§e在标记的方块上垫高。
 1564 | §cMine the two marked gold blocks.
+§c挖掉 2 个标记的金块。
 1565 | Good. In a real run, turn the gold blocks into ingots and throw the ingots to the piglins. Keep mining only two or three gold blocks at a time, then give those ingots to the piglins before mining more. This keeps the bartering cycle consistent while you continue looting the chalice.
+很好。在实际速通中，把金块合成金锭，再把金锭扔给猪灵。每次只挖两三个金块，先把这些金锭交给猪灵，再继续挖。这样在您继续搜刮圣杯的同时，交易节奏也能保持稳定。
 1566 | §cMine the final two marked gold blocks.
+§c挖掉最后 2 个标记的金块。
 1567 | Bridge, Treasure, Housing or Stables
+桥梁、宝藏室、居住区或疣猪兽厩
 1568 | Random Housing path start
+随机居住区路线起点
 1569 | Generate this bastion again
+再次生成这个堡垒
 1570 | §eAnother way to identify good gaps. Go up the stairs.
+§e判断好缝隙的另一种方法。爬上楼梯。
 # [WORD ORDER]
 1571 | §dEndermen killed: §f{number}§7/24
+§d已击杀末影人：§f{number}§7/24
 
 1572 | §eTo start, you need a flat surface. Place a block where indicated!
+§e首先，您需要一块平地。在指示的位置放一个方块！
 1573 | §bNow place water where indicated!
+§b现在在指示的位置放水！
 1574 | §cNow break the block where indicated!
+§c现在破坏指示位置的方块！
 1575 | §aPlace a block on every marked spot!
+§a在每个标记位置都放一个方块！
 1576 | §cBreak the block where indicated!
+§c破坏指示位置的方块！
 1577 | §bPlace water where indicated!
+§b在指示的位置放水！
 1578 | §6Place lava on every marked spot!
+§6在每个标记位置都放熔岩！
 1579 | §cBreak the blocks where indicated!
+§c破坏指示位置的方块！
 1580 | §6Now place lava there!
+§6现在在那里放熔岩！
 1581 | §bPick up the water where indicated!
+§b收回指示位置的水！
 1582 | §6Place oak planks on both marked spots!
+§6在两个标记位置都放上橡木木板！
 1583 | §6Place lava where indicated!
+§6在指示的位置放熔岩！
 1584 | §dLight the nether portal and step into it!
+§d点燃下界传送门，然后走进去！
 1585 | Portal
+传送门
 1586 | §6Pick up the lava where indicated!
+§6收回指示位置的熔岩！
 1587 | §aStand where indicated!
+§a站到指示的位置！
 1588 | §6Now place the final lava!
+§6现在放下最后的熔岩！
 1589 | §6Place oak planks on every marked spot!
+§6在每个标记位置都放上橡木木板！
 1590 | §dStand in the portal to complete!
+§d站进传送门即可完成！
 1591 | Go to the correct way
+走正确的路
 1592 | Find the hidden room
+找到隐藏房间
 1593 | The 1st step in a speedrun is to enter the Nether. For a lava portal, you need three iron for a bucket, or ten obsidian from a chest. A village is usually the easiest way to get the iron and food, plus three beds for the dragon. You should also collect about 7-8 logs. You will be taught how to loot every village type step by step. Ruined portals and caves can also work, but they are less consistent for getting the same resources quickly.
+速通的第一步是进入下界。用熔岩搭传送门的话，您需要三个铁锭来做一个桶，或者从箱子里找到十块黑曜石。村庄通常是获取铁和食物最简单的地方，还能拿到用来打末影龙的三张床。您还应该收集大约 7-8 个原木。教程会一步一步教您如何搜刮每种类型的村庄。废弃传送门和洞穴也可以，但想快速拿到同样的资源，它们没那么稳定。
 1594 | Once you have the iron, you will want a source of lava to make a portal. You will be taught how to make a portal step by step. The easiest way to enter the Nether with lava is using a lava pool. Lava pools can spawn deep underground in caves, or, more easily accessible, sometimes on the surface.
+有了铁之后，您需要找一处熔岩来搭传送门。教程会一步一步教您怎么搭。用熔岩进入下界，最简单的方法是利用熔岩池。熔岩池可能生成在地下深处的洞穴里，有时也会生成在更容易到达的地表上。
 1595 | In case your village, from which you gathered the first resources, is more than about 600 blocks from 0 0, there is a chance that there will be a stronghold under the village. The chance becomes maximum at about 900 blocks from 0 0, and starts decreasing from then on progressively. The chance of hitting a stronghold at 900 0 will be approximately 15 percent. There is a strategy to always land on the stronghold, if there is one under the village, every time, and that is called Sprinkz strat.
+如果您收集初始资源的村庄距离 0 0 超过大约 600 格，村庄下方就有可能存在要塞。这个概率在距离 0 0 约 900 格处达到最高，之后逐渐降低。在 900 0 处碰到要塞的概率大约是 15%。有一种策略，只要村庄下方有要塞，每次都能准确挖到它，这就是 Sprinkz 打法。
 1596 | You will be taught this step by step. This is very useful not only if you don't have ender eyes to locate the stronghold, to dig down to it even without eyes, but can also be useful to avoid having to triangulate the stronghold once you get close to it if there is a village where the eye is pointing to. Once you get to the stronghold, if you find the portal room, you can use the lava in it to enter the Nether. You will be taught the optimal way to do that too, step by step.
+教程会一步一步教您这个方法。它非常实用：在没有末影之眼定位要塞时，可以直接挖到要塞；而且当末影之眼指向的方向上有村庄时，也能让您在接近要塞后省去三角定位的步骤。到达要塞后，如果找到了传送门房间，就可以利用里面的熔岩进入下界。教程也会一步一步教您最优的做法。
 1597 | Once in the Nether, you will need to either go to the first structure you see, or if you don't see any, navigate the Nether properly. You will be taught how to navigate the Nether, and how the quadrant system works. Once you do find a structure, you will need to know how to loot it. Specifically, you will need to know how to navigate a Nether Fortress and how to trade with Piglins in a Bastion or get pearls from a warped forest.
+进入下界后，您需要前往看到的第一个结构；如果一个都没看到，就需要正确地在下界中探路。教程会教您如何在下界中探路，以及象限系统是怎么运作的。找到结构之后，您还需要知道如何搜刮它。具体来说，您需要知道如何在下界要塞中找路，以及如何在堡垒遗迹中和猪灵交易，或者从诡异森林获取末影珍珠。
 1598 | This is because to complete Minecraft, you will need blaze rod from a Nether Fortress and pearls, either from a Bastion through Piglin barter, or from a warped forest, where many Endermen spawn. To maximize the amount of pearls you will get from a warped forest in the minimum amount of time possible, there are special setups that you will also be taught.
+这是因为要通关 Minecraft，您需要从下界要塞获得烈焰棒，还需要末影珍珠：可以在堡垒遗迹通过和猪灵交易获得，也可以从刷出大量末影人的诡异森林获得。为了在最短时间内从诡异森林拿到尽可能多的珍珠，还有一些专门的搭建方法，教程也会教给您。
 1599 | Once you get your ender eyes, you will need to go back to the overworld and find the stronghold. This shouldn't be too hard, considering that the closest stronghold to 0 0 usually are villages, and you already will know Sprinkz strat by now. So expect to be able to find a stronghold with one or two eye throws. Alternatively, you might even be already in the portal room or near the stronghold once you leave the Nether, if you entered from a village with a stronghold underneath.
+拿到末影之眼后，您需要回到主世界寻找要塞。这应该不会太难，因为离 0 0 最近的要塞通常都在村庄下方，而那时您已经掌握了 Sprinkz 打法。所以一般扔一两次末影之眼就能找到要塞。另外，如果您是从一个下方有要塞的村庄进入下界的，那么离开下界时，您甚至可能已经在传送门房间里或者要塞附近了。
 1600 | Once you find the stronghold, you will be able to enter the end and kill the dragon. To kill the dragon optimally, you will need three beds and some other resources, such as a spear or a projectile, and preferably obsidian or a water bucket. You will be taught how to kill the dragon step by step, and will be given two separate methods to do it based on the resources you have.
+找到要塞后，您就可以进入末地击杀末影龙了。想要高效地击杀末影龙，您需要三张床和一些其他资源，比如矛或者投掷物，最好还有黑曜石或水桶。教程会一步一步教您如何击杀末影龙，并根据您手头的资源提供两种不同的方法。
 1601 | Thank you for having downloaded this map. Welcome to the world of speedrunning. In this short introduction, you will see how a speedrun works and what you will learn in this map. This map is specifically thought for RSG (random seed glitchless), but the techniques you will learn will also be useful for any other speedrun category you will choose to pursue. Go to the marked point to continue.
+感谢您下载这张地图，欢迎来到速通的世界！在这段简短的介绍中，您将了解速通是怎么一回事，以及您将在这张地图中学到什么。这张地图专为 RSG（随机种子、无漏洞）设计，但您在这里学到的技巧，对您将来想挑战的任何其他速通分类也同样有用。前往标记点继续。
 1602 | You completed the tutorial
+您完成了教程
 1603 | Redo the introduction
+重做简介
 1604 | Restart the introduction
+重新开始简介
 1605 | Go back to the lobby
+回到大厅
 1606 | If you spawn at zero zero, positive positive is the only quadrant without any red zone. This means that it is the most likely quadrant where you will find a structure first. That said, whether it's convenient to go there very much depends on the terrain and whether there is a basalt delta or not.
+如果您在 0 0 出生，那么正正象限是唯一没有任何红色区域的象限。这意味着您最有可能在这个象限里先找到结构。话虽如此，去那里是否方便，很大程度上还取决于地形，以及有没有玄武岩三角洲。
 1607 | In basalt deltas, bastion cannot generate. In Java, if a bastion tries to generate in a basalt delta, a fortress will generate instead. In Bedrock, however, if the same happens, nothing will generate at all in that quadrant. Therefore, there is only a 33% chance that a structure will generate in a totally basalt quadrant.
+堡垒遗迹无法在玄武岩三角洲中生成。在 Java 版中，如果堡垒遗迹试图在玄武岩三角洲中生成，就会改为生成下界要塞。但在基岩版中，如果发生同样的情况，这个象限里就什么都不会生成。因此，在一个完全是玄武岩的象限里，生成结构的概率只有 33%。
 1608 | As you can see, in this quadrant no structure generated. This means that a bastion tried to generate somewhere but got cancelled due to basalt. This is why you should generally avoid basalt unless necessary.
+如您所见，这个象限里没有生成任何结构。这说明有一个堡垒遗迹曾试图在某处生成，但因为玄武岩而被取消了。所以，除非必要，一般都应该避开玄武岩。
 1609 | However, it should be pointed out that often, near the outskirts of basalt deltas, warped forest can spawn.
+不过需要指出的是，诡异森林经常会生成在玄武岩三角洲的边缘附近。
 1610 | If you are trying to find a warped forest, you should also keep in mind to avoid soul sand valleys: warped forests cannot generate next to that biome. If you are just trying to find a structure, any biome except basalt is fine, so you should go where the best terrain is, trying to avoid the red zones that separate the quadrants.
+如果您想找诡异森林，还要记得避开灵魂沙峡谷：诡异森林不会生成在这种生物群系旁边。如果您只是想找结构，除了玄武岩以外的任何生物群系都可以，所以应该往地形最好的方向走，并尽量避开分隔象限的红色区域。
 1611 | Much like villages, the nether structures also generate in quadrants. The quadrants of the nether in Bedrock Edition are much larger than Java, which means that structures are rarer in Bedrock. Quadrants are 26 by 26 chunks large, and there is a four-chunk separation between each quadrant where no structure can generate. In the small reproduction of a nether you are standing on, the red concrete represents the area dividing the quadrants, while the various blocks represent the structures and biomes in the quadrants. In every quadrant, only one structure can generate, either a bastion (66% chance) or a fortress (33% chance).
+和村庄一样，下界结构也是按象限生成的。基岩版下界的象限比 Java 版大得多，这意味着基岩版中的结构更稀少。每个象限的大小为 26×26 区块，象限之间有 4 个区块宽的间隔，那里不会生成任何结构。在您脚下这个缩小版的下界模型中，红色混凝土代表分隔象限的区域，各种方块则代表象限中的结构和生物群系。每个象限只能生成一个结构，要么是堡垒遗迹（66% 概率），要么是下界要塞（33% 概率）。
 1612 | Restart the Quadrants tutorial
+重新开始象限教程
 1613 | Villages in Bedrock spawn in grids, as represented in the floor of this room. The green blocks are where a village would be able to spawn; red is where a village can't spawn. The length of the red line is always 8 chunks long in 1.18+, and 10 chunks in 1.16, while the green quadrant is 26×26 chunks in 1.18+ and 17×17 chunks in 1.16. You are currently facing pos z, as you would when spawning in a new world, and are standing where 0 0 would be. Therefore, the most likely direction to have a village from 0 0 is positive positive (pos pos).
+在基岩版中，村庄按网格生成，就像这个房间的地板所展示的那样。绿色方块表示可以生成村庄的位置；红色表示不能生成村庄的位置。在 1.18+ 中，红线的长度始终是 8 个区块，在 1.16 中则是 10 个区块；绿色象限在 1.18+ 中是 26×26 区块，在 1.16 中是 17×17 区块。您现在面朝正 Z 方向，就像在新世界出生时一样，并且站在相当于 0 0 的位置上。因此，从 0 0 出发，最有可能找到村庄的方向是正正方向（pos pos）。
 1614 | Understood
+明白了
 1615 | Close this explanation
+关闭这段说明
 1616 | Restart Village spawning
+重新开始村庄生成教程
 1617 | Return to the Village Loot menu
+返回村庄搜刮菜单
 1618 | §aBack to the lobby
+§a返回大厅
 1619 | bucket plus a pickaxe, axe and sword (each stone, iron or diamond).
+桶，外加镐、斧和剑各一把（石质、铁质或钻石均可）。
 # [WORD ORDER]
 1620 | §7Loading practice area and generating a new {name} village...
+§7正在加载练习区域，并生成新的{name}村庄……
 
 # [WORD ORDER]
 1621 | §7Practice goal: §f{number}
+§7练习目标：§f{number}
 
 1622 | Plains villages are the most linear and frequent. If there is a blacksmith in the village, go there first. How to play villages with blacksmiths is explained in more depth in the taiga tutorial. Since there is no blacksmith here, let's start by gathering some wood.
+平原村庄布局最规整，也最常见。如果村庄里有铁匠铺，就先去那里。有铁匠铺的村庄该怎么打，会在针叶林教程中详细讲解。这里没有铁匠铺，所以我们先从收集木头开始。
 1623 | You finished the tutorial and completed the loot of the village. You would now be almost ready to enter the Nether. In a real run, you'd still need to get a third bed and 5-7 extra logs.
+您完成了教程，也搜刮完了这个村庄，现在差不多可以进入下界了。在实际速通中，您还需要再拿第三张床，以及额外 5-7 个原木。
 1624 | §eBreak the 3 marked logs.
+§e破坏 3 个标记的原木。
 1625 | §eGreat, now you need to craft all your 3 logs into planks, then make one crafting table and 8 sticks
+§e很好，现在把 3 个原木全部合成木板，然后做一个工作台和 8 根木棍
 1626 | §eNow place the crafting table and craft a wooden pickaxe
+§e现在放下工作台，合成一把木镐
 1627 | §eBreak the marked blocks.
+§e破坏标记的方块。
 1628 | §eNow craft a stone pickaxe.
+§e现在合成一把石镐。
 1629 | §eNow craft a stone sword and a stone axe.
+§e现在合成一把石剑和一把石斧。
 1630 | §eGet the marked bed inside the house.
+§e拿走房子里标记的床。
 1631 | §eExit the house and go to the marked point.
+§e走出房子，前往标记点。
 1632 | §eDig the marked block.
+§e挖掉标记的方块。
 1633 | §eNow dig the block below it.
+§e现在挖掉它下面的方块。
 1634 | §eKill the iron golem. It won't be able to hit you from there.
+§e击杀铁傀儡。它在那个位置打不到您。
 1635 | §eExit the hole and go to the marked point.
+§e从坑里出来，前往标记点。
 1636 | §eGo to the next marked point.
+§e前往下一个标记点。
 1637 | §eGather 7 hay bales.
+§e收集 7 个干草块。
 1638 | §eCraft a bucket and 21 bread.
+§e合成一个桶和 21 个面包。
 1639 | §eGo to the marked house.
+§e前往标记的房子。
 1640 | §eGet the marked bed inside.
+§e拿走里面标记的床。
 1641 | §aNice! You completed the §fPlains§a practice!
+§a太棒了！您完成了§f平原§a练习！
 1642 | §7Practice goal: §fbucket + pickaxe + axe + sword; tools may be stone, iron or diamond.
+§7练习目标：§f桶 + 镐 + 斧 + 剑；工具可以是石质、铁质或钻石。
 1643 | Guided Plains village tutorial
+平原村庄引导教程
 1644 | Get the required village loot
+获取所需的村庄物资
 1645 | Back to Village Loot
+返回村庄搜刮
 1646 | Restart the guided tutorial
+重新开始引导教程
 1647 | Snowy villages are particular and quite common in recent versions. Food is scarce, but iron is a bit more common in these villages because there is a second house, aside from the blacksmith, that can contain iron. You are looking at said house right now. Enter that house to look at it.
+雪原村庄比较特别，在新版本中也相当常见。这类村庄食物稀缺，但铁相对多一些，因为除了铁匠铺之外，还有第二种房子里可能有铁。您现在看着的就是这种房子，进去看看吧。
 1648 | This house is pretty hard to recognize, as it is very similar to many others from the outside. However, you can see at the top there is a diorite wall sticking out, while in the other houses it is made of cobblestone. Now let's see how to play this village without iron.
+这种房子很难认出来，因为从外面看，它和其他很多房子都很像。不过您可以看到，它顶部伸出来的是闪长岩墙，而其他房子这里用的是圆石。接下来看看没有铁的话，该怎么打这个村庄。
 1649 | Since in these types of villages food is scarce, look for either carrots or houses with chests that may contain food. The two houses next to you contain both a bed and a chest with potentially food. Look at them now.
+由于这类村庄食物稀缺，请找找胡萝卜，或者带箱子、可能有食物的房子。您旁边的两座房子里都有床，以及可能装着食物的箱子。现在去看看吧。
 1650 | You finished the Snowy village tutorial. In a real run, make sure to get food if possible, 3 beds, 5-7 logs, and craft the bucket.
+您完成了雪原村庄教程。在实际速通中，记得尽量拿到食物、3 张床、5-7 个原木，并合成桶。
 1651 | §eEnter the marked house.
+§e进入标记的房子。
 1652 | §eMine the marked block.
+§e挖掉标记的方块。
 1653 | §eKeep digging down.
+§e继续往下挖。
 1654 | §eMine the last marked block.
+§e挖掉最后一个标记的方块。
 1655 | §ePlace your crafting table on the marked block.
+§e把工作台放在标记的方块上。
 1656 | §eCraft a wooden pickaxe.
+§e合成一把木镐。
 1657 | §eGet 3 cobblestone.
+§e获取 3 个圆石。
 1658 | §eCraft a stone pickaxe.
+§e合成一把石镐。
 1659 | §eGet 5 cobblestone.
+§e获取 5 个圆石。
 1660 | §eCraft a stone axe and stone sword.
+§e合成一把石斧和一把石剑。
 1661 | §eMine your crafting table and get out of the hole.
+§e挖掉您的工作台，然后从坑里出来。
 1662 | §eTake the marked bed inside the house.
+§e拿走房子里标记的床。
 1663 | §eGo to the iron golem and dig the marked block.
+§e走到铁傀儡旁边，挖掉标记的方块。
 1664 | §eDig the block below it.
+§e挖掉它下面的方块。
 1665 | §eKill the iron golem.
+§e击杀铁傀儡。
 1666 | §aNice! You completed the §fSnowy§a practice!
+§a太棒了！您完成了§f雪原§a练习！
 1667 | Guided Snowy village tutorial
+雪原村庄引导教程
 1668 | Desert villages can be tricky if there is no wood nearby. In this case, we are assuming you will have a way to get wood. If you don't, you might be unable to enter the Nether from the village alone. This is because to get materials you'll need to kill the iron golem by hand and find a crafting table from a house and use the sticks from the dead bushes to make an iron pickaxe to start progressing. Therefore, you might not have iron for a bucket. If you have a tree, however, the looting process is similar to the one we already showed in the plains village.
+如果附近没有树，沙漠村庄会比较棘手。这里我们假设您有办法获得木头。如果没有，单靠这个村庄可能没法进入下界。这是因为想获得材料，您需要空手击杀铁傀儡，在房子里找到工作台，再用枯萎的灌木掉落的木棍做一把铁镐，才能开始推进。这样一来，您可能就没有多余的铁来做桶了。不过如果附近有树，搜刮流程就和我们之前在平原村庄演示的差不多。
 1669 | You completed the tutorial of the Desert village.
+您完成了沙漠村庄教程。
 1670 | §eBreak the marked block.
+§e破坏标记的方块。
 1671 | §eBreak the next marked block.
+§e破坏下一个标记的方块。
 1672 | §eBreak the 3 marked blocks.
+§e破坏 3 个标记的方块。
 1673 | §eDig down.
+§e往下挖。
 1674 | §eBreak the block beside you.
+§e破坏您旁边的方块。
 1675 | §ePlace the crafting table on the marked block.
+§e把工作台放在标记的方块上。
 1676 | §eMake a wooden pickaxe.
+§e做一把木镐。
 1677 | §eMake a stone pickaxe.
+§e做一把石镐。
 1678 | §eMake a stone axe and stone sword.
+§e做一把石斧和一把石剑。
 1679 | §eMine and pick up your crafting table, then get out of the hole.
+§e挖下并捡起您的工作台，然后从坑里出来。
 1680 | §eGo to the iron golem.
+§e走到铁傀儡旁边。
 1681 | §eDig down on the marked block.
+§e在标记的方块处往下挖。
 1682 | §eDig one block lower.
+§e再往下挖一格。
 1683 | §eGet the bed inside the house.
+§e拿走房子里的床。
 1684 | §aNice! You completed the §fDesert§a practice!
+§a太棒了！您完成了§f沙漠§a练习！
 1685 | Guided Desert village tutorial
+沙漠村庄引导教程
 1686 | In savanna villages, sometimes houses with chests can have buckets in them. This is the only major difference between savanna and other villages, aside from the fact that blacksmiths are much rarer in savanna. If you do get a bucket from a chest, then it is recommended to still kill the golem anyways to then craft an iron pickaxe to save time when mining later in the run. Besides that, the looting of savanna villages is analogous to the ones we already saw.
+在热带草原村庄里，带箱子的房子有时会有桶。除了铁匠铺在热带草原中要少见得多之外，这是热带草原村庄和其他村庄唯一的主要区别。如果您从箱子里拿到了桶，仍然建议击杀铁傀儡，再合成一把铁镐，这样之后挖矿能省时间。除此之外，热带草原村庄的搜刮方式和我们之前看过的类似。
 1687 | That house has no chest.
+那座房子没有箱子。
 1688 | That house has a bed and a chest.
+那座房子有一张床和一个箱子。
 1689 | Look at the roof of the two houses in front of you. The one farther away, with a pointed roof, is analogous to the one you just saw, with a chest and a bed. The one with the flatter roof, closer to you, is a house with no chest and no bed, and therefore you should avoid it. In savanna villages, you may also find terracotta houses. The one made of red terracotta has a bed and a chest, while the one made with orange terracotta has a bed and a crafting table.
+看看您面前两座房子的屋顶。远一点、尖屋顶的那座，和您刚才看到的那座一样，有一个箱子和一张床。近一点、屋顶比较平的那座，既没有箱子也没有床，所以应该避开它。在热带草原村庄里，您可能还会看到陶瓦房子：红色陶瓦的那种有一张床和一个箱子，橙色陶瓦的那种有一张床和一个工作台。
 1690 | You completed the tutorial of the Savanna village.
+您完成了热带草原村庄教程。
 1691 | §eGo to the next marked house.
+§e前往下一座标记的房子。
 1692 | §eGo to the marked viewpoint.
+§e前往标记的观察点。
 1693 | §eGather the 3 marked logs.
+§e收集 3 个标记的原木。
 1694 | §eContinue to the marked house.
+§e继续前往标记的房子。
 1695 | §aNice! You completed the §fSavanna§a practice!
+§a太棒了！您完成了§f热带草原§a练习！
+# 译注：“Continue”是地图里一个回响碎片物品的名字。这里的“继续”要和地图中物品实际显示的名字一致；如果物品名没有翻译，这里也应保留英文“Continue”。1702、1709 同理。
 1696 | §eUse the §fContinue§e echo shard to proceed.
+§e使用§f“继续”§e回响碎片进入下一步。
 1697 | Guided Savanna village tutorial
+热带草原村庄引导教程
 1698 | Taiga villages are interesting because, as the snowy ones, they do not have hay bales, and therefore you will need to find food in chests or from carrots. However, taiga villages can be the fastest, as they are much more likely to contain blacksmiths and iron houses. You can see a taiga blacksmith in front of you now. This tutorial will also serve as a tutorial on how to loot any village with free iron or more in a blacksmith chest.
+针叶林村庄很有意思，因为它和雪原村庄一样没有干草块，所以您需要从箱子里或者胡萝卜那里找食物。不过，针叶林村庄可能是最快的，因为它们更有可能出现铁匠铺和有铁的房子。您面前就是一座针叶林铁匠铺。这个教程同时也会教您，如何搜刮铁匠铺箱子里有现成铁锭的任何村庄。
 1699 | In a normal village, you will now get two logs and make a crafting table, 8 sticks, and an iron pickaxe directly. And then you will kill the golem and make a bucket. However, since we are in a taiga village, houses with chests can have wood logs already in them. Let's try to find one such house.
+在普通村庄里，您现在会去拿两个原木，然后直接做一个工作台、8 根木棍和一把铁镐，接着击杀铁傀儡，做一个桶。不过，因为我们在针叶林村庄里，带箱子的房子里可能已经有原木了。我们来试着找一座这样的房子。
 1700 | This house has two beds, a chest, and a crafting table. Go inside and get the logs.
+这座房子有两张床、一个箱子和一个工作台。进去拿原木吧。
 1701 | In an actual one, remember to also get three beds and craft a bucket from the iron of the iron golem. If you get five iron from the iron golem, use the two extra to make an iron sword. If you get six or more iron from the original blacksmith, you can skip the golem kill entirely and just make an iron pickaxe and a bucket from those. Now let's see two other meaningful houses.
+在实际速通中，记得还要拿三张床，并用铁傀儡掉的铁合成一个桶。如果铁傀儡掉了五个铁锭，就用多出来的两个做一把铁剑。如果最开始的铁匠铺里就有六个或更多铁锭，您完全可以跳过击杀铁傀儡，直接用这些铁做一把铁镐和一个桶。接下来看看另外两座值得注意的房子。
 1702 | The two houses on your left and on your right both have two beds and a chest. The one on your left has the chest on the lower floor, while the one on the right has the chest on the upper floor. You can explore them and then use the continue item to complete the tutorial.
+您左右两边的两座房子都有两张床和一个箱子。左边那座的箱子在楼下，右边那座的箱子在楼上。您可以进去看看，然后使用“继续”物品完成教程。
 1703 | §eGo to the blacksmith.
+§e前往铁匠铺。
 1704 | §eOpen the door and get the 3 iron from the chest.
+§e打开门，从箱子里拿 3 个铁锭。
 1705 | §eGet 3 spruce logs.
+§e获取 3 个云杉原木。
 1706 | §eNow craft an iron pickaxe.
+§e现在合成一把铁镐。
 1707 | §aYou completed the §fTaiga§a tutorial!
+§a您完成了§f针叶林§a教程！
 1708 | §aNice! You completed the §fTaiga§a practice!
+§a太棒了！您完成了§f针叶林§a练习！
 1709 | §eUse the §fContinue§e echo shard when you are ready to finish.
+§e准备好结束时，使用§f“继续”§e回响碎片。
 1710 | Guided Taiga village tutorial
+针叶林村庄引导教程
 1711 | This is always the second room of the stronghold.\n\nFrom here, the stronghold branches out in several paths: to know where the portal room (and libraries) is, consider that they need SPACE to generate.\n\nTherefore, you should always go to the most isolated way.
+这里永远是要塞的第二个房间。\n\n从这里开始，要塞会分出好几条路：想知道传送门房间（和图书馆）在哪里，要考虑到它们需要足够的“空间”才能生成。\n\n所以，您应该总是走最孤立的那条路。
 1712 | In this scenario, both ways are fine, because they are both isolated and far apart.
+在这种情况下，两条路都可以，因为它们都很孤立，而且相隔很远。
 1713 | §aGo to the correct way
+§a走正确的路
 1714 | In this scenario, the left and middle ways are clustered, so you should go to them last, and start from the top-right way.\n\nIf the portal room isn't there, you should try middle since it goes down a few blocks.
+在这种情况下，左边和中间的路挨得很近，所以应该最后再走它们，先从右上方的路开始。\n\n如果传送门房间不在那里，就试试中间那条，因为它会往下走几格。
 1715 | In this scenario, all the ways are clustered, so you should start from the middle way since it at least goes down a few blocks.\n\nThen, try going in the direction that wouldn't risk intersecting with the other ways.
+在这种情况下，所有的路都挨得很近，所以应该从中间那条开始，因为它至少会往下走几格。\n\n然后，试着往不会和其他路交叉的方向走。
 1716 | Now, let's learn about hidden rooms: a hidden room can generate on an apparently closed wall if the other way in the same direction has a 3x3, 1 deep hole in it.\n\nIn this case, the top left way has the hole, so there can be a hidden room on bottom left.
+接下来学习隐藏房间：如果同一方向的另一条路上有一个 3x3、深 1 格的坑，那么一面看起来封死的墙后面就可能生成隐藏房间。\n\n在这个例子里，左上方的路有这个坑，所以左下方可能有一个隐藏房间。
 1717 | §cFind the hidden room
+§c找到隐藏房间
 1718 | This is the STARTER STAIRCASE. It's the beginning of the stronghold.\n\nGo to the next room.
+这是“起始阶梯”，也就是要塞的入口。\n\n前往下一个房间。
 1719 | Go
+出发
 1720 | §aGo to the next room
+§a前往下一个房间
 # [WORD ORDER]
 1721 | §{number}{number}
+§{number}{number}
 
 # [WORD ORDER]
 1722 | §7Practice mode: §f{name}
+§7练习模式：§f{name}
 
 1723 | Skip TP Wait
+跳过传送等待
 1724 | §fNow SHIFT and, looking at your crosshair exactly as in the image (top side of the button), place down 4 boats. If the boats do not place, stand a little farther away from the button and try again.
+§f现在按住 SHIFT 潜行，像图中那样让准星正好对准按钮的上侧，放下 4 艘船。如果船放不下去，就离按钮稍微远一点再试。
 1725 | §dEndermen killed: §f0§7/24
+§d已击杀末影人：§f0§7/24
 1726 | §bLook at the Endermen from the tower to anger them while staying in the tower's safe spot.
+§b站在塔里的安全位置，从塔上看向末影人来激怒它们。
 1727 | §bTip: while the Endermen are suffocating in the tower, use critical sword hits to finish them faster.
+§b提示：末影人在塔里窒息时，用剑暴击可以更快地击杀它们。
 # [WORD ORDER]
 1728 | §aNice! You completed the §fWarped Tower§a {number}!
+§a太棒了！您完成了§f诡异森林塔§a {number}！
 
 1729 | §ePlace cobblestone on all the marked blocks.
+§e在所有标记的方块上放置圆石。
 1730 | §eNow place an oak button on the marked block. Place it on one of the sides of the block, NOT on the bottom.
+§e现在在标记的方块上放一个橡木按钮。要放在方块的侧面，不要放在底面。
 1731 | §ePlace all 4 boats around the button as shown.
+§e按图示在按钮周围放下全部 4 艘船。
 1732 | §ePillar up with cobblestone on the marked blocks.
+§e在标记的方块上用圆石垫高。
 1733 | §ePlace cobblestone on the two marked blocks.
+§e在两个标记的方块上放置圆石。
 1734 | §eFinish the roof by placing cobblestone on all the marked blocks.
+§e在所有标记的方块上放置圆石，完成屋顶。
 1735 | §aTower complete. Now let 24 Endermen die.
+§a塔建好了。现在等 24 只末影人死掉吧。
 # [WORD ORDER]
 1736 | §eTPing in {number} s...
+§e{number} 秒后传送……
 
 1737 | §cAn area with lots of trees and lava is a poor setup because your view is blocked, making Endermen much harder to spot.
+§c树木和熔岩很多的区域不适合搭建，因为视线会被挡住，很难发现末影人。
 1738 | §6Also avoid building the tower close to another biome. Nearby biomes can take up mob spawns and reduce the number of Endermen spawning in the warped forest.
+§6另外，不要把塔建在靠近其他生物群系的地方。附近的生物群系会分走生物生成，减少诡异森林中末影人的生成数量。
 1739 | §ePractice: build the Warped Tower and let 24 Endermen die.
+§e练习：搭建诡异森林塔，并让 24 只末影人死亡。
 1740 | §bTo get enough pearls, set up in an open area with plenty of visibility. This area is a good example because you can see many Endermen from one spot.
+§b想获得足够的珍珠，要在视野开阔的空旷区域搭建。这个区域就是个好例子，因为站在一个地方就能看到很多末影人。
 1741 | Guided Warped Tower tutorial
+诡异森林塔引导教程
 1742 | Build the tower and kill 24 Endermen
+搭建塔并击杀 24 只末影人
 1743 | Back to tutorials
+返回教程
 1744 | §ePractice: navigate the generated bad section and reach the lava room.
+§e练习：穿过生成的坏区，到达熔岩房间。
+# 译注：good section / bad section 译作“好区 / 坏区”，指下界要塞里有烈焰人刷怪笼的一侧和没有的一侧。
 1745 | §fIn the bad section of a fortress, specific rooms can be used as landmarks to navigate toward the good section—the side containing the blaze spawner. You can distinguish the two sections by corridor height: the good section is 3 blocks tall, while the bad section is 4 blocks tall.
+§f在下界要塞的坏区中，可以把一些特定房间当作地标，找到通往好区（也就是有烈焰人刷怪笼的那一侧）的路。两个区域可以通过走廊高度来区分：好区的走廊高 3 格，坏区的走廊高 4 格。
 # [WORD ORDER]
 1746 | §aNice! You completed the §fFortress Navigation§a {number}!
+§a太棒了！您完成了§f要塞导航§a {number}！
 
 1747 | The stairs you just climbed lead toward the good section by going up, just as you did. In the balcony room in front of you, the good section will be on the side opposite the balcony.
+您刚才爬上来的楼梯，就是往上通往好区的方向，就像您刚才那样走就对了。在您面前的阳台房间里，好区会在阳台的对面一侧。
 1748 | Good, this is the way. The room in front of you is the Nether Wart room. In this case, the good section is always down the stairs—the exact opposite of the staircase pattern you just saw.
+很好，就是这条路。您面前的房间是下界疣房间。这种情况下，好区一定在楼梯下面——和您刚才看到的楼梯规律正好相反。
 1749 | Sometimes the good section of the fortress can be directly connected to one side of the balcony room, as you can see in front of you. This is rare, but worth keeping in mind.
+有时，下界要塞的好区会直接连接在阳台房间的一侧，就像您面前看到的这样。这种情况很少见，但值得记住。
 1750 | This is what the good section of the fortress looks like. Now turn back and take the correct direction from the balcony.
+这就是下界要塞好区的样子。现在转身回去，从阳台房间走正确的方向。
 1751 | Congratulations! You reached the lava room, which separates the bad section from the good section of the fortress.
+恭喜！您到达了熔岩房间，它分隔着下界要塞的坏区和好区。
 1752 | §7Loading practice area and generating a new fortress bad section...
+§7正在加载练习区域，并生成新的要塞坏区……
 1753 | Fortress practice
+下界要塞练习
 1754 | Guided fortress navigation tutorial
+下界要塞导航引导教程
 1755 | Reach the lava room
+到达熔岩房间
 1756 | §sOpen Menu
+§s打开菜单
 1757 | No hints, no particles
+无提示，无粒子
 # [WORD ORDER]
 1758 | §aNice! You completed the §f{name}§a {number}!
+§a太棒了！您完成了§f{name}§a {number}！
 
 # [WORD ORDER]
 1759 | §fCongratulations!\n§7You completed the {name} tutorial.\n§7What do you want to do next?
+§f恭喜！\n§7您完成了{name}教程。\n§7接下来想做什么？
 
 1760 | Replay tutorial
+重玩教程
 1761 | Run the guided tutorial again
+再玩一次引导教程
 
