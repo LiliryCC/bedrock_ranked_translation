@@ -1530,7 +1530,7 @@ Bedrock Ranked 是一个独立的社区项目，与 Mojang 或 Microsoft 均无�
 0545 | Other services: optional Discord sign-in and support, hosting providers and VirusTotal operate under their own policies and may process data in other countries. Only public Ranked release files are submitted by us to VirusTotal, not your private files.
 其他服务：可选的 Discord 登录与支持、托管服务商以及 VirusTotal 均按其各自的政策运营，并可能在其他国家/地区处理数据。我们只会将公开的 Ranked 发行文件提交给 VirusTotal，不会提交您的私人文件。
 0546 | Your choices: Discord linking and local replay saving are optional. Contact the Bedrock Ranked maintainers for privacy questions or requests to access, correct or delete your data. Some records may need to be retained to resolve reports or protect match integrity. Never share passwords, recovery tokens or signing keys publicly.
-您的选择：关联 Discord 和保存本地回放均为可选项。如有隐私方面的疑问，或希望访问、更正或删除您的数据，请联系 Bedrock Ranked 的维护者。为处理举报或保护对局的公正性，部分记录可能需要继续保留。请勿公开分享密码、恢复令牌或签名密钥。
+您的选择：关联 Discord 和保存本地回放均为可选。如有隐私问题，或要求访问、更正或删除你的数据，请联系 Bedrock Ranked 的维护者。为处理举报或保护对局完整性，部分记录可能需要继续保留。切勿公开分享密码、恢复令牌或签名密钥。
 0547 | Contact: https://discord.gg/Hngq5zYw3k
 联系方式：https://discord.gg/Hngq5zYw3k
 0548 | Legal
