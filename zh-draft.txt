@@ -220,21 +220,21 @@ SECTION 03: Solo, Set Seed and Practice menus
 
 0056 | Nether Portal Practice
 下界传送门练习
-# 译注：One Cycle 是速通术语（一轮床爆就击杀末影龙），暂时保留英文。国内速通圈如果有常用说法（比如“一轮爆床”），可以替换。
+# 译注：One Cycle 译作“单循环”。名词第一次出现时写成“单循环(One Cycle)”，后面都用“单循环”。
 0057 | One Cycle Practice
-One Cycle 练习
+单循环(One Cycle) 练习
 # 译注：“Realistic Bastion”译作“实战堡垒遗迹”；速通圈常把 Bastion 叫“猪堡”，如果想更口语可以改。
 0058 | Realistic Bastion Practice
 实战堡垒遗迹练习
 # Short Android button label for the mode "Packless Warped Forest".
-# 译注：Packless = 不加载 Bedrock Ranked 资源包。这里是 Android 短按钮，所以简写成“无包”；位置够的话可以写“无资源包”。
+# 译注：Packless = 不加载 Bedrock Ranked 资源包。短按钮也与模式全称一致，写成“无资源包”。
 0059 | Packless Warped
-无包诡异森林
+无资源包诡异森林
 
 # Short Android button label for "Packless Buried Treasure". BT = Buried Treasure.
-# 译注：BT = Buried Treasure（官方译名“埋藏的宝藏”）。按钮短的话可以缩成“无包宝藏”。
+# 译注：BT = Buried Treasure（官方译名“埋藏的宝藏”）。这里与模式全称一致，写成“无资源包埋藏的宝藏”。
 0060 | Packless BT
-无包埋藏的宝藏
+无资源包埋藏的宝藏
 
 
 ========================================================================
@@ -1114,17 +1114,17 @@ SECTION 14: Private rooms
 0381 | {host} invited you
 {host} 邀请了您
 
-# 译注：私人房间里的 Race 统一译作“比赛”，和排位的“对局”区分开。
+# 译注：私人房间里的 Race 也统一译作“对局”。
 0382 | Race cancelled
-比赛已取消
+对局已取消
 0383 | Race finished
-比赛已结束
+对局已结束
 0384 | Waiting for players
 等待玩家加入
 0385 | Getting ready
 准备中
 0386 | Race in progress
-比赛进行中
+对局进行中
 # [WORD ORDER]
 0387 | {count}/{max} players
 {count}/{max} 名玩家
@@ -1138,11 +1138,11 @@ SECTION 14: Private rooms
 0391 | Leave Room
 离开房间
 0392 | Start Race
-开始比赛
+开始对局
 0393 | Play Again
 再来一局
 0394 | Cancel Race
-取消比赛
+取消对局
 0395 | Results
 结果
 0396 | Lobby
@@ -1200,9 +1200,9 @@ SECTION 14: Private rooms
 可选。仅限排位种子列表中的种子。
 0421 | Optional. Must be in the ranked seed list.
 可选。必须是排位种子列表中的种子。
-# 译注：英文是“End the race after ___”，后面接 0424/0426 等选项。中文没法拼成一句，所以改写成标签“比赛结束条件”，后面跟“所有人完成”“前 X 名玩家完成”。
+# 译注：英文是“End the race after ___”，后面接 0424/0426 等选项。中文没法拼成一句，所以改写成标签“对局结束条件”，后面跟“所有人完成”“前 X 名玩家完成”。
 0422 | End the race after
-比赛结束条件
+对局结束条件
 0423 | Finishers needed per team
 每队所需完成人数
 0424 | Everyone finishes
@@ -1234,16 +1234,16 @@ SECTION 14: Private rooms
 0437 | Use the slowest time among counted finishers.
 取计入者中最慢的用时。
 0438 | Race ends when everyone finishes.
-所有人完成后比赛结束。
+所有人完成后对局结束。
 0439 | Everyone on each team must finish.
 每队所有队员都必须完成。
 # [WORD ORDER]
 0440 | Race ends after {count} players finish.
-{count} 名玩家完成后比赛结束。
+{count} 名玩家完成后对局结束。
 
 # [WORD ORDER]
 0441 | The fastest {count} on each team must finish.
-每队需有 {count} 名队员完成，按最快的成绩计入。
+每队最快的 {count} 名队员必须完成。
 
 # [WORD ORDER]
 0442 | Seed votes last 30 seconds. {players} players need {votes} votes.
@@ -1260,7 +1260,7 @@ SECTION 14: Private rooms
 0445 | Seed votes last 30 seconds.
 种子投票持续 30 秒。
 0446 | Changes apply to the next race.
-更改将在下一场比赛生效。
+更改将在下一场对局生效。
 0447 | Room code
 房间码
 0448 | Copy link
@@ -1323,11 +1323,11 @@ DNF
 0470 | Remove this player?
 要移除这名玩家吗？
 0471 | Race rules
-比赛规则
+对局规则
 0472 | Format
 赛制
 0473 | Individual race
-个人赛
+个人对局
 0474 | Time limit
 时间限制
 0475 | Seed vote
@@ -1373,7 +1373,7 @@ DNF
 0488 | Leave this room?
 要离开这个房间吗？
 0489 | Cancel this race?
-要取消这场比赛吗？
+要取消这场对局吗？
 
 ========================================================================
 SECTION 15: Trophies screen
@@ -1505,9 +1505,9 @@ SECTION 18: Cheating and Rules page
 ========================================================================
 # Each paragraph is one entry.
 
-# 译注：“one cycling”译作“一轮床爆”，和 0057 的 One Cycle 是同一个意思。
+# 译注：“one cycling”和 0057 的 One Cycle 是同一个意思，这里用“单循环”。英文对照已在第一次出现时给出。
 0538 | If you are playing in the client, you do not need to record your runs. You cannot use creative mode, any cheats or any external tool that isn't approved. Calculators and screen readers are allowed, but they must not interfere with the inputs of the run (for example, a macro that automatically does one cycling is not allowed). You are not to modify or change the client in any way. For website and discord users, it's expected that they should always record their runs. If they win the match, they could be automatically required to give their recording, and their opponent can also ask for the recording even if it wasn't automatically requested.
-如果您在客户端中游戏，就不需要录制自己的对局。禁止使用创造模式、任何作弊手段，以及任何未经批准的外部工具。计算器和读屏软件是允许的，但不能干扰对局中的操作输入（例如，自动完成一轮床爆的宏是不允许的）。不得以任何方式修改或改动客户端。通过网站和 Discord 参与的玩家应当始终录制自己的对局。如果他们赢得了对局，可能会被自动要求提交录像；即使没有被自动要求，对手也可以申请查看录像。
+如果您在客户端中游戏，就不需要录制自己的对局。禁止使用创造模式、任何作弊手段，以及任何未经批准的外部工具。计算器和读屏软件是允许的，但不能干扰对局中的操作输入（例如，自动完成单循环的宏是不允许的）。不得以任何方式修改或改动客户端。通过网站和 Discord 参与的玩家应当始终录制自己的对局。如果他们赢得了对局，可能会被自动要求提交录像；即使没有被自动要求，对手也可以申请查看录像。
 0539 | You should not be rude or annoying. If you believe your opponent has cheated, report them, don't start arguing with them. Any form of verbal aggression, racism, homophobia, transphobia and NSFW content or language (there are children playing this!) are prohibited.
 请不要粗鲁无礼，也不要骚扰别人。如果您认为对手作弊了，请直接举报，不要和对方争吵。禁止任何形式的言语攻击、种族歧视、恐同、恐跨，以及 NSFW 内容或言论（还有很多小朋友在玩呢！）。
 0540 | Breaking the rules will lead to suspension of the account, and repeated offences will lead to a ban.
@@ -1530,7 +1530,7 @@ Bedrock Ranked 是一个独立的社区项目，与 Mojang 或 Microsoft 均无�
 0545 | Other services: optional Discord sign-in and support, hosting providers and VirusTotal operate under their own policies and may process data in other countries. Only public Ranked release files are submitted by us to VirusTotal, not your private files.
 其他服务：可选的 Discord 登录与支持、托管服务商以及 VirusTotal 均按其各自的政策运营，并可能在其他国家/地区处理数据。我们只会将公开的 Ranked 发行文件提交给 VirusTotal，不会提交您的私人文件。
 0546 | Your choices: Discord linking and local replay saving are optional. Contact the Bedrock Ranked maintainers for privacy questions or requests to access, correct or delete your data. Some records may need to be retained to resolve reports or protect match integrity. Never share passwords, recovery tokens or signing keys publicly.
-您的选择：关联 Discord 和保存本地回放均为可选。如有隐私问题，或要求访问、更正或删除你的数据，请联系 Bedrock Ranked 的维护者。为处理举报或保护对局完整性，部分记录可能需要继续保留。切勿公开分享密码、恢复令牌或签名密钥。
+您的选择：关联 Discord 和保存本地回放均为可选。如有隐私问题，或要求访问、更正或删除您的数据，请联系 Bedrock Ranked 的维护者。为处理举报或保护对局完整性，部分记录可能需要继续保留。切勿公开分享密码、恢复令牌或签名密钥。
 0547 | Contact: https://discord.gg/Hngq5zYw3k
 联系方式：https://discord.gg/Hngq5zYw3k
 0548 | Legal
@@ -2104,7 +2104,7 @@ SECTION 25: Android app: status lines and errors
 0775 | World ready; starting your run
 世界已就绪，正在开始这一局
 0776 | World ready; waiting for race start
-世界已就绪，等待比赛开始
+世界已就绪，等待对局开始
 0777 | Connecting world to match...
 正在将世界连接到对局……
 0778 | Loading world in Minecraft...
@@ -2195,7 +2195,7 @@ Ranked 桥接程序无法启动
 0813 | Gameplay bridge is unavailable
 游戏桥接程序不可用
 0814 | Gameplay bridge is unavailable; cannot start a race
-游戏桥接程序不可用，无法开始比赛
+游戏桥接程序不可用，无法开始对局
 0815 | World is already loading
 世界已在加载中
 0816 | Leave your world first
@@ -2470,7 +2470,7 @@ Minecraft 设置备份过大
 0921 | Choose a different supporter flair
 请选择另一个支持者奖杯
 0922 | Race has not started
-比赛尚未开始
+对局尚未开始
 0923 | Manage this match from the private room
 请在私人房间中管理这场对局
 0924 | This command belongs to an older seed; use the current match controls
@@ -2495,7 +2495,7 @@ Minecraft 设置备份过大
 0933 | Storage budget is full
 存储配额已满
 0934 | Only a started race can reset
-只有已开始的比赛才能重置
+只有已开始的对局才能重置
 0935 | Storage budget is full; reset is temporarily unavailable
 存储配额已满；暂时无法重置
 0936 | Replay exceeds safe playback limits
@@ -2571,7 +2571,7 @@ Minecraft 设置备份过大
 0971 | No active room match
 房间内没有进行中的对局
 0972 | The race must be running to vote
-比赛进行中才能投票
+对局进行中才能投票
 0973 | Seed changed; refresh and try again
 种子已更换，请刷新后重试
 0974 | You are not eligible to vote
@@ -2622,7 +2622,7 @@ Minecraft 设置备份过大
 0995 | You already have an open report for this player and context
 您已经就这名玩家在同一情况下提交过举报，且尚未处理完毕
 0996 | Race has not started or has ended
-比赛尚未开始或已经结束
+对局尚未开始或已经结束
 0997 | Invalid finish time
 完成用时无效
 0998 | No opponent result to confirm
@@ -2650,7 +2650,7 @@ Minecraft 设置备份过大
 1009 | Prepared world does not match the assigned player and revision
 已准备的世界与分配的玩家和版本不匹配
 1010 | Load your assigned world before pressing ready
-请先加载分配给您的世界，再点击准备
+请先加载分配给您的世界，再点击就绪
 1011 | The room host can close the private room
 房主可以关闭私人房间
 1012 | Packless players use the match seed instead of a world download
@@ -3458,9 +3458,9 @@ Sprinkz 打法
 1365 | Fortress
 下界要塞
 1366 | One Cycle
-One Cycle
+单循环
 1367 | One cycling the dragon
-一轮床爆击杀末影龙
+单循环击杀末影龙
 1368 | How this map works
 地图使用说明
 1369 | Plains 1
@@ -3640,17 +3640,17 @@ Sprinkz 打法是一种根据村庄的钟来定位、每次都能直接挖到要
 1454 | Waterbed
 水床
 1455 | Water + bed one cycle
-水 + 床一轮床爆
+水 + 床 单循环
 1456 | Lava
 熔岩
 1457 | Lava one cycle
-熔岩一轮床爆
+熔岩单循环
 1458 | Guided tutorial
 引导教程
 1459 | Kill the dragon
 击杀末影龙
 1460 | Back to One Cycle
-返回 One Cycle
+返回单循环
 1461 | Choose method
 选择方法
 1462 | Waterbed or Lava
@@ -3660,11 +3660,11 @@ Sprinkz 打法是一种根据村庄的钟来定位、每次都能直接挖到要
 1464 | Dragon killed!
 末影龙已被击杀！
 1465 | §eTry the three-bed explosion sequence again.
-§e再试一次三床爆炸流程。
+§e再试一次三床炸龙。
 1466 | You missed the bed timing. The first dragon is still alive. Try the three-bed explosion again.
-床的时机没掌握好，第一条末影龙还活着。再试一次三床爆炸吧。
+床的时机没掌握好，第一条末影龙还活着。再试一次三床炸龙吧。
 1467 | Congratulations! You killed the first dragon with the bed sequence.
-恭喜！您用床爆流程击杀了第一条末影龙。
+恭喜！您用三床炸龙击杀了第一条末影龙。
 1468 | §eBuild the marked setup.
 §e搭建标记的结构。
 1469 | §cWatch for dragon breath around the portal area. Move out of it before continuing the setup.
@@ -4252,7 +4252,7 @@ Sprinkz 打法是一种根据村庄的钟来定位、每次都能直接挖到要
 §f在下界要塞的坏区中，可以把一些特定房间当作地标，找到通往好区（也就是有烈焰人刷怪笼的那一侧）的路。两个区域可以通过走廊高度来区分：好区的走廊高 3 格，坏区的走廊高 4 格。
 # [WORD ORDER]
 1746 | §aNice! You completed the §fFortress Navigation§a {number}!
-§a太棒了！您完成了§f要塞导航§a {number}！
+§a太棒了！您完成了§f下界要塞导航§a {number}！
 
 1747 | The stairs you just climbed lead toward the good section by going up, just as you did. In the balcony room in front of you, the good section will be on the side opposite the balcony.
 您刚才爬上来的楼梯，就是往上通往好区的方向，就像您刚才那样走就对了。在您面前的阳台房间里，好区会在阳台的对面一侧。
@@ -4265,7 +4265,7 @@ Sprinkz 打法是一种根据村庄的钟来定位、每次都能直接挖到要
 1751 | Congratulations! You reached the lava room, which separates the bad section from the good section of the fortress.
 恭喜！您到达了熔岩房间，它分隔着下界要塞的坏区和好区。
 1752 | §7Loading practice area and generating a new fortress bad section...
-§7正在加载练习区域，并生成新的要塞坏区……
+§7正在加载练习区域，并生成新的下界要塞坏区……
 1753 | Fortress practice
 下界要塞练习
 1754 | Guided fortress navigation tutorial
