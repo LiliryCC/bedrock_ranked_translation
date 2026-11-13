@@ -223,18 +223,18 @@ SECTION 03: Solo, Set Seed and Practice menus
 # 译注：One Cycle 译作“单循环”。名词第一次出现时写成“单循环(One Cycle)”，后面都用“单循环”。
 0057 | One Cycle Practice
 单循环(One Cycle) 练习
-# 译注：“Realistic Bastion”译作“实战堡垒遗迹”；速通圈常把 Bastion 叫“猪堡”，如果想更口语可以改。
+# 译注：“Realistic Bastion”译作“实战猪堡”。速通圈把 Bastion 叫“猪堡”。
 0058 | Realistic Bastion Practice
-实战堡垒遗迹练习
+实战猪堡练习
 # Short Android button label for the mode "Packless Warped Forest".
-# 译注：Packless = 不加载 Bedrock Ranked 资源包。短按钮也与模式全称一致，写成“无资源包”。
+# 译注：Packless = 不加载 Bedrock Ranked 资源包。模式名把“无资源包”放在括号里，和 0865 一致。
 0059 | Packless Warped
-无资源包诡异森林
+诡异森林(无资源包)
 
 # Short Android button label for "Packless Buried Treasure". BT = Buried Treasure.
-# 译注：BT = Buried Treasure（官方译名“埋藏的宝藏”）。这里与模式全称一致，写成“无资源包埋藏的宝藏”。
+# 译注：BT = Buried Treasure，官方译名“埋藏的宝藏”。写成“埋藏的宝藏(无资源包)”，和 0068、0866 一致。
 0060 | Packless BT
-无资源包埋藏的宝藏
+埋藏的宝藏(无资源包)
 
 
 ========================================================================
@@ -261,9 +261,9 @@ SECTION 04: Match loading, countdown and pre-start chat
 {seconds} 秒后开始
 
 # [WORD ORDER] {mode} is a game mode name. "Packless" means played without the Bedrock Ranked resource packs.
-# 译注：{mode} 会被替换成第 27 节的中文模式名（如“诡异森林”），所以前面不加空格。
+# 译注：{mode} 会被替换成第 27 节的中文模式名（如“诡异森林”）。无资源包写在括号里，和 0059、0865 一致，所以 {mode} 和括号之间不加空格。
 0068 | Packless {mode}
-无资源包{mode}
+{mode}(无资源包)
 
 0069 | Opponent chat
 对手聊天
@@ -2324,9 +2324,9 @@ SECTION 27: Server messages: game modes and stages
 0864 | Warped Forest
 诡异森林
 0865 | Packless Warped Forest
-无资源包诡异森林
+诡异森林(无资源包)
 0866 | Packless Buried Treasure
-无资源包埋藏的宝藏
+埋藏的宝藏(无资源包)
 # Stage of a run, shown beside the opponent's name. The run has begun.
 0867 | Started
 已开始
@@ -4248,9 +4248,9 @@ SECTION 33: Tutorial map (optional, do this section last)
 返回教程
 1744 | §ePractice: navigate the generated bad section and reach the lava room.
 §e练习：穿过生成的坏区，到达熔岩房间。
-# 译注：good section / bad section 译作“好区 / 坏区”，指下界要塞里有烈焰人刷怪笼的一侧和没有的一侧。
+# 译注：good section / bad section 译作“好区 / 坏区”。社区有时把好区叫“刷怪区”、坏区叫“藏宝区”。只在这段开头提一次，后面只用好区 / 坏区。
 1745 | §fIn the bad section of a fortress, specific rooms can be used as landmarks to navigate toward the good section—the side containing the blaze spawner. You can distinguish the two sections by corridor height: the good section is 3 blocks tall, while the bad section is 4 blocks tall.
-§f在下界要塞的坏区中，可以把一些特定房间当作地标，找到通往好区（也就是有烈焰人刷怪笼的那一侧）的路。两个区域可以通过走廊高度来区分：好区的走廊高 3 格，坏区的走廊高 4 格。
+§f下界要塞里，有烈焰人刷怪笼的一侧叫好区，也叫刷怪区；没有刷怪笼的一侧叫坏区，也叫藏宝区。在坏区中，可以把一些特定房间当作地标，找到通往好区的路。两个区域可以通过走廊高度来区分：好区的走廊高 3 格，坏区的走廊高 4 格。
 # [WORD ORDER]
 1746 | §aNice! You completed the §fFortress Navigation§a {number}!
 §a太棒了！您完成了§f下界要塞导航§a {number}！
