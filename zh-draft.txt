@@ -3426,9 +3426,9 @@ SECTION 33: Tutorial map (optional, do this section last)
 1350 | Get started
 开始
 1351 | Village Loot
-村庄搜刮
+村庄发育
 1352 | Village looting
-搜刮村庄
+村庄发育
 1353 | Lava Pool
 熔岩池
 1354 | Portal from a lava pool
@@ -3502,23 +3502,23 @@ SECTION 33: Tutorial map (optional, do this section last)
 1387 | Plains
 平原
 1388 | Plains village looting
-搜刮平原村庄
+平原村庄发育
 1389 | Snowy
 雪原
 1390 | Snowy village looting
-搜刮雪原村庄
+雪原村庄发育
 1391 | Taiga
 针叶林
 1392 | Taiga village looting
-搜刮针叶林村庄
+针叶林村庄发育
 1393 | Savanna
 热带草原
 1394 | Savanna village looting
-搜刮热带草原村庄
+热带草原村庄发育
 1395 | Desert
 沙漠
 1396 | Desert village looting
-搜刮沙漠村庄
+沙漠村庄发育
 # 译注：堡垒遗迹的四种类型按 Minecraft Wiki 中文的叫法：桥梁、宝藏室、居住区、疣猪兽厩。国内速通圈常简称为“桥堡、宝藏堡、住宅堡、猪圈堡”，想更口语可以替换。
 1397 | Bridge
 桥梁
@@ -3979,7 +3979,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 1616 | Restart Village spawning
 重新开始村庄生成教程
 1617 | Return to the Village Loot menu
-返回村庄搜刮菜单
+返回村庄发育菜单
 1618 | §aBack to the lobby
 §a返回大厅
 1619 | bucket plus a pickaxe, axe and sword (each stone, iron or diamond).
@@ -4039,7 +4039,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 1644 | Get the required village loot
 获取所需的村庄物资
 1645 | Back to Village Loot
-返回村庄搜刮
+返回村庄发育
 1646 | Restart the guided tutorial
 重新开始引导教程
 1647 | Snowy villages are particular and quite common in recent versions. Food is scarce, but iron is a bit more common in these villages because there is a second house, aside from the blacksmith, that can contain iron. You are looking at said house right now. Enter that house to look at it.
