@@ -3519,23 +3519,23 @@ SECTION 33: Tutorial map (optional, do this section last)
 沙漠
 1396 | Desert village looting
 沙漠村庄发育
-# 译注：堡垒遗迹的四种类型按 Minecraft Wiki 中文的叫法：桥梁、宝藏室、居住区、疣猪兽厩。国内速通圈常简称为“桥堡、宝藏堡、住宅堡、猪圈堡”，想更口语可以替换。
+# 译注：四种类型按中文 Minecraft Wiki：桥、藏宝室、居住区、疣猪兽棚。每种在教程里第一次出现时写成“中文(English)”，后面只用中文。Guided … tutorial 这种标题也保留英文，例如“桥堡垒(Bridge Bastion)引导教程”。
 1397 | Bridge
-桥梁
+桥(Bridge)
 1398 | Bridge bastion
-桥梁堡垒
+桥堡垒
 1399 | Treasure
-宝藏室
+藏宝室(Treasure)
 1400 | Treasure bastion
-宝藏室堡垒
+藏宝室堡垒
 1401 | Housing
-居住区
+居住区(Housing)
 1402 | Housing bastion
 居住区堡垒
 1403 | Stables
-疣猪兽厩
+疣猪兽棚(Stables)
 1404 | Stables bastion
-疣猪兽厩堡垒
+疣猪兽棚堡垒
 # [WORD ORDER]
 1405 | §aTeleported to §f{name}
 §a已传送到 §f{name}
@@ -3709,7 +3709,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 §e床：§f{beds}§7/3
 
 1486 | Guided Bridge Bastion tutorial
-桥梁堡垒引导教程
+桥堡垒(Bridge Bastion)引导教程
 1487 | Trade 72 gold ingots
 交易 72 个金锭
 1488 | Back to Bastions
@@ -3721,21 +3721,22 @@ SECTION 33: Tutorial map (optional, do this section last)
 1491 | Choose another Bastion
 选择其他堡垒
 1492 | §aBridge Bastion complete!
-§a桥梁堡垒完成！
+§a桥堡垒完成！
 1493 | Guided Treasure Bastion tutorial
-宝藏室堡垒引导教程
+藏宝室堡垒(Treasure Bastion)引导教程
 1494 | 72 gold ingots
 72 个金锭
+# 译注：猪堡里的 rampart 译作“高塔”。第一次出现写成“高塔(rampart)”，后面只用“高塔”。
 1495 | §fWelcome in the Treasure Bastion tutorial. For the Treasure Bastion, you want to avoid the big cube section, as it is too dangerous. Instead, go in the ramparts to loot the Bastion fast.
-§f欢迎来到宝藏室堡垒教程。在宝藏室堡垒中，您要避开中间的大方块区域，因为那里太危险了。改为从城墙进去，快速搜刮堡垒。
+§f欢迎来到藏宝室堡垒教程。在藏宝室堡垒中，您要避开中间的大方块区域，因为那里太危险了。改为从高塔(rampart)进去，快速搜刮堡垒。
 1496 | §eGo to the marked point in the ramparts.
-§e前往城墙中的标记点。
+§e前往高塔中的标记点。
 1497 | Replay Treasure tutorial
-重玩宝藏室教程
+重玩藏宝室教程
 1498 | Normal Treasure Bastion practice
-普通宝藏室堡垒练习
+普通藏宝室堡垒练习
 1499 | §aTreasure Bastion tutorial complete!
-§a宝藏室堡垒教程完成！
+§a藏宝室堡垒教程完成！
 1500 | §eClimb the stairs.
 §e爬上楼梯。
 1501 | §eKeep climbing the stairs.
@@ -3769,9 +3770,9 @@ SECTION 33: Tutorial map (optional, do this section last)
 1515 | §cBreak the two marked blocks.
 §c破坏 2 个标记的方块。
 1516 | Congratulation, you completed the tutorial. In a real run, you should get all the gold blocks (the other rampart is symmetrical to this so you'll find more gold blocks there) and throw it at the piglins that will go in the hole.
-恭喜，您完成了教程！在实际速通中，您应该拿到所有金块（另一侧城墙和这里是对称的，那里还能找到更多金块），然后把金子扔给会掉进坑里的猪灵。
+恭喜，您完成了教程！在实际速通中，您应该拿到所有金块（另一侧高塔和这里是对称的，那里还能找到更多金块），然后把金子扔给会掉进坑里的猪灵。
 1517 | Guided Housing Bastion tutorial
-居住区堡垒引导教程
+居住区堡垒(Housing Bastion)引导教程
 1518 | 72 gold ingots from a random path
 从随机路线获取 72 个金锭
 1519 | §fWelcome to the Housing Bastion Practice Tutorial. The Housing Bastion has the gold blocks accessible in many different ways, based on how you access the Bastion. We'll see all the ways to get those right now. Let's start with the first one.
@@ -3791,20 +3792,20 @@ SECTION 33: Tutorial map (optional, do this section last)
 §6已交易金锭：§f{gold}§7/{gold}
 
 1525 | Guided Stables Bastion tutorial
-疣猪兽厩堡垒引导教程
+疣猪兽棚堡垒(Stables Bastion)引导教程
 1526 | Trade 36 gold ingots from a random start
 从随机起点交易 36 个金锭
 # 译注：“triple”（一个单箱子加一个大箱子）译作“三箱”，后文的 good gap / bad gap 译作“好缝隙 / 坏缝隙”。如果国内速通圈有习惯叫法，可以替换。
 1527 | §fWelcome to the Stables Bastion tutorial. Stables Bastion is the most complex one because it can generate in multiple ways. Essentially, however, there are only two variations that have gold blocks of each part. We will look at both of them. Let's start with the top one, which is called triple as it has one single and a double chest. Note that there is a 33 percent chance for each of the 3 ramparts to be a triple. In this case, all 3 are triples.
-§f欢迎来到疣猪兽厩堡垒教程。疣猪兽厩堡垒是最复杂的一种，因为它有多种生成方式。不过本质上，每个部分只有两种带金块的变体，我们两种都会看一下。先从上面那种开始，它被称为“三箱”，因为它有一个单箱子和一个大箱子。注意，3 段城墙中的每一段都有 33% 的概率是三箱。在这个例子里，3 段全都是三箱。
+§f欢迎来到疣猪兽棚堡垒教程。疣猪兽棚堡垒是最复杂的一种，因为它有多种生成方式。不过本质上，每个部分只有两种带金块的变体，我们两种都会看一下。先从上面那种开始，它被称为“三箱”，因为它有一个单箱子和一个大箱子。注意，3 座高塔(rampart)中的每一座都有 33% 的概率是三箱。在这个例子里，3 座全都是三箱。
 1528 | §cDig the marked blocks.
 §c挖掉标记的方块。
 1529 | Congratulations! You completed the Stables Bastion tutorial.
-恭喜！您完成了疣猪兽厩堡垒教程。
+恭喜！您完成了疣猪兽棚堡垒教程。
 1530 | §cMine the marked blocks.
 §c挖掉标记的方块。
 1531 | You completed the first path. This is a highroll path because you get 4 gold blocks from one triple. After the piglins funnel into the hole, you can go back up and loot the chests safely.
-您完成了第一条路线。这是一条高收益路线，因为一个三箱就能拿到 4 个金块。等猪灵都掉进坑里之后，您就可以回到上面，安全地搜刮箱子了。
+您完成了第一条路线。这是一条欧皇路线，因为一个三箱就能拿到 4 个金块。等猪灵都掉进坑里之后，您就可以回到上面，安全地搜刮箱子了。
 1532 | §eTo identify a good gap, look at the small gap marked with green particles. If it was 2 blocks tall, it would be a bad gap. Since it's one block tall, it's a good gap, meaning there are gold blocks here. Same on the other side. There is a 50% chance for each of the 2 gaps to be good. A bad gap has no gold blocks and one single chest.
 §e想判断是不是好缝隙，就看看用绿色粒子标记的小缝隙。如果它有 2 格高，就是坏缝隙；如果只有 1 格高，就是好缝隙，说明这里有金块。另一侧也一样。2 个缝隙各有 50% 的概率是好缝隙。坏缝隙里没有金块，只有一个单箱子。
 1533 | §cMine the next marked blocks.
@@ -3862,10 +3863,10 @@ SECTION 33: Tutorial map (optional, do this section last)
 1559 | §ePlace the next two blocks.
 §e放置接下来的 2 个方块。
 1560 | §eBridge tutorial loaded.
-§e桥梁教程已加载。
-# 译注：chalice 是速通玩家对桥梁堡垒中间那个杯状结构的俗称，这里直译为“圣杯”。
+§e桥教程已加载。
+# 译注：chalice 是速通玩家对桥堡垒中间那个杯状结构的俗称，这里直译为“圣杯”。
 1561 | Welcome to the Bridge Bastion practice. The Bridge Bastion is the easiest one to loot. Remove your boots to aggro the piglins, run to the chalice, pillar up, and mine the marked gold blocks.
-欢迎来到桥梁堡垒练习。桥梁堡垒是最容易搜刮的一种。脱下靴子来激怒猪灵，跑到圣杯处，垫高上去，挖掉标记的金块。
+欢迎来到桥堡垒练习。桥堡垒是最容易搜刮的一种。脱下靴子来激怒猪灵，跑到圣杯处，垫高上去，挖掉标记的金块。
 1562 | §eRemove your golden boots.
 §e脱下您的金靴子。
 1563 | §ePillar up on the marked blocks.
@@ -3877,7 +3878,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 1566 | §cMine the final two marked gold blocks.
 §c挖掉最后 2 个标记的金块。
 1567 | Bridge, Treasure, Housing or Stables
-桥梁、宝藏室、居住区或疣猪兽厩
+桥、藏宝室、居住区或疣猪兽棚
 1568 | Random Housing path start
 随机居住区路线起点
 1569 | Generate this bastion again
@@ -4240,7 +4241,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 1740 | §bTo get enough pearls, set up in an open area with plenty of visibility. This area is a good example because you can see many Endermen from one spot.
 §b想获得足够的珍珠，要在视野开阔的空旷区域搭建。这个区域就是个好例子，因为站在一个地方就能看到很多末影人。
 1741 | Guided Warped Tower tutorial
-诡异森林塔引导教程
+诡异森林塔(Warped Tower)引导教程
 1742 | Build the tower and kill 24 Endermen
 搭建塔并击杀 24 只末影人
 1743 | Back to tutorials
@@ -4269,7 +4270,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 1753 | Fortress practice
 下界要塞练习
 1754 | Guided fortress navigation tutorial
-下界要塞导航引导教程
+下界要塞导航(fortress navigation)引导教程
 1755 | Reach the lava room
 到达熔岩房间
 1756 | §sOpen Menu
