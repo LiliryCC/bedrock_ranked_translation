@@ -318,11 +318,13 @@ SECTION 05: In-game: pause, forfeit, requests and on-screen messages
 更换种子
 # Used as a button (give up the run) and as a result word (the run was given up). If one word cannot fit both, tell us in a # note.
 # 译注：“认输”既能当按钮（主动认输），也能当结果（已认输），一个词就够用。
+# Note: "认输" works as both the button (give up now) and the result (the run was given up). One word is enough.
 0091 | Forfeit
 认输
 
 # Used as a button (ask for a draw) and as a result word (a tied match). If one word cannot fit both, tell us in a # note.
 # 译注：当结果时“平局”很自然；当按钮时意思是“提议平局”，单写“平局”略显生硬。如果按钮和结果可以分开，建议按钮用“求和”或“提议平局”。
+# Note: "平局" is natural as the result (a tied match). As a button it is a little stiff, because the button means "ask for a draw." If the button and the result can be separate strings, use "求和" or "提议平局" for the button.
 0092 | Draw
 平局
 
@@ -888,13 +890,13 @@ SECTION 11: Profile: pronouns and flags
 第二栏
 
 # Example text inside the empty first pronoun field. Use an example pronoun in your language.
-# 译注：【人称】示例文字用中性的“TA”，第二栏示例用“TA的”，这样两栏显示出来就是“TA/TA的”。也可以改成“她 / 她的”“他 / 他的”。如果维护者希望第二栏照样填宾格，那第二栏示例也写“TA”就行。
+# 译注：中文个人资料里没有 they/them 这种主格/宾格用法，示例不翻译，两栏仍显示 they / them。
 0300 | they
-TA
+they
 
 # Example text inside the empty second pronoun field. Use an example pronoun in your language.
 0301 | them
-TA的
+them
 
 
 ========================================================================
@@ -2598,7 +2600,7 @@ Minecraft 设置备份过大
 请从对应的栏位中选择旗帜
 0984 | Invalid pronouns
 代词无效
-# 译注：原文是 16 letters，中文按 16 个字符理解。如果程序按字节计算，中文字可能会被提前截断，建议告诉维护者确认一下。
+# Note: The source says 16 letters. The Chinese treats this as 16 characters. If the program counts bytes, Chinese text may be cut off early. Please confirm how the limit is measured.
 0985 | Pronouns use up to 16 letters per field
 每栏代词最多 16 个字符
 0986 | Fill both pronoun fields, or clear both
@@ -3324,96 +3326,90 @@ SECTION 31: Country flag names
 SECTION 32: Pride flag names
 ========================================================================
 # Names shown when a player picks a pride flag. Use the words your community uses.
+# 译注：中文没有这套旗帜名称的使用语境，第 32 节全部保留英文，不翻译。
 
-# 译注：第 32 节的骄傲旗帜名称按中文 LGBTQ+ 社群的常见说法翻译。其中一些词在中文里还没有统一译法，标了“不确定”的请找熟悉社群用语的朋友再看看。
 1308 | Abrosexual
-流性恋
-# 译注：不确定：Aegosexual 的中文说法不统一，也有人译作“无我性恋”。
+Abrosexual
 1309 | Aegosexual
-自我分离性恋
+Aegosexual
 1310 | Agender
-无性别
-# 译注：不确定：Altersex 在中文里几乎没有通行译法，暂时保留英文。
+Agender
 1311 | Altersex
 Altersex
 1312 | Aroace
-无浪漫无性恋
+Aroace
 1313 | Aromantic
-无浪漫倾向
+Aromantic
 1314 | Asexual
-无性恋
+Asexual
 1315 | Bear
-熊族
+Bear
 1316 | Bigender
-双性别
+Bigender
 1317 | Bisexual
-双性恋
+Bisexual
 1318 | Demiboy
-半男性
+Demiboy
 1319 | Demigender
-半性别
+Demigender
 1320 | Demigirl
-半女性
+Demigirl
 1321 | Demisexual
-半性恋
+Demisexual
 1322 | Disability
-残障
-# 译注：Femboy 在中文网络上通常叫“男娘”；“伪娘”有时带贬义，所以没有用。
+Disability
 1323 | Femboy
-男娘
+Femboy
 1324 | Genderfluid
-性别流动
+Genderfluid
 1325 | Genderqueer
-性别酷儿
-# 译注：这是以设计者吉尔伯特·贝克（Gilbert Baker）命名的最初版八色彩虹旗。按“人名不翻译”的规则保留英文；也可以写成“吉尔伯特·贝克彩虹旗”。
+Genderqueer
 1326 | Gilbert Baker
 Gilbert Baker
 1327 | Graysexual
-灰性恋
+Graysexual
 1328 | Intersex Inclusive Progress
-间性人包容进步旗
+Intersex Inclusive Progress
 1329 | Intersex
-间性人
+Intersex
 1330 | Lesbian
-女同性恋
+Lesbian
 1331 | Nonbinary
-非二元性别
+Nonbinary
 1332 | Pansexual
-泛性恋
+Pansexual
 1333 | Philadelphia
-费城彩虹旗
+Philadelphia
 1334 | Polyamory
-多边恋
+Polyamory
 1335 | Polysexual
-多性恋
+Polysexual
 1336 | Progress
-进步彩虹旗
+Progress
 1337 | Queer
-酷儿
+Queer
 1338 | Queer People of Color
-有色人种酷儿
+Queer People of Color
 1339 | Relationship Anarchy
-关系无政府主义
-# 译注：不确定：Sapphic 泛指女性之间的爱恋关系（源自古希腊诗人萨福），中文没有统一说法，可以考虑“萨福恋”或“女女恋”。
+Relationship Anarchy
 1340 | Sapphic
-萨福
+Sapphic
 1341 | Straight Ally
-异性恋盟友
+Straight Ally
 1342 | Tomboy
-假小子
+Tomboy
 1343 | Traditional
-传统彩虹旗
+Traditional
 1344 | Trans Inclusive Gay Men's
-跨性别包容男同性恋
-# 译注：不确定：Transfeminine / Transmasculine 的中文说法不统一，也有“跨女性谱系 / 跨男性谱系”等译法。
+Trans Inclusive Gay Men's
 1345 | Transfeminine
-跨性别女性化
+Transfeminine
 1346 | Transgender
-跨性别
+Transgender
 1347 | Transmasculine
-跨性别男性化
+Transmasculine
 1348 | Two Spirit
-双灵
+Two Spirit
 
 ========================================================================
 SECTION 33: Tutorial map (optional, do this section last)
@@ -4247,7 +4243,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 1743 | Back to tutorials
 返回教程
 1744 | §ePractice: navigate the generated bad section and reach the lava room.
-§e练习：穿过生成的坏区，到达熔岩房间。
+§e练习：穿过生成的坏区，到达熔岩井房间。
 # 译注：good section / bad section 译作“好区 / 坏区”。社区有时把好区叫“刷怪区”、坏区叫“藏宝区”。只在这段开头提一次，后面只用好区 / 坏区。
 1745 | §fIn the bad section of a fortress, specific rooms can be used as landmarks to navigate toward the good section—the side containing the blaze spawner. You can distinguish the two sections by corridor height: the good section is 3 blocks tall, while the bad section is 4 blocks tall.
 §f下界要塞里，有烈焰人刷怪笼的一侧叫好区，也叫刷怪区；没有刷怪笼的一侧叫坏区，也叫藏宝区。在坏区中，可以把一些特定房间当作地标，找到通往好区的路。两个区域可以通过走廊高度来区分：好区的走廊高 3 格，坏区的走廊高 4 格。
@@ -4264,7 +4260,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 1750 | This is what the good section of the fortress looks like. Now turn back and take the correct direction from the balcony.
 这就是下界要塞好区的样子。现在转身回去，从阳台房间走正确的方向。
 1751 | Congratulations! You reached the lava room, which separates the bad section from the good section of the fortress.
-恭喜！您到达了熔岩房间，它分隔着下界要塞的坏区和好区。
+恭喜！您到达了熔岩井房间，它分隔着下界要塞的坏区和好区。
 1752 | §7Loading practice area and generating a new fortress bad section...
 §7正在加载练习区域，并生成新的下界要塞坏区……
 1753 | Fortress practice
@@ -4272,7 +4268,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 1754 | Guided fortress navigation tutorial
 下界要塞导航(fortress navigation)引导教程
 1755 | Reach the lava room
-到达熔岩房间
+到达熔岩井房间
 1756 | §sOpen Menu
 §s打开菜单
 1757 | No hints, no particles
