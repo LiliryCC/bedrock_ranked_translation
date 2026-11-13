@@ -3433,9 +3433,9 @@ SECTION 33: Tutorial map (optional, do this section last)
 熔岩池
 1354 | Portal from a lava pool
 用熔岩池搭传送门
-# 译注：Sprinkz 是人名（这个打法的发明者），所以保留英文；Strat 译作“打法”。
+# 译注：Sprinkz Strat 国内一般叫“集合点策略”：找到村庄的集合点（村庄初始坐标），再按 +4、+4 下挖。名词第一次出现时写成“集合点策略(Sprinkz Strat)”，后面都用“集合点策略”。
 1355 | Sprinkz Strat
-Sprinkz 打法
+集合点策略(Sprinkz Strat)
 1356 | Dig into stronghold
 挖进要塞
 1357 | Portal in the SH portal room
@@ -3551,17 +3551,17 @@ Sprinkz 打法
 1410 | Back to the main menu
 返回主菜单
 1411 | Open Sprinkz tutorials
-打开 Sprinkz 教程
+打开集合点策略教程
 1412 | Showcase
 演示
 1413 | Visually see where the correct dig area is
 直观地看到正确的挖掘区域在哪里
 1414 | Randomized Sprinkz practice
-随机 Sprinkz 练习
+随机集合点策略练习
 1415 | Sprinkz Strat explanation
-Sprinkz 打法讲解
+集合点策略讲解
 1416 | Sprinkz strat is a strategy that allows you to always dig down into the starter staircase of the stronghold, based on the village bells. The reason why it works is that when stronghold generate under villages in bedrock, they generate from the world chunk of the village on the 4-4 relative coordinates of the chunk. Therefore, if we are able to map the starting coordinates of the village, we can just add 4-4 to those and we'll be able to know where to dig. It's therefore obvious that for each village center type there will be a different dig down spot. You will be guided for every single center type, there are 16 total. Since the starter staircase is decently wide, you don't need to dig at the exact spot, but it's enough to dig in the 5x5 area around it.
-Sprinkz 打法是一种根据村庄的钟来定位、每次都能直接挖到要塞起始阶梯的策略。它之所以有效，是因为在基岩版中，当要塞生成在村庄下方时，它会从村庄所在区块内相对坐标 4-4 的位置开始生成。因此，只要能确定村庄的起始坐标，再加上 4-4，就能知道该往哪里挖。显然，每种村庄中心类型都对应着不同的下挖位置。教程会带您逐一学习每种中心类型，总共有 16 种。由于起始阶梯相当宽，您不需要挖在精确的位置上，只要挖在它周围 5x5 的范围内就够了。
+集合点策略是一种根据村庄的钟来定位、每次都能直接挖到要塞起始阶梯的策略。它之所以有效，是因为在基岩版中，当要塞生成在村庄下方时，它会从村庄所在区块内相对坐标 4-4 的位置开始生成。因此，只要能确定村庄的集合点（也就是村庄的初始坐标），再加上 4-4，就能知道该往哪里挖。显然，每种村庄中心类型都对应着不同的下挖位置。教程会带您逐一学习每种中心类型，总共有 16 种。由于起始阶梯相当宽，您不需要挖在精确的位置上，只要挖在它周围 5x5 的范围内就够了。
 1417 | Go to the marked point on the right side of the bell.
 前往钟右侧的标记点。
 1418 | §eThis is the starting point. Move 3 blocks right.
@@ -3617,9 +3617,9 @@ Sprinkz 打法是一种根据村庄的钟来定位、每次都能直接挖到要
 1443 | Generate another random center
 再生成一个随机中心
 1444 | §aSprinkz showcase complete!
-§aSprinkz 演示完成！
+§a集合点策略演示完成！
 1445 | §aSprinkz practice complete!
-§aSprinkz 练习完成！
+§a集合点策略练习完成！
 1446 | Restart showcase
 重新开始演示
 1447 | Restart practice
@@ -3631,9 +3631,9 @@ Sprinkz 打法是一种根据村庄的钟来定位、每次都能直接挖到要
 1450 | Generate a new randomized practice
 生成新的随机练习
 1451 | Restart this Sprinkz tutorial
-重新开始这个 Sprinkz 教程
+重新开始这个集合点策略教程
 1452 | Open the Sprinkz tutorial grid
-打开 Sprinkz 教程选择界面
+打开集合点策略教程选择界面
 # 译注：原文结尾是“Crazdenuy.§7.”，多了一个句点，看起来是笔误。中文只保留一个句号，§7 代码都保留了。
 1453 | §fThis map is a speedrun tutorial hub. It was built with the intention of making Bedrock Speedrunning more accessible to the evergrowing number of beginners that approach speedrunning this game.\n\n§fDisclaimer:§7 the tutorials put the player in a situation that can be considered much easier than actual runs, to make learning easier. This map is thought for beginners, not experienced runners.\n§7\n\n§7Credits:\n§7This is a Bedrock Ranked creation, made by §7Ma Ehy and Crazdenuy.§7.
 §f这张地图是一个速通教程中心。制作它的初衷，是让越来越多刚接触基岩版速通的新手更容易上手。\n\n§f免责声明：§7为了方便学习，教程中的情况会比实际速通简单得多。这张地图是为新手准备的，并不面向有经验的速通玩家。\n§7\n\n§7制作人员：\n§7本地图由 Bedrock Ranked 出品，作者为 §7Ma Ehy 和 Crazdenuy§7。
@@ -3935,7 +3935,7 @@ Sprinkz 打法是一种根据村庄的钟来定位、每次都能直接挖到要
 1594 | Once you have the iron, you will want a source of lava to make a portal. You will be taught how to make a portal step by step. The easiest way to enter the Nether with lava is using a lava pool. Lava pools can spawn deep underground in caves, or, more easily accessible, sometimes on the surface.
 有了铁之后，您需要找一处熔岩来搭传送门。教程会一步一步教您怎么搭。用熔岩进入下界，最简单的方法是利用熔岩池。熔岩池可能生成在地下深处的洞穴里，有时也会生成在更容易到达的地表上。
 1595 | In case your village, from which you gathered the first resources, is more than about 600 blocks from 0 0, there is a chance that there will be a stronghold under the village. The chance becomes maximum at about 900 blocks from 0 0, and starts decreasing from then on progressively. The chance of hitting a stronghold at 900 0 will be approximately 15 percent. There is a strategy to always land on the stronghold, if there is one under the village, every time, and that is called Sprinkz strat.
-如果您收集初始资源的村庄距离 0 0 超过大约 600 格，村庄下方就有可能存在要塞。这个概率在距离 0 0 约 900 格处达到最高，之后逐渐降低。在 900 0 处碰到要塞的概率大约是 15%。有一种策略，只要村庄下方有要塞，每次都能准确挖到它，这就是 Sprinkz 打法。
+如果您收集初始资源的村庄距离 0 0 超过大约 600 格，村庄下方就有可能存在要塞。这个概率在距离 0 0 约 900 格处达到最高，之后逐渐降低。在 900 0 处碰到要塞的概率大约是 15%。有一种策略，只要村庄下方有要塞，每次都能准确挖到它，这就是集合点策略。
 1596 | You will be taught this step by step. This is very useful not only if you don't have ender eyes to locate the stronghold, to dig down to it even without eyes, but can also be useful to avoid having to triangulate the stronghold once you get close to it if there is a village where the eye is pointing to. Once you get to the stronghold, if you find the portal room, you can use the lava in it to enter the Nether. You will be taught the optimal way to do that too, step by step.
 教程会一步一步教您这个方法。它非常实用：在没有末影之眼定位要塞时，可以直接挖到要塞；而且当末影之眼指向的方向上有村庄时，也能让您在接近要塞后省去三角定位的步骤。到达要塞后，如果找到了传送门房间，就可以利用里面的熔岩进入下界。教程也会一步一步教您最优的做法。
 1597 | Once in the Nether, you will need to either go to the first structure you see, or if you don't see any, navigate the Nether properly. You will be taught how to navigate the Nether, and how the quadrant system works. Once you do find a structure, you will need to know how to loot it. Specifically, you will need to know how to navigate a Nether Fortress and how to trade with Piglins in a Bastion or get pearls from a warped forest.
@@ -3943,7 +3943,7 @@ Sprinkz 打法是一种根据村庄的钟来定位、每次都能直接挖到要
 1598 | This is because to complete Minecraft, you will need blaze rod from a Nether Fortress and pearls, either from a Bastion through Piglin barter, or from a warped forest, where many Endermen spawn. To maximize the amount of pearls you will get from a warped forest in the minimum amount of time possible, there are special setups that you will also be taught.
 这是因为要通关 Minecraft，您需要从下界要塞获得烈焰棒，还需要末影珍珠：可以在堡垒遗迹通过和猪灵交易获得，也可以从刷出大量末影人的诡异森林获得。为了在最短时间内从诡异森林拿到尽可能多的珍珠，还有一些专门的搭建方法，教程也会教给您。
 1599 | Once you get your ender eyes, you will need to go back to the overworld and find the stronghold. This shouldn't be too hard, considering that the closest stronghold to 0 0 usually are villages, and you already will know Sprinkz strat by now. So expect to be able to find a stronghold with one or two eye throws. Alternatively, you might even be already in the portal room or near the stronghold once you leave the Nether, if you entered from a village with a stronghold underneath.
-拿到末影之眼后，您需要回到主世界寻找要塞。这应该不会太难，因为离 0 0 最近的要塞通常都在村庄下方，而那时您已经掌握了 Sprinkz 打法。所以一般扔一两次末影之眼就能找到要塞。另外，如果您是从一个下方有要塞的村庄进入下界的，那么离开下界时，您甚至可能已经在传送门房间里或者要塞附近了。
+拿到末影之眼后，您需要回到主世界寻找要塞。这应该不会太难，因为离 0 0 最近的要塞通常都在村庄下方，而那时您已经掌握了集合点策略。所以一般扔一两次末影之眼就能找到要塞。另外，如果您是从一个下方有要塞的村庄进入下界的，那么离开下界时，您甚至可能已经在传送门房间里或者要塞附近了。
 1600 | Once you find the stronghold, you will be able to enter the end and kill the dragon. To kill the dragon optimally, you will need three beds and some other resources, such as a spear or a projectile, and preferably obsidian or a water bucket. You will be taught how to kill the dragon step by step, and will be given two separate methods to do it based on the resources you have.
 找到要塞后，您就可以进入末地击杀末影龙了。想要高效地击杀末影龙，您需要三张床和一些其他资源，比如矛或者投掷物，最好还有黑曜石或水桶。教程会一步一步教您如何击杀末影龙，并根据您手头的资源提供两种不同的方法。
 1601 | Thank you for having downloaded this map. Welcome to the world of speedrunning. In this short introduction, you will see how a speedrun works and what you will learn in this map. This map is specifically thought for RSG (random seed glitchless), but the techniques you will learn will also be useful for any other speedrun category you will choose to pursue. Go to the marked point to continue.
