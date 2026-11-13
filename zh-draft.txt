@@ -164,7 +164,7 @@ SECTION 02: Queue and version preference
 0037 | You only play 1.21+ matches.
 您只会进行 1.21+ 版本的对局。
 0038 | Warning: this leads to longer queue times, not only for you but for other players too. Not recommended.
-注意：这会延长排队时间，不仅是您，其他玩家也会受到影响。不建议选择。
+注意：这会延长匹配时间，不仅是您，其他玩家也会受到影响。不建议选择。
 # [WORD ORDER] {preference} is one of the preference names above, for example "Only 1.16".
 0039 | Ranked - {preference}
 排位赛 - {preference}
@@ -173,7 +173,7 @@ SECTION 02: Queue and version preference
 正在等待其他玩家……
 # [WORD ORDER]
 0041 | Time in queue: {time}
-已排队：{time}
+匹配时间：{time}
 
 0042 | Leave Queue
 退出匹配
@@ -186,11 +186,11 @@ SECTION 02: Queue and version preference
 # Windows spelling, small label above a running clock.
 # 译注：0046/0047 的英文只有大小写不同（Windows / Android 两种写法），中文写成一样即可。
 0046 | Queued Since...
-已排队……
+匹配中……
 
 # Android spelling of the same label.
 0047 | Queued since...
-已排队……
+匹配中……
 
 
 ========================================================================
@@ -1489,7 +1489,7 @@ SECTION 17: How to Play page
 # Each paragraph is one entry. The chat commands (/forfeit, /change, /draw, /cancel, /accept, /deny) are shown on separate lines in the game and stay in English.
 
 0532 | In Ranked, the goal is to beat the game as fast as possible. You can do it against real opponents by entering the queue, or play solo against the clock. To start playing ranked, enter the queue: you'll be paired as soon as possible with an other player in the queue; your opponent might be using the client too, and in that case your match will be synchronised, but they could also have queued from Discord or the website (because no client exists for console and iOS devices). If you queue a non-client player, you'll still be able to play the game fully from client. To communicate with any opponent, you can just send a message in the game chat.
-在 Ranked 中，您的目标是尽可能快地通关游戏。您可以进入匹配队列，和真实的对手一较高下；也可以玩单人模式，和时间赛跑。想开始排位赛的话，进入匹配队列就行：系统会尽快为您匹配队列中的另一名玩家。您的对手可能也在用客户端，这样双方的对局会自动同步；但对手也可能是通过 Discord 或网站排队的（因为主机和 iOS 设备没有客户端）。即使匹配到不用客户端的玩家，您依然可以在客户端里完整地进行游戏。想和对手聊天，直接在游戏聊天栏里发消息就好。
+在 Ranked 中，您的目标是尽可能快地通关游戏。您可以进入匹配队列，和真实的对手一较高下；也可以玩单人模式，和时间赛跑。想开始排位赛的话，进入匹配队列就行：系统会尽快把您和另一名玩家匹配到一起。您的对手可能也在用客户端，这样双方的对局会自动同步；但对手也可能是通过 Discord 或网站开始匹配的（因为主机和 iOS 设备没有客户端）。即使匹配到不用客户端的玩家，您依然可以在客户端里完整地进行游戏。想和对手聊天，直接在游戏聊天栏里发消息就好。
 0533 | Because non-client synchronization is hard, in case you finish before your opponent submits their time, they will have an extra 20% of your final client time to report the result. Then, the faster time will win.
 由于和非客户端玩家同步比较困难，如果您在对手提交成绩之前就完成了，对手还有相当于您客户端最终用时 20% 的额外时间来上报成绩。之后，用时更短的一方获胜。
 0534 | IMPORTANT: timing is RTA! This is to ensure match synch. This means that if you pause, reset, or leave, your timer will keep running. If your game crash, you have a 1 minute time window before you'll auto forfeit.
@@ -2255,7 +2255,7 @@ SECTION 26: Android app: screen-reader labels
 # Not shown on screen. These are read aloud to blind and low-vision players, so translate them too.
 
 0840 | Queue waiting time
-排队等待时间
+匹配等待时间
 0841 | Version preference
 版本偏好
 0842 | World preparation progress
@@ -2630,7 +2630,7 @@ Minecraft 设置备份过大
 0998 | No opponent result to confirm
 没有需要确认的对手成绩
 0999 | Open the match on the platform you queued from
-请在您排队时使用的平台上打开这场对局
+请在您开始匹配时使用的平台上打开这场对局
 1000 | Name must contain 1-32 characters
 名称长度必须为 1-32 个字符
 1001 | Season 2 storage budget is full; new matches are temporarily unavailable
@@ -2646,7 +2646,7 @@ Minecraft 设置备份过大
 1006 | Seed is available after the run
 这一局结束后即可查看种子
 1007 | Match ended before world preparation completed; return to the menu and queue again
-对局在世界准备完成之前就结束了；请返回菜单重新排队
+对局在世界准备完成之前就结束了；请返回菜单重新匹配
 1008 | Stale world preparation revision; load the current match world
 世界准备版本已过期；请加载当前对局的世界
 1009 | Prepared world does not match the assigned player and revision
