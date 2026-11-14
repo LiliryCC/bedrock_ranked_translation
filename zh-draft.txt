@@ -3,7 +3,7 @@ PLEASE READ FIRST
 =================
 
 HOW TO TRANSLATE
-Make a copy of this file franslated,, eitehr replacing or putting translation 
+Make a copy of this file franslated,, eitehr replacing or putting translation
 on new line or whatever.
 
 WHAT TO KEEP EXACTLY AS IT IS
@@ -3954,25 +3954,25 @@ SECTION 33: Tutorial map (optional, do this section last)
 1605 | Go back to the lobby
 回到大厅
 1606 | If you spawn at zero zero, positive positive is the only quadrant without any red zone. This means that it is the most likely quadrant where you will find a structure first. That said, whether it's convenient to go there very much depends on the terrain and whether there is a basalt delta or not.
-如果您在 0 0 出生，那么正正象限是唯一没有任何红色区域的象限。这意味着您最有可能在这个象限里先找到结构。话虽如此，去那里是否方便，很大程度上还取决于地形，以及有没有玄武岩三角洲。
+如果您在 0 0 出生，那么++象限是唯一没有任何红色区域的象限。这意味着您最有可能在这个象限里先找到结构。话虽如此，去那里是否方便，很大程度上还取决于地形，以及有没有玄武岩三角洲。
 1607 | In basalt deltas, bastion cannot generate. In Java, if a bastion tries to generate in a basalt delta, a fortress will generate instead. In Bedrock, however, if the same happens, nothing will generate at all in that quadrant. Therefore, there is only a 33% chance that a structure will generate in a totally basalt quadrant.
-堡垒遗迹无法在玄武岩三角洲中生成。在 Java 版中，如果堡垒遗迹试图在玄武岩三角洲中生成，就会改为生成下界要塞。但在基岩版中，如果发生同样的情况，这个象限里就什么都不会生成。因此，在一个完全是玄武岩的象限里，生成结构的概率只有 33%。
+堡垒遗迹无法在玄武岩三角洲中生成。在 Java 版中，如果堡垒遗迹试图在玄武岩三角洲中生成，就会改为生成下界要塞。但在基岩版中，如果发生同样的情况，这个象限里就什么都不会生成。因此，在一个完全是玄武岩的象限里，生成结构的概率只有 33%
 1608 | As you can see, in this quadrant no structure generated. This means that a bastion tried to generate somewhere but got cancelled due to basalt. This is why you should generally avoid basalt unless necessary.
-如您所见，这个象限里没有生成任何结构。这说明有一个堡垒遗迹曾试图在某处生成，但因为玄武岩而被取消了。所以，除非必要，一般都应该避开玄武岩。
+如您所见，这个象限里没有生成任何结构。这说明有一个堡垒遗迹曾试图在这个象限内的某处生成，但因为是玄武岩而无法生成。所以，除非必要，一般都应该避开玄武岩。
 1609 | However, it should be pointed out that often, near the outskirts of basalt deltas, warped forest can spawn.
 不过需要指出的是，诡异森林经常会生成在玄武岩三角洲的边缘附近。
 1610 | If you are trying to find a warped forest, you should also keep in mind to avoid soul sand valleys: warped forests cannot generate next to that biome. If you are just trying to find a structure, any biome except basalt is fine, so you should go where the best terrain is, trying to avoid the red zones that separate the quadrants.
 如果您想找诡异森林，还要记得避开灵魂沙峡谷：诡异森林不会生成在这种生物群系旁边。如果您只是想找结构，除了玄武岩以外的任何生物群系都可以，所以应该往地形最好的方向走，并尽量避开分隔象限的红色区域。
 1611 | Much like villages, the nether structures also generate in quadrants. The quadrants of the nether in Bedrock Edition are much larger than Java, which means that structures are rarer in Bedrock. Quadrants are 26 by 26 chunks large, and there is a four-chunk separation between each quadrant where no structure can generate. In the small reproduction of a nether you are standing on, the red concrete represents the area dividing the quadrants, while the various blocks represent the structures and biomes in the quadrants. In every quadrant, only one structure can generate, either a bastion (66% chance) or a fortress (33% chance).
-和村庄一样，下界结构也是按象限生成的。基岩版下界的象限比 Java 版大得多，这意味着基岩版中的结构更稀少。每个象限的大小为 26×26 区块，象限之间有 4 个区块宽的间隔，那里不会生成任何结构。在您脚下这个缩小版的下界模型中，红色混凝土代表分隔象限的区域，各种方块则代表象限中的结构和生物群系。每个象限只能生成一个结构，要么是堡垒遗迹（66% 概率），要么是下界要塞（33% 概率）。
+和村庄一样，下界结构也是按象限生成的。基岩版下界的象限比 Java 版大得多，这意味着基岩版中的结构更稀疏。每个象限的大小为 26×26 区块，象限之间有 4 个区块宽的间隔，那里不会生成任何结构。在您脚下这个缩小版的下界模型中，红色混凝土代表分隔象限的区域，各种方块则代表象限中的结构和生物群系。每个象限只能生成一个结构，要么是堡垒遗迹（66% 概率），要么是下界要塞（33% 概率）。
 1612 | Restart the Quadrants tutorial
 重新开始象限教程
 1613 | Villages in Bedrock spawn in grids, as represented in the floor of this room. The green blocks are where a village would be able to spawn; red is where a village can't spawn. The length of the red line is always 8 chunks long in 1.18+, and 10 chunks in 1.16, while the green quadrant is 26×26 chunks in 1.18+ and 17×17 chunks in 1.16. You are currently facing pos z, as you would when spawning in a new world, and are standing where 0 0 would be. Therefore, the most likely direction to have a village from 0 0 is positive positive (pos pos).
-在基岩版中，村庄按网格生成，就像这个房间的地板所展示的那样。绿色方块表示可以生成村庄的位置；红色表示不能生成村庄的位置。在 1.18+ 中，红线的长度始终是 8 个区块，在 1.16 中则是 10 个区块；绿色象限在 1.18+ 中是 26×26 区块，在 1.16 中是 17×17 区块。您现在面朝正 Z 方向，就像在新世界出生时一样，并且站在相当于 0 0 的位置上。因此，从 0 0 出发，最有可能找到村庄的方向是正正方向（pos pos）。
+在基岩版中，村庄按网格生成，就像这个房间的地板所展示的那样。绿色方块表示可以生成村庄的位置；红色表示不能生成村庄的位置。在 1.18+ 中，红线的长度始终是 8 个区块，在 1.16 中则是 10 个区块；绿色象限在 1.18+ 中是 26×26 区块，在 1.16 中是 17×17 区块。您现在面朝 Z+ 方向，就像在新世界出生时一样，并且站在相当于 0 0 的位置上。因此，从 0 0 出发，最有可能找到村庄的方向是正正方向（++）。
 1614 | Understood
 明白了
 1615 | Close this explanation
-关闭这段说明
+关闭说明
 1616 | Restart Village spawning
 重新开始村庄生成教程
 1617 | Return to the Village Loot menu
@@ -4014,7 +4014,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 1633 | §eNow dig the block below it.
 §e现在挖掉它下面的方块。
 1634 | §eKill the iron golem. It won't be able to hit you from there.
-§e击杀铁傀儡。它在那个位置打不到您。
+§e击杀铁傀儡，它在那个位置打不到您。
 1635 | §eExit the hole and go to the marked point.
 §e从坑里出来，前往标记点。
 1636 | §eGo to the next marked point.
@@ -4030,7 +4030,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 1641 | §aNice! You completed the §fPlains§a practice!
 §a太棒了！您完成了§f平原§a练习！
 1642 | §7Practice goal: §fbucket + pickaxe + axe + sword; tools may be stone, iron or diamond.
-§7练习目标：§f桶 + 镐 + 斧 + 剑；工具可以是石质、铁质或钻石。
+§7练习目标：§f桶 + 镐 + 斧 + 剑；工具可以是石质、铁质或钻石的。
 1643 | Guided Plains village tutorial
 平原村庄引导教程
 1644 | Get the required village loot
@@ -4042,11 +4042,11 @@ SECTION 33: Tutorial map (optional, do this section last)
 1647 | Snowy villages are particular and quite common in recent versions. Food is scarce, but iron is a bit more common in these villages because there is a second house, aside from the blacksmith, that can contain iron. You are looking at said house right now. Enter that house to look at it.
 雪原村庄比较特别，在新版本中也相当常见。这类村庄食物稀缺，但铁相对多一些，因为除了铁匠铺之外，还有第二种房子里可能有铁。您现在看着的就是这种房子，进去看看吧。
 1648 | This house is pretty hard to recognize, as it is very similar to many others from the outside. However, you can see at the top there is a diorite wall sticking out, while in the other houses it is made of cobblestone. Now let's see how to play this village without iron.
-这种房子很难认出来，因为从外面看，它和其他很多房子都很像。不过您可以看到，它顶部伸出来的是闪长岩墙，而其他房子这里用的是圆石。接下来看看没有铁的话，该怎么打这个村庄。
+这种房子很难认出来，因为从外面看，它和其他很多房子都很像。不过您可以看到，它顶部伸出来的是闪长岩墙，而其他房子在这里用的是圆石。接下来看看没有铁的话，该怎么打这个村庄。
 1649 | Since in these types of villages food is scarce, look for either carrots or houses with chests that may contain food. The two houses next to you contain both a bed and a chest with potentially food. Look at them now.
-由于这类村庄食物稀缺，请找找胡萝卜，或者带箱子、可能有食物的房子。您旁边的两座房子里都有床，以及可能装着食物的箱子。现在去看看吧。
+由于这类村庄食物稀缺，可以试着找找种着胡萝卜的农田，或者可能有食物的房子。您旁边的两座房子里都有床，以及可能装着食物的箱子，现在去看看吧。
 1650 | You finished the Snowy village tutorial. In a real run, make sure to get food if possible, 3 beds, 5-7 logs, and craft the bucket.
-您完成了雪原村庄教程。在实际速通中，记得尽量拿到食物、3 张床、5-7 个原木，并合成桶。
+您完成了雪原村庄教程。在实际速通中，记得尽量拿到足够的食物、3 张床、5-7 个原木，并合成桶。
 1651 | §eEnter the marked house.
 §e进入标记的房子。
 1652 | §eMine the marked block.
@@ -4082,7 +4082,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 1667 | Guided Snowy village tutorial
 雪原村庄引导教程
 1668 | Desert villages can be tricky if there is no wood nearby. In this case, we are assuming you will have a way to get wood. If you don't, you might be unable to enter the Nether from the village alone. This is because to get materials you'll need to kill the iron golem by hand and find a crafting table from a house and use the sticks from the dead bushes to make an iron pickaxe to start progressing. Therefore, you might not have iron for a bucket. If you have a tree, however, the looting process is similar to the one we already showed in the plains village.
-如果附近没有树，沙漠村庄会比较棘手。这里我们假设您有办法获得木头。如果没有，单靠这个村庄可能没法进入下界。这是因为想获得材料，您需要空手击杀铁傀儡，在房子里找到工作台，再用枯萎的灌木掉落的木棍做一把铁镐，才能开始推进。这样一来，您可能就没有多余的铁来做桶了。不过如果附近有树，搜刮流程就和我们之前在平原村庄演示的差不多。
+如果附近没有树，沙漠村庄会比较棘手。这里我们假设您有办法获得木头————如果没有，单靠这个村庄可能没法进入下界。这是因为想获得材料，您需要空手击杀铁傀儡，在房子里找到工作台，再用枯萎的灌木掉落的木棍做一把铁镐，才能开始推进。这样一来，您可能就没有多余的铁来做桶了。不过如果附近有树，搜刮流程就和我们之前在平原村庄演示的差不多。
 1669 | You completed the tutorial of the Desert village.
 您完成了沙漠村庄教程。
 1670 | §eBreak the marked block.
@@ -4104,7 +4104,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 1678 | §eMake a stone axe and stone sword.
 §e做一把石斧和一把石剑。
 1679 | §eMine and pick up your crafting table, then get out of the hole.
-§e挖下并捡起您的工作台，然后从坑里出来。
+§e挖掉并捡起您的工作台，然后从坑里出来。
 1680 | §eGo to the iron golem.
 §e走到铁傀儡旁边。
 1681 | §eDig down on the marked block.
@@ -4118,19 +4118,19 @@ SECTION 33: Tutorial map (optional, do this section last)
 1685 | Guided Desert village tutorial
 沙漠村庄引导教程
 1686 | In savanna villages, sometimes houses with chests can have buckets in them. This is the only major difference between savanna and other villages, aside from the fact that blacksmiths are much rarer in savanna. If you do get a bucket from a chest, then it is recommended to still kill the golem anyways to then craft an iron pickaxe to save time when mining later in the run. Besides that, the looting of savanna villages is analogous to the ones we already saw.
-在热带草原村庄里，带箱子的房子有时会有桶。除了铁匠铺在热带草原中要少见得多之外，这是热带草原村庄和其他村庄唯一的主要区别。如果您从箱子里拿到了桶，仍然建议击杀铁傀儡，再合成一把铁镐，这样之后挖矿能省时间。除此之外，热带草原村庄的搜刮方式和我们之前看过的类似。
+在热带草原村庄里，部分房子的箱子里有时会有桶。除了铁匠铺在热带草原中要少见得多之外，这是热带草原村庄和其他村庄的主要区别。如果您从箱子里拿到了桶后，仍然建议击杀铁傀儡，再合成一把铁镐，它能节省大量挖掘时间。除此之外，热带草原村庄的搜刮方式也和我们之前看过的类似。
 1687 | That house has no chest.
-那座房子没有箱子。
+那座房子里没有箱子。
 1688 | That house has a bed and a chest.
-那座房子有一张床和一个箱子。
+那座房子里有一张床和一个箱子。
 1689 | Look at the roof of the two houses in front of you. The one farther away, with a pointed roof, is analogous to the one you just saw, with a chest and a bed. The one with the flatter roof, closer to you, is a house with no chest and no bed, and therefore you should avoid it. In savanna villages, you may also find terracotta houses. The one made of red terracotta has a bed and a chest, while the one made with orange terracotta has a bed and a crafting table.
-看看您面前两座房子的屋顶。远一点、尖屋顶的那座，和您刚才看到的那座一样，有一个箱子和一张床。近一点、屋顶比较平的那座，既没有箱子也没有床，所以应该避开它。在热带草原村庄里，您可能还会看到陶瓦房子：红色陶瓦的那种有一张床和一个箱子，橙色陶瓦的那种有一张床和一个工作台。
+看看您面前两座房子的屋顶。远一点、尖屋顶的那座，和您刚才看到的那座一样，有一个箱子和一张床；近一点、屋顶比较平的那座，既没有箱子也没有床，所以应该避开它。在热带草原村庄里，您可能还会看到陶瓦房子：红色陶瓦的那种有一张床和一个箱子，橙色陶瓦的那种有一张床和一个工作台。
 1690 | You completed the tutorial of the Savanna village.
 您完成了热带草原村庄教程。
 1691 | §eGo to the next marked house.
-§e前往下一座标记的房子。
+§e前往下一座带有标记的房子。
 1692 | §eGo to the marked viewpoint.
-§e前往标记的观察点。
+§e前往标记的路径点。
 1693 | §eGather the 3 marked logs.
 §e收集 3 个标记的原木。
 1694 | §eContinue to the marked house.
@@ -4143,13 +4143,13 @@ SECTION 33: Tutorial map (optional, do this section last)
 1697 | Guided Savanna village tutorial
 热带草原村庄引导教程
 1698 | Taiga villages are interesting because, as the snowy ones, they do not have hay bales, and therefore you will need to find food in chests or from carrots. However, taiga villages can be the fastest, as they are much more likely to contain blacksmiths and iron houses. You can see a taiga blacksmith in front of you now. This tutorial will also serve as a tutorial on how to loot any village with free iron or more in a blacksmith chest.
-针叶林村庄很有意思，因为它和雪原村庄一样没有干草块，所以您需要从箱子里或者胡萝卜那里找食物。不过，针叶林村庄可能是最快的，因为它们更有可能出现铁匠铺和有铁的房子。您面前就是一座针叶林铁匠铺。这个教程同时也会教您，如何搜刮铁匠铺箱子里有现成铁锭的任何村庄。
+针叶林村庄很有意思，因为它和雪原村庄一样没有干草块，所以您需要从箱子里或者农田里找食物。不过，针叶林村庄可能是最快的，因为它们出现铁匠铺和带有铁的房子的概率最高————您面前就是一座针叶林铁匠铺。这个教程同时也会教您如何搜刮箱子里有铁锭的任何村庄。
 1699 | In a normal village, you will now get two logs and make a crafting table, 8 sticks, and an iron pickaxe directly. And then you will kill the golem and make a bucket. However, since we are in a taiga village, houses with chests can have wood logs already in them. Let's try to find one such house.
-在普通村庄里，您现在会去拿两个原木，然后直接做一个工作台、8 根木棍和一把铁镐，接着击杀铁傀儡，做一个桶。不过，因为我们在针叶林村庄里，带箱子的房子里可能已经有原木了。我们来试着找一座这样的房子。
+在普通村庄里，您现在会去拿两个原木，然后直接做一个工作台，8 根木棍和一把铁镐，接着击杀铁傀儡，做一个桶。不过，因为我们在针叶林村庄里，带箱子的房子里可能已经有原木了。我们来试着找一座这样的房子。
 1700 | This house has two beds, a chest, and a crafting table. Go inside and get the logs.
-这座房子有两张床、一个箱子和一个工作台。进去拿原木吧。
+这座房子有两张床、一个箱子和一个工作台，进去拿原木吧。
 1701 | In an actual one, remember to also get three beds and craft a bucket from the iron of the iron golem. If you get five iron from the iron golem, use the two extra to make an iron sword. If you get six or more iron from the original blacksmith, you can skip the golem kill entirely and just make an iron pickaxe and a bucket from those. Now let's see two other meaningful houses.
-在实际速通中，记得还要拿三张床，并用铁傀儡掉的铁合成一个桶。如果铁傀儡掉了五个铁锭，就用多出来的两个做一把铁剑。如果最开始的铁匠铺里就有六个或更多铁锭，您完全可以跳过击杀铁傀儡，直接用这些铁做一把铁镐和一个桶。接下来看看另外两座值得注意的房子。
+在实际速通中，记得还要拿至少三张床，并用铁傀儡掉落的铁合成一个桶；如果铁傀儡掉了五个铁锭，就用多出来的两个做一把铁剑；如果最开始的铁匠铺里就有六个或更多铁锭，您完全可以跳过击杀铁傀儡，直接用这些铁做一把铁镐和一个桶。接下来看看另外两座值得注意的房子。
 1702 | The two houses on your left and on your right both have two beds and a chest. The one on your left has the chest on the lower floor, while the one on the right has the chest on the upper floor. You can explore them and then use the continue item to complete the tutorial.
 您左右两边的两座房子都有两张床和一个箱子。左边那座的箱子在楼下，右边那座的箱子在楼上。您可以进去看看，然后使用“继续”物品完成教程。
 1703 | §eGo to the blacksmith.
@@ -4169,15 +4169,15 @@ SECTION 33: Tutorial map (optional, do this section last)
 1710 | Guided Taiga village tutorial
 针叶林村庄引导教程
 1711 | This is always the second room of the stronghold.\n\nFrom here, the stronghold branches out in several paths: to know where the portal room (and libraries) is, consider that they need SPACE to generate.\n\nTherefore, you should always go to the most isolated way.
-这里永远是要塞的第二个房间。\n\n从这里开始，要塞会分出好几条路：想知道传送门房间（和图书馆）在哪里，要考虑到它们需要足够的“空间”才能生成。\n\n所以，您应该总是走最孤立的那条路。
+这里永远是要塞的第二个房间。\n\n从这里开始，要塞会分出好几条路：想知道传送门房间（和图书馆）在哪里，要考虑到它们需要足够的空间才能生成。\n\n所以，您应该总是走最独立的那条路。
 1712 | In this scenario, both ways are fine, because they are both isolated and far apart.
-在这种情况下，两条路都可以，因为它们都很孤立，而且相隔很远。
+在这种情况下，两条路都可以，因为它们都很独立，而且相隔很远。
 1713 | §aGo to the correct way
 §a走正确的路
 1714 | In this scenario, the left and middle ways are clustered, so you should go to them last, and start from the top-right way.\n\nIf the portal room isn't there, you should try middle since it goes down a few blocks.
-在这种情况下，左边和中间的路挨得很近，所以应该最后再走它们，先从右上方的路开始。\n\n如果传送门房间不在那里，就试试中间那条，因为它会往下走几格。
+在这种情况下，左边和中间的路挨得很近，所以应该最后再走它们，先从右上方的路开始。\n\n如果传送门房间不在那里，就试试中间那条，因为它会往下延伸一些。
 1715 | In this scenario, all the ways are clustered, so you should start from the middle way since it at least goes down a few blocks.\n\nThen, try going in the direction that wouldn't risk intersecting with the other ways.
-在这种情况下，所有的路都挨得很近，所以应该从中间那条开始，因为它至少会往下走几格。\n\n然后，试着往不会和其他路交叉的方向走。
+在这种情况下，所有的路都挨得很近，所以应该从中间那条开始，因为它至少会往下延伸一些。\n\n然后，试着往不会和其他路交叉的方向走。
 1716 | Now, let's learn about hidden rooms: a hidden room can generate on an apparently closed wall if the other way in the same direction has a 3x3, 1 deep hole in it.\n\nIn this case, the top left way has the hole, so there can be a hidden room on bottom left.
 接下来学习隐藏房间：如果同一方向的另一条路上有一个 3x3、深 1 格的坑，那么一面看起来封死的墙后面就可能生成隐藏房间。\n\n在这个例子里，左上方的路有这个坑，所以左下方可能有一个隐藏房间。
 1717 | §cFind the hidden room
@@ -4199,13 +4199,13 @@ SECTION 33: Tutorial map (optional, do this section last)
 1723 | Skip TP Wait
 跳过传送等待
 1724 | §fNow SHIFT and, looking at your crosshair exactly as in the image (top side of the button), place down 4 boats. If the boats do not place, stand a little farther away from the button and try again.
-§f现在按住 SHIFT 潜行，像图中那样让准星正好对准按钮的上侧，放下 4 艘船。如果船放不下去，就离按钮稍微远一点再试。
+§f现在按住 SHIFT 潜行，像图中那样让准星正好对准按钮的上侧，放下 4 艘船。如果船放不下去，就后退离按钮稍微远一点再试。
 1725 | §dEndermen killed: §f0§7/24
 §d已击杀末影人：§f0§7/24
 1726 | §bLook at the Endermen from the tower to anger them while staying in the tower's safe spot.
 §b站在塔里的安全位置，从塔上看向末影人来激怒它们。
 1727 | §bTip: while the Endermen are suffocating in the tower, use critical sword hits to finish them faster.
-§b提示：末影人在塔里窒息时，用剑暴击可以更快地击杀它们。
+§b提示：末影人在塔里窒息时，用剑跳劈可以更快地击杀它们。
 # [WORD ORDER]
 1728 | §aNice! You completed the §fWarped Tower§a {number}!
 §a太棒了！您完成了§f诡异森林塔§a {number}！
@@ -4213,9 +4213,9 @@ SECTION 33: Tutorial map (optional, do this section last)
 1729 | §ePlace cobblestone on all the marked blocks.
 §e在所有标记的方块上放置圆石。
 1730 | §eNow place an oak button on the marked block. Place it on one of the sides of the block, NOT on the bottom.
-§e现在在标记的方块上放一个橡木按钮。要放在方块的侧面，不要放在底面。
+§e现在在标记的方块上放一个按钮，注意要放在方块的侧面，不要放在底面。
 1731 | §ePlace all 4 boats around the button as shown.
-§e按图示在按钮周围放下全部 4 艘船。
+§e按图示瞄准按钮的这个区域放下全部 4 艘船。
 1732 | §ePillar up with cobblestone on the marked blocks.
 §e在标记的方块上用圆石垫高。
 1733 | §ePlace cobblestone on the two marked blocks.
@@ -4223,23 +4223,23 @@ SECTION 33: Tutorial map (optional, do this section last)
 1734 | §eFinish the roof by placing cobblestone on all the marked blocks.
 §e在所有标记的方块上放置圆石，完成屋顶。
 1735 | §aTower complete. Now let 24 Endermen die.
-§a塔建好了。现在等 24 只末影人死掉吧。
+§a诡异森林塔建好了，现在杀死 24 只末影人吧。
 # [WORD ORDER]
 1736 | §eTPing in {number} s...
 §e{number} 秒后传送……
 
 1737 | §cAn area with lots of trees and lava is a poor setup because your view is blocked, making Endermen much harder to spot.
-§c树木和熔岩很多的区域不适合搭建，因为视线会被挡住，很难发现末影人。
+§c树木和熔岩很多的区域不适合搭建诡异森林塔，因为它们会挡住视线，使末影人难以被发现。
 1738 | §6Also avoid building the tower close to another biome. Nearby biomes can take up mob spawns and reduce the number of Endermen spawning in the warped forest.
-§6另外，不要把塔建在靠近其他生物群系的地方。附近的生物群系会分走生物生成，减少诡异森林中末影人的生成数量。
+§6另外，不要把塔建在靠近其他生物群系的地方。附近的生物群系会生成其他生物并占用刷怪上限，减少诡异森林中末影人的生成数量。
 1739 | §ePractice: build the Warped Tower and let 24 Endermen die.
-§e练习：搭建诡异森林塔，并让 24 只末影人死亡。
+§e练习：搭建诡异森林塔，并击杀 24 只末影人。
 1740 | §bTo get enough pearls, set up in an open area with plenty of visibility. This area is a good example because you can see many Endermen from one spot.
-§b想获得足够的珍珠，要在视野开阔的空旷区域搭建。这个区域就是个好例子，因为站在一个地方就能看到很多末影人。
+§b想获得足够的珍珠，要在视野开阔的空旷区域搭建诡异森林塔。这个区域就是个好例子，因为站在一个地方就能看到很多末影人。
 1741 | Guided Warped Tower tutorial
 诡异森林塔(Warped Tower)引导教程
 1742 | Build the tower and kill 24 Endermen
-搭建塔并击杀 24 只末影人
+搭建诡异森林塔并击杀 24 只末影人
 1743 | Back to tutorials
 返回教程
 1744 | §ePractice: navigate the generated bad section and reach the lava room.
@@ -4258,7 +4258,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 1749 | Sometimes the good section of the fortress can be directly connected to one side of the balcony room, as you can see in front of you. This is rare, but worth keeping in mind.
 有时，下界要塞的好区会直接连接在阳台房间的一侧，就像您面前看到的这样。这种情况很少见，但值得记住。
 1750 | This is what the good section of the fortress looks like. Now turn back and take the correct direction from the balcony.
-这就是下界要塞好区的样子。现在转身回去，从阳台房间走正确的方向。
+这就是下界要塞好区的样子。现在请转身回去，从阳台房间走正确的方向。
 1751 | Congratulations! You reached the lava room, which separates the bad section from the good section of the fortress.
 恭喜！您到达了熔岩井房间，它分隔着下界要塞的坏区和好区。
 1752 | §7Loading practice area and generating a new fortress bad section...
@@ -4266,7 +4266,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 1753 | Fortress practice
 下界要塞练习
 1754 | Guided fortress navigation tutorial
-下界要塞导航(fortress navigation)引导教程
+下界要塞寻路(fortress navigation)教程
 1755 | Reach the lava room
 到达熔岩井房间
 1756 | §sOpen Menu
