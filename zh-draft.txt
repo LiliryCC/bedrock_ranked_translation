@@ -3435,11 +3435,11 @@ SECTION 33: Tutorial map (optional, do this section last)
 1356 | Dig into stronghold
 挖进要塞
 1357 | Portal in the SH portal room
-在要塞传送门房间搭下界传送门
+在末地传送门房间搭下界传送门
 1358 | Stronghold Nav
 要塞导航
 1359 | Navigating the stronghold
-在要塞中找路
+在要塞中寻路
 # 译注：Quadrant 在这里指村庄和下界结构生成所用的网格区域（类似 Java 版的“区域”）。教程里用了“正正方向（pos pos）”这种说法，所以译作“象限”。
 1360 | Quadrants
 象限
@@ -3543,7 +3543,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 1408 | Run the guided tutorial
 开始引导教程
 1409 | Practice without tutorial guidance
-不带引导自由练习
+不带引导的自由练习
 1410 | Back to the main menu
 返回主菜单
 1411 | Open Sprinkz tutorials
@@ -3636,7 +3636,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 1454 | Waterbed
 水床
 1455 | Water + bed one cycle
-水 + 床 单循环
+水床单循环
 1456 | Lava
 熔岩
 1457 | Lava one cycle
