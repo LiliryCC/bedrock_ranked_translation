@@ -2958,7 +2958,7 @@ SECTION 31: Country flag names
 1125 | Fiji
 斐济
 1126 | Falkland Islands
-福克兰群岛
+马尔维纳斯群岛（福克兰群岛）
 1127 | Federated States of Micronesia
 密克罗尼西亚联邦
 1128 | Faroe Islands
@@ -4183,7 +4183,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 1717 | §cFind the hidden room
 §c找到隐藏房间
 1718 | This is the STARTER STAIRCASE. It's the beginning of the stronghold.\n\nGo to the next room.
-这是“起始阶梯”，也就是要塞的入口。\n\n前往下一个房间。
+这是“起始楼梯”，也就是要塞的入口。\n\n前往下一个房间。
 1719 | Go
 出发
 1720 | §aGo to the next room
