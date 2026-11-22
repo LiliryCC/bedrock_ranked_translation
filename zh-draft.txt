@@ -3429,7 +3429,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 熔岩池
 1354 | Portal from a lava pool
 用熔岩池搭传送门
-# 译注：Sprinkz Strat 国内一般叫“集合点策略”：找到村庄的集合点（村庄初始坐标），再按 +4、+4 下挖。名词第一次出现时写成“集合点策略(Sprinkz Strat)”，后面都用“集合点策略”。
+# 译注：Sprinkz Strat 国内一般叫“集合点策略”：找到村庄的集合点（村庄初始坐标），再按 (+4, +4) 下挖。名词第一次出现时写成“集合点策略(Sprinkz Strat)”，后面都用“集合点策略”。
 1355 | Sprinkz Strat
 集合点策略(Sprinkz Strat)
 1356 | Dig into stronghold
@@ -3440,7 +3440,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 要塞导航
 1359 | Navigating the stronghold
 在要塞中寻路
-# 译注：Quadrant 在这里指村庄和下界结构生成所用的网格区域（类似 Java 版的“区域”）。教程里用了“正正方向（pos pos）”这种说法，所以译作“象限”。
+# 译注：Quadrant 在这里指村庄和下界结构生成所用的网格区域（类似 Java 版的“区域”）。教程里的方向用“(+, +)”这种写法，所以译作“象限”。
 1360 | Quadrants
 象限
 1361 | Nether quadrants
@@ -3557,7 +3557,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 1415 | Sprinkz Strat explanation
 集合点策略讲解
 1416 | Sprinkz strat is a strategy that allows you to always dig down into the starter staircase of the stronghold, based on the village bells. The reason why it works is that when stronghold generate under villages in bedrock, they generate from the world chunk of the village on the 4-4 relative coordinates of the chunk. Therefore, if we are able to map the starting coordinates of the village, we can just add 4-4 to those and we'll be able to know where to dig. It's therefore obvious that for each village center type there will be a different dig down spot. You will be guided for every single center type, there are 16 total. Since the starter staircase is decently wide, you don't need to dig at the exact spot, but it's enough to dig in the 5x5 area around it.
-集合点策略是一种根据村庄的钟来定位、每次都能直接挖到要塞起始阶梯的策略。它之所以有效，是因为在基岩版中，当要塞生成在村庄下方时，它会从村庄所在区块内相对坐标 4-4 的位置开始生成。因此，只要能确定村庄的集合点（也就是村庄的初始坐标），再加上 4-4，就能知道该往哪里挖。显然，每种村庄中心类型都对应着不同的下挖位置。教程会带您逐一学习每种中心类型，总共有 16 种。由于起始阶梯相当宽，您不需要挖在精确的位置上，只要挖在它周围 5x5 的范围内就够了。
+集合点策略是一种根据村庄的钟来定位、每次都能直接挖到要塞起始阶梯的策略。它之所以有效，是因为在基岩版中，当要塞生成在村庄下方时，它会从村庄所在区块内相对坐标 (+4, +4) 的位置开始生成。因此，只要能确定村庄的集合点（也就是村庄的初始坐标），再加上 (4, 4)，就能知道该往哪里挖。显然，每种村庄中心类型都对应着不同的下挖位置。教程会带您逐一学习每种中心类型，总共有 16 种。由于起始阶梯相当宽，您不需要挖在精确的位置上，只要挖在它周围 5x5 的范围内就够了。
 1417 | Go to the marked point on the right side of the bell.
 前往钟右侧的标记点。
 1418 | §eThis is the starting point. Move 3 blocks right.
@@ -3932,7 +3932,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 1594 | Once you have the iron, you will want a source of lava to make a portal. You will be taught how to make a portal step by step. The easiest way to enter the Nether with lava is using a lava pool. Lava pools can spawn deep underground in caves, or, more easily accessible, sometimes on the surface.
 有了铁之后，您需要找一处熔岩来搭传送门。教程会一步一步教您怎么搭。用熔岩进入下界，最简单的方法是利用熔岩池。熔岩池可能生成在地下深处的洞穴里，有时也会生成在更容易到达的地表上。
 1595 | In case your village, from which you gathered the first resources, is more than about 600 blocks from 0 0, there is a chance that there will be a stronghold under the village. The chance becomes maximum at about 900 blocks from 0 0, and starts decreasing from then on progressively. The chance of hitting a stronghold at 900 0 will be approximately 15 percent. There is a strategy to always land on the stronghold, if there is one under the village, every time, and that is called Sprinkz strat.
-如果您收集初始资源的村庄距离 0 0 超过大约 600 格，村庄下方就有可能存在要塞。这个概率在距离 0 0 约 900 格处达到最高，之后逐渐降低。在 900 0 处碰到要塞的概率大约是 15%。有一种策略，只要村庄下方有要塞，每次都能准确挖到它，这就是集合点策略。
+如果您收集初始资源的村庄距离 (0, 0) 超过大约 600 格，村庄下方就有可能存在要塞。这个概率在距离 (0, 0) 约 900 格处达到最高，之后逐渐降低。在 (900, 0) 处碰到要塞的概率大约是 15%。有一种策略，只要村庄下方有要塞，每次都能准确挖到它，这就是集合点策略。
 1596 | You will be taught this step by step. This is very useful not only if you don't have ender eyes to locate the stronghold, to dig down to it even without eyes, but can also be useful to avoid having to triangulate the stronghold once you get close to it if there is a village where the eye is pointing to. Once you get to the stronghold, if you find the portal room, you can use the lava in it to enter the Nether. You will be taught the optimal way to do that too, step by step.
 教程会一步一步教您这个方法。它非常实用：在没有末影之眼定位要塞时，可以直接挖到要塞；而且当末影之眼指向的方向上有村庄时，也能让您在接近要塞后省去三角定位的步骤。到达要塞后，如果找到了传送门房间，就可以利用里面的熔岩进入下界。教程也会一步一步教您最优的做法。
 1597 | Once in the Nether, you will need to either go to the first structure you see, or if you don't see any, navigate the Nether properly. You will be taught how to navigate the Nether, and how the quadrant system works. Once you do find a structure, you will need to know how to loot it. Specifically, you will need to know how to navigate a Nether Fortress and how to trade with Piglins in a Bastion or get pearls from a warped forest.
@@ -3940,7 +3940,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 1598 | This is because to complete Minecraft, you will need blaze rod from a Nether Fortress and pearls, either from a Bastion through Piglin barter, or from a warped forest, where many Endermen spawn. To maximize the amount of pearls you will get from a warped forest in the minimum amount of time possible, there are special setups that you will also be taught.
 这是因为要通关 Minecraft，您需要从下界要塞获得烈焰棒，还需要末影珍珠：可以在堡垒遗迹通过和猪灵交易获得，也可以从刷出大量末影人的诡异森林获得。为了在最短时间内从诡异森林拿到尽可能多的珍珠，还有一些专门的搭建方法，教程也会教给您。
 1599 | Once you get your ender eyes, you will need to go back to the overworld and find the stronghold. This shouldn't be too hard, considering that the closest stronghold to 0 0 usually are villages, and you already will know Sprinkz strat by now. So expect to be able to find a stronghold with one or two eye throws. Alternatively, you might even be already in the portal room or near the stronghold once you leave the Nether, if you entered from a village with a stronghold underneath.
-拿到末影之眼后，您需要回到主世界寻找要塞。这应该不会太难，因为离 0 0 最近的要塞通常都在村庄下方，而那时您已经掌握了集合点策略。所以一般扔一两次末影之眼就能找到要塞。另外，如果您是从一个下方有要塞的村庄进入下界的，那么离开下界时，您甚至可能已经在传送门房间里或者要塞附近了。
+拿到末影之眼后，您需要回到主世界寻找要塞。这应该不会太难，因为离 (0, 0) 最近的要塞通常都在村庄下方，而那时您已经掌握了集合点策略。所以一般扔一两次末影之眼就能找到要塞。另外，如果您是从一个下方有要塞的村庄进入下界的，那么离开下界时，您甚至可能已经在传送门房间里或者要塞附近了。
 1600 | Once you find the stronghold, you will be able to enter the end and kill the dragon. To kill the dragon optimally, you will need three beds and some other resources, such as a spear or a projectile, and preferably obsidian or a water bucket. You will be taught how to kill the dragon step by step, and will be given two separate methods to do it based on the resources you have.
 找到要塞后，您就可以进入末地击杀末影龙了。想要高效地击杀末影龙，您需要三张床和一些其他资源，比如矛或者投掷物，最好还有黑曜石或水桶。教程会一步一步教您如何击杀末影龙，并根据您手头的资源提供两种不同的方法。
 1601 | Thank you for having downloaded this map. Welcome to the world of speedrunning. In this short introduction, you will see how a speedrun works and what you will learn in this map. This map is specifically thought for RSG (random seed glitchless), but the techniques you will learn will also be useful for any other speedrun category you will choose to pursue. Go to the marked point to continue.
@@ -3954,7 +3954,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 1605 | Go back to the lobby
 回到大厅
 1606 | If you spawn at zero zero, positive positive is the only quadrant without any red zone. This means that it is the most likely quadrant where you will find a structure first. That said, whether it's convenient to go there very much depends on the terrain and whether there is a basalt delta or not.
-如果您在 0 0 出生，那么++象限是唯一没有任何红色区域的象限。这意味着您最有可能在这个象限里先找到结构。话虽如此，去那里是否方便，很大程度上还取决于地形，以及有没有玄武岩三角洲。
+如果您在 (0, 0) 出生，那么(+, +)象限是唯一没有任何红色区域的象限。这意味着您最有可能在这个象限里先找到结构。话虽如此，去那里是否方便，很大程度上还取决于地形，以及有没有玄武岩三角洲。
 1607 | In basalt deltas, bastion cannot generate. In Java, if a bastion tries to generate in a basalt delta, a fortress will generate instead. In Bedrock, however, if the same happens, nothing will generate at all in that quadrant. Therefore, there is only a 33% chance that a structure will generate in a totally basalt quadrant.
 堡垒遗迹无法在玄武岩三角洲中生成。在 Java 版中，如果堡垒遗迹试图在玄武岩三角洲中生成，就会改为生成下界要塞。但在基岩版中，如果发生同样的情况，这个象限里就什么都不会生成。因此，在一个完全是玄武岩的象限里，生成结构的概率只有 33%
 1608 | As you can see, in this quadrant no structure generated. This means that a bastion tried to generate somewhere but got cancelled due to basalt. This is why you should generally avoid basalt unless necessary.
@@ -3968,7 +3968,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 1612 | Restart the Quadrants tutorial
 重新开始象限教程
 1613 | Villages in Bedrock spawn in grids, as represented in the floor of this room. The green blocks are where a village would be able to spawn; red is where a village can't spawn. The length of the red line is always 8 chunks long in 1.18+, and 10 chunks in 1.16, while the green quadrant is 26×26 chunks in 1.18+ and 17×17 chunks in 1.16. You are currently facing pos z, as you would when spawning in a new world, and are standing where 0 0 would be. Therefore, the most likely direction to have a village from 0 0 is positive positive (pos pos).
-在基岩版中，村庄按网格生成，就像这个房间的地板所展示的那样。绿色方块表示可以生成村庄的位置；红色表示不能生成村庄的位置。在 1.18+ 中，红线的长度始终是 8 个区块，在 1.16 中则是 10 个区块；绿色象限在 1.18+ 中是 26×26 区块，在 1.16 中是 17×17 区块。您现在面朝 Z+ 方向，就像在新世界出生时一样，并且站在相当于 0 0 的位置上。因此，从 0 0 出发，最有可能找到村庄的方向是正正方向（++）。
+在基岩版中，村庄按网格生成，就像这个房间的地板所展示的那样。绿色方块表示可以生成村庄的位置；红色表示不能生成村庄的位置。在 1.18+ 中，红线的长度始终是 8 个区块，在 1.16 中则是 10 个区块；绿色象限在 1.18+ 中是 26×26 区块，在 1.16 中是 17×17 区块。您现在面朝 (+Z) 方向，就像在新世界出生时一样，并且站在相当于 (0, 0) 的位置上。因此，从 (0, 0) 出发，最有可能找到村庄的方向是(+, +)方向。
 1614 | Understood
 明白了
 1615 | Close this explanation
@@ -4243,26 +4243,26 @@ SECTION 33: Tutorial map (optional, do this section last)
 1743 | Back to tutorials
 返回教程
 1744 | §ePractice: navigate the generated bad section and reach the lava room.
-§e练习：穿过生成的坏区，到达熔岩井房间。
-# 译注：good section / bad section 译作“好区 / 坏区”。社区有时把好区叫“刷怪区”、坏区叫“藏宝区”。只在这段开头提一次，后面只用好区 / 坏区。
+§e练习：穿过生成的藏宝区，到达熔岩井房间。
+# 译注：good section / bad section 译作“刷怪区 / 藏宝区”。第一次出现时说明也叫“好区 / 坏区”，后面只用刷怪区 / 藏宝区。
 1745 | §fIn the bad section of a fortress, specific rooms can be used as landmarks to navigate toward the good section—the side containing the blaze spawner. You can distinguish the two sections by corridor height: the good section is 3 blocks tall, while the bad section is 4 blocks tall.
-§f下界要塞里，有烈焰人刷怪笼的一侧叫好区，也叫刷怪区；没有刷怪笼的一侧叫坏区，也叫藏宝区。在坏区中，可以把一些特定房间当作地标，找到通往好区的路。两个区域可以通过走廊高度来区分：好区的走廊高 3 格，坏区的走廊高 4 格。
+§f下界要塞里，有烈焰人刷怪笼的一侧叫刷怪区，也叫好区；没有刷怪笼的一侧叫藏宝区，也叫坏区。在藏宝区中，可以把一些特定房间当作地标，找到通往刷怪区的路。两个区域可以通过走廊高度来区分：刷怪区的走廊高 3 格，藏宝区的走廊高 4 格。
 # [WORD ORDER]
 1746 | §aNice! You completed the §fFortress Navigation§a {number}!
 §a太棒了！您完成了§f下界要塞导航§a {number}！
 
 1747 | The stairs you just climbed lead toward the good section by going up, just as you did. In the balcony room in front of you, the good section will be on the side opposite the balcony.
-您刚才爬上来的楼梯，就是往上通往好区的方向，就像您刚才那样走就对了。在您面前的阳台房间里，好区会在阳台的对面一侧。
+您刚才爬上来的楼梯，就是往上通往刷怪区的方向，就像您刚才那样走就对了。在您面前的阳台房间里，刷怪区会在阳台的对面一侧。
 1748 | Good, this is the way. The room in front of you is the Nether Wart room. In this case, the good section is always down the stairs—the exact opposite of the staircase pattern you just saw.
-很好，就是这条路。您面前的房间是下界疣房间。这种情况下，好区一定在楼梯下面——和您刚才看到的楼梯规律正好相反。
+很好，就是这条路。您面前的房间是下界疣房间。这种情况下，刷怪区一定在楼梯下面——和您刚才看到的楼梯规律正好相反。
 1749 | Sometimes the good section of the fortress can be directly connected to one side of the balcony room, as you can see in front of you. This is rare, but worth keeping in mind.
-有时，下界要塞的好区会直接连接在阳台房间的一侧，就像您面前看到的这样。这种情况很少见，但值得记住。
+有时，下界要塞的刷怪区会直接连接在阳台房间的一侧，就像您面前看到的这样。这种情况很少见，但值得记住。
 1750 | This is what the good section of the fortress looks like. Now turn back and take the correct direction from the balcony.
-这就是下界要塞好区的样子。现在请转身回去，从阳台房间走正确的方向。
+这就是下界要塞刷怪区的样子。现在请转身回去，从阳台房间走正确的方向。
 1751 | Congratulations! You reached the lava room, which separates the bad section from the good section of the fortress.
-恭喜！您到达了熔岩井房间，它分隔着下界要塞的坏区和好区。
+恭喜！您到达了熔岩井房间，它分隔着下界要塞的藏宝区和刷怪区。
 1752 | §7Loading practice area and generating a new fortress bad section...
-§7正在加载练习区域，并生成新的下界要塞坏区……
+§7正在加载练习区域，并生成新的下界要塞藏宝区……
 1753 | Fortress practice
 下界要塞练习
 1754 | Guided fortress navigation tutorial
