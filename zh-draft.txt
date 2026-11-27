@@ -2117,7 +2117,7 @@ SECTION 25: Android app: status lines and errors
 0780 | Waiting for Minecraft world list...
 正在等待 Minecraft 世界列表……
 0781 | Minecraft could not discover this world after restarting. Save Logs to Downloads.
-重启后 Minecraft 仍然找不到这个世界。请点击“保存日志到下载目录”。
+重启后 Minecraft 仍然找不到这个世界，请点击“保存日志到下载目录”。
 0782 | Waiting for Minecraft world-start commands...
 正在等待 Minecraft 世界启动指令……
 0783 | Minecraft could not open the prepared world
@@ -2139,9 +2139,9 @@ Minecraft 无法打开已准备好的世界
 0791 | Returning to the Ranked menu...
 正在返回 Ranked 菜单……
 0792 | Minecraft did not close the world. Restarting the menu safely.
-Minecraft 没有关闭世界。正在安全地重启菜单。
+Minecraft 没有关闭世界，正在安全地重启菜单。
 0793 | Minecraft is still unable to open this world. Cancel and save logs from the app screen.
-Minecraft 仍然无法打开这个世界。请取消，然后在应用界面中保存日志。
+Minecraft 仍然无法打开这个世界，请取消，然后在应用界面中保存日志。
 0794 | Could not prepare Minecraft restart
 无法准备重启 Minecraft
 0795 | Could not open Minecraft pause menu
@@ -2157,7 +2157,7 @@ Minecraft 仍然无法打开这个世界。请取消，然后在应用界面中�
 # [WORD ORDER]
 # 译注：“Play > Worlds”指的是 Minecraft 自己界面里的按钮路径，请对照基岩版简体中文界面核对用词（这里先写作“开始游戏 > 世界”）。
 0798 | Minecraft world-start result: {result}. Use Play > Worlds if needed.
-Minecraft 世界启动结果：{result}。如有需要，请使用“开始游戏 > 世界”。
+Minecraft 世界启动结果：{result}，如有需要，请使用“开始游戏 > 世界”。
 
 # [WORD ORDER]
 0799 | Could not refresh Minecraft: {error}
@@ -2218,7 +2218,7 @@ Ranked 桥接程序无法启动
 0823 | No file manager is installed
 未安装文件管理器
 0824 | A replay is already open or opening. Close it before opening another.
-已有回放正在打开或已经打开。请先关闭它，再打开另一个。
+已有回放正在打开或已经打开，请先关闭它，再打开另一个。
 0825 | Replay archive is too large
 回放压缩包过大
 0826 | Incomplete replay file
@@ -2226,7 +2226,7 @@ Ranked 桥接程序无法启动
 0827 | Replay world checksum mismatch
 回放世界校验值不匹配
 0828 | Replay contains too much data to open safely. Your recording is preserved.
-回放包含的数据过多，无法安全打开。您的录像仍然保留着。
+回放包含的数据过多，无法安全打开，您的录像仍然保留着。
 0829 | Local replay is unavailable
 本地回放不可用
 0830 | Saving local replay
