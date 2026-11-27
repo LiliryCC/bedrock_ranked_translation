@@ -343,28 +343,28 @@ SECTION 05: In-game: pause, forfeit, requests and on-screen messages
 0096 | Forfeit this run?
 确定要认输吗？
 0097 | You will lose this match.
-您将输掉这场对局。
+您将输掉这场对局
 0098 | This will end your current run.
-这会结束您当前这一局。
+当前这一局将会结束
 0099 | This cannot be undone.
-此操作无法撤销。
+此操作无法撤销
 # RTA = real-time attack: the clock never stops, even when paused. Commonly left as RTA.
 0100 | CAREFUL: Ranked matches are timed with RTA! This means your timer is ticking right now!
-注意：排位赛使用 RTA 计时！也就是说，您的计时器现在就在走！
+注意：排位赛使用 RTA 计时，也就是说，现在计时已经开始了！
 
 # [WORD ORDER] In-game chat, Windows. Keep /accept and /deny exactly: they are commands. {request} is change, draw or cancel.
 0101 | Opponent requests /{request}. Reply /accept or /deny within 30 seconds.
-对手请求 /{request}。请在 30 秒内回复 /accept 或 /deny。
+对手请求 /{request}，请在 30 秒内回复 /accept 或 /deny
 
 0102 | Request sent. Waiting for opponent (30 seconds).
-请求已发送，正在等待对手回应（30 秒）。
+请求已发送，正在等待对手回应（30 秒）
 # [WORD ORDER] In-game chat, Android.
 0103 | Request sent: /{request}
 请求已发送：/{request}
 
 # [WORD ORDER] In-game chat, Android. Keep /accept and /deny exactly.
 0104 | Opponent requested /{request}. /accept or /deny
-对手请求 /{request}。/accept 或 /deny
+对手请求 /{request}，/accept 或 /deny
 
 0105 | Request closed
 请求已关闭
@@ -390,7 +390,7 @@ SECTION 06: Match end and results
 0112 | You lost
 您输了
 0113 | You Won
-您赢了！
+您赢了
 0114 | You Lost
 您输了
 0115 | Run Forfeited
