@@ -2407,7 +2407,7 @@ SECTION 29: Server messages: errors
 # Errors from the server, shown on screen or in chat when an action fails.
 
 0889 | Name must be 3-24 letters, numbers or underscores
-名称只能由 3-24 个字母、数字或下划线组成
+名称只能由 3-24 个英文字母、数字或下划线组成
 0890 | That name is not allowed
 不允许使用这个名称
 0891 | Password must contain 10-128 characters
@@ -2431,7 +2431,7 @@ SECTION 29: Server messages: errors
 0900 | Sign in before linking Discord
 请先登录，再关联 Discord
 0901 | Discord is already linked. Recover the account first to replace a lost Discord account.
-Discord 已关联。如需替换丢失的 Discord 账号，请先找回账号。
+Discord 已关联，如需替换丢失的 Discord 账号，请先找回账号。
 0902 | Discord login is not configured yet
 尚未配置 Discord 登录
 0903 | Discord authorization required
@@ -2447,7 +2447,7 @@ Discord 身份无效
 0908 | Discord authorization already used
 该 Discord 授权已被使用
 0909 | That Discord account already belongs to another ranked account. Accounts cannot be merged.
-该 Discord 账号已属于另一个 Ranked 账号。账号无法合并。
+该 Discord 账号已属于另一个 Ranked 账号，账号无法合并。
 0910 | Session required
 需要登录会话
 0911 | Create an account or sign in to Season 2
@@ -2562,7 +2562,7 @@ Minecraft 设置备份过大
 0965 | A room member is already in a match
 有房间成员已经在对局中了
 0966 | Every team needs at least one player
-每支队伍至少需要一名玩家
+每支队伍需要至少一名玩家
 0967 | Not enough players for the required finishers
 玩家人数不足，无法满足所需完成人数
 0968 | Specified seeds require the seed catalog
@@ -2586,7 +2586,7 @@ Minecraft 设置备份过大
 0977 | Message must contain 1-500 characters
 消息长度必须为 1-500 个字符
 0978 | Wait a second between messages
-每条消息之间请间隔一秒
+发送每条消息之间请间隔一秒
 0979 | Message is empty
 消息为空
 # [WORD ORDER] {field} is a raw English word from the server.
@@ -2645,7 +2645,7 @@ Minecraft 设置备份过大
 1005 | Match not found
 找不到对局
 1006 | Seed is available after the run
-这一局结束后即可查看种子
+这一局游戏结束后即可查看种子
 1007 | Match ended before world preparation completed; return to the menu and queue again
 对局在世界准备完成之前就结束了；请返回菜单重新匹配
 1008 | Stale world preparation revision; load the current match world
