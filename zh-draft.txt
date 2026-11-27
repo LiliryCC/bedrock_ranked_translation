@@ -1064,9 +1064,9 @@ SECTION 13: Storage settings
 0359 | Delete All Worlds
 删除所有世界
 0360 | Delete All Solo Worlds
-删除所有单人世界
+删除所有单人模式世界
 0361 | Delete All Ranked Worlds
-删除所有排位世界
+删除所有排位模式世界
 0362 | Delete All Practice Worlds
 删除所有练习世界
 0363 | Open World Folder
@@ -1074,11 +1074,11 @@ SECTION 13: Storage settings
 0364 | Delete All Local Replays
 删除所有本地回放
 0365 | Delete Solo Replays
-删除单人回放
+删除单人模式回放
 0366 | Delete Ranked Replays
-删除排位回放
+删除排位模式回放
 0367 | Keep Latest 5 Replays
-保留最近 5 个回放
+保存最近 5 个回放
 0368 | Open Local Replay Folder
 打开本地回放文件夹
 0369 | Turn off automatic world cleanup?
@@ -1177,10 +1177,10 @@ SECTION 14: Private rooms
 0409 | Random 1.21+
 随机 1.21+
 0410 | Both Versions
-两种版本
+全部版本
 # 译注：0411–0413 推测是“标签 + 选项”的组合（Players compete: Individually / In teams），所以译作“参赛方式：个人 / 组队”。如果它们会被拼成一整句，请告诉我们。
 0411 | Players compete
-参赛方式
+结算方式
 0412 | Individually
 个人
 0413 | In teams
@@ -1200,9 +1200,9 @@ SECTION 14: Private rooms
 随机
 
 0420 | Optional. Ranked seed list only.
-可选。仅限排位种子列表中的种子。
+可选，仅限排位种子列表中的种子。
 0421 | Optional. Must be in the ranked seed list.
-可选。必须是排位种子列表中的种子。
+可选，必须是排位种子列表中的种子。
 # 译注：英文是“End the race after ___”，后面接 0424/0426 等选项。中文没法拼成一句，所以改写成标签“对局结束条件”，后面跟“所有人完成”“前 X 名玩家完成”。
 0422 | End the race after
 对局结束条件
@@ -1223,7 +1223,7 @@ SECTION 14: Private rooms
 0430 | Team time
 团队用时
 0431 | Average finish time
-平均完成用时
+团队平均完成用时
 0432 | Last required finisher
 最后一名计入者的用时
 0433 | Votes to change seed (%)
@@ -1250,11 +1250,11 @@ SECTION 14: Private rooms
 
 # [WORD ORDER]
 0442 | Seed votes last 30 seconds. {players} players need {votes} votes.
-种子投票持续 30 秒。{players} 名玩家需要 {votes} 票。
+换种投票持续 30 秒，{players} 名玩家需要 {votes} 票。
 
 # [WORD ORDER]
 0443 | Rounded up. {players} players need {votes} votes.
-向上取整。{players} 名玩家需要 {votes} 票。
+向上取整，{players} 名玩家需要 {votes} 票。
 
 # DNF = did not finish. Commonly left as DNF.
 0444 | Teams missing a required finisher get DNF.
@@ -1330,7 +1330,7 @@ DNF
 0472 | Format
 赛制
 0473 | Individual race
-个人对局
+个人赛
 0474 | Time limit
 时间限制
 0475 | Seed vote
