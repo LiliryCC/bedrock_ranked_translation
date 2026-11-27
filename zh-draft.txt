@@ -1391,7 +1391,7 @@ SECTION 15: Trophies screen
 0492 | Show winstreak flair if applicable
 符合条件时显示连胜标识
 0493 | Win 3 or more ranked matches in a row to show your current streak beside your equipped trophies. It uses no equipment slot.
-排位赛连胜 3 场及以上时，您装备的奖杯旁会显示当前连胜数。它不占用装备栏位。
+排位赛连胜 3 场及以上时，您装备的奖杯旁会显示当前连胜数，不占用装备栏位。
 0494 | After more than 2 ranked wins in a row, your current streak flair appears alongside your selected flairs.
 排位赛连胜超过 2 场后，您的当前连胜标识会显示在所选奖杯旁边。
 0495 | All trophies
