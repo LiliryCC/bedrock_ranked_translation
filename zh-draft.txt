@@ -1465,7 +1465,7 @@ Bedrock Ranked 完全依靠社区的捐助来维持。没有大家的支持，�
 0523 | I want to contribute to marketing
 我想参与宣传推广
 0524 | I want to contribute to translation and accessibility
-我想参与翻译和无障碍
+我想参与翻译和无障碍功能
 0525 | I want to help with something else
 我想在其他方面帮忙
 # [WORD ORDER] Android builds the sentences above from pieces, so these topic words are listed once more.
@@ -1482,7 +1482,7 @@ Bedrock Ranked 完全依靠社区的捐助来维持。没有大家的支持，�
 0530 | marketing
 宣传推广
 0531 | translation and accessibility
-翻译和无障碍
+翻译和无障碍功能
 
 ========================================================================
 SECTION 17: How to Play page
@@ -1490,11 +1490,11 @@ SECTION 17: How to Play page
 # Each paragraph is one entry. The chat commands (/forfeit, /change, /draw, /cancel, /accept, /deny) are shown on separate lines in the game and stay in English.
 
 0532 | In Ranked, the goal is to beat the game as fast as possible. You can do it against real opponents by entering the queue, or play solo against the clock. To start playing ranked, enter the queue: you'll be paired as soon as possible with an other player in the queue; your opponent might be using the client too, and in that case your match will be synchronised, but they could also have queued from Discord or the website (because no client exists for console and iOS devices). If you queue a non-client player, you'll still be able to play the game fully from client. To communicate with any opponent, you can just send a message in the game chat.
-在 Ranked 中，您的目标是尽可能快地通关游戏。您可以进入匹配队列，和真实的对手一较高下；也可以玩单人模式，和时间赛跑。想开始排位赛的话，进入匹配队列就行：系统会尽快把您和另一名玩家匹配到一起。您的对手可能也在用客户端，这样双方的对局会自动同步；但对手也可能是通过 Discord 或网站开始匹配的（因为主机和 iOS 设备没有客户端）。即使匹配到不用客户端的玩家，您依然可以在客户端里完整地进行游戏。想和对手聊天，直接在游戏聊天栏里发消息就好。
+在 Ranked 中，您的目标是尽可能快地通关游戏。您可以进入匹配队列，和真实的对手一较高下；也可以玩单人模式，追求更快的通关。想开始排位赛的话，进入匹配队列就行：系统会尽快把您和另一名玩家匹配到一起。您的对手可能也在用客户端，这样双方的对局会自动同步；但对手也可能是通过 Discord 或网站开始匹配的（因为主机和 iOS 设备没有客户端）。即使匹配到不用客户端的玩家，您依然可以在客户端里完整地进行游戏。想和对手聊天，直接在游戏聊天栏里发消息就好。
 0533 | Because non-client synchronization is hard, in case you finish before your opponent submits their time, they will have an extra 20% of your final client time to report the result. Then, the faster time will win.
 由于和非客户端玩家同步比较困难，如果您在对手提交成绩之前就完成了，对手还有相当于您客户端最终用时 20% 的额外时间来上报成绩。之后，用时更短的一方获胜。
 0534 | IMPORTANT: timing is RTA! This is to ensure match synch. This means that if you pause, reset, or leave, your timer will keep running. If your game crash, you have a 1 minute time window before you'll auto forfeit.
-重要：计时方式是 RTA！这是为了保证对局同步。也就是说，即使您暂停、重置或离开，计时器也会继续走。如果游戏崩溃了，您有 1 分钟的时间回来，超时将自动认输。
+重要：计时方式是 RTA，这是为了保证对局同步———也就是说，即使您暂停、重置或离开，计时器也会继续走。如果游戏崩溃了，您有 1 分钟的时间重连回来，超时将自动认输。
 0535 | Match commands (run in chat):
 对局指令（在聊天中输入）：
 # 译注：推测这一行后面接的是 /accept 和 /deny，用来回应对方发起的 /change、/draw、/cancel。
@@ -1510,9 +1510,9 @@ SECTION 18: Cheating and Rules page
 
 # 译注：“one cycling”和 0057 的 One Cycle 是同一个意思，这里用“单循环”。英文对照已在第一次出现时给出。
 0538 | If you are playing in the client, you do not need to record your runs. You cannot use creative mode, any cheats or any external tool that isn't approved. Calculators and screen readers are allowed, but they must not interfere with the inputs of the run (for example, a macro that automatically does one cycling is not allowed). You are not to modify or change the client in any way. For website and discord users, it's expected that they should always record their runs. If they win the match, they could be automatically required to give their recording, and their opponent can also ask for the recording even if it wasn't automatically requested.
-如果您在客户端中游戏，就不需要录制自己的对局。禁止使用创造模式、任何作弊手段，以及任何未经批准的外部工具。计算器和读屏软件是允许的，但不能干扰对局中的操作输入（例如，自动完成单循环的宏是不允许的）。不得以任何方式修改或改动客户端。通过网站和 Discord 参与的玩家应当始终录制自己的对局。如果他们赢得了对局，可能会被自动要求提交录像；即使没有被自动要求，对手也可以申请查看录像。
+如果您在客户端中游戏，就不需要录制自己的对局。禁止使用创造模式、任何作弊手段，以及任何未经批准的外部工具。计算器和读屏软件是允许的，但不能干扰对局中的操作输入（例如，自动完成单循环炸龙的宏是不允许的）。不得以任何方式修改或改动客户端。通过网站和 Discord 参与的玩家应当始终录制自己的对局。如果他们赢得了对局，可能会被自动要求提交录像；即使没有被自动要求，对手也可以申请查看录像。
 0539 | You should not be rude or annoying. If you believe your opponent has cheated, report them, don't start arguing with them. Any form of verbal aggression, racism, homophobia, transphobia and NSFW content or language (there are children playing this!) are prohibited.
-请不要粗鲁无礼，也不要骚扰别人。如果您认为对手作弊了，请直接举报，不要和对方争吵。禁止任何形式的言语攻击、种族歧视、恐同、恐跨，以及 NSFW 内容或言论（还有很多小朋友在玩呢！）。
+请不要粗鲁无礼，也不要骚扰别人。如果您认为对手作弊了，请直接举报，不要和对方争吵。禁止任何形式的言语攻击、种族歧视、恐同、恐跨，以及 NSFW 内容或言论（还有很多小朋友在玩呢！）
 0540 | Breaking the rules will lead to suspension of the account, and repeated offences will lead to a ban.
 违反规则会导致账号被暂停使用，屡次违规将被封禁。
 0541 | Cheating & Rules
