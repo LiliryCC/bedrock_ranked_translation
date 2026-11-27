@@ -202,7 +202,7 @@ SECTION 03: Solo, Set Seed and Practice menus
 0048 | Random Mode
 随机模式
 0049 | Set Seed
-指定种子
+固定种子
 0050 | Enter seed...
 输入种子……
 0051 | Seed
@@ -220,10 +220,10 @@ SECTION 03: Solo, Set Seed and Practice menus
 教程
 
 0056 | Nether Portal Practice
-下界传送门练习
+浇筑及搭门练习
 # 译注：One Cycle 译作“单循环”。名词第一次出现时写成“单循环(One Cycle)”，后面都用“单循环”。
 0057 | One Cycle Practice
-单循环(One Cycle) 练习
+单循环炸龙(One Cycle)练习
 # 译注：“Realistic Bastion”译作“实战猪堡”。速通圈把 Bastion 叫“猪堡”。
 0058 | Realistic Bastion Practice
 实战猪堡练习
@@ -267,9 +267,9 @@ SECTION 04: Match loading, countdown and pre-start chat
 {mode}(无资源包)
 
 0069 | Opponent chat
-对手聊天
+对局聊天
 0070 | Message your opponent while the world loads.
-世界加载期间，您可以给对手发消息。
+世界加载期间，您可以给对手发送消息。
 0071 | Message your opponent
 给对手发消息
 0072 | Send
@@ -283,7 +283,7 @@ SECTION 04: Match loading, countdown and pre-start chat
 0075 | Your opponent must accept the request.
 需要对手同意这个请求
 0076 | Only cancel for problems. Repeated cancellations may lead to a ban.
-请仅在遇到问题时取消。频繁取消可能会导致封禁。
+请仅在遇到问题时取消，频繁取消可能会导致封禁。
 0077 | Match commands unlock at the start.
 对局开始后即可使用对局指令
 0078 | Match commands are unavailable until the start.
