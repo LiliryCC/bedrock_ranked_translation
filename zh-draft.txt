@@ -1647,9 +1647,9 @@ SECTION 22: Windows launcher and installer
 0591 | Please wait for the current operation to finish.
 请等待当前操作完成
 0592 | Launch failed. See launcher.log.
-启动失败，请查看 launcher.log。
+启动失败，请查看 launcher.log
 0593 | Client files are missing. Reinstall Bedrock Ranked.
-客户端文件缺失，请重新安装 Bedrock Ranked。
+客户端文件缺失，请重新安装 Bedrock Ranked
 # The text \n means "new line". Keep it in place.
 0594 | A new update is available!\nVersion {version}
 有新版本可以更新啦！\n版本 {version}
@@ -1696,7 +1696,7 @@ Windows 无法在 Minecraft 的应用包环境中启动 Ranked。请查看 {file
 # Yellow splash text on the Minecraft title screen.
 # 译注：这是标题画面上的黄色闪烁标语（splash），译作“排位！”。也可以保留“Ranked!”，或者换个更有趣的说法，比如“来排位吧！”。
 0607 | Ranked!
-排位！
+启动！
 
 0608 | Cannot write launcher log
 无法写入启动器日志
@@ -1737,9 +1737,9 @@ Minecraft 在启动过程中被关闭了
 0623 | Invalid bundled client release ID. Reinstall the client.
 内置的客户端版本 ID 无效，请重新安装客户端。
 0624 | This client build is not approved by the server. Install its matching server patch, or update the client.
-此客户端版本未获得服务器批准。请安装对应的服务器补丁，或更新客户端。
+此客户端版本未获得服务器批准，请安装对应的服务器补丁，或更新客户端。
 0625 | Open Minecraft normally once and sign in, then try again. No worlds profile was found.
-请先正常打开一次 Minecraft 并登录，然后重试。未找到世界存档配置。
+未找到世界存档配置，请先正常打开一次 Minecraft 并登录，然后重试。
 0626 | Selected Minecraft worlds folder does not exist
 所选的 Minecraft 世界文件夹不存在
 # [WORD ORDER]
@@ -1759,7 +1759,7 @@ Minecraft 在 60 秒内没有打开游戏窗口。请查看加载器旁边的 ra
 0633 | Unsupported Minecraft executable; requires Windows 26.50, 26.51, 26.52 or 26.60
 不支持的 Minecraft 可执行文件；需要 Windows 版 26.50、26.51、26.52 或 26.60
 0634 | Unsupported Minecraft executable. Requires Windows 26.50, 26.51, 26.52 or 26.60.
-不支持的 Minecraft 可执行文件。需要 Windows 版 26.50、26.51、26.52 或 26.60。
+不支持的 Minecraft 可执行文件，需要 Windows 版 26.50、26.51、26.52 或 26.60。
 0635 | Cannot lock Minecraft for startup verification
 无法锁定 Minecraft 以进行启动验证
 0636 | Minecraft exited before loading the client
@@ -1773,7 +1773,7 @@ Minecraft 在渲染初始化之前退出了；请检查 ranked.PID.log
 0640 | Minecraft exited during startup; inspect ranked.PID.log
 Minecraft 在启动过程中退出了；请检查 ranked.PID.log
 0641 | More than one Minecraft process is running from the selected installation. Close them and retry.
-所选安装位置正在运行多个 Minecraft 进程。请将它们全部关闭后重试。
+所选安装位置正在运行多个 Minecraft 进程，请将它们全部关闭后重试。
 0642 | Minecraft's Xbox launcher did not produce a running game process from the selected installation within 60 seconds. Open Minecraft normally once, then retry.
 Minecraft 的 Xbox 启动器在 60 秒内没能从所选安装位置启动游戏进程。请先正常打开一次 Minecraft，然后重试。
 
@@ -1827,21 +1827,21 @@ Minecraft 报告世界启动失败
 0662 | Reopening Minecraft's world list...
 正在重新打开 Minecraft 世界列表……
 0663 | World loaded; waiting for ranked handshake...
-世界已加载，正在等待与排位服务器握手……
+世界已加载，正在连接排位服务器……
 # [WORD ORDER]
 0664 | World preparation failed: {error}
 世界准备失败：{error}
 
 0665 | Minecraft did not return to its main menu. Restart the client before trying again.
-Minecraft 没有回到主菜单。请重启客户端后再试。
+Minecraft 没有回到主菜单，请重启客户端后再试。
 0666 | Minecraft could not open the world. Return to the menu before trying again.
-Minecraft 无法打开世界。请先返回菜单再试。
+Minecraft 无法打开世界，请先返回菜单再试。
 0667 | Minecraft did not list the match world. Restart the client to rejoin the match.
-Minecraft 的世界列表里没有这场对局的世界。请重启客户端以重新加入对局。
+Minecraft 的世界列表里没有这场对局的世界，请重启客户端以重新加入对局。
 0668 | Server unavailable
 服务器不可用
 0669 | Server unavailable. Start Start-Server.cmd.
-服务器不可用。请运行 Start-Server.cmd。
+服务器不可用，请运行 Start-Server.cmd。
 0670 | Invalid server URL
 服务器 URL 无效
 0671 | Download failed
@@ -1849,13 +1849,13 @@ Minecraft 的世界列表里没有这场对局的世界。请重启客户端以�
 0672 | Set worldsDir in the client configuration.
 请在客户端配置中设置 worldsDir
 0673 | Cannot recover: the saved match world is missing. The disconnect deadline still applies.
-无法恢复：已保存的对局世界丢失了。断线重连时限仍然有效。
+无法恢复：已保存的对局世界丢失了，断线重连时限仍然有效。
 0674 | Cannot save match world
 无法保存对局世界
 0675 | Cannot start world importer
 无法启动世界导入程序
 0676 | World import failed. Check worldsDir and template checksum.
-世界导入失败。请检查 worldsDir 和模板校验值。
+世界导入失败，请检查 worldsDir 和模板校验值。
 0677 | Unknown practice world
 未知的练习世界
 0678 | Cannot start practice importer
