@@ -3432,7 +3432,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 用熔岩池搭传送门
 # 译注：Sprinkz Strat 国内一般叫“集合点策略”：找到村庄的集合点（村庄初始坐标），再按 (+4, +4) 下挖。名词第一次出现时写成“集合点策略(Sprinkz Strat)”，后面都用“集合点策略”。
 1355 | Sprinkz Strat
-集合点策略(Sprinkz Strat)
+要塞村集合点策略(Sprinkz Strat)
 1356 | Dig into stronghold
 挖进要塞
 1357 | Portal in the SH portal room
@@ -3455,7 +3455,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 1365 | Fortress
 下界要塞
 1366 | One Cycle
-单循环
+单循环炸龙
 1367 | One cycling the dragon
 单循环击杀末影龙
 1368 | How this map works
@@ -3558,7 +3558,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 1415 | Sprinkz Strat explanation
 集合点策略讲解
 1416 | Sprinkz strat is a strategy that allows you to always dig down into the starter staircase of the stronghold, based on the village bells. The reason why it works is that when stronghold generate under villages in bedrock, they generate from the world chunk of the village on the 4-4 relative coordinates of the chunk. Therefore, if we are able to map the starting coordinates of the village, we can just add 4-4 to those and we'll be able to know where to dig. It's therefore obvious that for each village center type there will be a different dig down spot. You will be guided for every single center type, there are 16 total. Since the starter staircase is decently wide, you don't need to dig at the exact spot, but it's enough to dig in the 5x5 area around it.
-集合点策略是一种根据村庄的钟来定位、每次都能直接挖到要塞起始阶梯的策略。它之所以有效，是因为在基岩版中，当要塞生成在村庄下方时，它会从村庄所在区块内相对坐标 (+4, +4) 的位置开始生成。因此，只要能确定村庄的集合点（也就是村庄的初始坐标），再加上 (4, 4)，就能知道该往哪里挖。显然，每种村庄中心类型都对应着不同的下挖位置。教程会带您逐一学习每种中心类型，总共有 16 种。由于起始阶梯相当宽，您不需要挖在精确的位置上，只要挖在它周围 5x5 的范围内就够了。
+集合点策略是一种根据村庄的钟来定位，每次都能直接挖到要塞起始阶梯的策略。它之所以有效，是因为在基岩版中，当要塞生成在村庄下方时，它会从村庄所在区块内相对坐标 (+4, +4) 的位置开始生成。因此，只要能确定村庄的集合点（也就是村庄的初始坐标），再加上 (4, 4)，就能知道该往哪里挖。显然，每种村庄中心类型都对应着不同的下挖位置。教程会带您逐一学习每种中心类型，总共有 16 种。由于起始阶梯相当宽，您不需要挖在精确的位置上，只要挖在它周围 5x5 的范围内就够了。
 1417 | Go to the marked point on the right side of the bell.
 前往钟右侧的标记点
 1418 | §eThis is the starting point. Move 3 blocks right.
@@ -3682,23 +3682,23 @@ SECTION 33: Tutorial map (optional, do this section last)
 §e剑击次数：§f{number}§7/5
 
 1476 | §eGood. Stand at the marked point.
-§e很好。站到标记点上。
+§e很好，现在站到标记点上。
 1477 | Now you have to blow up the bed. This is the most important part. You have to blow up the three beds consecutively about 500 milliseconds from each other. If you blow them too fast, the dragon won't take damage. If you blow them too slow, the dragon will fly away and you won't be able to kill it. In this tutorial, the dragon won't fly away at all, so you can be a bit slower.
 现在您要引爆床了，这是最重要的部分。您需要连续引爆三张床，每张之间间隔大约 500 毫秒。如果引爆得太快，末影龙不会受到伤害；如果太慢，末影龙会飞走，您就没法击杀它了。在这个教程里，末影龙完全不会飞走，所以您可以稍微慢一点。
 1478 | §cMine the marked block.
 §c挖掉标记的方块
 1479 | §eUse the spear on the dragon's neck, then land 5 critical hits with the iron pickaxe.
-§e用矛攻击末影龙的脖子，然后用铁镐打出 5 次暴击。
+§e用矛攻击末影龙的头部，然后用铁镐打出 5 次暴击。
 # [WORD ORDER]
 1480 | §ePickaxe hits: §f{number}§7/5
 §e镐击次数：§f{number}§7/5
 
 1481 | §eGood. Pillar 15 blocks up on the marked column.
-§e很好。在标记的位置往上垫高 15 格。
+§e很好，现在在标记的位置往上垫高 15 格。
 1482 | §6Place lava at the marked top block.
 §6在最上方标记的方块处放熔岩
 1483 | §cDo not let the lava flow too far down before continuing. Keep it high enough to control the setup.
-§c继续之前，不要让熔岩往下流得太远。保持足够的高度，才能控制好整个结构。
+§c继续之前，不要让熔岩往下流得太久。保持足够的高度，才能安全放置床。
 1484 | §eGo back down to the marked point.
 §e回到下面的标记点
 # [WORD ORDER]
@@ -3725,7 +3725,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 72 个金锭
 # 译注：猪堡里的 rampart 译作“高塔”。第一次出现写成“高塔(rampart)”，后面只用“高塔”。
 1495 | §fWelcome in the Treasure Bastion tutorial. For the Treasure Bastion, you want to avoid the big cube section, as it is too dangerous. Instead, go in the ramparts to loot the Bastion fast.
-§f欢迎来到藏宝室堡垒教程。在藏宝室堡垒中，您要避开中间的大方块区域，因为那里太危险了。改为从高塔(rampart)进去，快速搜刮堡垒。
+§f欢迎来到藏宝室堡垒教程。在藏宝室堡垒中，您要避开中间的大方块区域（藏宝室底部），因为那里太危险了。改为从高塔(rampart)进去，快速搜刮堡垒。
 1496 | §eGo to the marked point in the ramparts.
 §e前往高塔中的标记点
 1497 | Replay Treasure tutorial
@@ -3871,7 +3871,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 1564 | §cMine the two marked gold blocks.
 §c挖掉 2 个标记的金块
 1565 | Good. In a real run, turn the gold blocks into ingots and throw the ingots to the piglins. Keep mining only two or three gold blocks at a time, then give those ingots to the piglins before mining more. This keeps the bartering cycle consistent while you continue looting the chalice.
-很好。在实际速通中，把金块合成金锭，再把金锭扔给猪灵。每次只挖两三个金块，先把这些金锭交给猪灵，再继续挖。这样在您继续搜刮圣杯的同时，交易节奏也能保持稳定。
+很好，在实际速通中，把金块合成金锭，再把金锭扔给猪灵。每次只挖两三个金块，先把这些金锭交给猪灵，再继续挖。这样在您继续搜刮圣杯的同时，交易节奏也能保持稳定。
 1566 | §cMine the final two marked gold blocks.
 §c挖掉最后 2 个标记的金块
 1567 | Bridge, Treasure, Housing or Stables
@@ -3887,7 +3887,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 §d已击杀末影人：§f{number}§7/24
 
 1572 | §eTo start, you need a flat surface. Place a block where indicated!
-§e首先，您需要一块平地。在指示的位置放一个方块！
+§e首先，您需要一块平地，并在指示的位置放一个方块！
 1573 | §bNow place water where indicated!
 §b现在在指示的位置放水！
 1574 | §cNow break the block where indicated!
