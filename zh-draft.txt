@@ -2766,7 +2766,7 @@ SECTION 30: Trophy names and descriptions
 # Rank name.
 # 译注：段位名都用了 Minecraft 官方简中物品名。Potato 的官方译名是“马铃薯”，但玩家平时多说“土豆”，想更亲切的话可以改成“土豆”。
 1040 | Potato
-马铃薯
+土豆
 
 # Rank name.
 1041 | Melon
