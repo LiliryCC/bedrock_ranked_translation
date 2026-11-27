@@ -552,11 +552,11 @@ SECTION 07: Replays
 显示选项
 # [WORD ORDER] Replay status line. {speed} is like 2 or 0.5.
 0171 | Paused | {speed}x
-已暂停 | {speed}x
+已暂停 | {speed}倍速
 
 # [WORD ORDER]
 0172 | Playing | {speed}x
-播放中 | {speed}x
+播放中 | {speed}倍速
 
 
 ========================================================================
@@ -658,7 +658,7 @@ Elo
 0211 | Report Player
 举报玩家
 0212 | Ranked
-排位
+排位模式
 0213 | Both
 全部
 0214 | Losses
@@ -707,7 +707,7 @@ Elo：{value}
 0228 | No chat messages available.
 暂无聊天消息
 0229 | Chat becomes public when the match ends.
-对局结束后，聊天记录会公开。
+对局结束后，聊天记录会被公开。
 # 译注：推测 Match Thread 是 Discord 上为这场对局开的讨论串（thread），所以译作“讨论帖”。
 0230 | Open Match Thread
 打开对局讨论帖
@@ -741,9 +741,9 @@ SECTION 10: Account and sign-in
 0242 | Register
 注册
 0243 | Recover
-找回
+找回账号
 0244 | Name
-名称
+昵称
 0245 | Password
 密码
 0246 | Recovery token
@@ -759,11 +759,11 @@ SECTION 10: Account and sign-in
 0251 | Sign In with Discord
 使用 Discord 登录
 0252 | Discord login is not configured on this server.
-此服务器未配置 Discord 登录
+此服务器不支持 Discord 登录
 0253 | Please wait...
 请稍候……
 0254 | Save your account recovery token. It can recover your account if you lose your password or Discord account.
-请保存好您的账号恢复令牌。如果您忘记了密码或丢失了 Discord 账号，可以用它找回账号。
+请保存好您的账号恢复令牌，如果您忘记了密码或丢失了 Discord 账号，可以用它找回账号。
 0255 | Copy Token
 复制令牌
 0256 | I Saved It
@@ -785,7 +785,7 @@ SECTION 10: Account and sign-in
 请私下妥善保存您的新恢复令牌：\n{token}
 
 0262 | Save your recovery token privately. It restores your account if you lose access.
-请私下妥善保存您的恢复令牌。万一无法登录，可以用它恢复账号。
+请私下妥善保存您的恢复令牌，万一无法登录，可以用它恢复账号。
 0263 | Finish signing in, then return here.
 请完成登录，然后回到这里。
 0264 | Finish Discord login in your browser.
