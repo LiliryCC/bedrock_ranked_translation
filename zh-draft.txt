@@ -923,9 +923,9 @@ SECTION 12: Settings
 0309 | Match presentation
 对局界面
 0310 | Solo Timer: IGT
-单人计时：IGT
+单人模式计时：IGT
 0311 | Solo Timer: RTA
-单人计时：RTA
+单人模式计时：RTA
 # Android, when the player is not signed in.
 0312 | Solo Timer: Sign In First
 单人计时：请先登录
@@ -955,7 +955,7 @@ SECTION 12: Settings
 0320 | Performance log
 性能日志
 0321 | Lighter graphics
-简化画面
+性能模式
 0322 | Fast loading
 快速加载
 0323 | Match animations
@@ -967,7 +967,7 @@ SECTION 12: Settings
 0326 | Sound when minimized
 最小化时播放声音
 0327 | Keep Latest 5 Ranked/Solo Worlds
-保留最近 5 个排位/单人世界
+保留最近 5 个排位/单人模式世界
 # [WORD ORDER] Used for Render Distance, FOV and Ranked Music Volume. {value} is a number, or "Loading...".
 0328 | {setting}: {value}
 {setting}：{value}
@@ -1017,7 +1017,7 @@ Minecraft 设置已备份到您的账号
 暂无性能日志
 # [WORD ORDER] Keep the folder path exactly.
 0346 | Exported {count} log(s) to Documents/BedrockRanked/Performance
-已导出 {count} 个日志到 Documents/BedrockRanked/Performance
+已导出 {count} 个日志到目录 Documents/BedrockRanked/Performance
 
 # Android: the address of the Ranked server.
 0347 | Server
