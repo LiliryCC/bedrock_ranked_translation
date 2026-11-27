@@ -54,6 +54,7 @@ WHAT THE {CURLY BRACKET} WORDS MEAN
 # - 称呼统一用“您”；“账号”统一不用“账户”（Windows 账户除外）。
 # - “Ranked”指竞技模式时译作“排位”，指平台本身时保留英文 Ranked。
 # - 中文与英文 / 数字 / 占位符之间加一个半角空格；占位符会被替换成中文时（如 {mode}、{topic}、{name} 生物群系名）不加空格。
+# - 句末句号：按钮、标签、单句短提示、教程短指令不加；含逗号 / 分号或由多句组成的说明加。同一位置（同一弹窗、同一列表）的条目保持一致。
 # - 中文句子用全角标点；{占位符}、\n、§ 颜色代码、/指令、网址、文件路径、版本号保持原样。
 # - Elo、RTA、IGT、FOV、DNF 保留英文；Minecraft 名词使用官方简体中文译名。
 # - 单复数两条写成一样的中文。
@@ -146,23 +147,23 @@ SECTION 02: Queue and version preference
 0028 | Only 1.21+
 仅 1.21+
 0029 | You only play 1.16 matches.
-您只会进行 1.16 版本的对局。
+您只会进行 1.16 版本的对局
 0030 | Against players with no preference you play 1.16. Against players who prefer 1.18+ the version is random.
 遇到无偏好的玩家时进行 1.16 对局；遇到偏好 1.18+ 的玩家时随机选择版本。
 0031 | 1.16 and 1.18+ have the same odds of being played.
-1.16 和 1.18+ 被选中的概率相同。
+1.16 和 1.18+ 被选中的概率相同
 0032 | Against players with no preference you play 1.18+. Against players who prefer 1.16 the version is random.
 遇到无偏好的玩家时进行 1.18+ 对局；遇到偏好 1.16 的玩家时随机选择版本。
 0033 | You only play 1.18+ matches.
-您只会进行 1.18+ 版本的对局。
+您只会进行 1.18+ 版本的对局
 0034 | Against players with no preference you play 1.16. Against players who prefer 1.21+ the version is random.
 遇到无偏好的玩家时进行 1.16 对局；遇到偏好 1.21+ 的玩家时随机选择版本。
 0035 | 1.16 and 1.21+ have the same odds of being played.
-1.16 和 1.21+ 被选中的概率相同。
+1.16 和 1.21+ 被选中的概率相同
 0036 | Against players with no preference you play 1.21+. Against players who prefer 1.16 the version is random.
 遇到无偏好的玩家时进行 1.21+ 对局；遇到偏好 1.16 的玩家时随机选择版本。
 0037 | You only play 1.21+ matches.
-您只会进行 1.21+ 版本的对局。
+您只会进行 1.21+ 版本的对局
 0038 | Warning: this leads to longer queue times, not only for you but for other players too. Not recommended.
 注意：这会延长匹配时间，不仅是您，其他玩家也会受到影响。不建议选择。
 # [WORD ORDER] {preference} is one of the preference names above, for example "Only 1.16".
@@ -178,19 +179,19 @@ SECTION 02: Queue and version preference
 0042 | Leave Queue
 退出匹配
 0043 | While waiting...
-等待的时候……
+闲着也是闲着……
 0044 | Play Solo
-来一局单人
+开一局单人
 0045 | In Queue
 匹配中
 # Windows spelling, small label above a running clock.
 # 译注：0046/0047 的英文只有大小写不同（Windows / Android 两种写法），中文写成一样即可。
 0046 | Queued Since...
-匹配中……
+匹配时间
 
 # Android spelling of the same label.
 0047 | Queued since...
-匹配中……
+匹配时间
 
 
 ========================================================================
@@ -280,19 +281,19 @@ SECTION 04: Match loading, countdown and pre-start chat
 取消
 
 0075 | Your opponent must accept the request.
-需要对手同意这个请求。
+需要对手同意这个请求
 0076 | Only cancel for problems. Repeated cancellations may lead to a ban.
 请仅在遇到问题时取消。频繁取消可能会导致封禁。
 0077 | Match commands unlock at the start.
-对局开始后即可使用对局指令。
+对局开始后即可使用对局指令
 0078 | Match commands are unavailable until the start.
-对局开始前无法使用对局指令。
+对局开始前无法使用对局指令
 0079 | Cancel requested
 已请求取消
 0080 | World could not be opened
 无法打开世界
 0081 | World could not be opened.
-无法打开世界。
+无法打开世界
 0082 | Retry loading
 重新加载
 0083 | Cancel match
@@ -409,15 +410,15 @@ SECTION 06: Match end and results
 0120 | Waiting for your opponent's response
 正在等待对手回应
 0121 | Waiting for your opponent to report their time.
-正在等待对手上报成绩。
+正在等待对手上报成绩
 0122 | Waiting for the server to confirm the result
 正在等待服务器确认结果
 0123 | Waiting for the server to confirm the result.
-正在等待服务器确认结果。
+正在等待服务器确认结果
 0124 | Your result has been submitted
 您的成绩已提交
 0125 | Your result has been submitted.
-您的成绩已提交。
+您的成绩已提交
 0126 | You can return to the menu while the result is confirmed.
 结果确认期间，您可以先返回菜单。
 0127 | Return to Menu
@@ -505,7 +506,7 @@ SECTION 07: Replays
 0153 | Loading replays...
 正在加载回放……
 0154 | No replays available.
-暂无回放。
+暂无回放
 0155 | Watch
 观看
 0156 | Import Replay
@@ -577,7 +578,7 @@ Elo
 0179 | Last 5
 近 5 场
 0180 | No players found.
-未找到玩家。
+未找到玩家
 0181 | Loading players...
 正在加载玩家……
 0182 | Loading player...
@@ -593,7 +594,7 @@ Elo
 0186 | Searching...
 正在搜索……
 0187 | No completed runs yet.
-还没有已完成的对局。
+还没有已完成的对局
 0188 | Win
 胜
 0189 | Loss
@@ -637,7 +638,7 @@ Elo
 0203 | Start
 起点
 0204 | No Elo history yet.
-暂无 Elo 记录。
+暂无 Elo 记录
 0205 | Ranked Results
 排位战绩
 0206 | No games
@@ -704,7 +705,7 @@ Elo：{value}
 0227 | Match Chat
 对局聊天
 0228 | No chat messages available.
-暂无聊天消息。
+暂无聊天消息
 0229 | Chat becomes public when the match ends.
 对局结束后，聊天记录会公开。
 # 译注：推测 Match Thread 是 Discord 上为这场对局开的讨论串（thread），所以译作“讨论帖”。
@@ -729,7 +730,7 @@ Elo：{value}
 0239 | Submitting...
 正在提交……
 0240 | Report submitted.
-举报已提交。
+举报已提交
 
 ========================================================================
 SECTION 10: Account and sign-in
@@ -758,7 +759,7 @@ SECTION 10: Account and sign-in
 0251 | Sign In with Discord
 使用 Discord 登录
 0252 | Discord login is not configured on this server.
-此服务器未配置 Discord 登录。
+此服务器未配置 Discord 登录
 0253 | Please wait...
 请稍候……
 0254 | Save your account recovery token. It can recover your account if you lose your password or Discord account.
@@ -768,7 +769,7 @@ SECTION 10: Account and sign-in
 0256 | I Saved It
 我已保存
 0257 | Choose your Bedrock Ranked name.
-为您的 Bedrock Ranked 账号取个名字吧。
+为您的 Bedrock Ranked 账号取个名字吧
 0258 | Choose your Ranked name
 取个 Ranked 名称
 # Also used in: Tutorial map (optional, do this section last).
@@ -788,11 +789,11 @@ SECTION 10: Account and sign-in
 0263 | Finish signing in, then return here.
 请完成登录，然后回到这里。
 0264 | Finish Discord login in your browser.
-请在浏览器中完成 Discord 登录。
+请在浏览器中完成 Discord 登录
 0265 | Discord linked successfully.
-Discord 关联成功。
+Discord 关联成功
 0266 | Sign in from Account first.
-请先在“账号”页面登录。
+请先在“账号”页面登录
 0267 | Session expired. Sign in again.
 登录已过期，请重新登录。
 0268 | Loading account...
@@ -843,7 +844,7 @@ Ranked 名称
 0283 | Save Name
 保存名称
 0284 | Name saved.
-名称已保存。
+名称已保存
 0285 | Your Stats
 您的数据
 0286 | Sign Out
@@ -870,7 +871,7 @@ SECTION 11: Profile: pronouns and flags
 0293 | Leave both empty to hide pronouns
 两栏都留空即可隐藏代词
 0294 | Leave both fields empty to hide pronouns.
-两栏都留空即可隐藏代词。
+两栏都留空即可隐藏代词
 0295 | None
 无
 0296 | Search flags
@@ -1158,7 +1159,7 @@ SECTION 14: Private rooms
 0400 | Room chat
 房间聊天
 0401 | No messages yet.
-还没有消息。
+还没有消息
 0402 | Message everyone
 发消息给所有人
 0403 | Message everyone in the room
@@ -1280,7 +1281,7 @@ SECTION 14: Private rooms
 0454 | Share the code or search for a player.
 分享房间码，或搜索玩家来邀请。
 0455 | No other players found.
-没有找到其他玩家。
+没有找到其他玩家
 0456 | Players
 玩家
 0457 | Team time: average.
@@ -1418,7 +1419,7 @@ SECTION 15: Trophies screen
 0506 | Locked
 未解锁
 0507 | No trophies found.
-未找到奖杯。
+未找到奖杯
 0508 | Equip
 装备
 0509 | Equip in supporter slot
@@ -1454,7 +1455,7 @@ Bedrock Ranked 完全依靠社区的捐助来维持。没有大家的支持，�
 0518 | Don't have money but still want to contribute? You can still help us by contributing with your skills!
 手头不宽裕，但还是想出一份力？您也可以用自己的技能来帮助我们！
 0519 | Forms open in your browser.
-表单将在浏览器中打开。
+表单将在浏览器中打开
 0520 | I want to contribute to art and design
 我想参与美术和设计
 0521 | I want to contribute to speedrun resources creation
@@ -1634,7 +1635,7 @@ SECTION 22: Windows launcher and installer
 0585 | Update and play
 更新并开始游戏
 0586 | Your account and settings will be kept.
-您的账号和设置都会保留。
+您的账号和设置都会保留
 0587 | Close Preview
 关闭预览
 0588 | Preview only
@@ -1644,7 +1645,7 @@ SECTION 22: Windows launcher and installer
 0590 | Could not install the update. Please retry.
 无法安装更新，请重试。
 0591 | Please wait for the current operation to finish.
-请等待当前操作完成。
+请等待当前操作完成
 0592 | Launch failed. See launcher.log.
 启动失败，请查看 launcher.log。
 0593 | Client files are missing. Reinstall Bedrock Ranked.
@@ -1726,7 +1727,7 @@ Minecraft 无法启动
 0618 | Minecraft started but did not report a ready client
 Minecraft 已启动，但客户端没有报告就绪
 0619 | Minecraft was closed during startup.
-Minecraft 在启动过程中被关闭了。
+Minecraft 在启动过程中被关闭了
 0620 | Enter the server origin only, without credentials, a path or query
 请只输入服务器的源地址（协议 + 域名 + 端口），不要包含登录凭据、路径或查询参数
 0621 | Use HTTPS, or HTTP for a local testing server
@@ -1846,7 +1847,7 @@ Minecraft 的世界列表里没有这场对局的世界。请重启客户端以�
 0671 | Download failed
 下载失败
 0672 | Set worldsDir in the client configuration.
-请在客户端配置中设置 worldsDir。
+请在客户端配置中设置 worldsDir
 0673 | Cannot recover: the saved match world is missing. The disconnect deadline still applies.
 无法恢复：已保存的对局世界丢失了。断线重连时限仍然有效。
 0674 | Cannot save match world
@@ -1920,7 +1921,7 @@ Bedrock Ranked 安装程序
 0702 | Allow this installer once, then return here.
 请允许此安装程序一次，然后回到这里。
 0703 | Confirm the Android installation prompt.
-请在 Android 安装提示中点击确认。
+请在 Android 安装提示中点击确认
 0704 | APK too large
 APK 过大
 0705 | Checking Minecraft
@@ -2011,7 +2012,7 @@ Bedrock Ranked 社区
 0737 | Privacy
 隐私
 0738 | Community server configuration is unavailable.
-社区服务器配置不可用。
+社区服务器配置不可用
 0739 | Loading…
 加载中……
 0740 | Could not load community data. Check your connection and tap Refresh.
@@ -2025,7 +2026,7 @@ Bedrock Ranked 社区
 0744 | Season 2 leaderboard. Tap a player for stats.
 第 2 赛季排行榜。点击玩家即可查看数据。
 0745 | No eligible players yet.
-暂无符合条件的玩家。
+暂无符合条件的玩家
 0746 | No browser available. Open bedrockranked.com in a browser.
 没有可用的浏览器。请在浏览器中打开 bedrockranked.com。
 # [WORD ORDER]
@@ -2183,7 +2184,7 @@ Minecraft 世界启动结果：{result}。如有需要，请使用“开始游�
 0806 | Game command unavailable
 游戏指令不可用
 0807 | Please wait for the current request.
-请等待当前请求完成。
+请等待当前请求完成
 0808 | Server did not respond. Please try again.
 服务器没有响应，请重试。
 0809 | Request failed. Please try again.
@@ -2392,11 +2393,11 @@ SECTION 28: Server messages: match notices
 0884 | Match automatically canceled because not all players were ready within 3 minutes. No Elo was changed.
 并非所有玩家都在 3 分钟内准备就绪，对局已自动取消。Elo 没有变化。
 0885 | A player forfeited the match.
-有玩家认输了。
+有玩家认输了
 0886 | A player completed the run.
-有玩家已通关。
+有玩家已通关
 0887 | The match ended in a draw.
-对局以平局结束。
+对局以平局结束
 0888 | Match has already ended; open Run Details to see the result
 对局已经结束；请打开“本局详情”查看结果
 
@@ -2729,7 +2730,7 @@ SECTION 30: Trophy names and descriptions
 支持者 {number}
 
 1031 | Support Bedrock Ranked by donating on Ko-Fi or contributing to the development
-通过在 Ko-Fi 上捐助或参与开发来支持 Bedrock Ranked
+通过在 Ko-Fi 上捐助或参与开发来支持 Bedrock Ranked。
 # [WORD ORDER]
 1032 | Winner of season {season}
 第 {season} 赛季冠军
@@ -3559,37 +3560,37 @@ SECTION 33: Tutorial map (optional, do this section last)
 1416 | Sprinkz strat is a strategy that allows you to always dig down into the starter staircase of the stronghold, based on the village bells. The reason why it works is that when stronghold generate under villages in bedrock, they generate from the world chunk of the village on the 4-4 relative coordinates of the chunk. Therefore, if we are able to map the starting coordinates of the village, we can just add 4-4 to those and we'll be able to know where to dig. It's therefore obvious that for each village center type there will be a different dig down spot. You will be guided for every single center type, there are 16 total. Since the starter staircase is decently wide, you don't need to dig at the exact spot, but it's enough to dig in the 5x5 area around it.
 集合点策略是一种根据村庄的钟来定位、每次都能直接挖到要塞起始阶梯的策略。它之所以有效，是因为在基岩版中，当要塞生成在村庄下方时，它会从村庄所在区块内相对坐标 (+4, +4) 的位置开始生成。因此，只要能确定村庄的集合点（也就是村庄的初始坐标），再加上 (4, 4)，就能知道该往哪里挖。显然，每种村庄中心类型都对应着不同的下挖位置。教程会带您逐一学习每种中心类型，总共有 16 种。由于起始阶梯相当宽，您不需要挖在精确的位置上，只要挖在它周围 5x5 的范围内就够了。
 1417 | Go to the marked point on the right side of the bell.
-前往钟右侧的标记点。
+前往钟右侧的标记点
 1418 | §eThis is the starting point. Move 3 blocks right.
 §e这里是起点。向右移动 3 格。
 1419 | §eNow move 2 blocks forward.
-§e现在向前移动 2 格。
+§e现在向前移动 2 格
 1420 | §eAdd 4 4 to both coordinates.
-§e把 X 和 Z 坐标各加 4。
+§e把 X 和 Z 坐标各加 4
 1421 | §eDig the marked block below you.
-§e挖掉您脚下标记的方块。
+§e挖掉您脚下标记的方块
 1422 | §eMove 3 blocks right.
-§e向右移动 3 格。
+§e向右移动 3 格
 1423 | Go to the marked starting point.
-前往标记的起点。
+前往标记的起点
 1424 | Go to the marked block.
-前往标记的方块。
+前往标记的方块
 1425 | §eThis block is always stone; the blocks on the other corresponding sides do not have cobblestone.
 §e这个方块一定是石头；其他几侧对应的位置都没有圆石。
 1426 | §eNow move 10 blocks forward.
-§e现在向前移动 10 格。
+§e现在向前移动 10 格
 1427 | §eMove 3 blocks left.
-§e向左移动 3 格。
+§e向左移动 3 格
 1428 | Go to the marked point.
-前往标记点。
+前往标记点
 1429 | §eThis grass pattern is common here. Go to the bell that is facing its side.
 §e这里经常能看到这种草地图案。前往正对着它侧面的那口钟。
 1430 | §eGo directly to the marked starting point.
-§e直接前往标记的起点。
+§e直接前往标记的起点
 1431 | §eDig down 2 blocks.
-§e向下挖 2 格。
+§e向下挖 2 格
 1432 | §eDig the two marked side blocks.
-§e挖掉侧面两个标记的方块。
+§e挖掉侧面两个标记的方块
 1433 | §eLook at the two logs. The one with the vertical texture is the correct one. Get out of the hole and go to the marked point on that side.
 §e看看这两根原木，纹理是竖向的那根才是对的。从坑里出来，前往那一侧的标记点。
 1434 | §eThis block is odd. If you look at all the other sides, the others are smooth. Go to the right side of the side with the odd block.
@@ -3599,9 +3600,9 @@ SECTION 33: Tutorial map (optional, do this section last)
 1436 | §eMove 3 blocks right, facing away from the smooth side.
 §e背对平整的那一侧，向右移动 3 格。
 1437 | §eFind the side with the small L.
-§e找到有小 L 形的那一侧。
+§e找到有小 L 形的那一侧
 1438 | Go to the next marked point.
-前往下一个标记点。
+前往下一个标记点
 1439 | §eLooking at the long path, move 3 blocks right.
 §e面朝那条长路，向右移动 3 格。
 1440 | Back to lobby
@@ -3656,13 +3657,13 @@ SECTION 33: Tutorial map (optional, do this section last)
 1464 | Dragon killed!
 末影龙已被击杀！
 1465 | §eTry the three-bed explosion sequence again.
-§e再试一次三床炸龙。
+§e再试一次三床炸龙
 1466 | You missed the bed timing. The first dragon is still alive. Try the three-bed explosion again.
 床的时机没掌握好，第一条末影龙还活着。再试一次三床炸龙吧。
 1467 | Congratulations! You killed the first dragon with the bed sequence.
 恭喜！您用三床炸龙击杀了第一条末影龙。
 1468 | §eBuild the marked setup.
-§e搭建标记的结构。
+§e搭建标记的结构
 1469 | §cWatch for dragon breath around the portal area. Move out of it before continuing the setup.
 §c注意传送门周围的龙息。先离开龙息范围，再继续搭建。
 1470 | §ePlace the two obsidian blocks. In a real run, you only need the upper one.
@@ -3670,7 +3671,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 1471 | §ePractice: kill the dragon.
 §e练习：击杀末影龙。
 1472 | §bPlace water at the marked block.
-§b在标记的方块处放水。
+§b在标记的方块处放水
 # 译注：Spear 是新版本加入的武器，官方简中译名为“矛”，请对照游戏内实际译名确认。
 1473 | §eUse the spear on the dragon's neck, then land 5 critical hits with the stone sword.
 §e用矛攻击末影龙的脖子，然后用石剑打出 5 次暴击。
@@ -3685,7 +3686,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 1477 | Now you have to blow up the bed. This is the most important part. You have to blow up the three beds consecutively about 500 milliseconds from each other. If you blow them too fast, the dragon won't take damage. If you blow them too slow, the dragon will fly away and you won't be able to kill it. In this tutorial, the dragon won't fly away at all, so you can be a bit slower.
 现在您要引爆床了，这是最重要的部分。您需要连续引爆三张床，每张之间间隔大约 500 毫秒。如果引爆得太快，末影龙不会受到伤害；如果太慢，末影龙会飞走，您就没法击杀它了。在这个教程里，末影龙完全不会飞走，所以您可以稍微慢一点。
 1478 | §cMine the marked block.
-§c挖掉标记的方块。
+§c挖掉标记的方块
 1479 | §eUse the spear on the dragon's neck, then land 5 critical hits with the iron pickaxe.
 §e用矛攻击末影龙的脖子，然后用铁镐打出 5 次暴击。
 # [WORD ORDER]
@@ -3695,11 +3696,11 @@ SECTION 33: Tutorial map (optional, do this section last)
 1481 | §eGood. Pillar 15 blocks up on the marked column.
 §e很好。在标记的位置往上垫高 15 格。
 1482 | §6Place lava at the marked top block.
-§6在最上方标记的方块处放熔岩。
+§6在最上方标记的方块处放熔岩
 1483 | §cDo not let the lava flow too far down before continuing. Keep it high enough to control the setup.
 §c继续之前，不要让熔岩往下流得太远。保持足够的高度，才能控制好整个结构。
 1484 | §eGo back down to the marked point.
-§e回到下面的标记点。
+§e回到下面的标记点
 # [WORD ORDER]
 1485 | §eBeds: §f{beds}§7/3
 §e床：§f{beds}§7/3
@@ -3726,7 +3727,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 1495 | §fWelcome in the Treasure Bastion tutorial. For the Treasure Bastion, you want to avoid the big cube section, as it is too dangerous. Instead, go in the ramparts to loot the Bastion fast.
 §f欢迎来到藏宝室堡垒教程。在藏宝室堡垒中，您要避开中间的大方块区域，因为那里太危险了。改为从高塔(rampart)进去，快速搜刮堡垒。
 1496 | §eGo to the marked point in the ramparts.
-§e前往高塔中的标记点。
+§e前往高塔中的标记点
 1497 | Replay Treasure tutorial
 重玩藏宝室教程
 1498 | Normal Treasure Bastion practice
@@ -3734,37 +3735,37 @@ SECTION 33: Tutorial map (optional, do this section last)
 1499 | §aTreasure Bastion tutorial complete!
 §a藏宝室堡垒教程完成！
 1500 | §eClimb the stairs.
-§e爬上楼梯。
+§e爬上楼梯
 1501 | §eKeep climbing the stairs.
-§e继续爬楼梯。
+§e继续爬楼梯
 1502 | §eContinue up the stairs.
-§e继续往楼梯上走。
+§e继续往楼梯上走
 1503 | §eKeep going up.
-§e继续往上。
+§e继续往上
 1504 | §cBreak the four marked blocks.
-§c破坏 4 个标记的方块。
+§c破坏 4 个标记的方块
 1505 | §eGo back up the stairs.
-§e回到楼梯上面。
+§e回到楼梯上面
 1506 | §ePlace the four marked blocks.
-§e放置 4 个标记的方块。
+§e放置 4 个标记的方块
 1507 | §ePlace a button on the marked block to help piglin pathfinding.
 §e在标记的方块上放一个按钮，帮助猪灵寻路。
 1508 | §eGo to the marked point.
-§e前往标记点。
+§e前往标记点
 1509 | §ePlace the marked block.
-§e放置标记的方块。
+§e放置标记的方块
 1510 | §cBreak the three marked blocks.
-§c破坏 3 个标记的方块。
+§c破坏 3 个标记的方块
 1511 | §cBreak the next marked block.
-§c破坏下一个标记的方块。
+§c破坏下一个标记的方块
 1512 | §cBreak the next two marked blocks.
-§c破坏接下来 2 个标记的方块。
+§c破坏接下来 2 个标记的方块
 1513 | §cBreak the block next to it
 §c破坏它旁边的方块
 1514 | §cBreak the final two marked blocks.
-§c破坏最后 2 个标记的方块。
+§c破坏最后 2 个标记的方块
 1515 | §cBreak the two marked blocks.
-§c破坏 2 个标记的方块。
+§c破坏 2 个标记的方块
 1516 | Congratulation, you completed the tutorial. In a real run, you should get all the gold blocks (the other rampart is symmetrical to this so you'll find more gold blocks there) and throw it at the piglins that will go in the hole.
 恭喜，您完成了教程！在实际速通中，您应该拿到所有金块（另一侧高塔和这里是对称的，那里还能找到更多金块），然后把金子扔给会掉进坑里的猪灵。
 1517 | Guided Housing Bastion tutorial
@@ -3774,14 +3775,14 @@ SECTION 33: Tutorial map (optional, do this section last)
 1519 | §fWelcome to the Housing Bastion Practice Tutorial. The Housing Bastion has the gold blocks accessible in many different ways, based on how you access the Bastion. We'll see all the ways to get those right now. Let's start with the first one.
 §f欢迎来到居住区堡垒练习教程。在居住区堡垒中，根据您进入堡垒的方式不同，拿到金块的途径也有很多种。我们现在就来逐一看看，先从第一种开始。
 1520 | §eGo down to the marked point.
-§e下到标记点。
+§e下到标记点
 1521 | Congratulations! You completed the Housing Bastion tutorial.
 恭喜！您完成了居住区堡垒教程。
 1522 | §eLoading Bastion...
 §e正在加载堡垒……
 # [WORD ORDER]
 1523 | §6Trade {gold} gold ingots with piglins.
-§6与猪灵交易 {gold} 个金锭。
+§6与猪灵交易 {gold} 个金锭
 
 # [WORD ORDER]
 1524 | §6Gold traded: §f{gold}§7/{gold}
@@ -3795,84 +3796,84 @@ SECTION 33: Tutorial map (optional, do this section last)
 1527 | §fWelcome to the Stables Bastion tutorial. Stables Bastion is the most complex one because it can generate in multiple ways. Essentially, however, there are only two variations that have gold blocks of each part. We will look at both of them. Let's start with the top one, which is called triple as it has one single and a double chest. Note that there is a 33 percent chance for each of the 3 ramparts to be a triple. In this case, all 3 are triples.
 §f欢迎来到疣猪兽棚堡垒教程。疣猪兽棚堡垒是最复杂的一种，因为它有多种生成方式。不过本质上，每个部分只有两种带金块的变体，我们两种都会看一下。先从上面那种开始，它被称为“三箱”，因为它有一个单箱子和一个大箱子。注意，3 座高塔(rampart)中的每一座都有 33% 的概率是三箱。在这个例子里，3 座全都是三箱。
 1528 | §cDig the marked blocks.
-§c挖掉标记的方块。
+§c挖掉标记的方块
 1529 | Congratulations! You completed the Stables Bastion tutorial.
 恭喜！您完成了疣猪兽棚堡垒教程。
 1530 | §cMine the marked blocks.
-§c挖掉标记的方块。
+§c挖掉标记的方块
 1531 | You completed the first path. This is a highroll path because you get 4 gold blocks from one triple. After the piglins funnel into the hole, you can go back up and loot the chests safely.
 您完成了第一条路线。这是一条欧皇路线，因为一个三箱就能拿到 4 个金块。等猪灵都掉进坑里之后，您就可以回到上面，安全地搜刮箱子了。
 1532 | §eTo identify a good gap, look at the small gap marked with green particles. If it was 2 blocks tall, it would be a bad gap. Since it's one block tall, it's a good gap, meaning there are gold blocks here. Same on the other side. There is a 50% chance for each of the 2 gaps to be good. A bad gap has no gold blocks and one single chest.
 §e想判断是不是好缝隙，就看看用绿色粒子标记的小缝隙。如果它有 2 格高，就是坏缝隙；如果只有 1 格高，就是好缝隙，说明这里有金块。另一侧也一样。2 个缝隙各有 50% 的概率是好缝隙。坏缝隙里没有金块，只有一个单箱子。
 1533 | §cMine the next marked blocks.
-§c挖掉接下来标记的方块。
+§c挖掉接下来标记的方块
 1534 | §cBreak the marked block.
-§c破坏标记的方块。
+§c破坏标记的方块
 1535 | §eIf there is air visible (like now) it means there is a good gap that way. If not then it means it's a bad gap. Turn around and keep going up the stairs.
 §e如果能看到空气（就像现在这样），说明那个方向有好缝隙；如果看不到，就是坏缝隙。转身继续爬楼梯。
 1536 | §eIf there is air it's good; if there is no air it's bad. Now let's try to loot this good gap. The process on the other side is similar.
 §e有空气就是好缝隙，没有空气就是坏缝隙。现在我们来搜刮这个好缝隙，另一侧的流程也差不多。
 1537 | §eContinue to the marked point.
-§e继续前往标记点。
+§e继续前往标记点
 1538 | §cDig the next marked blocks.
-§c挖掉接下来标记的方块。
+§c挖掉接下来标记的方块
 1539 | §cMine the next marked block.
-§c挖掉下一个标记的方块。
+§c挖掉下一个标记的方块
 1540 | §eKeep going down.
-§e继续往下。
+§e继续往下
 1541 | §ePlace a block above the hole.
-§e在坑的上方放一个方块。
+§e在坑的上方放一个方块
 1542 | §cMine the next blocks.
-§c挖掉接下来的方块。
+§c挖掉接下来的方块
 1543 | Congratulation. Those are all the gold blocks. Now let's look at where the double chest is.
 恭喜，这些就是全部的金块了。现在来看看大箱子在哪里。
 1544 | §cDig toward the double chest.
-§c朝大箱子的方向挖。
+§c朝大箱子的方向挖
 1545 | §cKeep digging toward the double chest.
-§c继续朝大箱子的方向挖。
+§c继续朝大箱子的方向挖
 1546 | Congratulations! You completed the first path, so you know how to loot the bastion if you reach it from the top. Now let's look at how else you can reach the gold blocks.
 恭喜！您完成了第一条路线，现在知道从上方进入堡垒时该怎么搜刮了。接下来看看还有哪些方式可以拿到金块。
 1547 | §eFollow the marked route.
-§e沿着标记的路线走。
+§e沿着标记的路线走
 1548 | §cMine the next two blocks.
-§c挖掉接下来 2 个方块。
+§c挖掉接下来 2 个方块
 1549 | §ePlace a block to stop piglins pathfinding to your hole.
 §e放一个方块，阻止猪灵寻路到您的坑里。
 1550 | §cDig those blocks.
-§c挖掉那些方块。
+§c挖掉那些方块
 1551 | §cKeep digging.
-§c继续挖。
+§c继续挖
 1552 | Congratulations! You completed the second path. Now let's look at the third way to reach the gold blocks.
 恭喜！您完成了第二条路线。接下来看看拿到金块的第三种方式。
 1553 | §eBuild up on the marked blocks.
-§e在标记的方块上往上搭。
+§e在标记的方块上往上搭
 1554 | §cBreak the marked blocks.
-§c破坏标记的方块。
+§c破坏标记的方块
 1555 | §cBreak the blocks next to them.
-§c破坏它们旁边的方块。
+§c破坏它们旁边的方块
 1556 | Congratulations! You completed all three paths. Now I'll show you some more hidden gold blocks to take if you get too few pearls.
 恭喜！您完成了全部三条路线。接下来我会给您展示一些更隐蔽的金块，万一珍珠拿得太少，可以去拿这些。
 1557 | §eGo right to the marked point.
-§e向右走到标记点。
+§e向右走到标记点
 1558 | §ePlace blocks to stop piglins pathfinding.
 §e放置方块，阻止猪灵寻路。
 1559 | §ePlace the next two blocks.
-§e放置接下来的 2 个方块。
+§e放置接下来的 2 个方块
 1560 | §eBridge tutorial loaded.
-§e桥教程已加载。
+§e桥教程已加载
 # 译注：chalice 是速通玩家对桥堡垒中间那个杯状结构的俗称，这里直译为“圣杯”。
 1561 | Welcome to the Bridge Bastion practice. The Bridge Bastion is the easiest one to loot. Remove your boots to aggro the piglins, run to the chalice, pillar up, and mine the marked gold blocks.
 欢迎来到桥堡垒练习。桥堡垒是最容易搜刮的一种。脱下靴子来激怒猪灵，跑到圣杯处，垫高上去，挖掉标记的金块。
 1562 | §eRemove your golden boots.
-§e脱下您的金靴子。
+§e脱下您的金靴子
 1563 | §ePillar up on the marked blocks.
-§e在标记的方块上垫高。
+§e在标记的方块上垫高
 1564 | §cMine the two marked gold blocks.
-§c挖掉 2 个标记的金块。
+§c挖掉 2 个标记的金块
 1565 | Good. In a real run, turn the gold blocks into ingots and throw the ingots to the piglins. Keep mining only two or three gold blocks at a time, then give those ingots to the piglins before mining more. This keeps the bartering cycle consistent while you continue looting the chalice.
 很好。在实际速通中，把金块合成金锭，再把金锭扔给猪灵。每次只挖两三个金块，先把这些金锭交给猪灵，再继续挖。这样在您继续搜刮圣杯的同时，交易节奏也能保持稳定。
 1566 | §cMine the final two marked gold blocks.
-§c挖掉最后 2 个标记的金块。
+§c挖掉最后 2 个标记的金块
 1567 | Bridge, Treasure, Housing or Stables
 桥、藏宝室、居住区或疣猪兽棚
 1568 | Random Housing path start
@@ -3994,39 +3995,39 @@ SECTION 33: Tutorial map (optional, do this section last)
 1623 | You finished the tutorial and completed the loot of the village. You would now be almost ready to enter the Nether. In a real run, you'd still need to get a third bed and 5-7 extra logs.
 您完成了教程，也搜刮完了这个村庄，现在差不多可以进入下界了。在实际速通中，您还需要再拿第三张床，以及额外 5-7 个原木。
 1624 | §eBreak the 3 marked logs.
-§e破坏 3 个标记的原木。
+§e破坏 3 个标记的原木
 1625 | §eGreat, now you need to craft all your 3 logs into planks, then make one crafting table and 8 sticks
 §e很好，现在把 3 个原木全部合成木板，然后做一个工作台和 8 根木棍
 1626 | §eNow place the crafting table and craft a wooden pickaxe
 §e现在放下工作台，合成一把木镐
 1627 | §eBreak the marked blocks.
-§e破坏标记的方块。
+§e破坏标记的方块
 1628 | §eNow craft a stone pickaxe.
-§e现在合成一把石镐。
+§e现在合成一把石镐
 1629 | §eNow craft a stone sword and a stone axe.
-§e现在合成一把石剑和一把石斧。
+§e现在合成一把石剑和一把石斧
 1630 | §eGet the marked bed inside the house.
-§e拿走房子里标记的床。
+§e拿走房子里标记的床
 1631 | §eExit the house and go to the marked point.
 §e走出房子，前往标记点。
 1632 | §eDig the marked block.
-§e挖掉标记的方块。
+§e挖掉标记的方块
 1633 | §eNow dig the block below it.
-§e现在挖掉它下面的方块。
+§e现在挖掉它下面的方块
 1634 | §eKill the iron golem. It won't be able to hit you from there.
 §e击杀铁傀儡，它在那个位置打不到您。
 1635 | §eExit the hole and go to the marked point.
 §e从坑里出来，前往标记点。
 1636 | §eGo to the next marked point.
-§e前往下一个标记点。
+§e前往下一个标记点
 1637 | §eGather 7 hay bales.
-§e收集 7 个干草块。
+§e收集 7 个干草块
 1638 | §eCraft a bucket and 21 bread.
-§e合成一个桶和 21 个面包。
+§e合成一个桶和 21 个面包
 1639 | §eGo to the marked house.
-§e前往标记的房子。
+§e前往标记的房子
 1640 | §eGet the marked bed inside.
-§e拿走里面标记的床。
+§e拿走里面标记的床
 1641 | §aNice! You completed the §fPlains§a practice!
 §a太棒了！您完成了§f平原§a练习！
 1642 | §7Practice goal: §fbucket + pickaxe + axe + sword; tools may be stone, iron or diamond.
@@ -4048,35 +4049,35 @@ SECTION 33: Tutorial map (optional, do this section last)
 1650 | You finished the Snowy village tutorial. In a real run, make sure to get food if possible, 3 beds, 5-7 logs, and craft the bucket.
 您完成了雪原村庄教程。在实际速通中，记得尽量拿到足够的食物、3 张床、5-7 个原木，并合成桶。
 1651 | §eEnter the marked house.
-§e进入标记的房子。
+§e进入标记的房子
 1652 | §eMine the marked block.
-§e挖掉标记的方块。
+§e挖掉标记的方块
 1653 | §eKeep digging down.
-§e继续往下挖。
+§e继续往下挖
 1654 | §eMine the last marked block.
-§e挖掉最后一个标记的方块。
+§e挖掉最后一个标记的方块
 1655 | §ePlace your crafting table on the marked block.
-§e把工作台放在标记的方块上。
+§e把工作台放在标记的方块上
 1656 | §eCraft a wooden pickaxe.
-§e合成一把木镐。
+§e合成一把木镐
 1657 | §eGet 3 cobblestone.
-§e获取 3 个圆石。
+§e获取 3 个圆石
 1658 | §eCraft a stone pickaxe.
-§e合成一把石镐。
+§e合成一把石镐
 1659 | §eGet 5 cobblestone.
-§e获取 5 个圆石。
+§e获取 5 个圆石
 1660 | §eCraft a stone axe and stone sword.
-§e合成一把石斧和一把石剑。
+§e合成一把石斧和一把石剑
 1661 | §eMine your crafting table and get out of the hole.
 §e挖掉您的工作台，然后从坑里出来。
 1662 | §eTake the marked bed inside the house.
-§e拿走房子里标记的床。
+§e拿走房子里标记的床
 1663 | §eGo to the iron golem and dig the marked block.
 §e走到铁傀儡旁边，挖掉标记的方块。
 1664 | §eDig the block below it.
-§e挖掉它下面的方块。
+§e挖掉它下面的方块
 1665 | §eKill the iron golem.
-§e击杀铁傀儡。
+§e击杀铁傀儡
 1666 | §aNice! You completed the §fSnowy§a practice!
 §a太棒了！您完成了§f雪原§a练习！
 1667 | Guided Snowy village tutorial
@@ -4084,35 +4085,35 @@ SECTION 33: Tutorial map (optional, do this section last)
 1668 | Desert villages can be tricky if there is no wood nearby. In this case, we are assuming you will have a way to get wood. If you don't, you might be unable to enter the Nether from the village alone. This is because to get materials you'll need to kill the iron golem by hand and find a crafting table from a house and use the sticks from the dead bushes to make an iron pickaxe to start progressing. Therefore, you might not have iron for a bucket. If you have a tree, however, the looting process is similar to the one we already showed in the plains village.
 如果附近没有树，沙漠村庄会比较棘手。这里我们假设您有办法获得木头————如果没有，单靠这个村庄可能没法进入下界。这是因为想获得材料，您需要空手击杀铁傀儡，在房子里找到工作台，再用枯萎的灌木掉落的木棍做一把铁镐，才能开始推进。这样一来，您可能就没有多余的铁来做桶了。不过如果附近有树，搜刮流程就和我们之前在平原村庄演示的差不多。
 1669 | You completed the tutorial of the Desert village.
-您完成了沙漠村庄教程。
+您完成了沙漠村庄教程
 1670 | §eBreak the marked block.
-§e破坏标记的方块。
+§e破坏标记的方块
 1671 | §eBreak the next marked block.
-§e破坏下一个标记的方块。
+§e破坏下一个标记的方块
 1672 | §eBreak the 3 marked blocks.
-§e破坏 3 个标记的方块。
+§e破坏 3 个标记的方块
 1673 | §eDig down.
-§e往下挖。
+§e往下挖
 1674 | §eBreak the block beside you.
-§e破坏您旁边的方块。
+§e破坏您旁边的方块
 1675 | §ePlace the crafting table on the marked block.
-§e把工作台放在标记的方块上。
+§e把工作台放在标记的方块上
 1676 | §eMake a wooden pickaxe.
-§e做一把木镐。
+§e做一把木镐
 1677 | §eMake a stone pickaxe.
-§e做一把石镐。
+§e做一把石镐
 1678 | §eMake a stone axe and stone sword.
-§e做一把石斧和一把石剑。
+§e做一把石斧和一把石剑
 1679 | §eMine and pick up your crafting table, then get out of the hole.
 §e挖掉并捡起您的工作台，然后从坑里出来。
 1680 | §eGo to the iron golem.
-§e走到铁傀儡旁边。
+§e走到铁傀儡旁边
 1681 | §eDig down on the marked block.
-§e在标记的方块处往下挖。
+§e在标记的方块处往下挖
 1682 | §eDig one block lower.
-§e再往下挖一格。
+§e再往下挖一格
 1683 | §eGet the bed inside the house.
-§e拿走房子里的床。
+§e拿走房子里的床
 1684 | §aNice! You completed the §fDesert§a practice!
 §a太棒了！您完成了§f沙漠§a练习！
 1685 | Guided Desert village tutorial
@@ -4120,26 +4121,26 @@ SECTION 33: Tutorial map (optional, do this section last)
 1686 | In savanna villages, sometimes houses with chests can have buckets in them. This is the only major difference between savanna and other villages, aside from the fact that blacksmiths are much rarer in savanna. If you do get a bucket from a chest, then it is recommended to still kill the golem anyways to then craft an iron pickaxe to save time when mining later in the run. Besides that, the looting of savanna villages is analogous to the ones we already saw.
 在热带草原村庄里，部分房子的箱子里有时会有桶。除了铁匠铺在热带草原中要少见得多之外，这是热带草原村庄和其他村庄的主要区别。如果您从箱子里拿到了桶后，仍然建议击杀铁傀儡，再合成一把铁镐，它能节省大量挖掘时间。除此之外，热带草原村庄的搜刮方式也和我们之前看过的类似。
 1687 | That house has no chest.
-那座房子里没有箱子。
+那座房子里没有箱子
 1688 | That house has a bed and a chest.
-那座房子里有一张床和一个箱子。
+那座房子里有一张床和一个箱子
 1689 | Look at the roof of the two houses in front of you. The one farther away, with a pointed roof, is analogous to the one you just saw, with a chest and a bed. The one with the flatter roof, closer to you, is a house with no chest and no bed, and therefore you should avoid it. In savanna villages, you may also find terracotta houses. The one made of red terracotta has a bed and a chest, while the one made with orange terracotta has a bed and a crafting table.
 看看您面前两座房子的屋顶。远一点、尖屋顶的那座，和您刚才看到的那座一样，有一个箱子和一张床；近一点、屋顶比较平的那座，既没有箱子也没有床，所以应该避开它。在热带草原村庄里，您可能还会看到陶瓦房子：红色陶瓦的那种有一张床和一个箱子，橙色陶瓦的那种有一张床和一个工作台。
 1690 | You completed the tutorial of the Savanna village.
-您完成了热带草原村庄教程。
+您完成了热带草原村庄教程
 1691 | §eGo to the next marked house.
-§e前往下一座带有标记的房子。
+§e前往下一座带有标记的房子
 1692 | §eGo to the marked viewpoint.
-§e前往标记的路径点。
+§e前往标记的路径点
 1693 | §eGather the 3 marked logs.
-§e收集 3 个标记的原木。
+§e收集 3 个标记的原木
 1694 | §eContinue to the marked house.
-§e继续前往标记的房子。
+§e继续前往标记的房子
 1695 | §aNice! You completed the §fSavanna§a practice!
 §a太棒了！您完成了§f热带草原§a练习！
 # 译注：“Continue”是地图里一个回响碎片物品的名字。这里的“继续”要和地图中物品实际显示的名字一致；如果物品名没有翻译，这里也应保留英文“Continue”。1702、1709 同理。
 1696 | §eUse the §fContinue§e echo shard to proceed.
-§e使用§f“继续”§e回响碎片进入下一步。
+§e使用§f“继续”§e回响碎片进入下一步
 1697 | Guided Savanna village tutorial
 热带草原村庄引导教程
 1698 | Taiga villages are interesting because, as the snowy ones, they do not have hay bales, and therefore you will need to find food in chests or from carrots. However, taiga villages can be the fastest, as they are much more likely to contain blacksmiths and iron houses. You can see a taiga blacksmith in front of you now. This tutorial will also serve as a tutorial on how to loot any village with free iron or more in a blacksmith chest.
@@ -4153,13 +4154,13 @@ SECTION 33: Tutorial map (optional, do this section last)
 1702 | The two houses on your left and on your right both have two beds and a chest. The one on your left has the chest on the lower floor, while the one on the right has the chest on the upper floor. You can explore them and then use the continue item to complete the tutorial.
 您左右两边的两座房子都有两张床和一个箱子。左边那座的箱子在楼下，右边那座的箱子在楼上。您可以进去看看，然后使用“继续”物品完成教程。
 1703 | §eGo to the blacksmith.
-§e前往铁匠铺。
+§e前往铁匠铺
 1704 | §eOpen the door and get the 3 iron from the chest.
 §e打开门，从箱子里拿 3 个铁锭。
 1705 | §eGet 3 spruce logs.
-§e获取 3 个云杉原木。
+§e获取 3 个云杉原木
 1706 | §eNow craft an iron pickaxe.
-§e现在合成一把铁镐。
+§e现在合成一把铁镐
 1707 | §aYou completed the §fTaiga§a tutorial!
 §a您完成了§f针叶林§a教程！
 1708 | §aNice! You completed the §fTaiga§a practice!
@@ -4211,15 +4212,15 @@ SECTION 33: Tutorial map (optional, do this section last)
 §a太棒了！您完成了§f诡异森林塔§a {number}！
 
 1729 | §ePlace cobblestone on all the marked blocks.
-§e在所有标记的方块上放置圆石。
+§e在所有标记的方块上放置圆石
 1730 | §eNow place an oak button on the marked block. Place it on one of the sides of the block, NOT on the bottom.
 §e现在在标记的方块上放一个按钮，注意要放在方块的侧面，不要放在底面。
 1731 | §ePlace all 4 boats around the button as shown.
-§e按图示瞄准按钮的这个区域放下全部 4 艘船。
+§e按图示瞄准按钮的这个区域放下全部 4 艘船
 1732 | §ePillar up with cobblestone on the marked blocks.
-§e在标记的方块上用圆石垫高。
+§e在标记的方块上用圆石垫高
 1733 | §ePlace cobblestone on the two marked blocks.
-§e在两个标记的方块上放置圆石。
+§e在两个标记的方块上放置圆石
 1734 | §eFinish the roof by placing cobblestone on all the marked blocks.
 §e在所有标记的方块上放置圆石，完成屋顶。
 1735 | §aTower complete. Now let 24 Endermen die.
