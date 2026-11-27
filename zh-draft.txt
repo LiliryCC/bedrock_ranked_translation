@@ -1537,7 +1537,7 @@ Bedrock Ranked 是一个独立的社区项目，与 Mojang 或 Microsoft 均无�
 0547 | Contact: https://discord.gg/Hngq5zYw3k
 联系方式：https://discord.gg/Hngq5zYw3k
 0548 | Legal
-法律
+法律声明
 0549 | Legal & Privacy
 法律与隐私
 0550 | Contact on Discord
