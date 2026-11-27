@@ -1929,7 +1929,7 @@ APK 过大
 0706 | Select a complete 64-bit Minecraft 26.50, 26.51, 26.52 or 26.60 APK
 请选择完整的 64 位 Minecraft 26.50、26.51、26.52 或 26.60 APK
 0707 | This Android build is not supported. Use Minecraft 26.50, 26.51, 26.52 or 26.60, ARM64.
-不支持此 Android 版本。请使用 Minecraft 26.50、26.51、26.52 或 26.60（ARM64）。
+不支持此 Android 版本，请使用 Minecraft 26.50、26.51、26.52 或 26.60（ARM64）。
 0708 | Preparing Bedrock Ranked
 正在准备 Bedrock Ranked
 0709 | Signing your local installation
@@ -1948,11 +1948,11 @@ APK 过大
 0715 | Export Minecraft startup files
 导出 Minecraft 启动文件
 0716 | Minecraft detected. Tap Play Ranked to start.
-已检测到 Minecraft。点击“开始排位”即可开始。
+已检测到 Minecraft，点击“开始排位”即可开始。
 0717 | Minecraft stopped responding twice. Tap Play Ranked to try again.
-Minecraft 连续两次无响应。点击“开始排位”重试。
+Minecraft 连续两次无响应，点击“开始排位”重试。
 0718 | Minecraft is not installed or could not be detected. Install it from Google Play, then try again.
-未安装 Minecraft，或无法检测到。请从 Google Play 安装后重试。
+未安装 Minecraft，或游戏无法检测到，请从 Google Play 安装后重试。
 0719 | Minecraft is still closing. Please retry shortly.
 Minecraft 仍在关闭中，请稍后重试。
 0720 | Save logs for startup diagnostics.
@@ -2002,7 +2002,7 @@ Minecraft 无法启动。\n{error}
 0732 | Bedrock Ranked community
 Bedrock Ranked 社区
 0733 | Live leaderboard and player stats. Minecraft is only required to play matches.
-实时排行榜和玩家数据。只有进行对局时才需要 Minecraft。
+实时排行榜和玩家数据，只有进行对局时才需要 Minecraft。
 0734 | Account & trophies
 账号与奖杯
 0735 | Search player stats
@@ -2016,7 +2016,7 @@ Bedrock Ranked 社区
 0739 | Loading…
 加载中……
 0740 | Could not load community data. Check your connection and tap Refresh.
-无法加载社区数据。请检查网络连接，然后点击“刷新”。
+无法加载社区数据，请检查网络连接，然后点击“刷新”。
 0741 | Player stats
 玩家数据
 0742 | Full stats on website
@@ -2028,7 +2028,7 @@ Bedrock Ranked 社区
 0745 | No eligible players yet.
 暂无符合条件的玩家
 0746 | No browser available. Open bedrockranked.com in a browser.
-没有可用的浏览器。请在浏览器中打开 bedrockranked.com。
+没有可用的浏览器，请在浏览器中打开 bedrockranked.com。
 # [WORD ORDER]
 0747 | Server returned {code}
 服务器返回 {code}
@@ -2063,21 +2063,21 @@ Elo：{elo}\n最高 Elo：{peak}\n排位场次：{games}\n胜场：{wins}\n负�
 0757 | Done
 完成
 0758 | This Minecraft build has Google Play protected game code. Bedrock Ranked cannot start it inside the client. Save Logs to Downloads for diagnostics.
-此 Minecraft 版本带有 Google Play 保护的游戏代码，Bedrock Ranked 无法在客户端中启动它。请点击“保存日志到下载目录”以便诊断。
+此 Minecraft 版本带有 Google Play 保护的游戏代码，Bedrock Ranked 无法在客户端中启动它，请点击“保存日志到下载目录”以便诊断。
 0759 | This client requires Android ARM64. This device is running a 32-bit Android system.
 此客户端需要 Android ARM64，但这台设备运行的是 32 位 Android 系统。
 0760 | Minecraft ARM64 game library was not found. Install the complete game first.
-未找到 Minecraft ARM64 游戏库。请先安装完整的游戏。
+未找到 Minecraft ARM64 游戏库，请先安装完整的游戏。
 0761 | Minecraft installation changed. Open Ranked again.
 Minecraft 的安装发生了变化，请重新打开 Ranked。
 0762 | This ARM64 game library has a different native layout. Save Logs to Downloads for diagnostics.
-此 ARM64 游戏库的原生布局不同。请点击“保存日志到下载目录”以便诊断。
+此 ARM64 游戏库的原生布局不同，请点击“保存日志到下载目录”以便诊断。
 # [WORD ORDER]
 0763 | This installed Minecraft build is not compatible with Ranked's hosted startup yet ({version}). Use Export Minecraft startup files for diagnostics. Reinstalling Ranked will not fix this build.
-已安装的这个 Minecraft 版本暂时还不兼容 Ranked 的托管启动（{version}）。请使用“导出 Minecraft 启动文件”进行诊断。重新安装 Ranked 无法解决这个版本的问题。
+已安装的这个 Minecraft 版本暂时还不兼容 Ranked 的托管启动（{version}），请使用“导出 Minecraft 启动文件”进行诊断。重新安装 Ranked 无法解决这个版本的问题。
 
 0764 | Import one .mcpack at a time
-一次只能导入一个 .mcpack
+一次只能导入一个 .mcpack 文件
 0765 | No valid Minecraft pack manifest
 没有有效的 Minecraft 资源包清单
 0766 | Pack is too large
