@@ -1494,7 +1494,7 @@ SECTION 17: How to Play page
 0533 | Because non-client synchronization is hard, in case you finish before your opponent submits their time, they will have an extra 20% of your final client time to report the result. Then, the faster time will win.
 由于和非客户端玩家同步比较困难，如果您在对手提交成绩之前就完成了，对手还有相当于您客户端最终用时 20% 的额外时间来上报成绩。之后，用时更短的一方获胜。
 0534 | IMPORTANT: timing is RTA! This is to ensure match synch. This means that if you pause, reset, or leave, your timer will keep running. If your game crash, you have a 1 minute time window before you'll auto forfeit.
-重要：计时方式是 RTA，这是为了保证对局同步———也就是说，即使您暂停、重置或离开，计时器也会继续走。如果游戏崩溃了，您有 1 分钟的时间重连回来，超时将自动认输。
+重要：计时方式是 RTA，这是为了保证对局同步————也就是说，即使您暂停、重置或离开，计时器也会继续走。如果游戏崩溃了，您有 1 分钟的时间重连回来，超时将自动认输。
 0535 | Match commands (run in chat):
 对局指令（在聊天中输入）：
 # 译注：推测这一行后面接的是 /accept 和 /deny，用来回应对方发起的 /change、/draw、/cancel。
@@ -4255,7 +4255,7 @@ SECTION 33: Tutorial map (optional, do this section last)
 1747 | The stairs you just climbed lead toward the good section by going up, just as you did. In the balcony room in front of you, the good section will be on the side opposite the balcony.
 您刚才爬上来的楼梯，就是往上通往刷怪区的方向，就像您刚才那样走就对了。在您面前的阳台房间里，刷怪区会在阳台的对面一侧。
 1748 | Good, this is the way. The room in front of you is the Nether Wart room. In this case, the good section is always down the stairs—the exact opposite of the staircase pattern you just saw.
-很好，就是这条路。您面前的房间是下界疣房间。这种情况下，刷怪区一定在楼梯下面——和您刚才看到的楼梯规律正好相反。
+很好，就是这条路。您面前的房间是下界疣房间。这种情况下，刷怪区一定在楼梯下面－－和您刚才看到的楼梯规律正好相反。
 1749 | Sometimes the good section of the fortress can be directly connected to one side of the balcony room, as you can see in front of you. This is rare, but worth keeping in mind.
 有时，下界要塞的刷怪区会直接连接在阳台房间的一侧，就像您面前看到的这样。这种情况很少见，但值得记住。
 1750 | This is what the good section of the fortress looks like. Now turn back and take the correct direction from the balcony.
